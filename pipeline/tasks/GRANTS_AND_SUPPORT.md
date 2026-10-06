@@ -1,12 +1,12 @@
-# GRANTS_AND_SUPPORT Block Task
+# Задание блока: ГРАНТЫ И ПОДДЕРЖКА
 
-### Serbian Government Grants, Subsidies, and Support Programs
-- Research Serbian government grant programs available to foreigners and foreign-owned businesses
-- Identify eligibility criteria, application status, and amounts (RSD + approximate EUR)
-- Document beneficiary type, program name (Latin + English translation), body, source URL
-- Cover subsidies and support programs relevant to water vending machine projects
+### Сербские государственные гранты, субсидии и программы поддержки
+- Исследовать сербские грантовые программы для иностранцев и иностранного бизнеса.
+- Определить условия, статус заявок и суммы (RSD + EUR).
+- Документировать: программа, орган, бенефициар, сумма, условия, источник.
+- Покрыть субсидии и программы, релевантные для проекта водоматов.
 
-### Action items:
-- Identify and catalog all relevant items from the brief
-- Determine data gaps and mark as TBD where needed
-- Prepare for cost estimate generation
+### Пункты работы
+- Определить и каталогизировать все статьи из брифинга.
+- Определить пробелы в данных, пометить диапазоном и источником.
+- Подготовить смету с конкретными числами.

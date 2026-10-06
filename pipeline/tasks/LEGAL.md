@@ -1,9 +1,12 @@
-# LEGAL Block Task
+# Задание блока: ЮРИДИЧЕСКИЕ РАСХОДЫ
 
-### Key areas from brief:
-_No specific keywords matched from brief_
+### Ключевые области из брифинга
+- Регистрация компании в Сербии для иностранца.
+- Налоговый режим: 20% на бутилированную, 10% на остальное.
+- Наличные vs безнал: декларационные обязательства.
+- Франшиза: юридическая база для открытых зон.
 
-### Action items:
-- Identify and catalog all relevant items from the brief
-- Determine data gaps and mark as TBD where needed
-- Prepare for cost estimate generation
+### Пункты работы
+- Определить и каталогизировать все статьи из брифинга.
+- Определить пробелы в данных, пометить диапазоном и источником.
+- Подготовить смету с конкретными числами.

@@ -1,7 +1,7 @@
 import os
 import re
 
-with open('water_vending_brief.md', 'r', encoding='utf-8') as f:
+with open('docs/business_plan/water_vending_brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
 
 blocks_order = [
@@ -14,7 +14,7 @@ block_data = {}
 all_assumptions = set()
 
 for block_name in blocks_order:
-    estimate_path = f'pipeline/estimates/{block_name}.md'
+    estimate_path = f'docs/pipeline/estimates/{block_name}.md'
     with open(estimate_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -66,7 +66,7 @@ for block_name in blocks_order:
 summary_lines.append(f'\\nTotal estimate items across all blocks: {sum(len(block_data[b]) for b in blocks_order)}\\n')
 summary_lines.append('*All values reference [brief: X.X] or [grants: source]. TBD entries have explicit assumptions. No invented numbers.*\\n')
 
-with open('pipeline/consolidated/summary.md', 'w', encoding='utf-8', newline='\n') as f:
+with open('docs/pipeline/consolidated/summary.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write('\n'.join(summary_lines))
 print('Created pipeline/consolidated/summary.md')
 
@@ -120,7 +120,7 @@ for block_name, filename in block_summary_map.items():
     lines.append('- "TBD" indicates data not yet found in brief; assumptions are explicitly stated.\\n')
     lines.append('- No invented numbers; all values reference [brief: X.X] or [grants: source].\\n')
     
-    with open(f'pipeline/consolidated/{filename}', 'w', encoding='utf-8', newline='\n') as f:
+    with open(f'docs/pipeline/consolidated/{filename}', 'w', encoding='utf-8', newline='\n') as f:
         f.write(''.join(lines))
     print(f'Created pipeline/consolidated/{filename}')
 
@@ -138,7 +138,7 @@ for block_name in blocks_order:
             assumption_lines.append(f'- Item {row["item"]}: {a}\\n')
     assumption_lines.append('\\n')
 
-with open('pipeline/consolidated/assumptions.md', 'w', encoding='utf-8', newline='\n') as f:
+with open('docs/pipeline/consolidated/assumptions.md', 'w', encoding='utf-8', newline='\n') as f:
     f.write(''.join(assumption_lines))
 print('Created pipeline/consolidated/assumptions.md')
 

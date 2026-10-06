@@ -1,7 +1,7 @@
 import re
 import os
 
-with open('water_vending_brief.md', 'r', encoding='utf-8') as f:
+with open('docs/business_plan/water_vending_brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
 
 print("Brief loaded, length:", len(brief))
@@ -18,7 +18,7 @@ block_keywords = {
 blocks = ['TECH', 'LEGAL', 'FINANCE', 'MARKETING', 'LOCATIONS', 'IT_TELEMETRY', 'OPERATIONS', 'DOCUMENTATION', 'GRANTS_AND_SUPPORT']
 
 for block_name in blocks:
-    task_path = f'pipeline/tasks/{block_name}.md'
+    task_path = f'docs/pipeline/tasks/{block_name}.md'
     with open(task_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(f'# {block_name} Block Task\n\n')
         if block_name == 'GRANTS_AND_SUPPORT':

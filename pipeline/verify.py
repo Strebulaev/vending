@@ -27,7 +27,7 @@ def has_transliteration_patterns(text):
     return False
 
 # Collect all .md files under pipeline/
-pipeline_dir = 'pipeline'
+pipeline_dir = 'docs/pipeline'
 errors = []
 ok_files = []
 

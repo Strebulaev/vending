@@ -1,9 +1,14 @@
-# FINANCE Block Task
+# Задание блока: ФИНАНСЫ
 
-### Key areas from brief:
-_No specific keywords matched from brief_
+### Ключевые области из брифинга
+- Себестоимость воды на 5 л.
+- Аренда и электричество.
+- Обслуживание и ремонт.
+- Замена фильтров.
+- Комиссия за безналичную оплату.
+- Франшизный взнос.
 
-### Action items:
-- Identify and catalog all relevant items from the brief
-- Determine data gaps and mark as TBD where needed
-- Prepare for cost estimate generation
+### Пункты работы
+- Определить и каталогизировать все статьи из брифинга.
+- Определить пробелы в данных, пометить диапазоном и источником.
+- Подготовить смету с конкретными числами.

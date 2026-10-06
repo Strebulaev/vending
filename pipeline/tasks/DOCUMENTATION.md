@@ -1,9 +1,12 @@
-# DOCUMENTATION Block Task
+# Задание блока: ДОКУМЕНТАЦИЯ
 
-### Key areas from brief:
-_No specific keywords matched from brief_
+### Ключевые области из брифинга
+- Подготовка детальной сметы.
+- Разработка бизнес-плана.
+- Разработка финансового плана.
+- Проектная документация.
 
-### Action items:
-- Identify and catalog all relevant items from the brief
-- Determine data gaps and mark as TBD where needed
-- Prepare for cost estimate generation
+### Пункты работы
+- Определить и каталогизировать все статьи из брифинга.
+- Определить пробелы в данных, пометить диапазоном и источником.
+- Подготовить смету с конкретными числами.
