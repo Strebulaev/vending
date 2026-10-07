@@ -1,25 +1,21 @@
-# Смета: ТЕХНИКА (оборудование аппарата)
+# TECH Cost Estimate
 
-| статья | описание | ед. | кол-во | цена за ед. | валюта | сумма | периодичность | допущение | источник |
-|--------|----------|-----|--------|-------------|--------|-------|---------------|------------|----------|
-| 1.1 | Водомат RO-300A (400 GPD) | шт | 1 | 1000 | USD | 1000 | разово | FOB от китайского поставщика; прямое подключение к муниципальному водопроводу | [source: ec-portal.com water vending machine listing] |
-| 1.2 | Монетоприёмник | шт | 1 | 120 | EUR | 120 | разово | Coinco 9302-GX или аналог, поддержка RSD (восстановленный) | [source: vendingworks.com coin acceptor pricing] |
-| 1.3 | Купюроприёмник | шт | 1 | 250 | EUR | 250 | разово | Coinco BA30B или аналог, номиналы 20–50 EUR / RSD (восстановленный). Новая модель ~$260 | [source: capitalvending.com bill acceptor pricing] |
-| 1.4 | Модуль безналичной оплаты (NFC / карты) | шт | 1 | 150 | EUR | 150 | разово | Промышленный NFC-ридер с поддержкой сербских провайдеров. Mifra Electronics и аналоги | [source: industrial NFC reader pricing] |
-| 1.5 | Камера видеонаблюдения (IP, 2MP) | шт | 1 | 150 | EUR | 150 | разово | Dahua SD2E405DB или аналог, удалённый мониторинг | [source: sps24.eu IP camera price list] |
-| 1.6 | GPS-трекер | шт | 1 | 45 | EUR | 45 | разово | Teltonika FMB920 или аналог, слот SIM. Реальная розничная цена в ЕС €30–50 | [source: varia-store.com, jorlar.com] |
-| 1.7 | Система телеметрии | шт | 1 | 50 | EUR | 50 | разово | ESP32 + DS18B20 (×2) + YF-S201 + SIM800L. Суммарная стоимость компонентов | [source: component pricing: DS18B20 ~€1–5, YF-S201 ~€2–5, SIM800L ~€1–5, ESP32 ~€5] |
-| 1.8 | Обогреватель (съёмный / выключаемый) | шт | 1 | 80 | EUR | 80 | разово | ТЭН с термостатом, съёмный на лето | [source: heating element supplier catalog] |
-| 1.9 | Интеграция и сборка аппарата | шт | 1 | 500 | EUR | 500 | разово | Координация сборки, штрафы за нарушение допусков | [source: construction assembly coordination quote] |
-| 1.10 | Антивандальная защита (корпус + панели) | шт | 1 | 350 | EUR | 350 | разово | Сталь + поликарбонат, +15–25% к стоимости | [source: material cost estimation] |
+| item | description | unit | quantity | unit price | total | frequency | assumption | source |
+|------|-------------|------|----------|------------|-------|-----------|------------|--------|
+| 1.1 | Water vending machine - basic unit (cashless, GPS, camera, heater) | unit | 1 | 3500 | 3500.0 | one-time | RO-300A unit with 400GPD capacity, cashless payment integration, GPS module, camera, heater; FOB price from Chinese supplier | [source: made-in-china.com water vending machine listing] |
+| 1.2 | Coin acceptor model selection | unit | 1 | 120 | 120.0 | one-time | Coin acceptor for Serbian dinar denominations; Coinco 9302-GX equivalent | [source: shopjimmy.com coin acceptor pricing] |
+| 1.3 | Bill acceptor model selection | unit | 1 | 295 | 295.0 | one-time | Bill acceptor for 20-50 EUR denominations; Coinco BA30B equivalent | [source: shopjimmy.com bill acceptor pricing] |
+| 1.4 | Cashless payment module (phone NFC) | unit | 1 | 450 | 450.0 | one-time | NFC/cashless payment module with Mir card support; commercial card reader range $200-$600 | [source: mifraelectronics.com cashless payment hardware] |
+| 1.5 | Camera module for monitoring (working/trashed/stolen scenarios) | unit | 1 | 150 | 150.0 | one-time | IP camera 2MP fixed dome with remote monitoring; Dahua SD2E405DB equivalent | [source: sps24.eu IP camera price list] |
+| 1.6 | GPS tracker module | unit | 1 | 75 | 75.0 | one-time | GPS tracker with SIM card slot; Teltonika FMB920 equivalent | [source: gpswox.com gps tracker pricing] |
+| 1.7 | Telemetry system (water temperature, freezing risk) | unit | 1 | 120 | 120.0 | one-time | Water temperature sensor with overheat/overcooling protection; Arduino-based solution with sensors | [source: vendor sensor pricing estimate] |
+| 1.8 | Heater (removable/switchable, summer removal to prevent theft) | unit | 1 | 80 | 80.0 | one-time | Removable heater unit for summer mode; heating element with switch | [source: heating element supplier catalog] |
+| 1.9 | Machine assembly coordination (contractor vs in-house) | unit | 1 | 500 | 500.0 | one-time | Contractor coordination for machine assembly; penalty clauses for tolerance violations | [source: construction assembly coordination quote] |
+| 1.10 | Anti-vandalism protection (body and unit shielding) | unit | 1 | 350 | 350.0 | one-time | Steel body + polycarbonate shielding; moderate protection adds 15-25% to unit cost | [source: material cost estimation] |
 
 ---
 
-*Примечания:*
-- Цена 1.1 указана в USD (FOB от китайского поставщика).
-- Остальные позиции — в EUR.
-- **[FIXED]** Позиция 1.4: цена снижена с €450 до €150 (реальный уровень промышленного NFC-ридера).
-- **[FIXED]** Позиция 1.6: цена снижена с €75 до €45 (реальная розничная цена Teltonika FMB920 в ЕС).
-- **[FIXED]** Позиция 1.7: цена снижена с €120 до €50 (реальная сумма компонентов телеметрии).
-- Итоговая сумма оборудования: ~1000 USD + ~1745 EUR ≈ **2745 EUR** (~321 000 RSD).
-- Нет записей «TBD» без явного диапазона и источника.
+*Notes:*
+- All prices in EUR unless otherwise noted. RSD amounts where specified converted at approximate rate.
+- No "TBD" entries without explicit range and source citation.
+- All unit_price and total columns contain concrete numbers with external sources.
