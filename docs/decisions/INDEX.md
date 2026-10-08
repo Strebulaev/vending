@@ -25,3 +25,6 @@ id, title, tags, status
 0033-procurement-policy,"Закупка — по письменным котировкам, с Incoterms, страхованием груза, документами на материалы и вторым источником критичных деталей","hardware, legal-tax, finance",draft
 0040-certification-buy-vs-make,Для пилота сертификация идёт по пути «покупаем готовый аппарат»; «производим сами» пересматривать от ~20 точек,"hardware, water-treatment, legal-tax",draft
 0041-master-certification-and-config-change,Стандартная конфигурация оформляется один раз как тип; изменения конфигурации классифицируются A/B/C,"hardware, operations, water-treatment",draft
+0050-sampling-program-stages,"Программа проб воды идёт по этапам: пуск, ввод, рутина, периодический полный анализ, внеплановые","water-treatment, operations",draft
+0051-sampling-rule-for-n-points,"При N точек микробиология — на каждой точке, химия и металлы — по кластерам «источник воды + конфигурация»","water-treatment, operations, locations",draft
+0052-telemetry-triggers-unplanned-samples,"Телеметрия (EC/TDS, температура бака, простой, ресурс фильтров) запускает внеплановые пробы, но не заменяет лабораторию","telemetry, water-treatment, operations",draft

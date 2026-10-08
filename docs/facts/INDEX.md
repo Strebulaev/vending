@@ -21,4 +21,7 @@ id, title, tags, status
 0040-certification-requirements-map,"Карта требований: вода, материалы, электро, радио, метрология, фискализация, деятельность и монтаж — какие нормы найдены, какие нет","legal-tax, water-treatment, hardware",draft
 0041-radio-ce-transition-2027,Радио-оборудование: источники расходятся по переходу на CE с 01.01.2027; уточнить у RATEL до ввоза,"legal-tax, telemetry, hardware",draft
 0042-certification-cost-assumptions,"Бюджет сертификации пилота — допущение: 780–7 570 EUR при покупке, 5 380–17 570 EUR при самостоятельной сборке; подтверждён только сбор APR 8 000 RSD","finance, legal-tax",draft
+0053-drinking-water-rulebook-parameters,"Правилник о хигијенској исправности воде за пиће (поправки 28/2019): колиформы 0/100 мл, аэробные ≤10/мл, мутность до 1 НТУ, pH 6,8–8,5, EC 2 500 мкСм/см","water-treatment, legal-tax",draft
+0054-lab-prices-and-turnaround-not-found,"Цены и сроки анализа воды в лабораториях Белграда в открытых источниках не найдены (ГЗЈЗ, Батут, SuperLab, BVK)","water-treatment, finance",draft
+0055-sampling-containers-and-transport,"Отбор проб воды: микро — стерильная ёмкость 250 мл, химия — бутыль 1,5 л; слив 3–5 мин; охлаждение, доставка в пределах часов","water-treatment, operations",draft
 docs-manifest,"Документы для людей: связь с содержанием, решениями и путями отслеживания дрейфа","documentation",active

@@ -47,3 +47,4 @@ bootstrap-generated: true
 | economics/ready_made_options.md | door-to-door по источникам A/B/D | 0012, 0031, 0033, факты 0031, 0032, 0035 | pipeline/economics.py, docs/business_plan/rfq_pilot_machine.md | |
 | economics/in_house_assembly.md | сборка своими силами: закупки, маршруты, гарантии, приёмка | 0008, 0031, 0033 | docs/technical/TECH_SPEC.md | |
 | economics/inventory_model.md | точка заказа, пример с поставкой 8 суток | 0032 | pipeline/inventory.py | |
+| sampling/findings.md, standard_configuration.md, program.md, scaling.md, costs.md, logistics_lead_time.md, REPORT.md | программа отбора проб воды: нормы, конфигурация STD-1, этапы и частота, правило выборки на N точек, стоимость, логистика | 0050, 0051, 0052, факты 0053, 0054, 0055 | pipeline/sampling_cost.py, docs/technical/TECH_SPEC.md, docs/business_plan/pilot_implementation.md §4 | |
