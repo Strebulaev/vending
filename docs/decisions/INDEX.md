@@ -12,3 +12,7 @@ id, title, tags, status
 0010-english-estimates,Файлы смет пишутся на английском в стандартной 9-колоночной схеме,"documentation, pipeline",draft
 0011-pilot-gate,Масштабирование — только после пилота: ≥50 л/день и аптайм ≥95% в течение 3 месяцев,"locations, finance, telemetry",draft
 0012-pilot-machine-sourcing,"Аппарат для пилота выбирать по котировкам: местный дистрибьютор или европейский аппарат, если цена не выше ~2× китайского","hardware, water-treatment, finance",draft
+0030-pilot-price-strategy,"Пилот стартует с 10 RSD/л; второй уровень 12 RSD/л проверяется после набора базовых данных","pricing, finance",draft
+0031-pilot-buy-ready-made,"Для пилота покупать готовый аппарат (A или B), сравнивать котировки по цене door-to-door; сборка отложена","hardware, finance",draft
+0032-straight-line-depreciation-stock-policy,"Оборудование амортизируется линейно по группам активов, запас считается по точке заказа с учётом товара в пути","finance, operations",draft
+0033-procurement-policy,"Закупка — по письменным котировкам, с Incoterms, страхованием груза, документами на материалы и вторым источником","hardware, legal-tax, finance",draft

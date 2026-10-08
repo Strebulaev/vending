@@ -24,3 +24,11 @@ bootstrap-generated: true
 | pipeline/consolidated/SMETA_FINAL.md, pilot_scenarios.md | итоговая смета пилота и сценарии | 0009, факты 0007, 0008 | pipeline/estimates/, pipeline/calculator.py | |
 | presentations/business_presentation_single_point.md | питч одной точки для инвесторов | 0003, 0004, факты 0004, 0007 | consolidated/SMETA_FINAL.md, pipeline/calculator.py | |
 | README.md | цели, текущее состояние, карта репозитория, команды | 0003, 0011, факт 0007 | docs/plans/, pipeline/, docs/pipeline/consolidated/ | |
+| economics/REPORT.md | итоговый отчёт дорожки закупок и экономики | 0030–0033, факты 0030–0035 | docs/economics/*.md, pipeline/economics.py, pipeline/inventory.py | |
+| economics/findings.md | обследование существующей экономики, противоречия, вопросы владельцу | факты 0007, 0009 | pipeline/calculator.py, docs/pipeline/consolidated/pilot_scenarios.md | |
+| economics/financial_model.md | сценарии, чувствительность, 1/5/20 точек | 0032, факты 0007, 0030 | pipeline/economics.py, pipeline/calculator.py | |
+| economics/pricing.md, pricing_scenarios.md | бенчмарки, сценарии цены, рекомендация, ценовой эксперимент | 0004, 0030, факты 0002, 0009, 0010, 0033 | pipeline/economics.py | |
+| economics/depreciation_theft_stock.md | амортизация, кража, запас, корпуса | 0032, факты 0034 | pipeline/economics.py, pipeline/inventory.py | |
+| economics/ready_made_options.md | door-to-door по источникам A/B/D | 0012, 0031, 0033, факты 0031, 0032, 0035 | pipeline/economics.py, docs/business_plan/rfq_pilot_machine.md | |
+| economics/in_house_assembly.md | сборка своими силами: закупки, маршруты, гарантии, приёмка | 0008, 0031, 0033 | docs/technical/TECH_SPEC.md | |
+| economics/inventory_model.md | точка заказа, пример с поставкой 8 суток | 0032 | pipeline/inventory.py | |
