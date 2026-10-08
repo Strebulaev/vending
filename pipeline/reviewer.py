@@ -238,7 +238,7 @@ def review_block(block_name, estimate_path, task_path):
 
 for block_name in blocks:
     estimate_path = f'docs/pipeline/estimates/{block_name}.md'
-    task_path = f'docs/pipeline/tasks/{block_name}.md'
+    task_path = f'pipeline/tasks/{block_name}.md'
     status, issues, incomplete_rows = review_block(block_name, estimate_path, task_path)
     print(f'{block_name}: Status={status}, Issues={len(issues)}')
     if issues:

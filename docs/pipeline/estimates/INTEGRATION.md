@@ -1,26 +1,26 @@
-# Смета: ИНТЕГРАЦИЯ МОДУЛЕЙ
+# INTEGRATION Cost Estimate
 
-| статья | описание | ед. | кол-во | цена за ед. | сумма | периодичность | допущение | источник |
-|--------|----------|-----|--------|-------------|-------|---------------|------------|----------|
-| 10.1 | Крепёж и кабель камеры | шт | 1 | 25 | 25 | разово | Кронштейн + 5 м кабеля | [source: vendor estimate] |
-| 10.2 | Крепёж и кабель GPS | шт | 1 | 15 | 15 | разово | Кронштейн + 3 м кабеля | [source: vendor estimate] |
-| 10.3 | Крепёж и кабель датчиков температуры | шт | 2 | 5 | 10 | разово | 2 датчика + 5 м кабеля каждый | [source: component pricing] |
-| 10.4 | Крепёж и кабель датчика потока | шт | 1 | 5 | 5 | разово | Монтаж в линию + 2 м кабеля | [source: component pricing] |
-| 10.5 | Крепёж и кабель датчика двери | шт | 1 | 5 | 5 | разово | Геркон + 2 м кабеля | [source: component pricing] |
-| 10.6 | Крепёж и кабель GSM-антенны | шт | 1 | 10 | 10 | разово | Антенна + 2 м кабеля | [source: vendor estimate] |
-| 10.7 | Проводка контроллер → платёжка | шт | 1 | 30 | 30 | разово | MDB-кабель + коннекторы | [source: vendor estimate] |
-| 10.8 | Проводка контроллер → телеметрия | шт | 1 | 25 | 25 | разово | Сигнальный кабель + коннекторы | [source: vendor estimate] |
-| 10.9 | Проводка обогревателя + выключатель | шт | 1 | 40 | 40 | разово | Реле + выключатель + кабель | [source: vendor estimate] |
-| 10.10 | Прошивка и конфигурация контроллера | час | 4 | 25 | 100 | разово | Время инженера | [source: engineer rate] |
-| 10.11 | Настройка аккаунта и платформы телеметрии | час | 3 | 25 | 75 | разово | Время инженера | [source: engineer rate] |
-| 10.12 | Настольный интеграционный тест | час | 8 | 25 | 200 | разово | Полная сборка и тест | [source: engineer rate] |
-| 10.13 | Тест интеграции на точке | час | 4 | 25 | 100 | разово | После монтажа | [source: engineer rate] |
-| 10.14 | Работы по интеграции | час | 16 | 25 | 400 | разово | 2 дня работы | [source: engineer rate] |
-| 10.15 | Документация интеграции (схема, конфиг) | документ | 1 | 150 | 150 | разово | Время инженера | [source: engineer rate] |
+| item | description | unit | quantity | unit price | total | frequency | assumption | source |
+|------|-------------|------|----------|------------|-------|-----------|------------|--------|
+| 10.1 | Camera mount and cable | pcs | 1 | 25 | 25 | one-time | Bracket + 5 m cable | [source: vendor estimate] |
+| 10.2 | GPS mount and cable | pcs | 1 | 15 | 15 | one-time | Bracket + 3 m cable | [source: vendor estimate] |
+| 10.3 | Temperature sensors mount and cable | pcs | 2 | 5 | 10 | one-time | 2 sensors + 5 m cable each | [source: component pricing] |
+| 10.4 | Flow sensor mount and cable | pcs | 1 | 5 | 5 | one-time | In-line mounting + 2 m cable | [source: component pricing] |
+| 10.5 | Door sensor mount and cable | pcs | 1 | 5 | 5 | one-time | Reed switch + 2 m cable | [source: component pricing] |
+| 10.6 | GSM antenna mount and cable | pcs | 1 | 10 | 10 | one-time | Antenna + 2 m cable | [source: vendor estimate] |
+| 10.7 | Wiring controller to payment module | pcs | 1 | 30 | 30 | one-time | MDB cable + connectors | [source: vendor estimate] |
+| 10.8 | Wiring controller to telemetry | pcs | 1 | 25 | 25 | one-time | Signal cable + connectors | [source: vendor estimate] |
+| 10.9 | Heater wiring and switch | pcs | 1 | 40 | 40 | one-time | Relay + switch + cable | [source: vendor estimate] |
+| 10.10 | Controller firmware and configuration | hour | 4 | 25 | 100 | one-time | Engineer time | [source: engineer rate] |
+| 10.11 | Telemetry account and platform setup | hour | 3 | 25 | 75 | one-time | Engineer time | [source: engineer rate] |
+| 10.12 | Bench integration test | hour | 8 | 25 | 200 | one-time | Full assembly and test | [source: engineer rate] |
+| 10.13 | On-site integration test | hour | 4 | 25 | 100 | one-time | After installation | [source: engineer rate] |
+| 10.14 | Integration labour | hour | 16 | 25 | 400 | one-time | 2 working days; may overlap 10.10-10.13 and TECH 1.9 | [source: engineer rate] |
+| 10.15 | Integration documentation (diagram, config) | document | 1 | 150 | 150 | one-time | Engineer time | [source: engineer rate] |
 
 ---
 
-*Примечания:*
-- Все цены в EUR, если не указано иное.
-- **[FIXED]** Позиции 10.3, 10.4: цены снижены до реальных (€5 вместо €10–12).
-- Нет записей «TBD» без явного диапазона и источника.
+*Notes:*
+- All prices in EUR unless otherwise noted.
+- Items 10.3, 10.4: prices reduced to realistic values (5 EUR instead of 10-12 EUR).
+- No "TBD" entries without explicit range and source citation.
