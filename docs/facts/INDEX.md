@@ -6,7 +6,7 @@ id, title, tags, status
 0004-ro-300a-spec,"RO-300A: 400 GPD, бак 180 л, ~1000 USD FOB, подтверждено 5–7 ступеней","hardware, water-treatment",draft
 0005-grant-eligibility-foreigners,Для иностранных компаний доступна лишь одна изученная сербская программа (кредит под 2%),"grants",draft
 0006-site-economics,Точка стоит ~150 EUR/мес аренды плюс 100–300 EUR разово за учёт электроэнергии,"locations, finance",draft
-0007-pilot-financials,Выручка жилого пилота — 15 000–24 000 RSD/мес; база CAPEX/OPEX не сверена,"finance, pricing",draft
+0007-pilot-financials,"Пилот при 50–80 л/день убыточен: постоянные расходы ~37 050 RSD/мес, безубыточность ≈150 л/день","finance, pricing",draft
 0008-doc-language-split,Сметы — на английском; остальная документация и база знаний — на русском,"documentation",active
 0009-serbia-vodomat-price-benchmark,Публичный водомат в Зренянине продавал очищенную воду по 5 RSD/л в 2022 году,"pricing, locations",draft
 0010-vending-fiscalization,Вендинговые аппараты в Сербии обязаны использовать сертифицированное фискальное решение (ESIR),"legal-tax, payment",draft
