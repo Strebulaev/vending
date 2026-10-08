@@ -13,7 +13,7 @@ BLOCKS = [
 
 # Currency per block (from source analysis)
 BLOCK_CURRENCY = {
-    "TECH": "USD",
+    "TECH": "EUR",
     "LEGAL": "EUR",
     "FINANCE": "EUR",
     "MARKETING": "EUR",
@@ -85,33 +85,29 @@ def main():
     total_opex_monthly = sum(opex_by_block.values())
     total_opex_yearly = total_opex_monthly * 12
 
-    # Revenue and tax assumptions from brief
-    price_per_liter = 50  # RSD
-    liters_per_day = 180
-    liters_per_month = liters_per_day * 30
-    revenue_monthly = price_per_liter * liters_per_month
+    # Residential pilot baseline (decision 0003, fact 0007): 50 RSD per 5 L.
+    # OPEX comes from the estimates (cash costs, no amortization), so payback
+    # = CAPEX / (revenue - OPEX - tax) does not double-count equipment cost.
+    price_per_liter = 10  # RSD
     tax_rate = 0.10
-    tax_monthly = revenue_monthly * tax_rate
-    net_profit_monthly = revenue_monthly - total_opex_monthly - tax_monthly
+    scenarios = {"консервативный": 50, "реалистичный": 80}  # liters per day
 
-    payback_months = total_capex / net_profit_monthly if net_profit_monthly > 0 else float("inf")
-
-    # Grants offset (only ELIGIBLE ones)
-    grants_total_rsd = 380000  # Subsidija za samozapošljavanje, if applicable
-    capex_after_grants = max(0, total_capex - grants_total_rsd)
-    payback_with_grants = capex_after_grants / net_profit_monthly if net_profit_monthly > 0 else float("inf")
+    results = {}
+    for name, liters_per_day in scenarios.items():
+        liters_per_month = liters_per_day * 30
+        revenue = price_per_liter * liters_per_month
+        tax = revenue * tax_rate
+        net = revenue - total_opex_monthly - tax
+        payback = total_capex / net if net > 0 else float("inf")
+        results[name] = (liters_per_day, liters_per_month, revenue, tax, net, payback)
 
     lines = []
-    lines.append("# SMETA_FINAL: Итоговая смета проекта\n")
+    lines.append("# Сценарии пилотной точки\n")
     lines.append("")
-    lines.append("## 1. Сводка\n")
+    lines.append("## 1. Затраты\n")
     lines.append(f"- **CAPEX всего:** {total_capex:,.0f} RSD (~{to_eur(total_capex, 'RSD'):,.0f} EUR)")
     lines.append(f"- **OPEX в месяц:** {total_opex_monthly:,.0f} RSD (~{to_eur(total_opex_monthly, 'RSD'):,.0f} EUR)")
     lines.append(f"- **OPEX в год:** {total_opex_yearly:,.0f} RSD (~{to_eur(total_opex_yearly, 'RSD'):,.0f} EUR)")
-    lines.append(f"- **Выручка в месяц:** {revenue_monthly:,.0f} RSD")
-    lines.append(f"- **Чистая прибыль в месяц:** {net_profit_monthly:,.0f} RSD")
-    lines.append(f"- **Окупаемость:** {payback_months:.1f} мес")
-    lines.append(f"- **Окупаемость с грантом:** {payback_with_grants:.1f} мес")
     lines.append("")
     lines.append("## 2. CAPEX по блокам\n")
     lines.append("| Блок | Сумма (RSD) | Сумма (EUR) |")
@@ -127,29 +123,24 @@ def main():
         lines.append(f"| {block} | {amount:,.0f} | {to_eur(amount, 'RSD'):,.0f} |")
     lines.append(f"| **ИТОГО** | **{total_opex_monthly:,.0f}** | **{to_eur(total_opex_monthly, 'RSD'):,.0f}** |")
     lines.append("")
-    lines.append("## 4. Доходная часть\n")
-    lines.append(f"- Цена за литр: {price_per_liter} RSD")
-    lines.append(f"- Продажи в день: {liters_per_day} л")
-    lines.append(f"- Продажи в месяц: {liters_per_month} л")
-    lines.append(f"- Выручка в месяц: {revenue_monthly:,.0f} RSD")
+    lines.append(f"## 4. Сценарии (цена {price_per_liter} RSD/л = {price_per_liter * 5} RSD за 5 л, налог {tax_rate:.0%})\n")
+    lines.append("| Сценарий | л/день | Выручка/мес (RSD) | Налог (RSD) | Чистая прибыль/мес (RSD) | Окупаемость (мес) |")
+    lines.append("|----------|--------|-------------------|-------------|--------------------------|-------------------|")
+    for name, (lpd, lpm, revenue, tax, net, payback) in results.items():
+        lines.append(f"| {name} | {lpd} | {revenue:,.0f} | {tax:,.0f} | {net:,.0f} | {payback:.1f} |")
     lines.append("")
-    lines.append("## 5. Налоги и прибыль\n")
-    lines.append(f"- Налог (10% паушально): {tax_monthly:,.0f} RSD")
-    lines.append(f"- OPEX: {total_opex_monthly:,.0f} RSD")
-    lines.append(f"- **Чистая прибыль: {net_profit_monthly:,.0f} RSD**")
-    lines.append("")
-    lines.append("## 6. Окупаемость\n")
-    lines.append(f"- Без гранта: **{payback_months:.1f} мес**")
-    lines.append(f"- С грантом {grants_total_rsd:,.0f} RSD: **{payback_with_grants:.1f} мес**")
-    lines.append("")
-    lines.append("## 7. Источники\n")
-    lines.append("- Все цифры взяты из docs/pipeline/estimates/*.md")
+    lines.append("## 5. Источники\n")
+    lines.append("- Затраты: docs/pipeline/estimates/*.md")
     lines.append("- Курсы валют: fx.py (NBS reference)")
-    lines.append("- Гранты: только ELIGIBLE для иностранцев")
+    lines.append("- Допущения: docs/decisions/0003-residential-single-point-pilot.md, docs/facts/0007-pilot-financials.md")
+    lines.append("- Гранты в расчёт не включены: доступна иностранцам только программа-кредит (docs/facts/0005-grant-eligibility-foreigners.md)")
 
-    with open("docs/pipeline/consolidated/SMETA_FINAL.md", "w", encoding="utf-8", newline="\n") as f:
+    out = "docs/pipeline/consolidated/pilot_scenarios.md"
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines))
-    print("Created docs/pipeline/consolidated/SMETA_FINAL.md")
+    print(f"Created {out}")
+    for name, (lpd, lpm, revenue, tax, net, payback) in results.items():
+        print(f"{name}: {lpd} L/day, revenue {revenue:,.0f}, net {net:,.0f}, payback {payback:.1f} mo")
 
 
 if __name__ == "__main__":

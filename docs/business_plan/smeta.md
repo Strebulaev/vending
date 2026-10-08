@@ -1,5 +1,7 @@
 # Смета: Сеть вендинговых аппаратов по продаже воды (Сербия, 2026)
 
+> **Legacy (2026-10-08):** office-era estimate, internally inconsistent (CAPEX ~970 000 vs 483 500 RSD; payback 5 vs 2.3 months) and not derived from the pipeline. Superseded by `docs/pipeline/consolidated/summary.md`; see `docs/facts/0007-pilot-financials.md`.
+
 > **Инвестор:** Иностранное физическое лицо, планирующее открытие бизнеса в Сербии.
 > **Валюта:** RSD (сербский динар). Курс для справки: 1 EUR ≈ 117 RSD.
 > **Основание:** Бизнес-план вендинга воды + анализ доступных сербских грантов и субсидий для иностранцев.

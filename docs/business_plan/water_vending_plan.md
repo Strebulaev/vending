@@ -99,6 +99,8 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - **Dependencies**: TECH:1.10; OPERATIONS:7.3
 
 ## Phase 3: Location Strategy & Site Acquisition (Weeks 9-12)
+> **Pilot (2026-10-08):** start with one residential site near the founders' home (inside or at a building, separate electricity metering, rent near 150 EUR/mo; decision 0003). Office and kitchen work below is deferred until the pilot review.
+
 ### 3.1 Identify and negotiate target locations
 **Offices**:
 - Subscription model: guaranteed payment, volume cap ("we don't care how much you drink, but there must be a cap")
@@ -125,7 +127,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Outcome: Metering installed at all locations, consumption data available
 - **Dependencies**: FINANCE:3.2; LOCATIONS:5.2
 
-### 3.3 Set up subscription models for offices
+### 3.3 Set up subscription models for offices (deferred until pilot review)
 - Volume cap negotiation per office
 - Guaranteed payment structure
 - Monthly rental ~150 EUR + water cost per 5L unit
@@ -223,12 +225,14 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Reduce operational costs
 
 ### 6.3 Expand to additional locations
+- **Gate (decision 0011):** only after the pilot averages ≥50 L/day at ≥95% uptime for 3 consecutive months
 - Apply lessons learned from pilot
 - Recruit new office clients
 - Add kitchen and residential placements
 - Target: 5-10 machines in first quarter
 
 ### 6.4 Consider franchise expansion
+- **Gate (decision 0011):** same pilot gate as 6.3
 - If pilot successful, evaluate franchise model
 - Identify open zones in other Serbian cities or Balkan countries
 - Sign franchise agreements with trained franchisees

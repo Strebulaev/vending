@@ -2,7 +2,7 @@
 
 | item | description | unit | quantity | unit price | total | frequency | assumption | source |
 |------|-------------|------|----------|------------|-------|-----------|------------|--------|
-| 1.1 | Water vending machine - basic unit (cashless, GPS, camera, heater) | unit | 1 | 3500 | 3500.0 | one-time | RO-300A unit with 400GPD capacity, cashless payment integration, GPS module, camera, heater; FOB price from Chinese supplier | [source: made-in-china.com water vending machine listing] |
+| 1.1 | Water vending machine - RO base unit only (cashless reader, GPS, camera, sensors and heater are items 1.4-1.8) | unit | 1 | 915 | 915.0 | one-time | RO-300A-class unit with 400GPD capacity; FOB price from Chinese supplier, 1000 USD per TECH_SPEC (listings range 590-2000 USD), converted at 107/117; excludes freight, duty, VAT | [source: made-in-china.com and goldsupplier.com water vending machine listings; docs/technical/TECH_SPEC.md] |
 | 1.2 | Coin acceptor model selection | unit | 1 | 120 | 120.0 | one-time | Coin acceptor for Serbian dinar denominations; Coinco 9302-GX equivalent | [source: shopjimmy.com coin acceptor pricing] |
 | 1.3 | Bill acceptor model selection | unit | 1 | 295 | 295.0 | one-time | Bill acceptor for 20-50 EUR denominations; Coinco BA30B equivalent | [source: shopjimmy.com bill acceptor pricing] |
 | 1.4 | Cashless payment module (phone NFC) | unit | 1 | 450 | 450.0 | one-time | NFC/cashless payment module with Mir card support; commercial card reader range $200-$600 | [source: mifraelectronics.com cashless payment hardware] |

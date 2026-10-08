@@ -3,6 +3,8 @@
 > Source: discussion transcript (Oct 5, 11:24).
 > Status: raw brainstorm, requires formalization into a cost estimate and plan.
 
+> **Addendum 2026-10-08:** the pilot is a single residential point near the founders' home. Offices and kitchens (§3.2–3.3) are deferred until the pilot review. Scale-out waits for the pilot gate. See `docs/decisions/0003-residential-single-point-pilot.md` and `docs/decisions/0011-pilot-gate.md`.
+
 ## 1. Project Context
 
 - The project is a network of drinking water vending machines.
