@@ -10,4 +10,7 @@ id, title, tags, status
 0008-doc-language-split,Сметы — на английском; остальная документация и база знаний — на русском,"documentation",active
 0009-serbia-vodomat-price-benchmark,Публичный водомат в Зренянине продавал очищенную воду по 5 RSD/л в 2022 году,"pricing, locations",draft
 0010-vending-fiscalization,Вендинговые аппараты в Сербии обязаны использовать сертифицированное фискальное решение (ESIR),"legal-tax, payment",draft
+0040-certification-requirements-map,"Карта требований: вода, материалы, электро, радио, метрология, фискализация, деятельность и монтаж — какие нормы найдены, какие нет","legal-tax, water-treatment, hardware",draft
+0041-radio-ce-transition-2027,"Радио-оборудование: источники расходятся по переходу на CE с 01.01.2027; уточнить у RATEL до ввоза","legal-tax, telemetry, hardware",draft
+0042-certification-cost-assumptions,"Бюджет сертификации пилота — допущение: 780–7 570 EUR при покупке, 5 380–17 570 EUR при самостоятельной сборке; подтверждён только сбор APR 8 000 RSD","finance, legal-tax",draft
 docs-manifest,"Документы для людей: связь с содержанием, решениями и путями отслеживания дрейфа","documentation",active

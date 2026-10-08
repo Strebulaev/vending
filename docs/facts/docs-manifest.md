@@ -24,3 +24,9 @@ bootstrap-generated: true
 | pipeline/consolidated/SMETA_FINAL.md, pilot_scenarios.md | итоговая смета пилота и сценарии | 0009, факты 0007, 0008 | pipeline/estimates/, pipeline/calculator.py | |
 | presentations/business_presentation_single_point.md | питч одной точки для инвесторов | 0003, 0004, факты 0004, 0007 | consolidated/SMETA_FINAL.md, pipeline/calculator.py | |
 | README.md | цели, текущее состояние, карта репозитория, команды | 0003, 0011, факт 0007 | docs/plans/, pipeline/, docs/pipeline/consolidated/ | |
+| certification/findings.md | что известно о сертификатах и открытые вопросы | факты 0010, 0040 | business_plan/pilot_implementation.md §3.3, §4; TECH_SPEC.md §11.3 | |
+| certification/landscape.md | карта сертификатов и разрешений по семи областям; «Вне сертификации» | 0040, факты 0040, 0041, 0010 | TECH_SPEC.md §9.3; официальные акты Sl. glasnik | |
+| certification/make_vs_buy.md | пути «покупаем» и «производим» для сертификации | 0012, 0040 | business_plan/rfq_pilot_machine.md; landscape.md | |
+| certification/master_certification.md | мастер-сертификация стандартной конфигурации и правила изменений | 0041 | landscape.md, make_vs_buy.md; docs/hardware/configurations.md (ожидает дорожку hardware) | |
+| certification/costs_timeline.md | бюджет, сроки, чек-лист «Допуск к запуску» | 0040, факт 0042, правило no-launch-without-clearance-package | make_vs_buy.md, master_certification.md | |
+| certification/REPORT.md | итоговый отчёт дорожки сертификации | 0040, 0041, факты 0040–0042 | docs/certification/*.md | |

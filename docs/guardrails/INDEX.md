@@ -6,3 +6,4 @@ no-unenforced-guardrail,"Правило о поставляемом поведе
 one-statement-one-job,"Факт, правило или примечание о выводе, решающее две задачи, нужно разделить","knowledge-management, guardrail",active
 tags-from-canonical-list,"Теги любого артефакта должны браться из канонического списка, если он существует","knowledge-management, guardrail",active
 token-economy,"Каждый факт, правило и процедура должны быть максимально экономными","knowledge-management, guardrail",active
+no-launch-without-clearance-package,"Аппарат не включается и не принимает оплату без пакета документов «Допуск к запуску»","guardrail, water-treatment, legal-tax, operations",draft

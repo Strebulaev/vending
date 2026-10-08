@@ -12,3 +12,5 @@ id, title, tags, status
 0010-english-estimates,Файлы смет пишутся на английском в стандартной 9-колоночной схеме,"documentation, pipeline",draft
 0011-pilot-gate,Масштабирование — только после пилота: ≥50 л/день и аптайм ≥95% в течение 3 месяцев,"locations, finance, telemetry",draft
 0012-pilot-machine-sourcing,"Аппарат для пилота выбирать по котировкам: местный дистрибьютор или европейский аппарат, если цена не выше ~2× китайского","hardware, water-treatment, finance",draft
+0040-certification-buy-vs-make,"Для пилота сертификация идёт по пути «покупаем готовый аппарат»; «производим сами» пересматривать от ~20 точек","hardware, water-treatment, legal-tax",draft
+0041-master-certification-and-config-change,"Стандартная конфигурация оформляется один раз как тип; изменения конфигурации классифицируются A/B/C","hardware, operations, water-treatment",draft
