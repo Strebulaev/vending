@@ -48,3 +48,4 @@ bootstrap-generated: true
 | economics/in_house_assembly.md | сборка своими силами: закупки, маршруты, гарантии, приёмка | 0008, 0031, 0033 | docs/technical/TECH_SPEC.md | |
 | economics/inventory_model.md | точка заказа, пример с поставкой 8 суток | 0032 | pipeline/inventory.py | |
 | sampling/findings.md, standard_configuration.md, program.md, scaling.md, costs.md, logistics_lead_time.md, REPORT.md | программа отбора проб воды: нормы, конфигурация STD-1, этапы и частота, правило выборки на N точек, стоимость, логистика | 0050, 0051, 0052, факты 0053, 0054, 0055 | pipeline/sampling_cost.py, docs/technical/TECH_SPEC.md, docs/business_plan/pilot_implementation.md §4 | |
+| FINAL_REPORT.md | сводный итог четырёх дорожек: смета запуска, варианты, сроки, решения владельца | 0003, 0011, 0012, 0020–0026, 0030–0033, 0040–0041, 0050–0052 | docs/{hardware,economics,certification,sampling}/REPORT.md | |
