@@ -33,3 +33,9 @@ bootstrap-generated: true
 | hardware/locations.md | типы локаций и пороги безубыточности | 0003, 0026, факты 0006, 0007, 0020 | pipeline/consolidated/pilot_scenarios.md | |
 | hardware/surcin_candidates.md | кандидаты на площадки в Сурчине | 0003, 0026, факт 0020 | locations.md | |
 | hardware/REPORT.md, findings.md | итог дорожки «Оборудование» и расхождения источников | 0020–0026 | docs/hardware/ | |
+| certification/findings.md | что известно о сертификатах и открытые вопросы | факты 0010, 0040 | business_plan/pilot_implementation.md §3.3, §4; TECH_SPEC.md §11.3 | |
+| certification/landscape.md | карта сертификатов и разрешений по семи областям; «Вне сертификации» | 0040, факты 0040, 0041, 0010 | TECH_SPEC.md §9.3; официальные акты Sl. glasnik | |
+| certification/make_vs_buy.md | пути «покупаем» и «производим» для сертификации | 0012, 0040 | business_plan/rfq_pilot_machine.md; landscape.md | |
+| certification/master_certification.md | мастер-сертификация стандартной конфигурации и правила изменений | 0041 | landscape.md, make_vs_buy.md; docs/hardware/configurations.md (ожидает дорожку hardware) | |
+| certification/costs_timeline.md | бюджет, сроки, чек-лист «Допуск к запуску» | 0040, факт 0042, правило no-launch-without-clearance-package | make_vs_buy.md, master_certification.md | |
+| certification/REPORT.md | итоговый отчёт дорожки сертификации | 0040, 0041, факты 0040–0042 | docs/certification/*.md | |
