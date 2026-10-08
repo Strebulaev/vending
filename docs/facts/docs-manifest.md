@@ -24,3 +24,4 @@ bootstrap-generated: true
 | pipeline/consolidated/SMETA_FINAL.md, pilot_scenarios.md | итоговая смета пилота и сценарии | 0009, факты 0007, 0008 | pipeline/estimates/, pipeline/calculator.py | |
 | presentations/business_presentation_single_point.md | питч одной точки для инвесторов | 0003, 0004, факты 0004, 0007 | consolidated/SMETA_FINAL.md, pipeline/calculator.py | |
 | README.md | цели, текущее состояние, карта репозитория, команды | 0003, 0011, факт 0007 | docs/plans/, pipeline/, docs/pipeline/consolidated/ | |
+| sampling/findings.md, standard_configuration.md, program.md, scaling.md, costs.md, logistics_lead_time.md, REPORT.md | программа отбора проб воды: нормы, конфигурация STD-1, этапы и частота, правило выборки на N точек, стоимость, логистика | 0050, 0051, 0052, факты 0053, 0054, 0055 | pipeline/sampling_cost.py, docs/technical/TECH_SPEC.md, docs/business_plan/pilot_implementation.md §4 | |

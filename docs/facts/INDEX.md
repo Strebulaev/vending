@@ -11,3 +11,6 @@ id, title, tags, status
 0009-serbia-vodomat-price-benchmark,Публичный водомат в Зренянине продавал очищенную воду по 5 RSD/л в 2022 году,"pricing, locations",draft
 0010-vending-fiscalization,Вендинговые аппараты в Сербии обязаны использовать сертифицированное фискальное решение (ESIR),"legal-tax, payment",draft
 docs-manifest,"Документы для людей: связь с содержанием, решениями и путями отслеживания дрейфа","documentation",active
+0053-drinking-water-rulebook-parameters,"Правилник о воде для питья (поправки 28/2019): колиформы 0/100 мл, аэробные ≤10/мл, мутность до 1 НТУ, pH 6,8–8,5, EC 2 500 мкСм/см","water-treatment, legal-tax",draft
+0054-lab-prices-and-turnaround-not-found,"Цены и сроки анализа воды в лабораториях Белграда в открытых источниках не найдены (ГЗЈЗ, Батут, SuperLab, BVK)","water-treatment, finance",draft
+0055-sampling-containers-and-transport,"Отбор проб воды: микро — стерильная ёмкость 250 мл, химия — бутыль 1,5 л; слив 3–5 мин; охлаждение, доставка в пределах часов","water-treatment, operations",draft

@@ -12,3 +12,6 @@ id, title, tags, status
 0010-english-estimates,Файлы смет пишутся на английском в стандартной 9-колоночной схеме,"documentation, pipeline",draft
 0011-pilot-gate,Масштабирование — только после пилота: ≥50 л/день и аптайм ≥95% в течение 3 месяцев,"locations, finance, telemetry",draft
 0012-pilot-machine-sourcing,"Аппарат для пилота выбирать по котировкам: местный дистрибьютор или европейский аппарат, если цена не выше ~2× китайского","hardware, water-treatment, finance",draft
+0050-sampling-program-stages,"Программа проб воды идёт по этапам: пуск, ввод, рутина, периодический полный анализ, внеплановые","water-treatment, operations",draft
+0051-sampling-rule-for-n-points,"При N точек микробиология — на каждой точке, химия и металлы — по кластерам «источник воды + конфигурация»","water-treatment, operations, locations",draft
+0052-telemetry-triggers-unplanned-samples,"Телеметрия (EC/TDS, температура бака, простой, ресурс фильтров) запускает внеплановые пробы, но не заменяет лабораторию","telemetry, water-treatment, operations",draft
