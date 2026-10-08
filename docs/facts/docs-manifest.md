@@ -39,3 +39,11 @@ bootstrap-generated: true
 | certification/master_certification.md | мастер-сертификация стандартной конфигурации и правила изменений | 0041 | landscape.md, make_vs_buy.md; docs/hardware/configurations.md (ожидает дорожку hardware) | |
 | certification/costs_timeline.md | бюджет, сроки, чек-лист «Допуск к запуску» | 0040, факт 0042, правило no-launch-without-clearance-package | make_vs_buy.md, master_certification.md | |
 | certification/REPORT.md | итоговый отчёт дорожки сертификации | 0040, 0041, факты 0040–0042 | docs/certification/*.md | |
+| economics/REPORT.md | итоговый отчёт дорожки закупок и экономики | 0030–0033, факты 0030–0035 | docs/economics/*.md, pipeline/economics.py, pipeline/inventory.py | |
+| economics/findings.md | обследование существующей экономики, противоречия, вопросы владельцу | факты 0007, 0009 | pipeline/calculator.py, docs/pipeline/consolidated/pilot_scenarios.md | |
+| economics/financial_model.md | сценарии, чувствительность, 1/5/20 точек | 0032, факты 0007, 0030 | pipeline/economics.py, pipeline/calculator.py | |
+| economics/pricing.md, pricing_scenarios.md | бенчмарки, сценарии цены, рекомендация, ценовой эксперимент | 0004, 0030, факты 0002, 0009, 0010, 0033 | pipeline/economics.py | |
+| economics/depreciation_theft_stock.md | амортизация, кража, запас, корпуса | 0032, факты 0034 | pipeline/economics.py, pipeline/inventory.py | |
+| economics/ready_made_options.md | door-to-door по источникам A/B/D | 0012, 0031, 0033, факты 0031, 0032, 0035 | pipeline/economics.py, docs/business_plan/rfq_pilot_machine.md | |
+| economics/in_house_assembly.md | сборка своими силами: закупки, маршруты, гарантии, приёмка | 0008, 0031, 0033 | docs/technical/TECH_SPEC.md | |
+| economics/inventory_model.md | точка заказа, пример с поставкой 8 суток | 0032 | pipeline/inventory.py | |

@@ -12,6 +12,12 @@ id, title, tags, status
 0010-vending-fiscalization,Вендинговые аппараты в Сербии обязаны использовать сертифицированное фискальное решение (ESIR),"legal-tax, payment",draft
 0020-pilot-area-surcin,"Пилотная зона — Сурчин (Белград), жилой район, радиус ≈500 м пешком от дома основателей","locations",draft
 0021-ro-flow-vs-dispense-rate,"RO даёт ≈1,05 л/мин (400 GPD ≈ 1 514 л/сутки), розлив идёт 8 л/мин, пилот продаёт 50–80 л/день","water-treatment, hardware",draft
+0030-sourcing-economics-baseline,"С амортизацией, доставкой, кражей и страхованием точка 80 л/день теряет ≈32 000 RSD/мес, безубыточность ≈210 л/день","finance, pricing",draft
+0031-freight-rates-china-serbia,"Фрахт Китай→Сербия (индикативно): море LCL 160–290 USD/м³, 40ft 5 200–8 500 USD, ж/д 8 850–9 250 USD, авиа 5–9 USD/кг","hardware, finance",draft
+0032-serbia-import-duty-vat,Ввоз в Сербию: пошлина 10% и НДС 20% на (стоимость + пошлина) в упрощённой процедуре; ставка по 8421 21 не найдена,"legal-tax, finance",draft
+0033-vodomat-price-benchmarks,"Вода в магазине в 6 л таре стоит 16–40 RSD/л, публичные автоматы в Италии — 0,05 EUR/л, цен белградских водоматов 2026 не найдено","pricing, locations",draft
+0034-serbia-tax-depreciation-groups,"Налоговая амортизация Сербии — пять групп (2,5/10/15/20/30%), линейная по активу, не поименованное — в III группу 15%","legal-tax, finance",draft
+0035-landed-cost-estimate,"Door-to-door на аппарат (середина, 1/5/20 шт.): A Китай 3 399/2 395/2 206 EUR, B 2 593 EUR, D 4 265/4 121/3 901 EUR (оценка)","hardware, finance",draft
 0040-certification-requirements-map,"Карта требований: вода, материалы, электро, радио, метрология, фискализация, деятельность и монтаж — какие нормы найдены, какие нет","legal-tax, water-treatment, hardware",draft
 0041-radio-ce-transition-2027,Радио-оборудование: источники расходятся по переходу на CE с 01.01.2027; уточнить у RATEL до ввоза,"legal-tax, telemetry, hardware",draft
 0042-certification-cost-assumptions,"Бюджет сертификации пилота — допущение: 780–7 570 EUR при покупке, 5 380–17 570 EUR при самостоятельной сборке; подтверждён только сбор APR 8 000 RSD","finance, legal-tax",draft

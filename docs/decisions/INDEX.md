@@ -19,5 +19,9 @@ id, title, tags, status
 0024-auto-block-on-hygiene-alarm,"При загрязнении, вскрытии или серьёзной неисправности аппарат блокирует розлив и шлёт тревогу","hardware, telemetry, water-treatment",draft
 0025-full-manufacturing-doc-pack,Документация — полный производственный пакет,"hardware, documentation",draft
 0026-two-method-positioning,Позиционирование — два метода: рыночное по типу локации и физическое размещение внутри площадки,"locations, pricing",draft
+0030-pilot-price-strategy,Пилот стартует с 10 RSD/л (50 RSD за 5 л); второй уровень 12 RSD/л проверяется после набора базовых данных,"pricing, finance",draft
+0031-pilot-buy-ready-made,Для пилота покупать готовый аппарат (A или B) и сравнивать котировки по цене «от двери до двери»; сборка из компонентов отложена,"hardware, finance",draft
+0032-straight-line-depreciation-stock-policy,"Оборудование амортизируется линейно по группам активов, запас считается по точке заказа с учётом товара в пути","finance, operations",draft
+0033-procurement-policy,"Закупка — по письменным котировкам, с Incoterms, страхованием груза, документами на материалы и вторым источником критичных деталей","hardware, legal-tax, finance",draft
 0040-certification-buy-vs-make,Для пилота сертификация идёт по пути «покупаем готовый аппарат»; «производим сами» пересматривать от ~20 точек,"hardware, water-treatment, legal-tax",draft
 0041-master-certification-and-config-change,Стандартная конфигурация оформляется один раз как тип; изменения конфигурации классифицируются A/B/C,"hardware, operations, water-treatment",draft
