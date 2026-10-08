@@ -24,3 +24,11 @@ bootstrap-generated: true
 | pipeline/consolidated/SMETA_FINAL.md, pilot_scenarios.md | итоговая смета пилота и сценарии | 0009, факты 0007, 0008 | pipeline/estimates/, pipeline/calculator.py | |
 | presentations/business_presentation_single_point.md | питч одной точки для инвесторов | 0003, 0004, факты 0004, 0007 | consolidated/SMETA_FINAL.md, pipeline/calculator.py | |
 | README.md | цели, текущее состояние, карта репозитория, команды | 0003, 0011, факт 0007 | docs/plans/, pipeline/, docs/pipeline/consolidated/ | |
+| hardware/equipment_estimate.md | смета всего оборудования по позициям и моделям | 0012, 0020–0024, факт 0004 | pipeline/estimates/TECH.md, TECH_SPEC.md | |
+| hardware/technical_documentation.md | производственный пакет: схемы, жгуты, прошивка, регламент, приёмка | 0007, 0020–0025, факт 0021 | technical/TECH_SPEC.md | |
+| hardware/tank_and_heating.md | малый бак, УФ, слив; обогрев по моделям | 0020, 0021, факт 0021 | TECH_SPEC.md §2, §7 | |
+| hardware/configurations.md | четыре модели, атрибуты, компромиссы, правило усиления | 0007, 0022 | equipment_estimate.md | |
+| hardware/telemetry.md | что собирать, матрица инцидентов, приватность | 0011, 0023, 0024, guardrail no-dispensing-on-hygiene-alarm | TECH_SPEC.md §6 | |
+| hardware/positioning_methodology.md | позиционирование: метод A и метод B | 0003, 0004, 0026, факт 0020 | locations.md | |
+| hardware/locations.md | типы локаций и пороги безубыточности | 0003, 0026, факты 0006, 0007, 0020 | pipeline/consolidated/pilot_scenarios.md | |
+| hardware/surcin_candidates.md | кандидаты на площадки в Сурчине | 0003, 0026, факт 0020 | locations.md | |

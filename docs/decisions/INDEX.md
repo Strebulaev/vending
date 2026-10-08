@@ -12,3 +12,10 @@ id, title, tags, status
 0010-english-estimates,Файлы смет пишутся на английском в стандартной 9-колоночной схеме,"documentation, pipeline",draft
 0011-pilot-gate,Масштабирование — только после пилота: ≥50 л/день и аптайм ≥95% в течение 3 месяцев,"locations, finance, telemetry",draft
 0012-pilot-machine-sourcing,"Аппарат для пилота выбирать по котировкам: местный дистрибьютор или европейский аппарат, если цена не выше ~2× китайского","hardware, water-treatment, finance",draft
+0020-small-opaque-buffer-tank,"Бак малый непрозрачный (20–40 л) с УФ и плановым сливом вместо бака 180 л","hardware, water-treatment",draft
+0021-heating-by-model,"Обогрев зависит от модели: уличные обогреваются зимой, внутренние — без обогрева","hardware",draft
+0022-four-model-family,"Четыре модели из одной базы и модулей: помещение/улица × стандарт/усиленная","hardware",draft
+0023-camera-all-models,"Камера во всех моделях: по событиям и периодический контрольный снимок","hardware, telemetry",draft
+0024-auto-block-on-hygiene-alarm,"При загрязнении, вскрытии или серьёзной неисправности аппарат блокирует розлив и шлёт тревогу","hardware, telemetry, water-treatment",draft
+0025-full-manufacturing-doc-pack,"Документация — полный производственный пакет","hardware, documentation",draft
+0026-two-method-positioning,"Позиционирование — два метода: рыночное по типу локации и физическое размещение внутри площадки","locations, pricing",draft

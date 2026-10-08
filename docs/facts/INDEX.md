@@ -10,4 +10,6 @@ id, title, tags, status
 0008-doc-language-split,Сметы — на английском; остальная документация и база знаний — на русском,"documentation",active
 0009-serbia-vodomat-price-benchmark,Публичный водомат в Зренянине продавал очищенную воду по 5 RSD/л в 2022 году,"pricing, locations",draft
 0010-vending-fiscalization,Вендинговые аппараты в Сербии обязаны использовать сертифицированное фискальное решение (ESIR),"legal-tax, payment",draft
+0020-pilot-area-surcin,"Пилотная зона — Сурчин (Белград), жилой район, радиус ≈500 м пешком от дома основателей","locations",draft
+0021-ro-flow-vs-dispense-rate,"RO даёт ≈1,05 л/мин (400 GPD ≈ 1 514 л/сутки), розлив идёт 8 л/мин, пилот продаёт 50–80 л/день","water-treatment, hardware",draft
 docs-manifest,"Документы для людей: связь с содержанием, решениями и путями отслеживания дрейфа","documentation",active
