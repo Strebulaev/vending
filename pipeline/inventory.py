@@ -1,7 +1,7 @@
 """Модель запаса с учётом срока поставки (дорожка sourcing-economics).
 
 Запуск из корня репозитория: python3 pipeline/inventory.py
-Пишет docs/economics/inventory_model.md.
+Пишет docs/economics/inventory-model.md.
 
 Общая модель для расходников и запчастей; функции reorder_point и order_quantity
 можно использовать для любых позиций (например, тара и наборы для проб, дорожка sampling).
@@ -13,7 +13,7 @@ import os
 
 from fx import EUR_TO_RSD, USD_TO_RSD
 
-OUT = "docs/economics/inventory_model.md"
+OUT = "docs/economics/inventory-model.md"
 
 SERVICE_LEVEL = 0.95        # доля циклов без дефицита для позиций по отказу [заполнитель]
 SAFETY_DAYS_MIN = 7         # минимальный страховой запас расходников, суток [заполнитель]

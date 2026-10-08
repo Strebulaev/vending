@@ -1,7 +1,7 @@
 """Финансовая модель водоматов и стоимость «от двери до двери» (дорожка sourcing-economics).
 
 Запуск из корня репозитория: python3 pipeline/economics.py
-Пишет: docs/economics/financial_model.md, ready_made_options.md, pricing_scenarios.md.
+Пишет: docs/economics/financial-model.md, ready-made-options-landed-cost.md, pricing-scenarios.md.
 
 Модель опирается на pipeline/calculator.py (SCOPE, смета, тариф воды), его не меняет.
 Все параметры в словарях вверху. Источники: [web] URL, [repo] путь, [заполнитель] —
@@ -49,7 +49,7 @@ ASSET_GROUPS = [
 REINFORCED_EXTRA_PCT = 0.25   # [repo] TECH 1.10: усиленная защита +15–25% к цене аппарата
 REINFORCED_THEFT_FACTOR = 0.5  # [заполнитель] усиленный корпус вдвое снижает риск
 
-# Типы локаций: [заполнитель] до результатов дорожки hardware (docs/hardware/locations.md)
+# Типы локаций: [заполнитель] до результатов дорожки hardware (docs/hardware/location-types.md)
 LOCATION_TYPES = {
     "low-cost": dict(rent_x=0.5, lpd=40, theft=0.10, config="reinforced"),
     "premium": dict(rent_x=2.0, lpd=120, theft=0.03, config="standard"),
@@ -355,8 +355,8 @@ def financial_model():
     L.append(f"| Комиссия платежей | {PARAMS['payment_fee']:.1%} выручки | [repo] `calculator.py`, FINANCE 3.5 (диапазон 1,5–3%) |")
     L.append(f"| Налог | {PARAMS['tax_rate']:.0%} выручки | [repo] `calculator.py` |")
     L.append(f"| Аренда (база) | {PARAMS['rent_eur_base']:.0f} EUR/мес = {fmt(RENT_BASE_RSD)} RSD | [repo] бриф §3.1 (пример, не договор) |")
-    L.append(f"| Прочие постоянные (обслуживание, фильтры, GPS, мониторинг, сервис) | {fmt(FIXED_OTHER_RSD)} RSD/мес | [repo] `pilot_scenarios.md` §3 |")
-    L.append(f"| Оборудование и установка пилота | {fmt(HARDWARE_RSD)} RSD ({fmt(HARDWARE_RSD/EUR_TO_RSD)} EUR), без фрахта, пошлины, НДС | [repo] `pilot_scenarios.md` §1 |")
+    L.append(f"| Прочие постоянные (обслуживание, фильтры, GPS, мониторинг, сервис) | {fmt(FIXED_OTHER_RSD)} RSD/мес | [repo] `pilot-scenarios.md` §3 |")
+    L.append(f"| Оборудование и установка пилота | {fmt(HARDWARE_RSD)} RSD ({fmt(HARDWARE_RSD/EUR_TO_RSD)} EUR), без фрахта, пошлины, НДС | [repo] `pilot-scenarios.md` §1 |")
     L.append(f"| Добавка доставки к CAPEX (источник A, море, середина, 1 аппарат) | {fmt(extra1)} EUR | расчёт `ready_made_options.md` |")
     L.append(f"| Страхование | {PARAMS['insurance_eur_year']} EUR/год | [web] ориентир Хорватия (Wiener), не Сербия |")
     L.append(f"| Ущерб от одного события кражи/вандализма | {THEFT_LOSS_EUR:.0f} EUR | [заполнитель] |")
@@ -384,10 +384,10 @@ def financial_model():
     L.append("")
     L.append("Сверка с `calculator.py`: без добавки доставки, амортизации, кражи и страхования точка 50/80 л/день даёт −24 724/−17 328 RSD/мес, безубыточность ≈150 л/день; здесь добавлены ожидаемые потери от кражи и страхование (денежная безубыточность выше), а также амортизация и доставка (безубыточность «с амортизацией» заметно выше).\n")
     r0 = point(80, 10.0, 1.0, 0.0, "standard", 0.0, dict(PARAMS, insurance_eur_year=0.0))
-    L.append(f"Проверка: при нулевых кражах, страховке и доставке модель даёт {fmt(r0['net_cash'])} RSD/мес при 80 л/день и безубыточность {be_fmt(r0['be_cash'])} л/день — совпадает с `pilot_scenarios.md` (−17 328 и ≈150).\n")
+    L.append(f"Проверка: при нулевых кражах, страховке и доставке модель даёт {fmt(r0['net_cash'])} RSD/мес при 80 л/день и безубыточность {be_fmt(r0['be_cash'])} л/день — совпадает с `pilot-scenarios.md` (−17 328 и ≈150).\n")
 
     L.append("## 3. Типы локаций\n")
-    L.append("Параметры типов — [заполнитель], ожидает дорожку hardware (`docs/hardware/locations.md`, `configurations.md`); пересчитать после слияния.\n")
+    L.append("Параметры типов — [заполнитель], ожидает дорожку hardware (`docs/hardware/location-types.md`, `configurations.md`); пересчитать после слияния.\n")
     L.append("| Тип | Аренда, EUR/мес | Конфигурация | л/день | Риск кражи/год | Прибыль денежная, RSD/мес | После аморт. | Безубыточность л/день | Окупаемость, мес |")
     L.append("|---|---|---|---|---|---|---|---|---|")
     for name, t in LOCATION_TYPES.items():
@@ -408,7 +408,7 @@ def financial_model():
         L.append("")
 
     sens("Аренда", "Аренда, EUR/мес", [(f"{150*x:.0f}", point(80, 10.0, x, 0.05, "standard", extra1)) for x in (0.0, 0.5, 1.0, 2.0, 3.0)])
-    sens("Цена за литр (объём неизменен; эластичность — в `pricing_scenarios.md`)", "Цена, RSD/л", [(f"{pr}", point(80, pr, 1.0, 0.05, "standard", extra1)) for pr in (5, 8, 10, 12, 15)])
+    sens("Цена за литр (объём неизменен; эластичность — в `pricing-scenarios.md`)", "Цена, RSD/л", [(f"{pr}", point(80, pr, 1.0, 0.05, "standard", extra1)) for pr in (5, 8, 10, 12, 15)])
     sens("Объём", "л/день", [(f"{v}", point(v, 10.0, 1.0, 0.05, "standard", extra1)) for v in (30, 50, 80, 120, 150, 200, 300)])
     sens("Риск кражи (вероятность события в год; ущерб 1500 EUR)", "Вероятность/год", [(f"{t:.0%}", point(80, 10.0, 1.0, t, "standard", extra1)) for t in (0.0, 0.05, 0.10, 0.20, 0.40)])
     sens("Коэффициент сброса RO (литров воды на проданный литр)", "Коэффициент", [(f"{k}", point(80, 10.0, 1.0, 0.05, "standard", extra1, dict(PARAMS, reject_multiplier=k))) for k in (2, 3, 4, 5)])
@@ -460,11 +460,11 @@ def financial_model():
     L.append("")
     L.append("Вывод: при 80 л/день сеть из 5 и 20 точек остаётся убыточной; масштабирование имеет смысл, только если пилот покажет объём заметно выше 150 л/день (решение 0011, правило `no-scale-out-before-pilot-gate`).\n")
     L.append("## 6. Источники и ограничения\n")
-    L.append("- Смета и классификация: `pipeline/calculator.py`, `docs/pipeline/estimates/*.md` [repo].")
-    L.append("- Доставка и закупка: `docs/economics/ready_made_options.md` (там же ссылки [web]).")
+    L.append("- Смета и классификация: `pipeline/calculator.py`, `docs/cost-estimates/blocks/*.md` [repo].")
+    L.append("- Доставка и закупка: `docs/economics/ready-made-options-landed-cost.md` (там же ссылки [web]).")
     L.append("- Не учтено: анализы воды, фискализация (стоимость не найдена), стоимость капитала, налог на прибыль сверх плоских 10% выручки, НДС с выручки (см. `pricing.md`).")
     L.append("- Конфигурации, локации, сертификация, пробы: ожидает дорожки hardware, certification, sampling.")
-    return write("financial_model.md", L), rows, be, shared_tot
+    return write("financial-model.md", L), rows, be, shared_tot
 
 
 def pricing_table():
@@ -502,17 +502,17 @@ def pricing_table():
                 lo = mid
         L.append(f"| {v} | {hi:.1f} |")
     L.append("")
-    return write("pricing_scenarios.md", L)
+    return write("pricing-scenarios.md", L)
 
 
 def ready_made():
     L = []
     L.append("# Покупка готового аппарата: стоимость «от двери до двери» (Door-to-door)\n")
-    L.append("Сгенерировано `pipeline/economics.py`. Это **оценка по диапазонам**, а не котировка: RFQ (`docs/business_plan/rfq_pilot_machine.md`) не отправлен. Пустые ячейки «Котировка» в §6 заполняются реальными предложениями. Курсы: 1 EUR = 117 RSD, 1 USD = 107 RSD. Метки: [web], [repo], [заполнитель] (подставлено без найденного источника — заменить), «не найдено» — данных нет, кого спросить указано в §7.\n")
+    L.append("Сгенерировано `pipeline/economics.py`. Это **оценка по диапазонам**, а не котировка: RFQ (`docs/project/supplier-rfq.md`) не отправлен. Пустые ячейки «Котировка» в §6 заполняются реальными предложениями. Курсы: 1 EUR = 117 RSD, 1 USD = 107 RSD. Метки: [web], [repo], [заполнитель] (подставлено без найденного источника — заменить), «не найдено» — данных нет, кого спросить указано в §7.\n")
     L.append("## 1. Допущения и источники\n")
     L.append("| Позиция | Низ / середина / верх | Источник |")
     L.append("|---|---|---|")
-    L.append(f"| A: цена аппарата класса RO-300A, FOB, USD | {' / '.join(map(str, A['price_usd']))} | [web] объявления 590–2000 USD (`pilot_implementation.md` §2.1), 1000 USD [repo] `TECH_SPEC.md` §9.3 |")
+    L.append(f"| A: цена аппарата класса RO-300A, FOB, USD | {' / '.join(map(str, A['price_usd']))} | [web] объявления 590–2000 USD (`pilot-launch-guide.md` §2.1), 1000 USD [repo] `initial-technical-spec.md` §9.3 |")
     L.append(f"| Упаковка экспортная, EUR/ед. | {' / '.join(map(str, A['packing_eur']))} | [заполнитель]; уточнить у поставщика, входит ли в цену |")
     L.append(f"| Кубатура / вес упакованного аппарата | {UNIT_CBM} м³ / {UNIT_KG:.0f} кг | [заполнитель]; запросить у поставщика |")
     L.append(f"| Море LCL, USD/м³ | {' / '.join(map(str, FREIGHT['lcl_usd_cbm']))} (160–290) | [web] https://goodhopefreight.com/serbia.html (без даты; порт Копер/Бар, 40–55 сут) |")
@@ -586,7 +586,7 @@ def ready_made():
     L.append("| Модуль | Низ / середина / верх, EUR | Источник |")
     L.append("|---|---|---|")
     for k, v in MODULES_EUR.items():
-        L.append(f"| {k} | {v[0]} / {v[1]} / {v[2]} | [repo] `TECH_SPEC.md` §9.3, TECH 1.4–1.10, 1.9 |")
+        L.append(f"| {k} | {v[0]} / {v[1]} / {v[2]} | [repo] `initial-technical-spec.md` §9.3, TECH 1.4–1.10, 1.9 |")
     L.append(f"| **Итого (до НДС)** | **{modules_total(0)} / {modules_total(1)} / {modules_total(2)}** | |")
     L.append("")
     L.append("Для справки: платёжный терминал Nayax VPOS Touch — 399 USD (≈365 EUR), от 5 шт. 314 USD, от 15 шт. 289 USD, плюс 9,99 USD/мес за облачную услугу [web] https://shop.nayax.com/vpos-touch.html (версия для сотовой сети США; версию для Европы уточнить у Nayax). Фискальное решение (ESIR) в 2026: стоимость и наличие не найдены (факт 0010).\n")
@@ -642,7 +642,7 @@ def ready_made():
         L.append(f"| {n} | {fmt(a)} | {fmt(lab)} | {fmt(a - lab)} |")
     L.append("")
     L.append("Цены отдельных деталей для 400 GPD найдены лишь частично (см. `in_house_assembly.md`): итоговую сумму деталей нужно сравнить с этим бюджетом после запроса прайсов.\n")
-    return write("ready_made_options.md", L), summary
+    return write("ready-made-options-landed-cost.md", L), summary
 
 
 def res0(src, n):

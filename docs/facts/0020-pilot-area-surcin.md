@@ -8,4 +8,4 @@ kind: environmental
 governed-by: 0003-residential-single-point-pilot
 ---
 
-Точный дом неизвестен [уточнить: основатели]; поиск охватывает муниципалитет Сурчин. Кандидаты: docs/hardware/surcin_candidates.md.
+Точный дом неизвестен [уточнить: основатели]; поиск охватывает муниципалитет Сурчин. Кандидаты: docs/hardware/surcin-candidate-sites.md.

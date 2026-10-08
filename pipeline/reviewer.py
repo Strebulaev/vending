@@ -1,7 +1,7 @@
 import os
 import re
 
-with open('docs/business_plan/water_vending_brief.md', 'r', encoding='utf-8') as f:
+with open('docs/project/project-brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
 
 blocks = ['TECH', 'LEGAL', 'FINANCE', 'MARKETING', 'LOCATIONS', 'IT_TELEMETRY', 'OPERATIONS', 'DOCUMENTATION', 'GRANTS_AND_SUPPORT']
@@ -197,7 +197,7 @@ def review_block(block_name, estimate_path, task_path):
 
     review_lines.append('## Brief Cross-Reference')
     review_lines.append(
-        '- Task file relevance: evaluated against water_vending_brief.md'
+        '- Task file relevance: evaluated against project-brief.md'
     )
     review_lines.append('')
 
@@ -229,7 +229,7 @@ def review_block(block_name, estimate_path, task_path):
 
     review_content = '\n'.join(review_lines)
 
-    review_path = f'docs/pipeline/reviews/{block_name}_review.md'
+    review_path = f'docs/cost-estimates/reviews/{block_name}_review.md'
     with open(review_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(review_content)
 
@@ -237,7 +237,7 @@ def review_block(block_name, estimate_path, task_path):
 
 
 for block_name in blocks:
-    estimate_path = f'docs/pipeline/estimates/{block_name}.md'
+    estimate_path = f'docs/cost-estimates/blocks/{block_name}.md'
     task_path = f'pipeline/tasks/{block_name}.md'
     status, issues, incomplete_rows = review_block(block_name, estimate_path, task_path)
     print(f'{block_name}: Status={status}, Issues={len(issues)}')

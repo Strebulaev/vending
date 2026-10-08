@@ -1,7 +1,7 @@
 import re
 import os
 
-with open('docs/business_plan/water_vending_brief.md', 'r', encoding='utf-8') as f:
+with open('docs/project/project-brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
 
 print("Brief loaded, length:", len(brief))

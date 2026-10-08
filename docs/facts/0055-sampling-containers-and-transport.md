@@ -12,4 +12,4 @@ governed-by: 0050-sampling-program-stages
 
 Срок и температура доставки: старый норматив — до 6 ч, современные инструкции — до 24 ч при +4 C; для плана принято цель 4 ч, предел 6 ч, до ответа лаборатории — [уточнить].
 
-Источник: `docs/sampling/findings.md` §3; zdravlje.org.rs; shop.buddeberg.de.
+Источник: `docs/sampling/baseline-audit.md` §3; zdravlje.org.rs; shop.buddeberg.de.

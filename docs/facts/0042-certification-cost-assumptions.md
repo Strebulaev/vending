@@ -8,4 +8,4 @@ kind: derived
 governed-by: 0040-certification-buy-vs-make
 ---
 
-Цены лабораторий, DMDM, RATEL, PURS, санитарных согласований и BVK не найдены; суммы — рабочее допущение (1 EUR = 117 RSD). Заменить котировками из писем (docs/certification/REPORT.md §8). Расчёт: docs/certification/costs_timeline.md §1.
+Цены лабораторий, DMDM, RATEL, PURS, санитарных согласований и BVK не найдены; суммы — рабочее допущение (1 EUR = 117 RSD). Заменить котировками из писем (docs/certification/certification-report.md §8). Расчёт: docs/certification/costs-and-timeline.md §1.

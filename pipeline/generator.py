@@ -21,7 +21,7 @@ def calculate_total(unit_price, quantity):
 
 
 # Load the brief
-with open('docs/business_plan/water_vending_brief.md', 'r', encoding='utf-8') as f:
+with open('docs/project/project-brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
 
 blocks = ['TECH', 'LEGAL', 'FINANCE', 'MARKETING', 'LOCATIONS', 'IT_TELEMETRY', 'OPERATIONS', 'DOCUMENTATION', 'GRANTS_AND_SUPPORT']
@@ -47,7 +47,7 @@ estimates = {
     ],
     'FINANCE': [
         ['3.1', 'Water cost per 5L unit (supplier contract)', '5L unit', '1', '35', '35', 'per unit', 'Municipal water tariff for legal entities; 100 RSD/m³ ~ 3.5 RSD/5L per brief Sec 6.1', '[source: Serbian municipal water company price list]'],
-        ['3.2', 'Monthly site rent/electricity cost per site', 'site', '1', '150', '150', 'monthly', '~150 EUR per site from brief Sec 3.1; electricity metering separate', '[source: water_vending_brief.md Sec 3.1]'],
+        ['3.2', 'Monthly site rent/electricity cost per site', 'site', '1', '150', '150', 'monthly', '~150 EUR per site from brief Sec 3.1; electricity metering separate', '[source: project-brief.md Sec 3.1]'],
         ['3.3', 'Maintenance and repair cost per site', 'site', '1', '80', '80', 'monthly', 'Spare parts and service contract; 50-100 EUR/month per site per brief Sec 2.1', '[source: service contract industry estimate]'],
         ['3.4', 'Filter replacement cartridge', 'cartridge', '1', '25', '25', 'every 3 months', 'Cartridge cost; 20-40 EUR per cartridge per brief Sec 2.2', '[source: water filter supplier price list]'],
         ['3.5', 'Cashless payment transaction fee', 'transaction', '1', '1.5%', '1.5%', 'per transaction', 'Payment provider fee structure; 1.5%-3% per transaction per brief Sec 2.2', '[source: payment provider fee schedule]'],
@@ -61,7 +61,7 @@ estimates = {
         ['4.5', 'Marketing Ps (Product, Price, Place, Promotion) analysis', 'analysis', '1', '2000', '2000', 'one-time', 'Complete 4 Ps assessment needed per brief Sec 5.1; foundation for all marketing decisions', '[source: marketing consultancy quote]'],
     ],
     'LOCATIONS': [
-        ['5.1', 'Site rental cost per month', 'site/month', '1', '150', '150', 'monthly', '~150 EUR per site from brief Sec 3.1; costs can eat a grand in classic setup', '[source: water_vending_brief.md Sec 3.1]'],
+        ['5.1', 'Site rental cost per month', 'site/month', '1', '150', '150', 'monthly', '~150 EUR per site from brief Sec 3.1; costs can eat a grand in classic setup', '[source: project-brief.md Sec 3.1]'],
         ['5.2', 'Electricity consumption tracking installation', 'site', '1', '200', '200', 'one-time', 'Metering installation; basic metering 100-300 EUR per site per brief Sec 3.1', '[source: electrical metering installation quote]'],
         ['5.3', 'Office location subscription model setup', 'office', '1', '60', '60', 'monthly', 'Subscription cap negotiation per office per brief Sec 3.3; subscription guarantees payment', '[source: office subscription model pricing]'],
         ['5.4', 'Professional area (kitchen) machine configuration', 'kitchen', '1', '300', '300', 'one-time', 'Different machine configuration per brief Sec 2.3; adjusted features for kitchen environment', '[source: kitchen config specialist quote]'],
@@ -99,7 +99,7 @@ estimates = {
 
 def write_estimate_file(block_name, rows):
     """Write an estimate markdown file for the given block."""
-    estimate_path = f'docs/pipeline/estimates/{block_name}.md'
+    estimate_path = f'docs/cost-estimates/blocks/{block_name}.md'
     with open(estimate_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(f'# {block_name} Cost Estimate\n\n')
         f.write('| item | description | unit | quantity | unit price | total | frequency | assumption | source |\n')

@@ -4,7 +4,7 @@ import os
 import re
 from fx import to_rsd, to_eur
 
-PIPELINE_DIR = "docs/pipeline/estimates"
+PIPELINE_DIR = "docs/cost-estimates/blocks"
 BLOCKS = [
     "TECH", "LEGAL", "FINANCE", "MARKETING", "LOCATIONS",
     "IT_TELEMETRY", "OPERATIONS", "DOCUMENTATION",
@@ -197,10 +197,10 @@ def main():
         L.append(f"| {item} | {block} | {desc} | {amount:,.0f} | {reason} |")
     L.append("")
     L.append("## 7. Источники\n")
-    L.append("- Затраты: docs/pipeline/estimates/*.md; курсы: fx.py (NBS).")
+    L.append("- Затраты: docs/cost-estimates/blocks/*.md; курсы: fx.py (NBS).")
     L.append("- Допущения: решения 0001, 0003, 0004, 0011; факты 0003, 0005, 0007.")
 
-    out = "docs/pipeline/consolidated/pilot_scenarios.md"
+    out = "docs/cost-estimates/pilot-scenarios.md"
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(L))
     print(f"Created {out}")

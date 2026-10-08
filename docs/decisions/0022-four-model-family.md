@@ -7,6 +7,6 @@ tags: [hardware]
 track: product
 ---
 
-Модели IN-STD, IN-REI, OUT-STD, OUT-REI; различаются модулями (усиление корпуса, утепление, козырёк, обогрев). Общая база: RO-блок, бак 30 л, УФ, оплата, камера, телеметрия. Цены и применимость: docs/hardware/configurations.md, docs/hardware/equipment_estimate.md. Правило выбора усиленной модели — формула окупаемости.
+Модели IN-STD, IN-REI, OUT-STD, OUT-REI; различаются модулями (усиление корпуса, утепление, козырёк, обогрев). Общая база: RO-блок, бак 30 л, УФ, оплата, камера, телеметрия. Цены и применимость: docs/hardware/machine-configurations.md, docs/hardware/equipment-cost-estimate.md. Правило выбора усиленной модели — формула окупаемости.
 
 Источник: интервью владельца 2026-10-08.

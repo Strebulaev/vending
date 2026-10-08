@@ -1,11 +1,11 @@
 """Параметрическая модель стоимости программы отбора проб воды.
 
 Запуск из корня репозитория:  python3 pipeline/sampling_cost.py
-Результат: docs/sampling/costs.md
+Результат: docs/sampling/program-costs.md
 
 ВАЖНО: цены лабораторных анализов НЕ НАЙДЕНЫ в открытых источниках. Все цены
 анализов ниже - допущения (три сценария), которые нужно заменить прайсом
-лаборатории (вопросы - docs/sampling/REPORT.md). Модель не содержит рыночных котировок.
+лаборатории (вопросы - docs/sampling/sampling-report.md). Модель не содержит рыночных котировок.
 Курсы: fx.py (1 EUR = 117 RSD, 1 USD = 107 RSD).
 """
 
@@ -60,7 +60,7 @@ MICRO_PER_ROUTINE_VISIT = 2         # вода на насадке + смыв/м
 UNPLANNED_MICRO = 5                 # 3 пробы + 2 повторные после санобработки
 UNPLANNED_PHYS = 1
 
-# Наборы пуска (число анализов) - docs/sampling/program.md
+# Наборы пуска (число анализов) - docs/sampling/sampling-program.md
 LAUNCH_LEAD = {"micro": 8, "phys_short": 4, "metals_ext": 2, "visits": 3}
 LAUNCH_FOLLOW = {"micro": 7, "phys_short": 1, "metals_ext": 0, "visits": 3}
 
@@ -80,7 +80,7 @@ EQUIPMENT_NOTE_EXTRA = (
     "в базовую модель не включены."
 )
 
-FIXED_MONTHLY_SITE_RSD = 37050.0   # [repo] docs/pipeline/consolidated/pilot_scenarios.md §3
+FIXED_MONTHLY_SITE_RSD = 37050.0   # [repo] docs/cost-estimates/pilot-scenarios.md §3
 
 
 def clusters(n):
@@ -226,7 +226,7 @@ def main():
     w(f"Режим: кластер до {CLUSTER_MAX} аппаратов (зоны BVK: {ZONES}); микробиология на точку раз в {ROUTINE_INTERVAL_MONTHS[1]} мес (N=1) или раз в {ROUTINE_INTERVAL_MONTHS[5]} мес (N>=5) "
       f"по 2 пробы (вода насадки + смыв насадки); короткая химия - раз в {CHEM_SHORT_INTERVAL_MONTHS} мес на кластер; полный анализ - {FULL_PER_CLUSTER_PER_YEAR} раз в год на кластер; "
       f"внеплановых событий {UNPLANNED_PER_POINT_PER_YEAR:g} на точку в год ({UNPLANNED_MICRO} микро + {UNPLANNED_PHYS} химия на событие); {POINTS_PER_TRIP} точки за рейс. "
-      "Обоснование - `docs/sampling/scaling.md`, `program.md`.\n")
+      "Обоснование - `docs/sampling/scaling-rule.md`, `sampling-program.md`.\n")
 
     w("## 2. Стоимость одной пробы (RSD, лаборатория + расходники)\n")
     w("| Проба | Низкий | Средний | Высокий |")
@@ -349,7 +349,7 @@ def main():
         for e in ev:
             w(f"- {e}")
         w("")
-    path = os.path.join("docs", "sampling", "costs.md")
+    path = os.path.join("docs", "sampling", "program-costs.md")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
