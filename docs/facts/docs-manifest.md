@@ -32,3 +32,4 @@ bootstrap-generated: true
 | hardware/positioning_methodology.md | позиционирование: метод A и метод B | 0003, 0004, 0026, факт 0020 | locations.md | |
 | hardware/locations.md | типы локаций и пороги безубыточности | 0003, 0026, факты 0006, 0007, 0020 | pipeline/consolidated/pilot_scenarios.md | |
 | hardware/surcin_candidates.md | кандидаты на площадки в Сурчине | 0003, 0026, факт 0020 | locations.md | |
+| hardware/REPORT.md, findings.md | итог дорожки «Оборудование» и расхождения источников | 0020–0026 | docs/hardware/ | |
