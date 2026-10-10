@@ -9,8 +9,8 @@
 | Вариант | Кого искать | Где |
 |---|---|---|
 | A | 2–3 производителя RO-вендинга с историей экспорта в ЕС/Балканы (уточнять модель RO-300A / RO-300J / KN-RO-300A) | Alibaba/Made-in-China (платёжная защита платформы), прямые сайты производителей |
-| D | Европейский производитель (например, Ecosoft: страница Aquabox RO vending) | сайт производителя |
-| B | Белградский импортёр/дистрибьютор вендинга воды; оператор, ввозящий аппараты российского производства | прямой запрос; узнать, продают ли аппараты третьим лицам |
+| D | Европейский производитель (например, Ecosoft: страница Aquabox RO vending, на ней указана цена 6 541,67 EUR без НДС — подтвердить котировкой) | https://ecosoft.com/product-ecosoft/vend-ka250robcdm-v3 |
+| B | Белградский импортёр/дистрибьютор вендинга воды; по публикации 2022 года аппарат в Зренянине принадлежал компании «Vodomati Vessa» (Белград), импортёру аппаратов «Živa Voda» (Россия); контакты не найдены, искать самим | прямой запрос; узнать, продают ли аппараты третьим лицам; актуальность компании в 2026 не проверена |
 
 Важно для B: та же фирма — потенциальный конкурент. Не раскрывать лишних планов (цены, площадки); спрашивать только про аппарат, документы и сервис.
 
@@ -23,11 +23,11 @@ Hello,
 We are a Serbian start-up preparing a pilot of one self-service drinking water vending point and request a firm quotation for **1 unit** (with the option of further units after the pilot).
 
 **1. Machine**
-- Reverse-osmosis purified water from the municipal supply (cold water, inlet pressure at least 0.2 MPa, drain line available); capacity about 400 GPD; please state the exact model name and confirm the number of filtration stages and the storage tank volume.
-- Dispensing: 5 L and 19 L (5 gal) bottles, dispensing flow about 8 L/min, stainless-steel removable nozzle, drip tray, leak protection.
-- Mains: 220–230 V / 50 Hz; please state power draw and plug type.
-- Cabinet: steel (about 2 mm) with polycarbonate panels, key lock, floor anchoring (M12), anti-vandal design for unattended indoor use; please state dimensions and weight.
-- Removable or switchable heater for freeze protection (thermostat at about +2 °C, summer-mode disable).
+- Reverse-osmosis purified water from the municipal supply (cold water, drain line available); please state the exact model name, rated capacity, the minimum and maximum inlet pressure, the number of filtration stages and the storage tank volume.
+- Dispensing: 5 L and 19 L (5 gal) bottles; please state the dispensing flow (L/min); stainless-steel removable nozzle, drip tray, leak protection.
+- Mains: European 230 V / 50 Hz; please state the supply voltage range, power draw and plug type.
+- Cabinet: steel with polycarbonate panels, key lock, floor anchoring, anti-vandal design for unattended use; please state steel thickness, dimensions and weight.
+- Removable or switchable heater for freeze protection (thermostat, summer-mode disable); please state heater power and thermostat setpoint.
 
 **2. Payment and control**
 - Cashless only for this order: contactless card/phone (EMV NFC) and, if possible, QR payment. Coin/bill acceptors are not required.
@@ -80,4 +80,4 @@ Please reply by **[date]**. Thank you.
 | Условия оплаты и допуски со штрафами | | | | | |
 | Референс-площадки | | | | | |
 
-Правило решения `0012`: выбрать B или D, если их итоговая цена не выше ~2× от лучшей котировки A; иначе A с допусками и штрафами по договору. После получения котировок записать подтверждённые цифры в сметы (решение 0009) и обновить `pilot-launch-guide.md` §2.3.
+Правило выбора между вариантами (порог отношения цен) — предложение, решение `0012`: порог не определён, ждёт котировок и решения владельца. Для справки: опубликованная цена Ecosoft 6 541,67 EUR без НДС (страница открыта); цена варианта A — не найдена (нужны котировки). После получения котировок записать подтверждённые цифры в сметы (решение 0009) и обновить `pilot-launch-guide.md` §2.3.

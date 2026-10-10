@@ -8,7 +8,7 @@ import os
 import re
 import sys
 
-from calculator import BLOCKS, SCOPE, parse_block, PIPELINE_DIR
+from calculator import BLOCKS, SCOPE, parse_block, PIPELINE_DIR, num
 
 CYRILLIC = re.compile(r"[Ѐ-ӿ]")
 GRANT_PROGRAMS = ["Subsidija", "Vrati se", "Kapital za razvoj", "StarTech", "Smart Start", "beginning entrepreneurs"]
@@ -35,14 +35,17 @@ def main():
         if not rows:
             errors.append(f"{block}: no table rows parsed")
             continue
-        for key, label in (("unit_price", "unit price"), ("total", "total")):
-            filled = sum(1 for r in rows if r[key].strip())
-            if filled / len(rows) < 0.8:
-                errors.append(f"{block}: fewer than 80% of rows have a {label}")
         for r in rows:
             source = r["source"].strip()
             if not source or "TBD" in source.upper():
                 errors.append(f"{block} {r['item']}: missing source")
+            low = source.lower()
+            has_ref = "http" in low or "docs/" in low
+            numeric = num(r["unit_price"]) is not None and num(r["total"]) is not None
+            not_found = r["unit_price"].strip() == "not found" and r["total"].strip() == "not found"
+            # A row passes if it has a numeric price AND a URL/path source, or the literal 'not found'.
+            if not ((numeric and has_ref) or not_found):
+                errors.append(f"{block} {r['item']}: needs (numeric price and URL/path source) or 'not found' in unit price and total")
             if r["item"] not in SCOPE:
                 errors.append(f"{block} {r['item']}: not classified in calculator.SCOPE")
     integration = parse_block("INTEGRATION")

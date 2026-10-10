@@ -1,7 +1,9 @@
-"""Calculate CAPEX/OPEX totals and payback from all estimate blocks."""
+"""Sum the known estimate rows, report unknown ones, give formulas for profit/break-even.
+
+Unknown inputs are None / 'not found'; nothing is guessed (owner rule)."""
 
 import os
-import re
+
 from fx import to_rsd, to_eur
 
 PIPELINE_DIR = "docs/cost-estimates/blocks"
@@ -25,7 +27,7 @@ SCOPE = {
     "1.8": ("hardware",), "1.9": ("hardware",), "1.10": ("hardware",),
     "2.1": ("soft",), "2.2": ("soft",), "2.3": ("soft",),
     "2.4": ("exclude", "франшиза отложена (решения 0005, 0011)"),
-    "3.1": ("exclude", "переменная стоимость воды считается по тарифу (факт 0003); строка противоречит ему"),
+    "3.1": ("exclude", "переменная стоимость воды считается отдельно по тарифу (факт 0003); строка исключена, чтобы не считать дважды"),
     "3.2": ("exclude", "дубль аренды 5.1"),
     "3.3": ("fixed", 1), "3.4": ("fixed", 3),
     "3.5": ("exclude", "комиссия считается от выручки"),
@@ -49,13 +51,14 @@ SCOPE = {
     **{f"10.{i}": ("hardware",) for i in range(1, 16)},
 }
 
-# Variable-cost assumptions
-PRICE_PER_5L_RSD = 50          # decision 0004, presentation
-WATER_TARIFF_RSD_M3 = 158.09   # fact 0003
-REJECT_MULTIPLIER = 4          # ASSUMPTION: water drawn per litre sold incl. RO reject (confirm with supplier)
-PAYMENT_FEE = 0.015            # lower bound of the 1.5-3% estimate (FINANCE 3.5)
-TAX_RATE = 0.10                # flat tax on revenue (presentation)
-SCENARIOS = {"консервативный": 50, "реалистичный": 80}  # liters per day
+# Known inputs and unknown inputs (None = not found; never replaced by a guess).
+PRICE_PER_5L_RSD = 50          # owner decision (decision 0004)
+WATER_TARIFF_RSD_M3 = 158.09   # fact 0003 (BVK, other consumers, 2026, incl. VAT; secondary source)
+WASTEWATER_TARIFF_RSD_M3 = 85.07  # fact 0003 (same source); billing rule for RO reject not found
+REJECT_MULTIPLIER = None       # litres drawn per litre sold: not found (ask the machine supplier)
+PAYMENT_FEE = None             # acquirer fee, share of revenue: not found (ask acquirers)
+TAX_RATE = None                # tax on revenue / VAT treatment: not found (ask an accountant)
+SCENARIOS = {"низкий объём": 50, "более высокий объём": 80}  # litres per day: free decision variable, not a forecast
 
 # Currency per block (from source analysis)
 BLOCK_CURRENCY = {
@@ -99,9 +102,35 @@ def parse_block(block_name):
     return rows
 
 
-def main():
-    hardware = {}
-    soft = {}
+def num(cell):
+    """Return a float for a numeric cell, None for 'not found' or any other text."""
+    try:
+        return float(str(cell).strip())
+    except (TypeError, ValueError):
+        return None
+
+
+def check_row(block, row, kind, divisor):
+    """Fail on arithmetic errors and on a frequency text that contradicts SCOPE (numeric rows only)."""
+    qty, price, total = num(row["quantity"]), num(row["unit_price"]), num(row["total"])
+    if qty is not None and price is not None and total is not None:
+        if abs(qty * price - total) > 0.01:
+            raise SystemExit(f"{block} {row['item']}: quantity x unit price != total")
+    freq = row["frequency"].lower()
+    if kind == "fixed":
+        ok = (divisor == 1 and freq == "monthly") or (
+            divisor == 3 and ("3 months" in freq or "per service" in freq))
+        if not ok:
+            raise SystemExit(f"{block} {row['item']}: frequency '{row['frequency']}' contradicts SCOPE divisor {divisor}")
+    elif kind in ("hardware", "soft") and freq not in ("one-time", "ongoing"):
+        raise SystemExit(f"{block} {row['item']}: one-time scope but frequency '{row['frequency']}'")
+
+
+def collect():
+    """Sum the rows with a known total; report the rows with an unknown price. Nothing is guessed."""
+    cats = {"hardware": {}, "soft": {}}
+    counts = {"hardware": [0, 0], "soft": [0, 0], "fixed": [0, 0]}   # [known, in scope]
+    unknown = {"hardware": [], "soft": [], "fixed": []}               # (block, item, description)
     fixed_monthly_rsd = 0.0
     fixed_rows = []
     excluded = []
@@ -112,101 +141,137 @@ def main():
             if item not in SCOPE:
                 raise SystemExit(f"Unclassified estimate row {item} in {block}: add it to SCOPE")
             kind, *rest = SCOPE[item]
-            total = row["total"].strip() if row["total"] else ""
-            if total.endswith("%") or not total:
-                continue
-            amount_rsd = to_rsd(float(total), currency)
+            check_row(block, row, kind, rest[0] if kind == "fixed" else None)
+            total = num(row["total"])
             if kind == "exclude":
-                excluded.append((item, block, row["description"], amount_rsd, rest[0]))
-            elif kind == "hardware":
-                hardware[block] = hardware.get(block, 0.0) + amount_rsd
-            elif kind == "soft":
-                soft[block] = soft.get(block, 0.0) + amount_rsd
-            elif kind == "fixed":
+                excluded.append((item, block, row["description"],
+                                 None if total is None else to_rsd(total, currency), rest[0]))
+                continue
+            counts[kind][1] += 1
+            if total is None:
+                unknown[kind].append((block, item, row["description"]))
+                continue
+            counts[kind][0] += 1
+            amount_rsd = to_rsd(total, currency)
+            if kind in cats:
+                cats[kind][block] = cats[kind].get(block, 0.0) + amount_rsd
+            else:
                 monthly = amount_rsd / rest[0]
                 fixed_monthly_rsd += monthly
                 fixed_rows.append((item, row["description"], monthly))
+    return cats, counts, unknown, fixed_monthly_rsd, fixed_rows, excluded
 
-    capex_hw = sum(hardware.values())
-    capex_soft = sum(soft.values())
+
+def missing_inputs():
+    m = []
+    if REJECT_MULTIPLIER is None:
+        m.append("k - литров воды из сети на литр проданной (сброс RO): не найдено, спросить поставщика аппарата")
+    if PAYMENT_FEE is None:
+        m.append("f - комиссия эквайрера, доля выручки: не найдено, спросить банки-эквайреры")
+    if TAX_RATE is None:
+        m.append("t - налог на выручку / режим НДС для воды из аппарата: не найдено, спросить бухгалтера и Налоговую администрацию")
+    return m
+
+
+def main():
+    cats, counts, unknown, fixed_known, fixed_rows, excluded = collect()
+    capex_hw = sum(cats["hardware"].values())
+    capex_soft = sum(cats["soft"].values())
     price_l = PRICE_PER_5L_RSD / 5
-    water_l = WATER_TARIFF_RSD_M3 / 1000 * REJECT_MULTIPLIER
-    contribution_l = price_l * (1 - PAYMENT_FEE - TAX_RATE) - water_l
-    breakeven_lpd = fixed_monthly_rsd / contribution_l / 30
-
-    results = {}
-    for name, lpd in SCENARIOS.items():
-        liters = lpd * 30
-        revenue = price_l * liters
-        variable = water_l * liters + revenue * PAYMENT_FEE
-        tax = revenue * TAX_RATE
-        net = revenue - variable - tax - fixed_monthly_rsd
-        pay_hw = capex_hw / net if net > 0 else None
-        pay_all = (capex_hw + capex_soft) / net if net > 0 else None
-        results[name] = (lpd, revenue, variable, tax, net, pay_hw, pay_all)
+    miss = missing_inputs()
 
     def eur(v):
         return f"{to_eur(v, 'RSD'):,.0f}"
 
-    def months(v):
-        return f"{v:.1f}" if v is not None else "не окупается"
+    def listing(kind):
+        if not unknown[kind]:
+            return ["Нет."]
+        by = {}
+        for block, item, desc in unknown[kind]:
+            by.setdefault(block, []).append(f"{item} {desc}")
+        return [f"- {b}: " + "; ".join(v) for b, v in by.items()]
 
     L = []
     L.append("# Сценарии пилотной точки\n")
-    L.append("Расчёт `pipeline/calculator.py` для одного жилого аппарата, только безналичная оплата (решения 0001, 0003, 0005, 0011). Каждая строка смет классифицирована в `SCOPE`; исключения и причины — в разделе 6.\n")
-    L.append("## 1. Единовременные затраты: оборудование и установка\n")
-    L.append("| Блок | RSD | EUR |")
+    L.append("Сгенерировано `pipeline/calculator.py` для одного жилого аппарата, только безналичная оплата (решения 0001, 0003, 0005, 0011). Скрипт не подставляет догадки: ячейки сметы со значением `not found` пропускаются и перечисляются ниже; суммы показаны только как «по найденным позициям». Курсы: 1 EUR = 117,4601 RSD, 1 USD = 104,7068 RSD (`pipeline/fx.py`, НБС на 6.10.2026 через biznis.kurir.rs, вторичный источник); RSD округлены до динара, EUR до евро. Реестр неизвестного: `docs/reports/unknowns-and-open-issues.md`.\n")
+    L.append("## 1. Единовременные затраты на оборудование и установку\n")
+    k, n = counts["hardware"]
+    L.append(f"**По найденным позициям: {k} из {n} позиций.** Итог по всем позициям не определён.\n")
+    L.append("| Блок | RSD (найденные позиции) | EUR |")
     L.append("|------|-----|-----|")
-    for block, amount in hardware.items():
+    for block, amount in cats["hardware"].items():
         L.append(f"| {block} | {amount:,.0f} | {eur(amount)} |")
-    L.append(f"| **ИТОГО** | **{capex_hw:,.0f}** | **{eur(capex_hw)}** |")
+    L.append(f"| **По найденным позициям** | **{capex_hw:,.0f}** | **{eur(capex_hw)}** |")
+    L.append("\nПозиции без найденной цены (в сумму не входят):\n")
+    L += listing("hardware")
     L.append("")
-    L.append("## 2. Единовременные услуги (не проверены)\n")
-    L.append("Строки смет без подтверждённых источников; заметная часть, вероятно, завышена (например, LEGAL 2.1 противоречит плану по валюте). Показаны отдельно и не входят в основной срок окупаемости.\n")
-    L.append("| Блок | RSD | EUR |")
+    L.append("## 2. Единовременные услуги\n")
+    k, n = counts["soft"]
+    L.append(f"**По найденным позициям: {k} из {n} позиций.**\n")
+    L.append("| Блок | RSD (найденные позиции) | EUR |")
     L.append("|------|-----|-----|")
-    for block, amount in soft.items():
+    for block, amount in cats["soft"].items():
         L.append(f"| {block} | {amount:,.0f} | {eur(amount)} |")
-    L.append(f"| **ИТОГО** | **{capex_soft:,.0f}** | **{eur(capex_soft)}** |")
+    L.append(f"| **По найденным позициям** | **{capex_soft:,.0f}** | **{eur(capex_soft)}** |")
+    L.append("\nПозиции без найденной цены (в сумму не входят):\n")
+    L += listing("soft")
     L.append("")
     L.append("## 3. Постоянные расходы в месяц\n")
-    L.append("| Строка | Описание | RSD/мес |")
-    L.append("|--------|----------|---------|")
-    for item, desc, monthly in fixed_rows:
-        L.append(f"| {item} | {desc} | {monthly:,.0f} |")
-    L.append(f"| | **ИТОГО** | **{fixed_monthly_rsd:,.0f}** (~{eur(fixed_monthly_rsd)} EUR) |")
+    k, n = counts["fixed"]
+    L.append(f"**По найденным позициям: {k} из {n} позиций.** Сумма постоянных расходов F не определена.\n")
+    if fixed_rows:
+        L.append("| Строка | Описание | RSD/мес |")
+        L.append("|--------|----------|---------|")
+        for item, desc, monthly in fixed_rows:
+            L.append(f"| {item} | {desc} | {monthly:,.0f} |")
+        L.append(f"| | **По найденным позициям** | **{fixed_known:,.0f}** |")
+    else:
+        L.append("Ни одна постоянная статья не имеет найденной цены (сумма по найденным позициям: 0 из {n}).".format(n=n))
+    L.append("\nПозиции без найденной цены (аренда, обслуживание, платформа мониторинга, SIM, фильтры):\n")
+    L += listing("fixed")
     L.append("")
-    L.append("## 4. Переменные расходы и допущения\n")
-    L.append(f"- Цена: {PRICE_PER_5L_RSD} RSD за 5 л ({price_l:.0f} RSD/л).")
-    L.append(f"- Вода: тариф {WATER_TARIFF_RSD_M3} RSD/м³, забор в {REJECT_MULTIPLIER} раза больше проданного объёма из-за сброса RO (допущение, уточнить у поставщика): {water_l:.2f} RSD/л.")
-    L.append(f"- Комиссия платёжного провайдера: {PAYMENT_FEE:.1%} выручки (нижняя граница 1,5–3%).")
-    L.append(f"- Налог: {TAX_RATE:.0%} выручки.")
-    L.append(f"- Вклад с литра после переменных затрат: {contribution_l:.2f} RSD.")
+    L.append("## 4. Известные входные данные и формулы\n")
+    L.append(f"- Цена (решение владельца, 0004): {PRICE_PER_5L_RSD} RSD за 5 л, то есть p = {price_l:.0f} RSD/л (включает ли цена НДС — не определено).")
+    L.append(f"- Тариф BVK 2026, прочие потребители, с НДС (факт 0003, вторичный источник): вода {WATER_TARIFF_RSD_M3} RSD/м³, водоотведение {WASTEWATER_TARIFF_RSD_M3} RSD/м³; порядок начисления на сброс RO не найден.")
+    L.append(f"- Вода на 1 л проданной воды: w = k × {WATER_TARIFF_RSD_M3}/1000 RSD (только вода) или k × ({WATER_TARIFF_RSD_M3} + {WASTEWATER_TARIFF_RSD_M3})/1000 RSD (с водоотведением), где k — не найдено.")
+    L.append("- Вклад с литра: c = p × (1 − f − t) − w. Выручка в месяц при V л/день: R = p × V × 30 (по цене покупателя).")
+    L.append("- Прибыль в месяц: P(V) = c × V × 30 − F. Безубыточность: V* = F / (30 × c).")
+    L.append("\nНе найдены входные данные, без которых c, F, P и V* не определены:\n")
+    for m in miss:
+        L.append(f"- {m}")
+    L.append("- F - постоянные расходы: найдена часть позиций, см. раздел 3 (аренда, обслуживание, платформа, SIM, фильтры: не найдено).")
     L.append("")
-    L.append("## 5. Сценарии\n")
-    L.append("| Сценарий | л/день | Выручка/мес | Переменные | Налог | Чистая прибыль/мес | Окупаемость оборудования (мес) | Окупаемость с услугами (мес) |")
-    L.append("|----------|--------|-------------|-----------|-------|--------------------|-------------------------------|------------------------------|")
-    for name, (lpd, revenue, variable, tax, net, pay_hw, pay_all) in results.items():
-        L.append(f"| {name} | {lpd} | {revenue:,.0f} | {variable:,.0f} | {tax:,.0f} | {net:,.0f} | {months(pay_hw)} | {months(pay_all)} |")
+    L.append("## 5. Сценарии объёма\n")
+    L.append("Объём в литрах в день — свободная переменная решения, не прогноз. Вычислима только выручка по цене покупателя; прибыль, налоги и окупаемость **не определены** (нужны k, f, t, F).\n")
+    L.append("| Сценарий | л/день | Выручка/мес по цене покупателя, RSD | Чистая прибыль/мес | Окупаемость |")
+    L.append("|----------|--------|-----------------------------------|--------------------|-------------|")
+    for name, lpd in SCENARIOS.items():
+        L.append(f"| {name} | {lpd} | {price_l * lpd * 30:,.0f} | не определено | не определено |")
     L.append("")
-    L.append(f"**Безубыточность по текущим расходам: ≈{breakeven_lpd:.0f} л/день.**\n")
+    L.append("Безубыточность: **не определена** (формула V* в разделе 4). Критерий пилота 50 л/день — минимум спроса, а не безубыточность (решение 0011).\n")
     L.append("## 6. Исключённые строки смет\n")
     L.append("| Строка | Блок | Описание | RSD | Причина |")
     L.append("|--------|------|----------|-----|---------|")
     for item, block, desc, amount, reason in excluded:
-        L.append(f"| {item} | {block} | {desc} | {amount:,.0f} | {reason} |")
+        a = "не найдено" if amount is None else f"{amount:,.0f}"
+        L.append(f"| {item} | {block} | {desc} | {a} | {reason} |")
     L.append("")
     L.append("## 7. Источники\n")
-    L.append("- Затраты: docs/cost-estimates/blocks/*.md; курсы: fx.py (NBS).")
-    L.append("- Допущения: решения 0001, 0003, 0004, 0011; факты 0003, 0005, 0007.")
+    L.append("- Затраты: `docs/cost-estimates/blocks/*.md` (только строки с URL/путём как источником); курсы: `pipeline/fx.py`.")
+    L.append("- Входные данные: решение 0004 (цена, решение владельца); факт 0003 (тарифы BVK, вторичный источник).")
+    L.append("- Строки блока GRANTS_AND_SUPPORT выражены в RSD (BLOCK_CURRENCY); остальные блоки — в EUR.")
 
     out = "docs/cost-estimates/pilot-scenarios.md"
     with open(out, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(L))
+        f.write("\n".join(L) + "\n")
     print(f"Created {out}")
-    print(f"hardware CAPEX {capex_hw:,.0f} RSD; soft {capex_soft:,.0f} RSD; fixed OPEX {fixed_monthly_rsd:,.0f} RSD/mo; break-even {breakeven_lpd:.0f} L/day")
-    for name, (lpd, revenue, variable, tax, net, pay_hw, pay_all) in results.items():
-        print(f"{name}: {lpd} L/day, revenue {revenue:,.0f}, net {net:,.0f}, payback hw {months(pay_hw)}, with services {months(pay_all)}")
+    for kind in ("hardware", "soft", "fixed"):
+        print(f"{kind}: known {counts[kind][0]} of {counts[kind][1]}; unknown rows: " +
+              ", ".join(f"{b}:{i}" for b, i, _ in unknown[kind]))
+    print(f"known sums: hardware {capex_hw:,.0f} RSD, soft {capex_soft:,.0f} RSD, fixed {fixed_known:,.0f} RSD/mo")
+    print("Missing inputs for profit/break-even:")
+    for m in miss:
+        print("  -", m)
 
 
 if __name__ == "__main__":

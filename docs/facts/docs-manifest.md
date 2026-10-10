@@ -20,7 +20,7 @@ bootstrap-generated: true
 | docs/project/pilot-launch-guide.md | закупка аппарата, договоры, сертификация воды, установка | 0003, 0007, 0008, 0009, 0012, факты 0006, 0009, 0010 | docs/hardware/initial-technical-spec.md, docs/cost-estimates/blocks/{TECH,LEGAL,LOCATIONS}.md | |
 | docs/project/supplier-rfq.md | запрос котировок на аппарат (текст поставщикам на английском) | 0001, 0008, 0012 | docs/hardware/initial-technical-spec.md, docs/project/pilot-launch-guide.md §2 | |
 | docs/project/investor-presentation.md | питч одной точки для инвесторов (финансы устарели) | 0003, 0004, факты 0004, 0007 | docs/cost-estimates/pilot-cost-summary.md, pipeline/calculator.py | |
-| docs/reports/final-report.md | сводный итог четырёх дорожек: смета запуска, варианты, сроки, решения владельца | 0003, 0011, 0012, 0020–0026, 0030–0033, 0040–0041, 0050–0052 | docs/{hardware,economics,certification,sampling}/*-report.md | |
+| docs/reports/final-report.md | сводка найденного, формулы, порядок шагов, решения владельца | 0003, 0011, 0012, 0020–0026, 0030–0033, 0040–0041, 0050–0052 | docs/{hardware,economics,certification,sampling}/*-report.md | |
 | docs/reports/problems-and-options.md | проблемы пилота и варианты решения с плюсами, минусами, рисками | 0003, 0011, 0012, 0024, факты 0007, 0009 | docs/reports/final-report.md, docs/{economics,sampling}/ | |
 | docs/cost-estimates/blocks/*.md | таблицы затрат по блокам (английский) | 0009, 0010, факт 0001 | pipeline/tasks/, pipeline/generator.py, pipeline/fx.py, pipeline/verify.py | |
 | docs/cost-estimates/pilot-cost-summary.md | итоговая смета пилота | 0009, факты 0007, 0008 | docs/cost-estimates/blocks/, pipeline/calculator.py | |
@@ -62,3 +62,9 @@ bootstrap-generated: true
 | docs/plans/economics-track-plan.md | план дорожки «Закупки и экономика» (выполнен) | 0030–0033 | docs/economics/ | |
 | docs/plans/certification-track-plan.md | план дорожки «Сертификация» (выполнен) | 0040, 0041 | docs/certification/ | |
 | docs/plans/sampling-track-plan.md | план дорожки «Отбор проб» (выполнен) | 0050–0052 | docs/sampling/ | |
+| docs/audit/audit-project-and-estimates.md | журнал аудита проектных документов, смет, пайплайна и ранних решений/фактов | 0001–0012, факты 0001–0010 | docs/project/, docs/cost-estimates/, pipeline/ | |
+| docs/audit/audit-hardware.md | журнал аудита оборудования | 0020–0026, факты 0020–0021 | docs/hardware/ | |
+| docs/audit/audit-economics.md | журнал аудита закупок и экономики | 0030–0033, факты 0030–0035 | docs/economics/, pipeline/economics.py, pipeline/inventory.py | |
+| docs/audit/audit-certification.md | журнал аудита сертификации | 0040–0041, факты 0040–0042 | docs/certification/ | |
+| docs/audit/audit-sampling.md | журнал аудита отбора проб | 0050–0052, факты 0053–0055 | docs/sampling/, pipeline/sampling_cost.py | |
+| docs/reports/unknowns-and-open-issues.md | единый реестр неизвестного и нерешённых расчётов | все | docs/audit/, docs/*/ | |

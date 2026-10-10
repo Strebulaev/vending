@@ -1,9 +1,13 @@
-"""Currency normalization for the water vending project."""
+"""Currency normalization for the water vending project.
 
-# Reference rates (October 2026)
-# Source: National Bank of Serbia, mid-market rate
-EUR_TO_RSD = 117.0
-USD_TO_RSD = 107.0
+Rates of 2026-10-06 as reported by https://biznis.kurir.rs/novcanik/10124956/kursna-lista-nbs-za-6-oktobar-2026
+(the page cites National Bank of Serbia data; the NBS site itself was not opened):
+  official middle EUR rate 117.4601 RSD; indicative USD rate 104.7068 RSD.
+Update here and re-run the scripts when a newer date is needed.
+"""
+
+EUR_TO_RSD = 117.4601
+USD_TO_RSD = 104.7068
 
 
 def to_rsd(amount: float, currency: str) -> float:

@@ -1,10 +1,12 @@
 import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from calculator import BLOCKS as blocks  # single list of blocks (includes INTEGRATION)
 
 with open('docs/project/project-brief.md', 'r', encoding='utf-8') as f:
     brief = f.read()
-
-blocks = ['TECH', 'LEGAL', 'FINANCE', 'MARKETING', 'LOCATIONS', 'IT_TELEMETRY', 'OPERATIONS', 'DOCUMENTATION', 'GRANTS_AND_SUPPORT']
 
 
 def check_traceability(estimate_text, brief_text):
@@ -37,7 +39,6 @@ def review_block(block_name, estimate_path, task_path):
             cells = [c.strip() for c in line.split('|')[1:-1]]
             if len(cells) >= 9:
                 table_rows.append(cells[:9])
-            in_table = False
 
     issues = []
 
@@ -75,28 +76,19 @@ def review_block(block_name, estimate_path, task_path):
         if not qty:
             row_issues.append('missing quantity')
 
-        # NEW: Check unit_price is not empty
-        if not unit_price or unit_price.strip() == '':
-            row_issues.append('empty unit_price')
-        # NEW: Check total is not empty
+        # 'not found' is a valid, honest value; empty cells and TBD are not
+        if not unit_price or unit_price.strip() == '' or unit_price.strip().upper() == 'TBD':
+            row_issues.append('empty unit_price (write the number with its source or the literal not found)')
         if not total or total.strip() == '':
             row_issues.append('empty total')
-        # NEW: Check that unit_price is not just "TBD" without a range and source
-        if unit_price and unit_price.strip().upper() == 'TBD':
-            row_issues.append('unit_price is TBD without range and source')
 
         if row_issues:
             incomplete_rows.append((row[0] if row[0] else '?', row_issues))
 
-    # Check: more than 30% of unit_price cells empty = REJECT
-    if table_rows:
-        price_empty_count = sum(
-            1 for row in table_rows
-            if not row[4] or not row[4].strip() or row[4].strip().upper() == 'TBD'
-        )
-        price_empty_pct = price_empty_count / len(table_rows) * 100
-        if price_empty_pct > 30:
-            issues.append(f'More than 30% of unit_price cells empty ({price_empty_pct:.1f}% empty)')
+    # Report rows without a found price (informational: they are not guessed)
+    nf_rows = [row[0] for row in table_rows if row[4].strip() == 'not found']
+    if nf_rows:
+        print(f'  {block_name}: price not found for {len(nf_rows)} of {len(table_rows)} rows: ' + ', '.join(nf_rows))
 
     # Check: total column is not empty for any line item
     total_empty_count = sum(1 for row in table_rows if not row[5] or not row[5].strip())
@@ -229,6 +221,7 @@ def review_block(block_name, estimate_path, task_path):
 
     review_content = '\n'.join(review_lines)
 
+    os.makedirs('docs/cost-estimates/reviews', exist_ok=True)
     review_path = f'docs/cost-estimates/reviews/{block_name}_review.md'
     with open(review_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(review_content)

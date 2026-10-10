@@ -1,6 +1,6 @@
 # Сертификация: что уже известно и что неизвестно (шаг 1.1)
 
-Дата: 2026-10-08. Курсы: 1 EUR = 117 RSD, 1 USD = 107 RSD [repo: pipeline/fx.py, docs/facts/0001-fx-rates.md]. Пометки: [web] — источник по URL, [repo] — путь в репозитории, [уточнить] — спросить указанную сторону письменно.
+Дата: 2026-10-08. Курсы: pipeline/fx.py (1 EUR = 117,4601 RSD; 1 USD = 104,7068 RSD). Пометки: [web] — источник по URL, [repo] — путь в репозитории, [уточнить] = «не найдено», спросить указанную сторону письменно. Реестр: `docs/reports/unknowns-and-open-issues.md`.
 
 ## 1. Что известно из репозитория
 
@@ -8,7 +8,7 @@
 |---|---|---|
 | 1 | Вода перед запуском проверяется аккредитованной лабораторией (институт общественного здоровья) по правилнику о питьевой воде; сопоставимый оператор в Зренянине проверил аппарат до запуска, вывесил результаты и проверяет ежемесячно | [repo] docs/project/pilot-launch-guide.md §4.1 |
 | 2 | Материалы, контактирующие с водой (бак, трубки, фитинги, мембраны, насадка), должны иметь документы пищевого соответствия; нужны письменные подтверждения поставщика | [repo] pilot-launch-guide.md §4.1 п.1; docs/project/supplier-rfq.md, раздел «4. Compliance and documents» |
-| 3 | Вендинг в Сербии относится к одному из четырёх типов ESIR и требует сертифицированного фискального решения; в 2021–22 объявлялась субсидия 100 EUR на точку + 100 EUR на устройство; статус 2026 не найден | [repo] docs/facts/0010-vending-fiscalization.md, pilot-launch-guide.md §3.3 |
+| 3 | Вендинг в Сербии относится к одному из четырёх типов ESIR и требует сертифицированного фискального решения; в 2021–22 объявлялась субсидия (вторичный источник biznis.rs, не перепроверено, CE-28); статус 2026 не найден | [repo] docs/facts/0010-vending-fiscalization.md, pilot-launch-guide.md §3.3 |
 | 4 | RFQ уже требует от поставщика: декларации CE/LVD/EMC и протоколы испытаний; документы пищевого класса (EU 10/2011, NSF/ANSI 61 или эквивалент); HS-код и страну происхождения; заводскую приёмку с видео | [repo] supplier-rfq.md, разделы 4–5 |
 | 5 | TECH_SPEC §11.3: санитарно-гигиеническое заключение для продажи питьевой воды, регулярная проверка качества, журнал замены фильтров, утилизация концентрата по нормам | [repo] docs/hardware/initial-technical-spec.md §11.3 |
 | 6 | Состав оборудования (BOM): водомат RO-300A, монетоприёмник, купюроприёмник, NFC-модуль, камера, GPS-трекер FMB920, датчики температуры/потока/двери, обогреватель, GSM SIM800L, антивандальная защита | [repo] initial-technical-spec.md §9.3 |
@@ -19,12 +19,12 @@
 ## 2. Что добавило исследование этой дорожки (кратко, детали — requirements-map.md)
 
 - Метрология: правилник о видах мер под законным контролем — «Pravilnik o vrstama merila koja podležu zakonskoj kontroli», Sl. glasnik RS 37/2021 и 84/2022; водомеры — интервал 5 лет, системы измерения жидкостей кроме воды — 1 год; поверка делается уполномоченными органами, а не Директоратом, для этих строк; поверка только если выдано одобрение типа или пройдена оценка соответствия [web: https://www.paragraf.rs/propisi/pravilnik-o-vrstama-merila-koja-podlezu-zakonskoj-kontroli.html]. Относится ли дозатор воды-за-литры к этим строкам — **не найдено**.
-- Электро: с 01.01.2022 сербские сертификаты EMC/LVD (CoC) не обязательны, CE принимается для не-радио оборудования (Sl. glasnik 21/2020) [web: https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/].
+- Электро: с 01.01.2022 сербские сертификаты EMC/LVD (CoC) не обязательны, CE принимается для не-радио оборудования (номер 21/2020 — вторичный источник, текст акта не открыт) [web: https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/].
 - Радио (GSM): Pravilnik o radio opremi, Sl. glasnik 24/2024; источники расходятся по переходу на CE (см. requirements-map.md §3) [web].
-- Фискализация: Zakon o fiskalizaciji, Sl. glasnik RS 153/2020, применяется с 01.01.2022; для вендинга решения не найдено (requirements-map.md §5) [web].
-- Санитарный надзор: Zakon o sanitarnom nadzoru, Sl. glasnik RS 125/2004; предприниматели в объектах, подлежащих надзору, обязаны до начала работы обеспечить санитарные условия (ст. 9) — по пересказу Воеводины [web: https://sanitarnaapv.vojvodina.gov.rs/1-2-primena-zakona-o-sanitarnom-nadzoru]. Применяется ли к самообслуживаемому аппарату — **не найдено**.
-- Предметы общего пользования: Zakon o predmetima opšte upotrebe, Sl. glasnik RS 25/2019 и 14/2022 (по Paragraf) [web: https://www.paragraf.rs/propisi_download/zakon-o-predmetima-opste-upotrebe.pdf]; Pravilnik o materijalima i predmetima u kontaktu sa hranom — Sl. glasnik RS 73/2026 (по заголовку на Paragraf) [web: https://www.paragraf.rs/propisi/pravilnik-o-materijalima-i-predmetima-u-kontaktu-sa-hranom-odojcad-i-deca.html]; применимость к материалам водопроводного контакта — [уточнить].
-- Регистрация: сбор APR за регистрацию основания d.o.o. — 8 000 RSD с 01.01.2026 [web: https://biznis.rs/vesti/srbija/apr-ima-nove-cene-registracija-osnivanje-firme-8-000-dinara-promena-podataka-4-000-dinara/].
+- Фискализация: Zakon o fiskalizaciji (номера 153/2020, 96/2021, 138/2022, 80/2026 — вторичные источники, текст закона не открыт); дата начала применения «01.01.2022» в прежней версии не подтверждена — по unija.com с 01.11.2021, переход до 30.04.2022; для вендинга решения не найдено (requirements-map.md §5) [web].
+- Санитарный надзор: Zakon o sanitarnom nadzoru («125/2004» — вторичный источник, текст акта не открыт); предприниматели в объектах, подлежащих надзору, обязаны до начала работы обеспечить санитарные условия (ст. 9) — по пересказу Воеводины [web: https://sanitarnaapv.vojvodina.gov.rs/1-2-primena-zakona-o-sanitarnom-nadzoru]. Применяется ли к самообслуживаемому аппарату — **не найдено**.
+- Предметы общего пользования: Zakon o predmetima opšte upotrebe, Sl. glasnik RS 25/2019 и 14/2022 (подтверждено на Paragraf) [web: https://www.paragraf.rs/propisi_download/zakon-o-predmetima-opste-upotrebe.pdf]; Pravilnik o materijalima i predmetima u kontaktu sa hranom — Sl. glasnik RS 73/2026 (заголовок открыт на paragraf.rs 2026-10-08) [web: https://www.paragraf.rs/propisi/pravilnik-o-materijalima-i-predmetima-u-kontaktu-sa-hranom-odojcad-i-deca.html]; применимость к материалам водопроводного контакта — [уточнить].
+- Регистрация: сбор APR за регистрацию основания d.o.o. — 8 000 RSD (= 68 EUR) с 01.01.2026 (вторичный источник, страница открыта) [web: https://biznis.rs/vesti/srbija/apr-ima-nove-cene-registracija-osnivanje-firme-8-000-dinara-promena-podataka-4-000-dinara/].
 
 ## 3. Открытые вопросы (полный список писем — certification-report.md §8)
 

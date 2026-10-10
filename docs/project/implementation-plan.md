@@ -1,24 +1,26 @@
 # Water Vending Machine Project — Business Idea Summary
 
+> **Note 2026-10-08 (owner rule: invented figures are not written; unknown is written as 'not found').** This plan was machine-drafted from the brief. The brief contains only illustrative remarks (a site example of about 150 EUR per month, water cost 30-50% of turnover, the 20%/10% split, the 2 L example), which are not facts. All module prices, ranges and week numbers of the earlier draft were removed: unknown values read 'not found' and are listed in `docs/reports/unknowns-and-open-issues.md`. Phases are an order of work, not a schedule; for lead times see `docs/certification/costs-and-timeline.md` and `docs/facts/0031-freight-rates-china-serbia.md`. The pilot scope is one residential machine (decisions 0003, 0011); phases 3-6 contain deferred office/kitchen/franchise work.
+
 ## What
 A network of drinking water vending machines that provide purified, drinkable water through a cashless payment system (phone NFC → purchase 5L water). The machines are designed for low cost, repairability, serviceability, and remote observability. Target locations include offices, professional areas (kitchens), and selected residential buildings in Serbia and the Balkan region.
 
 ## How
-1. **Legal foundation**: Register a foreign-owned entity in Serbia, determine tax regime (bottled water 20% vs. other products 10%), and apply for available government grants/subsidies for foreign investors and water treatment equipment.
+1. **Legal foundation**: Register a foreign-owned entity in Serbia, determine tax regime (the brief mentions 20% for bottled water and 10% for other products; unconfirmed, fact 0002), and apply for available government grants/subsidies for foreign investors and water treatment equipment.
 2. **Machine design**: Build/assemble a water vending machine with cashless payment (priority), coin/bill acceptors (optional), camera for state monitoring, GPS tracker, telemetry (water temperature control), and removable heater (summer removal to prevent theft). Anti-vandalism protection via steel/polycarbonate construction.
-3. **Location strategy**: Negotiate site rentals (~150 EUR/month) near the business own usage area. Install electricity metering. Target offices (subscription model with volume cap), professional kitchens (different machine config), and residential buildings (separate negotiation approach).
-4. **Pricing model**: Set single or differential price per 5L unit. Offices pay premium, kitchens standard price. Subscription model for offices with guaranteed payment and volume cap. Water cost ~30-50% of turnover.
-5. **IT & telemetry**: GPS tracker with SIM card, camera for remote monitoring, cashless API integration with Serbian providers (Mirs, cards), remote monitoring platform for water temperature (freeze protection). Monthly operating costs ~20-50 EUR per machine for data/software.
-6. **Operations**: Spare parts warehouse (filters, seals ~500-1,000 EUR initial), quarterly maintenance schedule, filter replacement every 3-6 months (~20-40 EUR per cartridge).
+3. **Location strategy**: Negotiate site rentals (price: not found) near the business own usage area. Install electricity metering. Target offices (subscription model with volume cap), professional kitchens (different machine config), and residential buildings (separate negotiation approach).
+4. **Pricing model**: Set single or differential price per 5L unit. Offices pay premium, kitchens standard price. Subscription model for offices with guaranteed payment and volume cap. Water cost share of turnover: not determined (the brief's 30-50% was an example).
+5. **IT & telemetry**: GPS tracker with SIM card, camera for remote monitoring, cashless API integration with a Serbian acquirer (card schemes to be confirmed with the acquirer; the earlier "Mirs" reference had no source and is removed), remote monitoring platform for water temperature (freeze protection). Monthly operating costs for data/software: not found.
+6. **Operations**: Spare parts warehouse (filters, seals; cost not found), maintenance schedule and filter replacement interval (not found; ask the machine supplier).
 7. **Scale**: Phase expansion starting with Serbia, then Balkan region. Franchise model for open zones where company itself is not present. Company handles equipment, warranty repair, training; franchisee handles local site acquisition.
 
 ## Nuances & Key Decisions
 - **Cashless vs cash**: Cashless preferred in Serbia; cash treated cautiously. Complete cash rejection possible.
 - **Single vs multiple machine configurations**: Office config (card payment) vs kitchen config (different features).
 - **Pricing**: Test single price point first; differential pricing by location type later.
-- **Tax splitting**: Bottled water taxed at 20%, other products at 10%. Need to calculate whether splitting flows is worth the administrative overhead.
+- **Tax splitting**: the brief mentions 20% for bottled water and 10% for other products (unconfirmed; the same numbers are the Serbian VAT rates). Need to calculate whether splitting flows is worth the administrative overhead.
 - **Grants/subsidies**: Available to foreign-owned IP through Serbian government programs — startup grants, innovation subsidies, regional development support, Ministry of Foreign Affairs programs.
-- **Franchise**: Only in permitted/open zones; company covers city itself. Franchisee pays zone-dependent fee (2,000-10,000 EUR per open zone). Company supplies equipment, handles warranty repair, provides training.
+- **Franchise**: Only in permitted/open zones; company covers city itself. Franchisee pays a zone-dependent fee (amount not found, deferred). Company supplies equipment, handles warranty repair, provides training.
 - **Heater risk**: Removable heater can be forgotten during cartridge replacement. Summer removal prevents theft but requires reinstallation logic.
 - **Observability**: Remote understanding of machine state is critical — camera, telemetry, GPS must integrate easily without "a month-long integration on some bullshit protocol."
 - **Repairability**: Spare parts warehouse must stock common parts; fast unit replacement without sending service cars for 3+ hours.
@@ -27,18 +29,17 @@ A network of drinking water vending machines that provide purified, drinkable wa
 
 # Detailed End-to-End Implementation Plan
 
-## Phase 1: Legal & Foundation (Weeks 1-4)
+## Phase 1: Legal & Foundation
 ### 1.1 Register legal entity in Serbia (foreign-owned IP)
-- Required government fee: 5,000-15,000 RSD
+- Government (APR) fee for registering a new company from 1 Jan 2026: 8,000 RSD (about 68 EUR) **[verified]** https://biznis.rs/vesti/srbija/apr-ima-nove-cene-registracija-osnivanje-firme-8-000-dinara-promena-podataka-4-000-dinara/ ; entrepreneur (sole proprietor) 2,500 RSD. Lawyer/agent fees: not found, ask a Serbian lawyer. Since 15 May 2026 APR applications need an eID.gov.rs account (https://biznis.rs/vesti/srbija/apr-od-15-maja-sistem-prijavljivanja-na-portalu-sa-eservisima-iskljucivo-sa-korisnickim-nalogom/)
 - Documentation: articles of incorporation, ID, address proof
 - Outcome: Legal ability to operate business, open bank account, hire staff, sign contracts
-- **Dependencies**: BRANDS_AND_SUPPORT:2.1
+- **Dependencies**: LEGAL:2.1
 
 ### 1.2 Determine tax regime assessment
-- Bottled water: 20% tax rate
-- Other products ("kisel" etc.): 10% tax rate
+- Brief: bottled water 20%, other products ("kisel" etc.) 10% (unconfirmed; equal to Serbian VAT rates 20% standard / 10% reduced, https://trykintsugi.com/sales-tax-guides/europe/serbia, secondary; the rate for vended water is not found)
 - Calculate whether splitting flows (separate product categories) is worth the administrative overhead
-- Consult tax specialist per brief Sec 6.2
+- Consult a tax specialist (brief Sec 6.2)
 - Outcome: Optimized tax structure for water vending business
 - **Dependencies**: LEGAL:2.2
 
@@ -47,7 +48,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Eligibility criteria, application documents, expected amounts (RSD + EUR conversion)
 - Document beneficiary type, program name, body, source URL
 - Apply to all relevant programs simultaneously
-- Outcome: Non-dilutive funding of potentially 50,000-200,000 EUR across multiple programs
+- Outcome (2026-10-08): the earlier expectation of 50,000-200,000 EUR non-dilutive funding is NOT supported. Verified on opened pages: Smart Start up to 5.4 million RSD (call until 16 Nov 2026, ownership conditions not found); Kapital za razvoj is a subsidized bank loan (borrower pays 2%), not a grant; the self-employment subsidy and "Vrati se i stvaraj" are not available to a foreign founder. See `docs/cost-estimates/blocks/GRANTS_AND_SUPPORT.md` and fact 0005
 - **Dependencies**: GRANTS_AND_SUPPORT:9.1-9.5
 
 ### 1.4 Prepare initial documentation package
@@ -58,7 +59,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Outcome: Complete package for banks, investors, grant applications, location negotiations
 - **Dependencies**: DOCUMENTATION:8.1-8.4
 
-## Phase 2: Technical Design & Machine Specification (Weeks 5-8)
+## Phase 2: Technical Design & Machine Specification
 ### 2.1 Formalize machine technical requirements
 - Principles: low cost, repairability, serviceability, observability, easy integration
 - No "a month-long integration on some bullshit protocol"
@@ -78,17 +79,17 @@ A network of drinking water vending machines that provide purified, drinkable wa
 ### 2.3 Select and procure machine modules
 | Module | Description | Source/Assumption |
 |--------|-------------|-------------------|
-| 1.1 | Water vending machine - basic unit (cashless, GPS, camera, heater) | Standard config per low cost principles |
-| 1.2 | Coin acceptor model selection | TBD: compatible with Serbian currency |
-| 1.3 | Bill acceptor model selection | TBD: specific model for bill denominations (~20-50 EUR) |
-| 1.4 | Cashless payment module (phone NFC) | TBD: integration with Serbian providers (Mirs, cards); 30-60 EUR module + integration |
-| 1.5 | Camera module for monitoring (working/trashed/stolen scenarios) | TBD: resolution and storage; basic IP camera |
-| 1.6 | GPS tracker module | TBD: GPS module with SIM; ~20 EUR + subscription |
-| 1.7 | Telemetry system (water temperature, freezing risk) | TBD: temperature sensor with protection; Arduino-based |
-| 1.8 | Heater (removable/switchable, summer removal to prevent theft) | TBD: removable heater; risk: forgotten during cartridge replacement |
-| 1.9 | Machine assembly coordination (contractor vs in-house) | TBD: contractor quotes needed; in-house saves ~40% |
-| 1.10 | Anti-vandalism protection (body and unit shielding) | TBD: materials (steel, polycarbonate); 15-25% cost increase |
-- Outcome: All modules specified, priced (TBD), and sourced ready for assembly
+| 1.1 | Water vending machine - RO base unit (reader, GPS, camera, sensors and heater are separate lines 1.4-1.8) | Price not found; listings show US$500-1,050 (opened pages, not quotes) |
+| 1.2 | Coin acceptor model selection | Not in pilot scope; price not found |
+| 1.3 | Bill acceptor model selection | Not in pilot scope; price not found |
+| 1.4 | Cashless payment module (phone NFC) | Reference: Nayax VPOS Touch US$390 (US store page opened); Serbian acquirer support to be confirmed |
+| 1.5 | Camera module for monitoring (working/trashed/stolen scenarios) | Price not found; resolution and storage TBD |
+| 1.6 | GPS tracker module | Price not found |
+| 1.7 | Telemetry system (water temperature, freezing risk) | Price not found |
+| 1.8 | Heater (removable/switchable, summer removal to prevent theft) | Price not found; risk: forgotten during cartridge replacement |
+| 1.9 | Machine assembly coordination (contractor vs in-house) | Price not found; contractor quotes needed |
+| 1.10 | Anti-vandalism protection (body and unit shielding) | Price not found; steel and polycarbonate construction |
+- Outcome: All modules specified, priced when quotes arrive, and sourced ready for assembly
 - **Dependencies**: TECH:1.1-1.10
 
 ### 2.4 Design anti-vandalism protection
@@ -98,13 +99,13 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Outcome: Protection design approved, cost estimated
 - **Dependencies**: TECH:1.10; OPERATIONS:7.3
 
-## Phase 3: Location Strategy & Site Acquisition (Weeks 9-12)
-> **Pilot (2026-10-08):** start with one residential site near the founders' home (inside or at a building, separate electricity metering, rent near 150 EUR/mo; decision 0003). Office and kitchen work below is deferred until the pilot review.
+## Phase 3: Location Strategy & Site Acquisition
+> **Pilot (2026-10-08):** start with one residential site near the founders' home (inside or at a building, separate electricity metering, rent not found; decision 0003). Office and kitchen work below is deferred until the pilot review.
 
 ### 3.1 Identify and negotiate target locations
 **Offices**:
 - Subscription model: guaranteed payment, volume cap ("we don't care how much you drink, but there must be a cap")
-- Negotiate ~150 EUR/month rent per site
+- Negotiate rent per site (price not found)
 - Needed: electricity connection, accessible location, building management approval
 - Outcome: Signed office lease agreements with subscription terms
 
@@ -122,7 +123,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - **Dependencies**: BRIEF:3.1-3.3; LOCATIONS:5.1-5.5
 
 ### 3.2 Install electricity consumption tracking
-- One-time cost: 100-300 EUR per site for basic metering
+- One-time cost: not found (ask the electricity distributor and an electrician)
 - Critical: few sites will connect for free
 - Outcome: Metering installed at all locations, consumption data available
 - **Dependencies**: FINANCE:3.2; LOCATIONS:5.2
@@ -130,13 +131,13 @@ A network of drinking water vending machines that provide purified, drinkable wa
 ### 3.3 Set up subscription models for offices (deferred until pilot review)
 - Volume cap negotiation per office
 - Guaranteed payment structure
-- Monthly rental ~150 EUR + water cost per 5L unit
+- Monthly rental (not found) + water cost per 5L unit
 - Outcome: Office subscription contracts signed, first wave of office placements
 - **Dependencies**: BRIEF:3.3; MARKETING:4.3
 
-## Phase 4: Pricing, Marketing & IT Setup (Weeks 13-16)
+## Phase 4: Pricing, Marketing & IT Setup
 ### 4.1 Determine pricing model
-- **Option A**: Single price per 5L unit — test first, optimize later
+- **Option A**: Single price per 5L unit (pilot: 50 RSD, owner decision 0004) — test first, optimize later
 - **Option B**: Differential pricing by location type
   - Offices: premium price
   - Kitchens: standard price
@@ -145,15 +146,15 @@ A network of drinking water vending machines that provide purified, drinkable wa
 
 ### 4.2 Negotiate water supplier contracts
 - 5L unit price negotiation
-- Target: water cost ~30-50% of turnover (per brief Sec 6.1)
+- Water cost share of turnover: not determined (the brief's 30-50% was an example)
 - Supplier contracts signed, delivery schedule established
 - Outcome: Reliable water supply at known cost
 - **Dependencies**: FINANCE:3.1
 
 ### 4.3 Set up cashless payment integration
-- Integrate with Serbian payment providers (Mirs card system, NFC phone payments)
-- API integration cost: ~30-80 EUR per machine (one-time)
-- Transaction fees: TBD (percentage or fixed rate per FINANCE:3.5)
+- Integrate with a Serbian acquirer (NFC phone payments; supported card schemes to be confirmed with the acquirer)
+- API integration cost: not found (ask the acquirer / payment module supplier)
+- Transaction fees: not found (FINANCE:3.5); ask the acquirer
 - Test: phone button press → buy 5L water successfully
 - Outcome: Working cashless payment flow from customer to machine
 - **Dependencies**: IT_TELEMETRY:6.5; FINANCE:3.5
@@ -161,12 +162,12 @@ A network of drinking water vending machines that provide purified, drinkable wa
 ### 4.4 Deploy IT & telemetry infrastructure
 | Component | Description | Frequency | Assumption |
 |-----------|-------------|-----------|------------|
-| GPS tracker hardware | Module with SIM card slot | One-time | ~20 EUR + subscription |
-| GPS tracker subscription | Data plan for tracker | Monthly | 5-10 EUR/month |
-| Camera system | Remote monitoring (working/trashed/stolen) | One-time | Basic IP camera with cloud storage |
-| Telemetry - water temp | Freeze protection monitoring | One-time | Sensor cost + calibration |
-| Payment integration | Cashless API with Serbian providers | One-time | 30-80 EUR integration |
-| Remote monitoring platform | Software subscription | Monthly | 20-50 EUR/month per machine |
+| GPS tracker hardware | Module with SIM card slot | One-time | price not found |
+| GPS tracker subscription | Data plan for tracker | Monthly | price not found |
+| Camera system | Remote monitoring (working/trashed/stolen) | One-time | price not found |
+| Telemetry - water temp | Freeze protection monitoring | One-time | price not found |
+| Payment integration | Cashless API with Serbian providers | One-time | price not found |
+| Remote monitoring platform | Software subscription | Monthly | price not found |
 - Outcome: All machines remotely monitorable, alerts sent for anomalies
 - **Dependencies**: IT_TELEMETRY:6.1-6.6
 
@@ -176,20 +177,20 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - **Place**: Selected locations (offices, kitchens, residential)
 - **Promotion**: Local marketing, franchisee support, brand quality monitoring
 - **Franchise zones**: Open zones where franchisee operates; company covers city itself
-- Zone fee: 2,000-10,000 EUR per open zone (TBD)
+- Zone fee: not found (deferred until the pilot gate)
 - Outcome: Complete marketing plan and franchise framework
 - **Dependencies**: MARKETING:4.5; BRIEF:5.2
 
-## Phase 5: Operations & First Deployment (Weeks 17-20)
+## Phase 5: Operations & First Deployment
 ### 5.1 Prepare spare parts warehouse
 - Stock common parts: filters, seals, O-rings, small components
-- Initial inventory: ~500-1,000 EUR
+- Initial inventory: cost not found (spare parts list from the machine supplier)
 - Goal: fast replacement without long downtimes
 - Outcome: Warehouse stocked, ready for maintenance
 - **Dependencies**: OPERATIONS:7.1
 
 ### 5.2 Define service intervals and maintenance scheduling
-- Quarterly service per machine
+- Service interval: not found (a quarterly visit was a proposal; confirm with the supplier)
 - Maintenance tasks: filter replacement, cleaning, calibration check, telemetry verification
 - Service cost: TBD (spare parts + technician time)
 - Outcome: Maintenance schedule established, service providers identified
@@ -211,7 +212,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Outcome: First successful water purchase completed ✅
 - **Dependencies**: All prior phases completed
 
-## Phase 6: Scale & Optimize (Weeks 21-24+)
+## Phase 6: Scale & Optimize
 ### 6.1 Monitor pilot performance
 - Sales volume, payment success rate
 - Maintenance needs and downtime
@@ -229,7 +230,7 @@ A network of drinking water vending machines that provide purified, drinkable wa
 - Apply lessons learned from pilot
 - Recruit new office clients
 - Add kitchen and residential placements
-- Target: 5-10 machines in first quarter
+- Target number of machines: not determined (depends on pilot results)
 
 ### 6.4 Consider franchise expansion
 - **Gate (decision 0011):** same pilot gate as 6.3

@@ -2,16 +2,15 @@
 
 | item | description | unit | quantity | unit price | total | frequency | assumption | source |
 |------|-------------|------|----------|------------|-------|-----------|------------|--------|
-| 3.1 | Water cost per 5L unit (supplier contract) | 5L unit | 1 | 35 | 35.0 | per unit | Municipal water tariff for legal entities; 100 RSD/m³ ~ 3.5 RSD/5L per brief Sec 6.1 | [source: Serbian municipal water company price list] |
-| 3.2 | Monthly site rent/electricity cost per site | site | 1 | 150 | 150.0 | monthly | ~150 EUR per site from brief Sec 3.1; electricity metering separate | [source: project-brief.md Sec 3.1] |
-| 3.3 | Maintenance and repair cost per site | site | 1 | 80 | 80.0 | monthly | Spare parts and service contract; 50-100 EUR/month per site per brief Sec 2.1 | [source: service contract industry estimate] |
-| 3.4 | Filter replacement cartridge | cartridge | 1 | 25 | 25.0 | every 3 months | Cartridge cost; 20-40 EUR per cartridge per brief Sec 2.2 | [source: water filter supplier price list] |
-| 3.5 | Cashless payment transaction fee | transaction | 1 | 1.5% | 1.5% | per transaction | Payment provider fee structure; 1.5%-3% per transaction per brief Sec 2.2 | [source: payment provider fee schedule] |
-| 3.6 | Franchise fee (if applicable) per zone | franchise zone | 1 | 5000 | 5000.0 | one-time | Zone-dependent fee; 2,000-10,000 EUR per open zone per brief Sec 5.2 | [source: franchise expansion cost estimate] |
+| 3.1 | Water cost per 5L unit (supplier contract) | 5L unit | 1 | not found | not found | per unit | NOT FOUND. Formula: cost per 5 L unit (RSD) = 5 x k x (158.09 + 85.07) / 1000, where k = litres of water drawn per litre sold (RO reject included) is unknown. Tariffs are for Belgrade BVK, other consumers, 2026, incl. VAT, secondary source; whether wastewater is charged on the drawn volume is unknown. Needed: reject ratio of the chosen machine (ask the supplier) and the wastewater billing rule (ask BVK). Excluded from the scenario totals (water is computed per litre separately) | [source: https://www.beograduzivo.rs/info/poskupljuje-i-voda-evo-od-kog-datuma-i-za-koliko/ (tariffs only; k not found)] |
+| 3.2 | Monthly site rent/electricity cost per site | site | 1 | not found | not found | monthly | NOT FOUND. Rent/electricity per site is unknown (the figure of 150 EUR in the project brief was an illustrative remark, not a quote). Needed: a written offer from the building owner or residents. Duplicate of LOCATIONS 5.1 (excluded here). | [source: none - not found, no opened source] |
+| 3.3 | Maintenance and repair cost per site | site | 1 | not found | not found | monthly | NOT FOUND. Maintenance and repair cost per site per month is unknown. Needed: a service contract quote (ask the machine supplier or a local service contractor). Partly overlaps OPERATIONS 7.2. | [source: none - not found, no opened source] |
+| 3.4 | Filter replacement cartridge | cartridge | 1 | not found | not found | every 3 months | NOT FOUND. Filter cartridge price and replacement interval are unknown. Needed: the consumables list of the chosen machine with prices (ask the supplier, see supplier-rfq.md). | [source: none - not found, no opened source] |
+| 3.5 | Cashless payment transaction fee | transaction | 1 | not found | not found | per transaction | NOT FOUND. Cashless transaction fee (percent of revenue) is unknown; no Serbian acquirer tariff found. Needed: tariff of a Serbian acquirer or payment provider (ask banks / the payment module supplier). Applied as a percentage of revenue in pipeline/calculator.py once known | [source: none - not found, no opened source] |
+| 3.6 | Franchise fee (if applicable) per zone | franchise zone | 1 | not found | not found | one-time | NOT FOUND. Franchise zone fee is unknown; franchise is excluded from the pilot (decisions 0005, 0011). Needed: owner decision after the pilot gate. | [source: none - not found, no opened source] |
 
 ---
 
 *Notes:*
-- All prices in EUR unless otherwise noted. RSD amounts where specified converted at approximate rate.
-- No "TBD" entries without explicit range and source citation.
-- All unit_price and total columns contain concrete numbers with external sources.
+- All prices in EUR unless otherwise noted. RSD amounts converted at 1 EUR = 117.4601 RSD, 1 USD = 104.7068 RSD (pipeline/fx.py, NBS data of 2026-10-06 via biznis.kurir.rs, secondary).
+- A cell with 'not found' means no price was found on an opened source; the assumption cell says what is needed and whom to ask. Such rows are skipped in all totals and reported by pipeline/calculator.py. Register: docs/reports/unknowns-and-open-issues.md.
