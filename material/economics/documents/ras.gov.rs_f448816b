@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="icon" href="https://ras.gov.rs/themes/siepa/assets/xfavicon.png.pagespeed.ic.rREzAwO3Ur.png" type="image/x-icon">
+
+  <title>Javni poziv - Program &bdquo;Kapital za razvoj&ldquo; </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <link href="https://ras.gov.rs/themes/siepa/assets/css/A.language-selector.css+language-selector-click.css,Mcc.GcrGH9o9P4.css.pagespeed.cf.F9tpEHEBGO.css" rel="stylesheet" type="text/css" media="all"/>
+  
+
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://ras.gov.rs/themes/siepa/assets/css/A.animate.css+font-awesome.min.css,Mcc.Co0w-PCmh0.css.pagespeed.cf.kCu53itTGs.css" rel="stylesheet"/>
+  
+  <!--   <link href="https://ras.gov.rs/themes/siepa/assets/css/style.css?ver=&lt;? echo time(); ?&gt;" rel="stylesheet" type="text/css"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
+  <!-- <link href="https://ras.gov.rs/themes/siepa/assets/css/style.css?ver=1791632235" rel="stylesheet" > -->
+  <link href="https://ras.gov.rs/themes/siepa/assets/css/A.owl.carousel.min.css+style.css+second_style.css+new-style.css,Mcc._KZLSN_al4.css.pagespeed.cf.RPYxeDj0E9.css" rel="stylesheet"/>
+  
+  
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ras.gov.rs/themes/siepa/assets/js/bootstrap.min.js+owl.carousel.min.js+wow.min.js+scripts.js.pagespeed.jc.0gMkwGJZU3.js"></script><script>eval(mod_pagespeed_IHMqDtQLwC);</script>
+  <script>eval(mod_pagespeed_LQyuH6U45X);</script>
+  <script>eval(mod_pagespeed_8800u0_Hin);</script>
+  <script>eval(mod_pagespeed_E6FVXFaNwv);</script>
+
+      <link href="https://ras.gov.rs/themes/siepa/assets/css/A.lightbox.min.css.pagespeed.cf.OxqE94hZIU.css" rel="stylesheet" type="text/css" media="all"/>
+
+  
+  <!-- Header includes -->
+  
+
+</head>
+
+    <body>
+    
+  <!-- Navigation -->
+  <header>
+    <!-- Header up -->
+    <div class="header_up">
+        <div class="container-fluid pl-pr-header">
+            <div class="logo_wrapper">
+                <a href="/"><img src="https://ras.gov.rs/themes/siepa/assets/img/xlogo-ras-lat.png.pagespeed.ic.4xniaytTuZ.png" class="img-responsive logo"></a>
+            </div>
+
+            <div class="wrap_search_lng_bar lang-d">
+                <div id="lang_sel_click" onclick="wpml_language_selector_click.toggle();" class="lang_sel_click">
+    <ul class="parent_list visibility-hidden-lang-d">
+        <li>
+            <a href="#" class="lang_sel_sel icl-en">
+                                                                                                                                        LAT
+                                                                                                        </a>
+            <ul>
+                                                                                                    <li class="icl-sr">
+                            <a href="/en">
+                                <span>EN</span>
+
+                            </a>
+                        </li>
+                                                                                                                                                                                                    <li class="icl-sr">
+                            <a href="/rs/javni-poziv-program-kapital-za-razvoj-1">
+                                <span>ЋИР</span>
+
+                            </a>
+                        </li>
+                                                </ul>
+        </li>
+    </ul>
+</div>            </div>
+
+            <div class="phone-wrap phone-wrap-desk">
+                <a href="tel:+381113398500" class="color-a-header-d"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-tel.png.pagespeed.ce.L258Pb4W19.png" alt=""> +381113398500 </a>
+            </div>
+
+            <div class="phone-wrap phone-wrap-desk">
+                <a href="mailto:office@ras.gov.rs" class="color-a-header-d"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-mail.png.pagespeed.ce.bG7F1KDBT2.png" alt=""> office@ras.gov.rs </a>
+            </div>
+                        <a href="/">
+                <h1 class="ras-title-blue-line">Razvojna agencija Srbije</h1>
+                <h1 class="ras-title-blue-line-mob">Razvojna <br class="none-on-768"> agencija <br class="none-on-768"> Srbije</h1>
+            </a>
+            ;
+
+            <!--  Mobile  -->
+            <div class="phone-wrap phone-wrap-mobile">
+                <a href="mailto:office@ras.gov.rs" class="color-a-header-d"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-mail.png.pagespeed.ce.bG7F1KDBT2.png" alt=""> </a>
+            </div>
+            <div class="phone-wrap phone-wrap-mobile">
+                <a href="tel:+381113398500" class="color-a-header-d"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-tel.png.pagespeed.ce.L258Pb4W19.png" alt=""></a>
+            </div>
+            <!-- End Mobile  -->
+
+            <div class="social-wraper">
+            <a href="https://www.linkedin.com/company/razvojnaagencijasrbije" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-link.png.pagespeed.ce.5YhDwEn83_.png" alt=""></a>
+            <a href="https://www.facebook.com/ras.gov.rs/" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-face.png.pagespeed.ce.6l3ljUuGG0.png" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCX-3Th6TjZW6cRwfLSaqyRw" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/fa-yt.png.pagespeed.ce.wyyH3EeI4K.png" alt=""></a>
+            </div>
+
+
+            <div class="col-xs-6 mobile_menu_wrapper">
+                <a href="#" class="menu_link navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">Linkovi
+                    <span class="img_close"></span>
+                    <span class="img_open"></span>
+                </a>
+            </div>
+
+            <div class="col-lg-12 col-sm-12 col-xs-6 header_up_right">
+
+                <!-- <ul class="second_menu">
+                    <li><a href="/"><img src="https://ras.gov.rs/themes/siepa/assets/img/home_menu.png"></a></li>
+                    <li ><a href="/o-nama/nase-usluge"   >O nama </a></li><li ><a href="/javne-nabavke"   >Javne nabavke </a></li><li ><a href="/o-nama/kontaktirajte-nas"   >Kontakt </a></li>
+
+                </ul> -->
+
+                <!-- <div class="wrap_search_lng_bar">
+                    <div id="lang_sel_click" onclick="wpml_language_selector_click.toggle();" class="lang_sel_click">
+    <ul class="parent_list visibility-hidden-lang-d">
+        <li>
+            <a href="#" class="lang_sel_sel icl-en">
+                                                                                                                                        LAT
+                                                                                                        </a>
+            <ul>
+                                                                                                    <li class="icl-sr">
+                            <a href="/en">
+                                <span>EN</span>
+
+                            </a>
+                        </li>
+                                                                                                                                                                                                    <li class="icl-sr">
+                            <a href="/rs/javni-poziv-program-kapital-za-razvoj-1">
+                                <span>ЋИР</span>
+
+                            </a>
+                        </li>
+                                                </ul>
+        </li>
+    </ul>
+</div>                </div> -->
+
+
+            </div>
+        </div>
+
+        <!-- <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="/o-nama/nase-usluge"   >O nama </a></li><li ><a href="/javne-nabavke"   >Javne nabavke </a></li><li ><a href="/o-nama/kontaktirajte-nas"   >Kontakt </a></li>
+                    </ul>
+
+                </div> -->
+                <!--/.nav-collapse -->
+            <!-- </div> -->
+            <!--/.container-fluid -->
+        <!-- </nav> -->
+    </div>
+    <!-- End header up -->
+
+    <div class="header_down" style="min-height:110px;height:auto !important;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main_menu_wrapper pr-0-nav">    
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid container-fluid-nav">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                            <button type="button" id="n" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="menu-title">Menu</span>
+                            </button>
+                           
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse pr-0-nav" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav nav-ul">
+                                <!-- class="active" -->
+                                <!-- <span class="sr-only">(current)</span> -->
+                                
+                                    <!-- <li ><a href="/podrska-investitorima/zasto-srbija/uspesne-price">Investirajte u Srbiju </a></li> -->
+                                    <!-- <li><a href="/uspesne-price">Uspešne priče</a></li> -->
+                                    <!-- <li><a href="/javne-nabavke">Javne nabavke</a></li> -->                                    
+                                    <!-- <li><a href="/sajmovi-1/medjunarodni-sajmovi-u-2020-godini-1">Podrska MSP</a></li> -->
+
+                                    <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle msp-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="ddlNav">Podrška privredi<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="about-us">
+                                        <li><a href="/javni-pozivi" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Javni pozivi</a></li>
+                                        <hr class="project-hr">
+                                        <!-- <li><a href="/sajmovi-1/medjunarodni-sajmovi-u-2020-godini-1" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Sajmovi</a></li>   
+                                        <hr class="project-hr">
+                                        <li><a href="/category/b2b" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>B2B sastanci </a></li>   
+                                        <hr class="project-hr"> -->
+                                        <li><a href="/domace-price" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Uspešne priče</a></li>   
+                                        <hr class="project-hr">    
+                                        <li><a href="/aktuelno/projekti/program-standardizovanog-seta-usluga-za-mikromala-i-srednja-preduzeca-i-preduzetnike" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Program standardizovanog seta usluga za mikro, <br>  mala i srednja preduzeća i preduzetnike</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/page-program-podrske-privrednim-drustvima-za-ulazak-u-lance-dobavljaca-multinacionalnih-kompanija" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Program podrške privrednim društvima za ulazak <br> u lance dobavljača multinacionalnih kompanija</a></li>
+                                        <hr class="project-hr"> 
+                                        <li><a href="/program-podrske-za-privlacenje-stranih-investicija-u-ciljanim-sektorima-u-2020-godini" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Program podrške za privlačenje stranih <br> investicija u ciljanim sektorima u 2020. godini</a></li> 
+                                        <hr class="project-hr">
+                                        <li><a href="/program-podrske-malim-i-srednjim-preduzecima-za-nabavku-opreme" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Program podrške malim i srednjim preduzećima <br> za nabavku opreme</a></li>
+                                        <hr class="project-hr mob-show-hr">  
+                                                                   
+                                    </ul>
+
+                                    <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle msp-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="ddlNav">Podrška Izvozu<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="about-us">
+                                        <li><a href="/sajmovi-1/medunarodni-sajmovi-u-2026-godini" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Sajmovi</a></li>
+                                        <hr class="project-hr">
+                                        <!-- <li><a href="#" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Evropska mreža preduzetništva </a></li>   
+                                        <hr class="project-hr"> -->
+                                        <li><a href="/category/b2b" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>B2B sastanci </a></li>    
+                                        <hr class="project-hr"> 
+                                        <li><a href="/aktuelno/projekti/medjunarodni-projekti/evropska-mreza-preduzetnistva-een" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i> Evropska Mreža Preduzetništva (EEN)</a></li>
+                                        <hr class="project-hr"> 
+                                        <li><a href="/program-podrske-privrednim-drustvima-za-promociju-izvoza" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Program podrške privrednim društvima za promociju izvoza</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/kratki-vodic-kroz-esg" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Kratki vodič kroz ESG</a></li>
+                                        <hr class="project-hr"> 
+                                        <li><a href="/vodic-za-izvoz-voca-i-povrca-u-sad" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Vodič za izvoz voća i povrća u SAD</a></li>
+                                        <hr class="project-hr">    
+                                        <li><a href="/vodic-za-izvoz-voca-i-povrca-na-trziste-bliski-istok" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Vodič za izvoz voća i povrća na tržište Bliski Istok</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/vodic-za-izvoz-voca-i-povrca-na-trziste-nordijskog-regiona" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Vodič za izvoz voća i povrća na tržište Nordijskog regiona</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/rs/vodic-za-izvoz-voca-i-povrca-na-trziste-velike-britanije" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Vodič za izvoz voća i povrća na tržište Velike Britanije</a></li>
+                                        <hr class="project-hr mob-show-hr">
+                                    </ul>
+
+
+                                    <li><a href="/category/vesti">Vesti</a></li>
+
+                                    <li><a href="/aktuelno/projekti/projekti-lista">Projekti</a></li>
+                                    <!-- <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="ddlNav">Projekti<span class="caret"></span></a>
+                                        <ul class="dropdown-menu" aria-labelledby="about-us">
+
+                                            <li><a href="/aktuelno/projekti/medjunarodni-projekti/evropska-mreza-preduzetnistva-een"><span class="menu_icon gear_icon"></span> Evropska Mreža Preduzetništva (EEN) </a></li>                                        
+                                                <hr class="project-hr">
+
+                                            <li><a href="/aktuelno/projekti/medjunarodni-projekti/japanska-agencija-za-medunarodnu-saradnju-jica"><span class="menu_icon gear_icon"></span> Japanska agencija za međunarodnu saradnju (JICA)  </a></li>                                        
+                                                <hr class="project-hr">
+
+                                            <li><a href="/aktuelno/projekti/medjunarodni-projekti/svajcarski-rrogram-podrske-za-promociju-izvoza-sippo"><span class="menu_icon gear_icon"></span> <span>Švajcarski рrogram podrške za promociju izvoza - SIPPO</span> </a></li>                                    
+                                                <hr class="project-hr">
+
+                                                
+                                            <li><a href="/aktuelno/projekti/dm-inkubator"><span class="menu_icon gear_icon"></span> <span>DMInkubator</span> </a></li>                                    
+                                                <hr class="project-hr">                                             
+
+                                            <li><a href="/aktuelno/projekti/projekat-podrske-razvoju-privatnog-sektora-u-juznoj-i-jugozapadnoj-srbiji-1"><span class="menu_icon gear_icon"></span> <span>Projekat podrške razvoju privatnog sektora (PSD) </span> </a></li>                                    
+                                                <hr class="project-hr">  
+                                                                                        
+                                            <li><a href="/aktuelno/projekti/medjunarodni-projekti/transnacionalni-program-dunav"><span class="menu_icon gear_icon"></span> Transnacionalni program Dunav </a></li>
+                                                <hr class="project-hr">
+
+                                            <li><a href="/aktuelno/projekti/medjunarodni-projekti/medunarodna-saradnja-ras-hepa"><span class="menu_icon gear_icon"></span> Mađarska agencija za promociju izvoza (HEPA) </a></li>
+                                                <hr class="project-hr mob-show-hr">
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="/publikacije">Publikacije</a></li>
+
+                                    <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="ddlNav">O nama<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" aria-labelledby="about-us">
+                                        <li><a href="/o-nama/nase-usluge" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Naše usluge</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/o-nama/nasa-organizacija" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Naša organizacija</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/o-nama/javne-nabavke" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Javne nabavke</a></li>
+                                        <hr class="project-hr">
+                                        <li><a href="/o-nama/javne-nabavke-ipa-program" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Javne nabavke (IPA Program)</a></li>
+                                        <hr class="project-hr">
+                                        <!--<li><a href="/o-nama/javne-nabavke-po-prag-procedurama" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Javne nabavke (PRAG procedure) </a></li>
+                                        <hr class="project-hr"> -->
+                                        <li><a href="/o-nama/dokumenti" class="ddl-nav-font"><i class="zmdi zmdi-caret-right arrow-right-icon"></i>Dokumenti</a></li>
+                                        <hr class="project-hr mob-show-hr">
+                                                                           
+                                    </ul>
+                                    <!-- <li><a href="/o-nama/nase-usluge">O nama</a></li> -->
+                                    <li><a href="/o-nama/kontaktirajte-nas">Kontakt</a></li>
+
+                                    <li class="social-a li-social-nav nav-social-mob mob-d-block-social-nav"> 
+                                        <a href="https://www.linkedin.com/company/razvojnaagencijasrbije" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/xnav-ln.png.pagespeed.ic.7FpTGkv3eU.png" alt=""></a> 
+                                        <a href="https://www.facebook.com/ras.gov.rs/" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/xnav-fb.png.pagespeed.ic.skEyoIS5wW.png" alt=""></a> 
+                                        <a href="https://www.youtube.com/channel/UCX-3Th6TjZW6cRwfLSaqyRw" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/xnav-yt.png.pagespeed.ic.LRivebiy7F.png" alt=""></a> 
+                                    </li>
+
+                                    
+                                                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>      
+                    
+                    
+                    <!-- <div class="top_content">
+                        <ul class="social">
+                            <li><a href="https://www.facebook.com/ras.gov.rs/" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/fb.png"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCX-3Th6TjZW6cRwfLSaqyRw" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/yt.png"></a></li>
+                            <li><a href="https://www.linkedin.com/company/razvojnaagencijasrbije" target="_blank"><img src="https://ras.gov.rs/themes/siepa/assets/img/in.png"></a></li>
+                        </ul>
+
+                        <div class="search">
+                            <form action="/search" id="searchform" method="get">
+                                <input type="text" id="s" name="text" class="ui-autocomplete-input"
+                                    placeholder="Pretraga...">
+                                <input type="submit" class="button-search" value="Traži">
+                            </form>
+                        </div>
+                    </div> -->
+
+                    <div class="bottom_content clearfix d-none-mob-glavni-meni">
+                        <div class="navbar navbar-default  navbar-right">
+                            <div class="navbar-header">
+                                <button data-target="#main_menu" data-toggle="collapse" class="navbar-toggle" type="button">
+                                    <div class="f-left main_menu_icon">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="close_img"></span>
+                                    </div>
+                                    <span>Glavni Meni </span>
+                                </button>
+                            </div>
+
+                            <div id="main_menu" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav main_menu">
+                                    
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+  <div class="container">
+          </div>
+
+  <!-- Page Content -->
+  <div class="head_wrap">
+    <img src="https://ras.gov.rs/themes/siepa/assets/img/xnews_bg.jpg.pagespeed.ic.yngH4u44eI.jpg" class="img-responsive mob-show-d">
+    <div class="container">
+
+        
+        <h1>VESTI</h1>
+
+            </div>
+</div>
+    <div class="single_news_wrap">
+        <div class="container-fluid pl-pr-single-news">
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-5">
+                    <div class="standard_sidebar">
+                                        <h2 class="latest-news-single-d">Poslednje vesti</h2>
+                                                                                                                                        <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/08/xras-logo-sajt-f-10.png.pagespeed.ic.meEbej2ZvG.png)"></div>
+                                    <div class="info">
+                                        <h3><a href="/produzen-rok-za-gitex-global-2026">
+                                                                                                    Produžen rok za GITEX ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Oct 10, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/08/xras-logo-sajt-f-10.png.pagespeed.ic.meEbej2ZvG.png)"></div>
+                                    <div class="info">
+                                        <h3><a href="/javni-poziv-foodex-japan-2027-2">
+                                                                                                    Javni poziv - FOODEX Japan 2027
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Oct 05, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/09/xsaudi-food-show-f.jpg.pagespeed.ic.1qnKPy9VKk.jpg)"></div>
+                                    <div class="info">
+                                        <h3><a href="/srbija-na-saudi-food-show-u-dzedi-1">
+                                                                                                    Srbija na Saudi Food Show ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 29, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/08/xras-logo-sajt-f-10.png.pagespeed.ic.meEbej2ZvG.png)"></div>
+                                    <div class="info">
+                                        <h3><a href="/ras-program-podrske-za-ulazak-u-lance-dobavljaca-mnk">
+                                                                                                    RAS Program podr&scaron;ke za ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 28, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/09/xkolektoretra-f.jpg.pagespeed.ic.bCF4AIAJpX.jpg)"></div>
+                                    <div class="info">
+                                        <h3><a href="/slovenacka-kolektor-etra-otvorila-novu-proizvodnu-halu-u-barajevu">
+                                                                                                    Slovenačka Kolektor Etra otvorila ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 25, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/08/xras-logo-sajt-f-10.png.pagespeed.ic.meEbej2ZvG.png)"></div>
+                                    <div class="info">
+                                        <h3><a href="/poziv-ikt-kompanijama-za-ucesce-na-sajmu-gitex-global-2026-u-dubaiju">
+                                                                                                    Poziv IKT kompanijama za uč...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 23, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/09/xc8-f.png.pagespeed.ic.W_juX7QtRy.jpg)"></div>
+                                    <div class="info">
+                                        <h3><a href="/ras-na-karpatskom-ekonomskom-forumu-u-bukovelju-srbija-predstavila-investicione-potencijale-i-kapacitete-domace-privrede">
+                                                                                                    RAS na Karpatskom ekonomskom forumu ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 22, 2026</span>
+                                    </div>
+                                </div>
+                                                                                            <div class="item_box">
+                                    <div class="slika" style="background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)) , url(/uploads/2026/08/xras-logo-sajt-f-10.png.pagespeed.ic.meEbej2ZvG.png)"></div>
+                                    <div class="info">
+                                        <h3><a href="/javni-poziv-za-besplatnu-mentorsku-podrsku-privredi">
+                                                                                                    Javni poziv za besplatnu mentorsku ...
+                                                                                            </a></h3>
+                                       <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons">  -->
+                                       <span class="date date-icons">Sep 21, 2026</span>
+                                    </div>
+                                </div>
+                                                                            
+                        <!-- <hr>
+                        <div class="item_box">
+                                                            <h2 class="latest-news-single-d">Arhiva</h2>
+                            
+                            <ul class="archive-sinle-news">
+                                <li><a href="#">Jun 2020</a></li>
+                                <li><a href="#">Maj 2020</a></li>
+                                <li><a href="#">Mart 2020</a></li>
+                                <li><a href="#">Februar 2020</a></li>
+                                <li><a href="#">Decembar 2020</a></li>
+                                <li><a href="#">Novembar</a></li>
+                            </ul>
+
+                        </div> -->
+                    </div>
+
+                </div>
+                <div class="col-lg-8 col-md-7 col-sm-7">
+                    <div class="news_single">
+                        <div class="head_news_single">
+                            <h1>Javni poziv - Program &bdquo;Kapital za razvoj&ldquo;</h1>
+                            <div class="single_news_date date-icons">
+                                <!-- <img src="https://ras.gov.rs/themes/siepa/assets/img/time-icons.png" alt="" class="time-icons"> -->
+                             Sep 10, 2026</div>
+                        </div>
+                        <blockquote>
+<p><strong><em>220 miliona dinara za podr&scaron;ku mikro i malim preduzećima i preduzetnicima</em></strong></p>
+</blockquote>
+
+<p style="text-align: justify;">&nbsp;</p>
+
+<p style="text-align: justify;">Beograd, 10. septembar 2026. godine &ndash; Ministarstvo privrede, u saradnji sa Razvojnom agencijom Srbije (RAS) i Bankom Po&scaron;tanska &scaron;tedionica A.D. Beograd, raspisalo je Javni poziv za dodelu bespovratnih sredstava u okviru Programa subvencionisanih kredita za nabavku opreme i obrtna sredstva &bdquo;Kapital za razvoj&ldquo;.</p>
+
+<p style="text-align: justify;">Za realizaciju Programa opredeljeno je <strong>ukupno 220 miliona dinara bespovratnih sredstava</strong>, namenjenih subvencionisanju kamatnih stopa za kredite za nabavku nove opreme i trajna obrtna sredstva.</p>
+
+<p style="text-align: justify;"><strong>Cilj Programa</strong> je da se mikro i malim preduzećima, preduzetnicima i zadrugama omogući pristup povoljnijim izvorima finansiranja, podrže investicije i likvidnost privrednih subjekata i doprinese ubrzanju privrednog razvoja.</p>
+
+<p style="text-align: justify;">Program &bdquo;Kapital za razvoj&ldquo; predstavlja vid podr&scaron;ke mikro, malim preduzećima i preduzetnicima, kojima se kroz subvencionisanje kamatne stope omogućava pristup finansiranju pod povoljnijim uslovima.</p>
+
+<p style="text-align: justify;">Poseban značaj Programa je u tome &scaron;to privrednim subjektima pruža mogućnost da ulažu u novu opremu, unaprede svoje poslovanje i obezbede sredstva za održavanje kontinuiteta poslovnih aktivnosti.</p>
+
+<p style="text-align: justify;"><strong>Podr&scaron;ka za nabavku nove opreme</strong></p>
+
+<p style="text-align: justify;">Kroz Program je obezbeđena mogućnost finansiranja nabavke nove opreme u iznosu<strong> od 700.000 do 15.000.000 dinara</strong>, uz najmanje 30 odsto uče&scaron;ća korisnika.</p>
+
+<p style="text-align: justify;">Nominalna kamatna stopa iznosi 6,30 odsto godi&scaron;nje, fiksno, dok korisnik plaća <strong>2 odsto kamate</strong>, a Ministarstvo privrede subvencioni&scaron;e preostalih 4,30 odsto.</p>
+
+<p style="text-align: justify;"><strong>Rok otplate kredita je do 60 meseci</strong>, uključujući grejs period od &scaron;est meseci.</p>
+
+<p style="text-align: justify;"><strong>Podr&scaron;ka za trajna obrtna sredstva</strong></p>
+
+<p style="text-align: justify;">Za finansiranje trajnih obrtnih sredstava mogu se odobriti krediti <strong>do 15.000.000 dinara</strong>, uz fiksnu nominalnu kamatnu stopu od 6,70 odsto godi&scaron;nje.</p>
+
+<p style="text-align: justify;">Korisnik plaća <strong>2 odsto kamate</strong>, dok Ministarstvo privrede subvencioni&scaron;e 4,70 odsto.</p>
+
+<p style="text-align: justify;"><strong>Rok otplate je do 36 meseci</strong>, uz grejs period od &scaron;est meseci.</p>
+
+<p style="text-align: justify;"><em>U oba slučaja, Ministarstvo subvencioni&scaron;e i proviziju i naknadu za obradu zahteva do 0,5 odsto.</em></p>
+
+<p style="text-align: justify;"><strong>Pravo na uče&scaron;će</strong> u Programu imaju:</p>
+
+<ul>
+	<li>mikro i mala privredna dru&scaron;tva i zadruge registrovane u APR, koja su kao takva razvrstana prema finansijskim izve&scaron;tajima za 2025. godinu;</li>
+	<li>preduzetnici registrovani u APR.</li>
+</ul>
+
+<p style="text-align: justify;"><strong>Privredni subjekti mogu podneti najvi&scaron;e jedan zahtev za svaku vrstu kredita u okviru Programa.</strong></p>
+
+<p style="text-align: justify;">Zahtev za dodelu bespovratnih sredstava podnosi se istovremeno sa zahtevom za kredit u ekspozituri ili filijali Banke Po&scaron;tanska &scaron;tedionica A.D. Beograd. Uz zahtev je potrebno dostaviti i popunjen O1 Obrazac &ndash; Zahtev za dodelu bespovratnih sredstava, zajedno sa propisanom pratećom dokumentacijom.</p>
+
+<p style="text-align: justify;">Detaljne informacije o uslovima Programa, kao i Uputstvo za sprovođenje Programa &bdquo;Kapital za razvoj&ldquo;, dostupni su na <strong><a href="https://www.ras.gov.rs/javni-poziv-program-subvencionisanih-kredita-za-nabavku-opreme-i-obrtna-sredstva-kapital-za-razvoj">stranici RAS</a></strong>.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="newsletter_wrap" id="newsletter" style="display: none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 social">
+                                <p>Pratite nas:</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/ras.gov.rs/"><img src="https://ras.gov.rs/themes/siepa/assets/img/xletter_fb.jpg.pagespeed.ic.XRTRFDrv6j.jpg" class="img-responsive"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCX-3Th6TjZW6cRwfLSaqyRw"><img src="https://ras.gov.rs/themes/siepa/assets/img/xletter_yt.jpg.pagespeed.ic.BiYnX-K-K6.jpg" class="img-responsive"></a></li>
+                    <li><a href="https://www.linkedin.com/company-beta/18010137/"><img src="https://ras.gov.rs/themes/siepa/assets/img/xletter_in.jpg.pagespeed.ic.X2rsU8ETTM.jpg" class="img-responsive"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 newsletter_form">
+                <p class="desc">Prijavite se na Newsletter:</p>
+                <div class="gform_wrapper">
+                    <form method="POST" action="https://ras.gov.rs/contact-us/newsletter" accept-charset="UTF-8"><input name="_method" type="hidden" value="PATCH"><input name="_token" type="hidden" value="uasNbZsPrQDeo6aBYA4tQCsnKpkTeu1qqv8NynHb">
+                        <div id="my_name_wrap" style="display:none;">
+<input name="my_name" type="text" value="" id="my_name"/>
+<input name="my_time" type="text" value="eyJpdiI6ImxucU1pY3pPVnBNSEdZaXdFMFhOS3c9PSIsInZhbHVlIjoieDZJXC9teFwvbjQ1ZEpEalhFV1JpdVZ3PT0iLCJtYWMiOiJlYjE4ZmMzZDg4NWM4OWRhMThmODU3NGI0NzZlMTFjZjAwNzNmNmI5MzNmMjMyMDhlMzlhZGQyNDQxYTRmOGZjIn0="/>
+</div>
+                        <div class="gform_body">
+                            <input class="medium" id="input_1_1" placeholder="Va&scaron;a mail adresa..." name="email" type="email">
+                        </div>
+                        <div class="gform_footer top_label">
+                            <input type="submit" id="gform_submit_button_1" class="gform_button button" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer_top" stp>
+        <div class="container">
+            <h2 class="title">Razvojna agencija Srbije</h2>
+            <p class="desc">Razvojna agencija Srbije (RAS) je agencija Vlade Republike Srbije koja nudi &scaron;irok spektar usluga, uključujući podr&scaron;ku direktnim investicijama, podsticanje konkurentnosti&nbsp;i promociju izvoza, kao i sprovođenje projekata koji imaju pozitivne efekte na na ekonomski i regionalni razvoj.</p>
+
+            <div class="info_wrapper">
+
+                <div class="info_box">
+                    <img src="https://ras.gov.rs/themes/siepa/assets/img/xlocation.png.pagespeed.ic.Wt1CONDig8.png" class="img-responsive">
+                    <h3>Adresa</h3>
+                    <p>Kneza Milosa 12, <br> 11000 Beograd, Serbia</p>
+                </div>
+                <div class="info_box">
+                    <img src="https://ras.gov.rs/themes/siepa/assets/img/xmail.png.pagespeed.ic.5URmDb1QUV.png" class="img-responsive">
+                    <h3>E-mail</h3>
+                    <p>office@ras.gov.rs</p>
+                </div>
+                <div class="info_box">
+                    <img src="https://ras.gov.rs/themes/siepa/assets/img/xphone.png.pagespeed.ic.rFHieefba8.png" class="img-responsive">
+                    <h3>Telefon</h3>
+                    <p>+381 11 3398 510</p>
+                </div>
+              
+
+            </div>
+
+
+          <div class="isologo">
+          
+          <img src="/themes/siepa/assets/img/200xNxISO9001_2015.png.pagespeed.ic.FXB27IqLdE.png" width="200px">
+
+          </div>  
+
+        <!--     <div class="links">
+                <ul class="footer_menu">
+                                                                        <li><a href="/o-nama/nase-usluge">Na&scaron;e usluge</a></li>
+                                                    <li><a href="/o-nama/nasa-organizacija">Na&scaron;a organizacija</a></li>
+                                                    <li><a href="/o-nama/statut-agencije">Statut agencije</a></li>
+                                                    <li><a href="/o-nama/javne-nabavke">Javne nabavke</a></li>
+                                                    <li><a href="/o-nama/javne-nabavke-ipa-program">Javne nabavke IPA - PRAG</a></li>
+                                                    <li><a href="/o-nama/javni-konkursi">Javni konkursi</a></li>
+                                                    <li><a href="/o-nama/dokumenti">Dokumenti</a></li>
+                                                    <li><a href="/o-nama/obavestenja"> Obave&scaron;tenja</a></li>
+                                                            </ul>
+
+                                                                                                                            </div> -->
+        </div>
+    </div>
+
+    <div class="copyright">
+        <div class="container">
+            <p>RAS 2025 &copy; sva prava zadržana | Razvoj sajta:  <a href="https://smartweb.rs/">Smartweb</a>.</p>
+        </div>
+    </div>
+    <a href="#0" class="cd-top">Top</a>
+</footer>
+
+<script>if($(window).width()>768){wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();$(".box_details").hover(function(){$(this).find('p').toggleClass("zoomInDown animated");});}$(".header_up #navbar").on("show.bs.collapse",function(){$('.logo_wrapper').hide();$('.header_up .img_close').hide();$('.header_up .img_open').addClass('show_inline');$('.header_down').css("margin-top","0px");}).on("hide.bs.collapse",function(){$('.logo_wrapper').show();$('.header_up .img_close').show();$('.header_up .img_open').removeClass('show_inline');$('.header_down').css("margin-top","120px");});$(".header_down #main_menu").on("show.bs.collapse",function(){$('.header_down .main_menu_icon .icon-bar').hide();$('.header_down .main_menu_icon .close_img').css('display','block');;}).on("hide.bs.collapse",function(){$('.header_down .main_menu_icon .icon-bar').show();$('.header_down .main_menu_icon .close_img').hide();});$(".font_small").click(function(){$("body").css("font-size","13px");$("#newsletter_btn").removeAttr("style");});$(".font_medium").click(function(){$("body").css("font-size","14px");$("#newsletter_btn").removeAttr("style");});$(".font_big").click(function(){$("body").css("font-size","17px");$("#newsletter_btn").css("margin-left","-104px").css("padding","14px 12px 12px 12px");});if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){}else{$('.order1').addClass('slideInLeft');$('.order1').addClass('wow');$('.order1').addClass('animated');$('.order2').addClass('wow');$('.order2').addClass('slideInRight');$('.order2').addClass('animated');}</script>
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-93752385-1','auto');ga('send','pageview');</script>
+
+<script src="https://ras.gov.rs/themes/siepa/assets/js/language-selector.js+modernizr.js+back_to_top.js.pagespeed.jc.izS2flB936.js"></script><script>eval(mod_pagespeed_n6_CWU77lC);</script>
+<script>eval(mod_pagespeed_kGdPfT_vE6);</script>
+<script>eval(mod_pagespeed_6ee3sQgLyi);</script>
+
+      <script type="text/javascript" src="https://ras.gov.rs/themes/siepa/assets/js/lightbox-plus-jquery.min.js.pagespeed.jm.PvUgV7thV6.js"></script>
+    <script>lightbox.option({'resizeDuration':200,'wrapAround':false,'alwaysShowNavOnTouchDevices':true})</script>
+
+  
+  <!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">//<![CDATA[
+var google_conversion_id=857447118;var google_custom_params=window.google_tag_params;var google_remarketing_only=true;
+//]]></script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/857447118/?guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+<!-- Footer includes -->
+
+
+</body>
+
+</html>

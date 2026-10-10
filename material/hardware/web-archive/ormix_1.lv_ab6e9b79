@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="CfDJ8Auyq-4yzhBIguZyyeKiDnygHI1Cst2gIBKvw1_i0jcOiiDKHlch9A4J10Ch8LzoFqno0zQjXH7YOVFFyuX8xoOb4wYi_v_n3b_ROV6fE67GYBl3M5th4yhgf5kjFpdTi5ASgvaPrSt_XUklStlokBU" />
+    <title>ESP32 Dev Kit C Unlogged compatible with Arduino - ORMIX Electronic Components</title>
+    <meta name="description" content="ORMIX Electronics - electronic components and radio parts store in Riga. Browse components online, arrange delivery in Latvia, or collect from our office.">
+    <meta name="keywords" content="electronic components, radio parts, electronics store, Ormix, Riga">
+    <meta name="robots" content="index,follow">
+        <link rel="canonical" href="https://ormix.lv/en/product/36697">
+        <link rel="alternate" hreflang="lv" href="https://ormix.lv/lv/product/36697">
+        <link rel="alternate" hreflang="ru" href="https://ormix.lv/ru/product/36697">
+        <link rel="alternate" hreflang="en" href="https://ormix.lv/en/product/36697">
+        <link rel="alternate" hreflang="x-default" href="https://ormix.lv/lv/product/36697">
+    <meta property="og:title" content="ESP32 Dev Kit C Unlogged compatible with Arduino - ORMIX">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ORMIX Electronic Components">
+    <meta property="og:description" content="ORMIX Electronics - electronic components and radio parts store in Riga. Browse components online, arrange delivery in Latvia, or collect from our office.">
+        <meta property="og:url" content="https://ormix.lv/en/product/36697">
+        <meta property="og:image" content="https://ormix.lv/files/item_uploads/0e71acaaf7011129e30c41d5c8edade9.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/ormix.css?v=LQlPAiwwqzilM_Qm81aERzfVoLWB-sZUIf0YtaJW2WM" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5EVD86S9G"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-V5EVD86S9G');
+        </script>
+</head>
+<body>
+    <div b-7tysbvhb3u id="wrap">
+        <!-- Top Navigation -->
+        <div b-7tysbvhb3u class="top-panel">
+            <div b-7tysbvhb3u class="container">
+                <nav b-7tysbvhb3u class="menu">
+                    <ul b-7tysbvhb3u>
+                            <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/account/login"><svg b-7tysbvhb3u viewBox="0 0 24 24" width="14" height="14"><path b-7tysbvhb3u fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg> Login</a></li>
+                        <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/catalog">Catalog</a></li>
+                        <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/delivery">Delivery</a></li>
+                        <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/terms">Terms</a></li>
+                        <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/about">About</a></li>
+                        <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div b-7tysbvhb3u class="top-panel__right">
+                    <div b-7tysbvhb3u class="langs">
+                        <a b-7tysbvhb3u href="/lv/product/36697" class="">LV</a>
+                        <a b-7tysbvhb3u href="/ru/product/36697" class="">RU</a>
+                        <a b-7tysbvhb3u href="/en/product/36697" class="active">EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header b-7tysbvhb3u id="header">
+            <video b-7tysbvhb3u class="header-video" id="header-video" autoplay muted playsinline>
+                <source src="/video/bg5.mp4" type="video/mp4">
+            </video>
+            <div b-7tysbvhb3u class="container">
+                <div b-7tysbvhb3u class="h__wrap">
+                    <!-- Mobile hamburger -->
+                    <button b-7tysbvhb3u class="navigation-btn" data-toggle="active" data-target="#navigation">
+                        <span b-7tysbvhb3u></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <a b-7tysbvhb3u href="/en/" class="logo">
+                        <img src="/images/logo.png" alt="ORMIX" class="logo-full" />
+                        <img src="/images/logo_small.png" alt="ORMIX" class="logo-small" />
+                    </a>
+
+                    <!-- Center Group (Contact + Search) -->
+                    <div b-7tysbvhb3u class="h__center-group">
+                        <!-- Contact info -->
+                        <div b-7tysbvhb3u class="h__contact">
+                            <div b-7tysbvhb3u class="phone">(+371) 67-50-16-55</div>
+                            <div b-7tysbvhb3u class="email">slava@ormix.lv</div>
+                        </div>
+
+                        <!-- Search -->
+                        <form class="h__search" action="/en/search" method="get">
+                            <input b-7tysbvhb3u type="text" name="q" placeholder="Search..." />
+                            <button b-7tysbvhb3u type="submit" class="search-btn">
+                                <svg b-7tysbvhb3u viewBox="0 0 24 24" width="20" height="20"><path b-7tysbvhb3u fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </button>
+                        </form>
+
+                    </div>
+
+                    <!-- Cart -->
+                    <div b-7tysbvhb3u class="h__basket">
+                        <a b-7tysbvhb3u href="/en/basket" class="cart-link" id="basket-top">
+                            <svg b-7tysbvhb3u viewBox="0 0 24 24" width="24" height="24"><path b-7tysbvhb3u fill="currentColor" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                            <span b-7tysbvhb3u class="cart-label">Cart</span>
+                            <span b-7tysbvhb3u class="cart-count" id="cart-count">0</span>
+                            <span b-7tysbvhb3u class="cart-total" id="cart-total">0.00 EUR</span>
+                        </a>
+                    </div>
+
+                    <!-- Mobile cart button -->
+                    <a b-7tysbvhb3u href="/en/basket" class="cart-btn">
+                        <svg b-7tysbvhb3u viewBox="0 0 24 24" width="24" height="24"><path b-7tysbvhb3u fill="currentColor" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0020 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Bronze banner bar -->
+        <div b-7tysbvhb3u class="banner-bar">
+            <div b-7tysbvhb3u class="container">
+                <div b-7tysbvhb3u class="banner-bar__content">
+                    <div b-7tysbvhb3u class="banner-bar__main">Quality of the approved manufacturers</div>
+                    <div b-7tysbvhb3u class="banner-bar__secondary">
+                        <div b-7tysbvhb3u>Wholesale and retail sale of radio components,</div>
+                        <div b-7tysbvhb3u>electronic components</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div b-7tysbvhb3u id="navigation" class="navigation">
+            <div b-7tysbvhb3u class="top">
+                <div b-7tysbvhb3u class="langs">
+                    <a b-7tysbvhb3u href="/lv/product/36697" class="">LV</a>
+                    <a b-7tysbvhb3u href="/ru/product/36697" class="">RU</a>
+                    <a b-7tysbvhb3u href="/en/product/36697" class="active">EN</a>
+                </div>
+                <button b-7tysbvhb3u class="close-btn" data-close="#navigation"></button>
+            </div>
+            <div b-7tysbvhb3u class="body">
+                <form class="mobile-search" action="/en/search" method="get">
+                    <input b-7tysbvhb3u type="text" name="q" placeholder="Search..." />
+                    <button b-7tysbvhb3u type="submit">
+                        <svg b-7tysbvhb3u viewBox="0 0 24 24" width="20" height="20"><path b-7tysbvhb3u fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                    </button>
+                </form>
+                <div b-7tysbvhb3u class="user">
+                        <a b-7tysbvhb3u href="/en/account/login">Login</a>
+                        <a b-7tysbvhb3u href="/en/account/register">Register</a>
+                </div>
+                <ul b-7tysbvhb3u class="menu">
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/">Home</a></li>
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/catalog">Catalog</a></li>
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/delivery">Delivery</a></li>
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/terms">Terms</a></li>
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/about">About</a></li>
+                    <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/contact">Contact</a></li>
+                </ul>
+                <div b-7tysbvhb3u class="address">
+                    <p b-7tysbvhb3u>(+371) 67-50-16-55</p>
+                    <p b-7tysbvhb3u>slava@ormix.lv</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div b-7tysbvhb3u id="content">
+            <div b-7tysbvhb3u class="container">
+                
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    <a href="/en/">Home</a> <span>/</span>
+    <a href="/en/catalog">Catalog</a> <span>/</span>
+            <span>Embedded and IoT Systems</span> <span>/</span>
+            <a href="/en/catalog/GG124">ESP32, ESP8266 boards</a> <span>/</span>
+    <span>ESP32 Dev Kit C</span>
+</div>
+
+<h1>ESP32 Dev Kit C Unlogged compatible with Arduino</h1>
+
+<div class="product">
+    <!-- Gallery -->
+    <aside class="product__gallery">
+        <div class="gallery__photo" onclick="openImageModal(document.getElementById('mainProductImage').src)">
+            <img id="mainProductImage" src="/files/item_uploads/0e71acaaf7011129e30c41d5c8edade9.jpg" alt="ESP32 Dev Kit C" />
+            <div class="gallery__zoom-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <circle cx="10" cy="10" r="6"></circle>
+                    <line x1="14.5" y1="14.5" x2="20" y2="20"></line>
+                    <line x1="10" y1="7" x2="10" y2="13"></line>
+                    <line x1="7" y1="10" x2="13" y2="10"></line>
+                </svg>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Content -->
+    <article class="product__content">
+        <!-- Two-column layout: Details+Order on left, Price on right -->
+        <div class="product__content-layout">
+            <!-- Left Column: Details and Order -->
+            <div class="product__left">
+                <!-- Details -->
+                <dl class="product__details">
+                    <dt>Article:</dt>
+                    <dd>ESP32 Dev Kit C</dd>
+
+                    <dt>Stock:</dt>
+                    <dd>
+                            <span class="in-stock">2</span>
+                    </dd>
+
+                        <dt>Specifications:</dt>
+                        <dd>
+                                <a href="/files/item_uploads/2230cc5cc34d668fd0c9d3ad8dbd1bfa.pdf" target="_blank" class="pdf-link" style="display: block; margin-bottom: 5px;">
+                                    <svg width="24" height="24" viewBox="0 0 384 512" fill="#DC3545">
+                                        <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-24.2 31.1-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"/>
+                                    </svg>
+                                    <span class="pdf-text">Download file</span>
+                                </a>
+                        </dd>
+                </dl>
+
+                <!-- Order Form -->
+                <div class="product__order">
+                    <div class="row">
+                        <label>Price/pcs.:</label>
+                        <strong><span class="price-for-one">12.90</span> EUR</strong>
+                    </div>
+                    <div class="row">
+                        <label>Quantity [pcs.]:</label>
+                        <input type="number"
+                               class="item-count"
+                               name="count"
+                               value="1"
+                               min="1"
+                               data-item-id="36697"
+                               onchange="updateProductPrice(36697)" />
+                        <button class="btn btn-primary" onclick="addToCart(36697, parseInt(document.querySelector('.item-count').value) || 1)">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="row">
+                        <label>Total:</label>
+                        <span class="product__total"><span class="total-price">12.90</span> EUR</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Price Tiers -->
+                <div class="product__right">
+                    <h3>Price</h3>
+                    <p class="price-note">Price depends on order volume</p>
+                    <table class="price-table price-table--vertical">
+                        <thead>
+                            <tr>
+                                <th>Quantity [pcs.]</th>
+                                <th>Net Price [EUR/pcs.]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr data-min-qty="1" class="active">
+                                    <td>1+</td>
+                                    <td>12.90</td>
+                                </tr>
+                                <tr data-min-qty="3" class="">
+                                    <td>3+</td>
+                                    <td>11.50</td>
+                                </tr>
+                                <tr data-min-qty="5" class="">
+                                    <td>5+</td>
+                                    <td>10.50</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+        <!-- Specifications (full width, below the two-column layout) -->
+    </article>
+</div>
+
+<!-- Image Modal -->
+<div id="image-modal" class="image-modal" onclick="closeImageModal()">
+    <div class="image-modal__content" onclick="event.stopPropagation()">
+        <button class="image-modal__close" onclick="closeImageModal()">&times;</button>
+        <img id="modal-image" src="" alt="ESP32 Dev Kit C" />
+    </div>
+</div>
+
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer b-7tysbvhb3u id="footer">
+            <div b-7tysbvhb3u class="container">
+                <div b-7tysbvhb3u class="footer__cols">
+                    <div b-7tysbvhb3u class="footer__col footer__col--contact">
+                        <h4 b-7tysbvhb3u>Ormix Electronics</h4>
+                        <dl b-7tysbvhb3u class="footer__contact-list">
+                            <dt b-7tysbvhb3u>Phone:</dt>
+                            <dd b-7tysbvhb3u><a b-7tysbvhb3u href="tel:+37167501655">+(371) 67-50-16-55</a></dd>
+                            <dt b-7tysbvhb3u>Address:</dt>
+                            <dd b-7tysbvhb3u><a b-7tysbvhb3u href="https://maps.google.com/?q=Ūnijas+iela+11A,+Rīga,+LV-1039" target="_blank" rel="noopener">Ūnijas iela 11A, Rīga, LV-1039</a></dd>
+                        </dl>
+                    </div>
+                    <div b-7tysbvhb3u class="footer__col footer__col--contact">
+                        <h4 b-7tysbvhb3u>Contact</h4>
+                        <dl b-7tysbvhb3u class="footer__contact-list">
+                            <dt b-7tysbvhb3u>E-mail:</dt>
+                            <dd b-7tysbvhb3u><a b-7tysbvhb3u href="mailto:slava@ormix.lv">slava@ormix.lv</a></dd>
+                            <dt b-7tysbvhb3u>Social:</dt>
+                            <dd b-7tysbvhb3u><a b-7tysbvhb3u href="https://www.facebook.com/ormixLtd/" target="_blank" rel="noopener" class="footer__social"><svg b-7tysbvhb3u fill="currentColor" viewBox="0 0 24 24"><path b-7tysbvhb3u d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg> Facebook</a></dd>
+                        </dl>
+                    </div>
+                    <div b-7tysbvhb3u class="footer__col">
+                        <h4 b-7tysbvhb3u>Information</h4>
+                        <ul b-7tysbvhb3u>
+                            <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/catalog">Catalog</a></li>
+                            <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/about">About</a></li>
+                        </ul>
+                    </div>
+                    <div b-7tysbvhb3u class="footer__col">
+                        <h4 b-7tysbvhb3u>Help</h4>
+                        <ul b-7tysbvhb3u>
+                            <li b-7tysbvhb3u><a b-7tysbvhb3u href="/en/delivery">Delivery</a></li>
+                            <li b-7tysbvhb3u>
+                                <a b-7tysbvhb3u href="/en/terms">Terms</a> 
+                                &amp; 
+                                <a b-7tysbvhb3u href="/en/privacy">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div b-7tysbvhb3u class="footer__bottom">
+                    <p b-7tysbvhb3u>&copy; 2026 <a b-7tysbvhb3u href="https://ormix.lv">ORMIX</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+<div id="cookie-notice" class="cookie-notice" style="display: none;">
+    <div class="cookie-notice__content">
+        <p>We use essential cookies for basket and login functionality. <a href="/en/privacy">Learn more</a></p>
+        <button type="button" id="cookie-accept" class="btn btn-primary">Accept</button>
+    </div>
+</div>
+
+<style>
+    .cookie-notice {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(51, 51, 51, 0.97);
+        color: #fff;
+        padding: 1rem;
+        z-index: 9999;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    }
+    .cookie-notice__content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .cookie-notice p {
+        margin: 0;
+        font-size: 0.9rem;
+        flex: 1;
+    }
+    .cookie-notice a {
+        color: var(--color-secondary, #c09862);
+        text-decoration: underline;
+    }
+    .cookie-notice a:hover {
+        color: #fff;
+    }
+    .cookie-notice .btn {
+        white-space: nowrap;
+        padding: 0.5rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    @media (max-width: 480px) {
+        .cookie-notice__content {
+            flex-direction: column;
+            text-align: center;
+        }
+        .cookie-notice .btn {
+            width: 100%;
+        }
+    }
+</style>
+
+<script>
+    (function() {
+        var COOKIE_NOTICE_KEY = 'ormix_cookie_notice_dismissed';
+
+        function isCookieNoticeDismissed() {
+            try {
+                return localStorage.getItem(COOKIE_NOTICE_KEY) === 'true';
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function dismissCookieNotice() {
+            try {
+                localStorage.setItem(COOKIE_NOTICE_KEY, 'true');
+            } catch (e) {
+                // localStorage not available
+            }
+            var notice = document.getElementById('cookie-notice');
+            if (notice) {
+                notice.style.display = 'none';
+            }
+        }
+
+        function initCookieNotice() {
+            if (isCookieNoticeDismissed()) {
+                return;
+            }
+
+            var notice = document.getElementById('cookie-notice');
+            var acceptBtn = document.getElementById('cookie-accept');
+
+            if (notice) {
+                notice.style.display = 'block';
+            }
+
+            if (acceptBtn) {
+                acceptBtn.addEventListener('click', dismissCookieNotice);
+            }
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initCookieNotice);
+        } else {
+            initCookieNotice();
+        }
+    })();
+</script>
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/ormix.js?v=_wedTb2V0LwmOnj6UWgZ8p945_kYQ63aijGSao5AgGY"></script>
+    
+</body>
+</html>

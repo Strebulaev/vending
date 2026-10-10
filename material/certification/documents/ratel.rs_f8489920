@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add Content Security Policy -->
+        <meta http-equiv=>
+    <meta name="csrf-token" content="XcB3Hx2zUeJNRILb1edBUXrtHB6DOrvk7NewkNtC">
+    
+        
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="robots" content="index, follow">
+
+        
+        <link rel="canonical" href="https://www.ratel.rs/sr/radio-oprema">
+
+        
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.ratel.rs/sr/radio-oprema"/>
+        <meta property="og:image" content="https://www.ratel.rs/storage/upload/2024/11/f5SkNEueiPUB7ZxeLpwBJzJnGaZzTEZ2S3uhsNrE_ORIGINAL.webp"/>
+        <meta property="og:image:width" content="675"/>
+        <meta property="og:image:height" content="1000"/>
+
+        
+        <meta name="twitter:title" content="">
+        <meta name="twitter:card" content="">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="https://www.ratel.rs/storage/upload/2024/11/f5SkNEueiPUB7ZxeLpwBJzJnGaZzTEZ2S3uhsNrE_ORIGINAL.webp">
+    
+    <title>Ratel - Radio-oprema</title>
+
+    <!-- Styles -->
+    <style>
+    @import url(https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap);@charset "UTF-8";:root{--white: #ffffff;--black: #000000;--bg-primary: #1c3d76;--text-primary: #777777;--text-primary-dark: #091826;--primary: #1c3d76;--primary-dark: #626973;--primary-opaque: rgba(122, 17, 67, 0.12);--secondary: #e7ecf1;--secondary-dark: #303030;--secondary-opaque: rgba(217, 169, 91, 0.12);--info: #3b82f6;--success: #22d172;--warn: #fbbf24;--error: #e51924;--body-color: #ffffff;--primary-font: "Exo 2", sans-serif;--primary-font-medium: "Exo 2", sans-serif;--primary-font-bold: "Exo 2", sans-serif;--secondary-font: "Exo 2", sans-serif;--tertiary-font: "Exo 2", sans-serif}*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::before,::after{--tw-content: ''}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}h1{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b{font-weight:bolder}button,input,select{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}h1,p{margin:0}ul{list-style:none;margin:0;padding:0}input::-moz-placeholder{opacity:1;color:#9ca3af}img,svg{display:block;vertical-align:middle}img{max-width:100%;height:auto}h1{font-family:Exo 2;font-size:30px;line-height:40px}@media (min-width:991.98px){h1{font-size:40px;line-height:50px}}@media (min-width:1199.98px){h1{font-size:55px;line-height:60px}}@media (min-width:1280px){h1{font-size:85px;line-height:80px}}a{--tw-text-opacity: 1;color:rgb(231 236 240 / var(--tw-text-opacity));font-family:var(--primary-font),sans-serif}p,ul,li{font-size:16px}@media (min-width:991.98px){p,ul,li{font-size:16px}}@media (min-width:1199.98px){p,ul,li{font-size:18px}}li,ul{margin-bottom:0px}*,::before,::after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x:  ;--tw-pan-y:  ;--tw-pinch-zoom:  ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position:  ;--tw-gradient-via-position:  ;--tw-gradient-to-position:  ;--tw-ordinal:  ;--tw-slashed-zero:  ;--tw-numeric-figure:  ;--tw-numeric-spacing:  ;--tw-numeric-fraction:  ;--tw-ring-inset:  ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / 0.5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur:  ;--tw-brightness:  ;--tw-contrast:  ;--tw-grayscale:  ;--tw-hue-rotate:  ;--tw-invert:  ;--tw-saturate:  ;--tw-sepia:  ;--tw-drop-shadow:  ;--tw-backdrop-blur:  ;--tw-backdrop-brightness:  ;--tw-backdrop-contrast:  ;--tw-backdrop-grayscale:  ;--tw-backdrop-hue-rotate:  ;--tw-backdrop-invert:  ;--tw-backdrop-opacity:  ;--tw-backdrop-saturate:  ;--tw-backdrop-sepia:  ;--tw-contain-size:  ;--tw-contain-layout:  ;--tw-contain-paint:  ;--tw-contain-style:  }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x:  ;--tw-pan-y:  ;--tw-pinch-zoom:  ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position:  ;--tw-gradient-via-position:  ;--tw-gradient-to-position:  ;--tw-ordinal:  ;--tw-slashed-zero:  ;--tw-numeric-figure:  ;--tw-numeric-spacing:  ;--tw-numeric-fraction:  ;--tw-ring-inset:  ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / 0.5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur:  ;--tw-brightness:  ;--tw-contrast:  ;--tw-grayscale:  ;--tw-hue-rotate:  ;--tw-invert:  ;--tw-saturate:  ;--tw-sepia:  ;--tw-drop-shadow:  ;--tw-backdrop-blur:  ;--tw-backdrop-brightness:  ;--tw-backdrop-contrast:  ;--tw-backdrop-grayscale:  ;--tw-backdrop-hue-rotate:  ;--tw-backdrop-invert:  ;--tw-backdrop-opacity:  ;--tw-backdrop-saturate:  ;--tw-backdrop-sepia:  ;--tw-contain-size:  ;--tw-contain-layout:  ;--tw-contain-paint:  ;--tw-contain-style:  }.nav-link{border-style:none;--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity));font-family:var(--primary-font),sans-serif}.fixed{position:fixed!important}.absolute{position:absolute!important}.relative{position:relative!important}.inset-0{inset:0px!important}.-bottom-1{bottom:-0.25rem!important}.-top-10{top:-2.5rem!important}.left-0{left:0px!important}.left-16{left:4rem!important}.left-8{left:2rem!important}.right-0{right:0px!important}.right-16{right:4rem!important}.right-8{right:2rem!important}.top-0{top:0px!important}.top-10{top:2.5rem!important}.top-8{top:2rem!important}.top-\[40\%\]{top:40%!important}.top-\[80px\]{top:80px!important}.z-10{z-index:10!important}.z-\[100000\]{z-index:100000!important}.z-\[100001\]{z-index:100001!important}.z-\[100\]{z-index:100!important}.z-\[200\]{z-index:200!important}.z-\[80000\]{z-index:80000!important}.z-\[99999\]{z-index:99999!important}.col-span-12{grid-column:span 12 / span 12!important}.m-0{margin:0px!important}.mx-auto{margin-left:auto!important;margin-right:auto!important}.my-4{margin-top:1rem!important;margin-bottom:1rem!important}.-ml-5{margin-left:-1.25rem!important}.mb-4{margin-bottom:1rem!important}.mt-12{margin-top:3rem!important}.mt-4{margin-top:1rem!important}.flex{display:flex!important}.grid{display:grid!important}.hidden{display:none!important}.h-2{height:0.5rem!important}.h-36{height:9rem!important}.h-4{height:1rem!important}.h-72{height:18rem!important}.h-auto{height:auto!important}.h-fit{height:-moz-fit-content!important;height:fit-content!important}.h-full{height:100%!important}.h-screen{height:100vh!important}.min-h-16{min-height:4rem!important}.min-h-\[2rem\]{min-height:2rem!important}.w-2{width:0.5rem!important}.w-24{width:6rem!important}.w-32{width:8rem!important}.w-4{width:1rem!important}.w-6{width:1.5rem!important}.w-\[2px\]{width:2px!important}.w-fit{width:-moz-fit-content!important;width:fit-content!important}.w-full{width:100%!important}.w-screen{width:100vw!important}.min-w-32{min-width:8rem!important}.max-w-\[1382px\]{max-width:1382px!important}.max-w-\[calc\(6\*image-width\)\]{max-width:calc(6 * image - width)!important}.max-w-full{max-width:100%!important}.flex-shrink-0{flex-shrink:0!important}.rotate-45{--tw-rotate: 45deg !important;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))!important}.grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr))!important}.flex-row{flex-direction:row!important}.flex-col{flex-direction:column!important}.flex-wrap{flex-wrap:wrap!important}.items-start{align-items:flex-start!important}.items-end{align-items:flex-end!important}.items-center{align-items:center!important}.justify-start{justify-content:flex-start!important}.justify-center{justify-content:center!important}.justify-between{justify-content:space-between!important}.gap-4{gap:1rem!important}.gap-6{gap:1.5rem!important}.gap-8{gap:2rem!important}.gap-x-2{-moz-column-gap:0.5rem!important;column-gap:0.5rem!important}.gap-x-6{-moz-column-gap:1.5rem!important;column-gap:1.5rem!important}.gap-y-4{row-gap:1rem!important}.gap-y-6{row-gap:1.5rem!important}.overflow-x-auto{overflow-x:auto!important}.overflow-y-auto{overflow-y:auto!important}.truncate{overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}.text-wrap{text-wrap:wrap!important}.text-nowrap{text-wrap:nowrap!important}.break-words{overflow-wrap:break-word!important}.border-0{border-width:0px!important}.border-\[0\.5px\]{border-width:0.5px!important}.border-y-2{border-top-width:2px!important;border-bottom-width:2px!important}.border-primary{--tw-border-opacity: 1 !important;border-color:rgb(28 61 118 / var(--tw-border-opacity))!important}.border-secondary{--tw-border-opacity: 1 !important;border-color:rgb(231 236 240 / var(--tw-border-opacity))!important}.bg-black{--tw-bg-opacity: 1 !important;background-color:rgb(0 0 0 / var(--tw-bg-opacity))!important}.bg-primary{--tw-bg-opacity: 1 !important;background-color:rgb(28 61 118 / var(--tw-bg-opacity))!important}.bg-red-600{--tw-bg-opacity: 1 !important;background-color:rgb(220 38 38 / var(--tw-bg-opacity))!important}.bg-secondary{--tw-bg-opacity: 1 !important;background-color:rgb(231 236 240 / var(--tw-bg-opacity))!important}.bg-white{--tw-bg-opacity: 1 !important;background-color:rgb(255 255 255 / var(--tw-bg-opacity))!important}.object-cover{-o-object-fit:cover!important;object-fit:cover!important}.p-4{padding:1rem!important}.p-5{padding:1.25rem!important}.px-0{padding-left:0px!important;padding-right:0px!important}.px-2{padding-left:0.5rem!important;padding-right:0.5rem!important}.px-3{padding-left:0.75rem!important;padding-right:0.75rem!important}.px-8{padding-left:2rem!important;padding-right:2rem!important}.py-1{padding-top:0.25rem!important;padding-bottom:0.25rem!important}.py-2{padding-top:0.5rem!important;padding-bottom:0.5rem!important}.py-3{padding-top:0.75rem!important;padding-bottom:0.75rem!important}.py-5{padding-top:1.25rem!important;padding-bottom:1.25rem!important}.pb-4{padding-bottom:1rem!important}.text-center{text-align:center!important}.text-right{text-align:right!important}.text-2xl{font-size:1.5rem!important;line-height:2rem!important}.text-sm{font-size:0.875rem!important;line-height:1.25rem!important}.text-xl{font-size:1.25rem!important;line-height:1.75rem!important}.text-xs{font-size:0.75rem!important;line-height:1rem!important}.font-bold{font-weight:700!important}.font-normal{font-weight:400!important}.font-semibold{font-weight:600!important}.uppercase{text-transform:uppercase!important}.text-gray-50{--tw-text-opacity: 1 !important;color:rgb(249 250 251 / var(--tw-text-opacity))!important}.text-primary{--tw-text-opacity: 1 !important;color:rgb(28 61 118 / var(--tw-text-opacity))!important}.text-text-primary{--tw-text-opacity: 1 !important;color:rgb(46 49 51 / var(--tw-text-opacity))!important}.text-white{--tw-text-opacity: 1 !important;color:rgb(255 255 255 / var(--tw-text-opacity))!important}.opacity-50{opacity:0.5!important}.opacity-80{opacity:0.8!important}.opacity-90{opacity:0.9!important}.text-primary,.text-white,.text-text-primary,h1{font-family:var(--primary-font),sans-serif}.page-builder>p{margin-bottom:1rem}.page-builder>p:last-child{margin-bottom:0rem}.hamburger-menu-icon{width:40px;height:30px;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center}.bar{height:2px;width:100%;background-color:#2e3133;position:absolute;left:0}.bar:nth-of-type(1){top:0;transform:translateY(0)}.bar:nth-of-type(2){top:50%;transform:translateY(-50%)}.bar:nth-of-type(3){bottom:0;transform:translateY(0)}.mm-menu-item-active{color:var(--primary)!important}.mm-menu-item-active:after{content:"";width:100%;height:2px;background:var(--bg-primary);position:absolute;bottom:-10px;left:0}.itc-menu-item a{position:relative}select{background-color:#fff!important}#bottomGallery{display:flex;justify-content:center;gap:16px;overflow-x:auto;overflow-y:auto;max-width:90%;scroll-snap-type:x mandatory}#menu li{border-bottom:0.1px solid var(--secondary);font-weight:600}#menu li a{padding:1.5rem 1.5rem}*{font-family:var(--primary-font),sans-serif;box-sizing:border-box;scroll-behavior:smooth}::-webkit-scrollbar{width:0.375rem}::-webkit-scrollbar:hover{width:0.5rem}::-webkit-scrollbar-track{background:var(--primary-opaque)}::-webkit-scrollbar-thumb{background:var(--primary)}::-webkit-scrollbar-thumb:hover{background:var(--primary-dark);width:0.5rem}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;background:var(--body-color)}@media (min-width:575.98px){.xs\:top-\[90px\]{top:90px!important}.xs\:top-\[91px\]{top:91px!important}.xs\:mx-auto{margin-left:auto!important;margin-right:auto!important}.xs\:flex{display:flex!important}.xs\:h-\[25rem\]{height:25rem!important}.xs\:w-44{width:11rem!important}.xs\:text-2xl{font-size:1.5rem!important;line-height:2rem!important}}@media (min-width:767.98px){.sm\:col-span-5{grid-column:span 5 / span 5!important}.sm\:block{display:block!important}.sm\:flex{display:flex!important}.sm\:h-\[23rem\]{height:23rem!important}.sm\:px-16{padding-left:4rem!important;padding-right:4rem!important}.sm\:pb-0{padding-bottom:0px!important}}@media (min-width:991.98px){.tab\:block{display:block!important}.tab\:flex{display:flex!important}.tab\:h-\[37rem\]{height:37rem!important}.tab\:gap-x-12{-moz-column-gap:3rem!important;column-gap:3rem!important}}@media (min-width:1199.98px){.md\:col-span-6{grid-column:span 6 / span 6!important}.md\:my-16{margin-top:4rem!important;margin-bottom:4rem!important}.md\:hidden{display:none!important}.md\:w-1\/6{width:16.666667%!important}.md\:w-4\/6{width:66.666667%!important}.md\:w-40{width:10rem!important}.md\:w-fit{width:-moz-fit-content!important;width:fit-content!important}.md\:flex-row{flex-direction:row!important}.md\:items-center{align-items:center!important}.md\:justify-end{justify-content:flex-end!important}.md\:gap-8{gap:2rem!important}.md\:gap-x-4{-moz-column-gap:1rem!important;column-gap:1rem!important}.md\:gap-y-0{row-gap:0px!important}.md\:px-16{padding-left:4rem!important;padding-right:4rem!important}.md\:px-3{padding-left:0.75rem!important;padding-right:0.75rem!important}.md\:px-4{padding-left:1rem!important;padding-right:1rem!important}.md\:py-4{padding-top:1rem!important;padding-bottom:1rem!important}.md\:py-6{padding-top:1.5rem!important;padding-bottom:1.5rem!important}.md\:text-2xl{font-size:1.5rem!important;line-height:2rem!important}.md\:text-sm{font-size:0.875rem!important;line-height:1.25rem!important}}@media (min-width:1280px){.lg\:col-span-2{grid-column:span 2 / span 2!important}}@media (min-width:1600px){.xl\:col-span-6{grid-column:span 6 / span 6!important}.xl\:my-20{margin-top:5rem!important;margin-bottom:5rem!important}.xl\:h-\[25rem\]{height:25rem!important}.xl\:gap-x-8{-moz-column-gap:2rem!important;column-gap:2rem!important}.xl\:px-0{padding-left:0px!important;padding-right:0px!important}},.card-scale{}.page-builder>p{margin-bottom:1rem}.page-builder>p:last-child{margin-bottom:0rem}.bar{height:2px;width:100%;background-color:#2e3133;position:absolute;left:0}.bar:nth-of-type(1){top:0;transform:translateY(0)}.bar:nth-of-type(2){top:50%;transform:translateY(-50%)}.bar:nth-of-type(3){bottom:0;transform:translateY(0)}.mm-menu-item-active:after{content:"";width:100%;height:2px;background:var(--bg-primary);position:absolute;bottom:-10px;left:0}.itc-menu-item a{position:relative}select{background-color:#fff!important}#bottomGallery{display:flex;justify-content:center;gap:16px;overflow-x:auto;overflow-y:auto;max-width:90%;scroll-snap-type:x mandatory}#menu{display:none;}.swiper-slide{visibility:hidden;}.swiper-slide:nth-child(1){visibility:visible;}
+
+
+
+
+</style>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let cssPaths = [];
+
+        // We are dynamically loading all core and themes styles for all the module
+        
+                cssPaths.push("https://www.ratel.rs/core/css/app.css");
+                cssPaths.push("https://www.ratel.rs/primary-theme/css/theme.css");
+        
+        lazyLoadCss(cssPaths);
+
+        function lazyLoadCss(paths) {
+            let head = document.getElementsByTagName('head')[0];
+            paths.forEach((path) => {
+                let link = document.createElement('link');
+                link.href = path;
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                head.appendChild(link);
+            });
+        }
+    });
+</script>
+</head>
+
+<body class="relative">
+    <section id="gallerySlider" class="hidden fixed inset-0 w-screen h-screen z-[100001] flex flex-col items-center justify-center gap-6">
+    <div class="absolute inset-0 bg-black opacity-90"></div>
+
+    <button type="button" id="closeGallery" class="absolute flex top-8 right-8 cursor-pointer hover:scale-110 duration-150 ease-in-out z-[200]">
+        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L28 28" stroke="white" stroke-width="2"/>
+            <path d="M1 1L28 28" stroke="white" stroke-width="2"/>
+            <path d="M28 1L1 28" stroke="white" stroke-width="2"/>
+            <path d="M28 1L1 28" stroke="white" stroke-width="2"/>
+        </svg>
+    </button>
+    <div class="top-10 relative w-full flex justify-center items-center gap-y-4 z-[100]">
+        <button type="button" id="leftGalleryBtn" class="absolute hidden sm:flex left-8 cursor-pointer hover:scale-110 duration-150 ease-in-out">
+            <svg width="18" height="32" viewBox="0 0 18 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2L2 16L16 30" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="flex flex-col justify-center items-center">
+            <img id="displayedImage" class="relative max-w-[90vw] sm:max-w-[33rem] tab:max-w-[60rem] max-h-[70vh] sm:max-h-[80vh] z-10 object-contain" src="" alt="current-image" />
+            <p id="displayedImageTitle" class="hidden xs:flex text-center mt-4 text-sm md:text-md text-white font-normal px-2"></p>
+        </div>
+        <button type="button" id="rightGalleryBtn" class="absolute hidden sm:flex right-8 cursor-pointer hover:scale-110 duration-150 ease-in-out">
+            <svg width="18" height="32" viewBox="0 0 18 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L16 16L2 30" stroke="white" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+    <div id="bottomGallery" class="w-full h-36 relative flex flex-wrap justify-center gap-4 mt-12 overflow-x-auto max-w-[calc(6*image-width)]"></div>
+</section>
+    <div id="header">
+        <div class="h-[64px] xs:h-[91px]"></div>
+        <!-- Page Header -->
+        <header>
+    <section id="menu">
+    <ul>
+                                                                                <li class="text-sm"><a href="/sr/o-regulatoru">O Regulatoru</a><ul><li class="text-sm"><a href="/sr/statut">Statut</a></li><li class="text-sm"><a href="/sr/organizaciona-struktura">Organizaciona struktura</a></li><li class="text-sm"><a href="/sr/savet">Savet</a></li><li class="text-sm"><a href="/sr/rukovodstvo">Rukovodstvo</a></li><li class="text-sm"><a href="/sr/informator">Informator</a></li><li class="text-sm"><a href="/sr/izvestaji-o-radu">Izveštaji o radu</a></li><li class="text-sm"><a href="/sr/finansijski-plan">Finansijski plan</a></li><li class="text-sm"><a href="/sr/finansijski-izvestaji">Finansijski izveštaji</a></li><li class="text-sm"><a href="/sr/planovi-rada">Planovi rada</a></li><li class="text-sm"><a href="/sr/medunarodna-saradnja">Međunarodna saradnja</a></li><li class="text-sm"><a href="/sr/cesto-postavljena-pitanja">Često postavljena pitanja</a><ul><li class="text-sm"><a href="/sr/opsta-pitanja">Opšta pitanja</a></li><li class="text-sm"><a href="/sr/vas-usluge">VAS usluge</a></li><li class="text-sm"><a href="/sr/radiofrekvencijski-rf-spektar">Radiofrekvencijski (RF) spektar</a></li></ul></li><li class="text-sm"><a href="/sr/korisni-linkovi">Korisni linkovi</a></li></ul></li>
+                                                                                                            <li class="text-sm"><a href="/sr/elektronske-komunikacije">Elektronske komunikacije</a><ul><li class="text-sm"><a href="/sr/regulativa-elektronske-komunikacije">Regulativa - Elektronske komunikacije</a><ul><li class="text-sm"><a href="/sr/zakoni-elektronske-komunikacije">Zakoni - Elektronske komunikacije</a></li><li class="text-sm"><a href="/sr/podzakonski-akti-elektronske-komunikacije">Podzakonski akti - Elektronske komunikacije</a></li><li class="text-sm"><a href="/sr/plan-namene-i-planovi-raspodele">Plan namene i planovi raspodele</a></li><li class="text-sm"><a href="/sr/plan-numeracije">Plan numeracije</a></li><li class="text-sm"><a href="/sr/koordinacioni-sporazumi">Koordinacioni sporazumi</a></li><li class="text-sm"><a href="/sr/smernice-strategije-i-studije">Strategije, studije i smernice</a></li><li class="text-sm"><a href="/sr/ostala-opsta-akta">Ostala opšta akta</a></li></ul></li><li class="text-sm"><a href="/sr/trziste-elektronske-komunikacije">Tržište</a><ul><li class="text-sm"><a href="/sr/analiza-trzista">Analize tržišta</a><ul><li class="text-sm"><a href="/sr/veleprodajno-trziste-terminacije-poziva-u-fiksnoj-mrezi">Veleprodajno tržište terminacije poziva u fiksnoj mreži</a></li><li class="text-sm"><a href="/sr/ostala-trzista">Ostala tržišta</a><ul><li class="text-sm"><a href="/sr/veleprodajno-trziste-visokokvalitetnog-pristupa">Veleprodajno tržište visokokvalitetnog pristupa</a></li><li class="text-sm"><a href="/sr/veleprodajno-trziste-originacije-poziva-u-fiksnoj-mrezi">Veleprodajno tržište originacije poziva u fiksnoj mreži</a></li><li class="text-sm"><a href="/sr/maloprodajno-trziste-pristupa-fiksnoj-mrezi">Maloprodajno tržište pristupa fiksnoj mreži</a></li><li class="text-sm"><a href="/sr/maloprodajno-trziste-distribucije-medijskih-sadrzaja">Maloprodajno tržište distribucije medijskih sadržaja</a></li><li class="text-sm"><a href="/sr/maloprodajno-trziste-javno-dostupne-fiksne-telefonske-usluge">Maloprodajno tržište javno dostupne fiksne telefonske usluge</a></li></ul></li><li class="text-sm"><a href="/sr/veleprodajno-trziste-sredisnjeg-pristupa">Veleprodajno tržište središnjeg pristupa</a></li><li class="text-sm"><a href="/sr/veleprodajno-trziste-lokalnog-pristupa-elementima-mreze">Veleprodajno tržište lokalnog pristupa elementima mreže</a></li><li class="text-sm"><a href="/sr/veleprodajno-trziste-terminacije-poziva-u-mobilnoj-mrezi">Veleprodajno tržište terminacije poziva u mobilnoj mreži</a></li><li class="text-sm"><a href="/sr/odluke-o-odredivanju-relevantnih-trzista-i-zakljucci-o-usvajanju-izvestaja">Odluke o određivanju relevantnih tržišta i zaključci o usvajanju izveštaja</a></li></ul></li><li class="text-sm"><a href="/sr/standardne-ponude">Standardne ponude</a></li><li class="text-sm"><a href="/sr/izvestaji-revizora">Mišljenja revizora</a></li><li class="text-sm"><a href="/sr/wacc-studije-elektronske-komunikacije">WACC studije - Elektronske komunikacije</a></li><li class="text-sm"><a href="/sr/godisnji-pregledi-trzista">Godišnji pregledi tržišta</a></li><li class="text-sm"><a href="/sr/kvartalni-podaci-elektronske-komunikacije">Kvartalni pregledi tržišta</a></li><li class="text-sm"><a href="/sr/regulacija-cena-vezanih-usluga">Regulacija cena vezanih usluga</a></li></ul></li><li class="text-sm"><a href="/sr/rf-spektar">Radiofrekvencijski spektar</a><ul><li class="text-sm"><a href="/sr/radio-komunikacije">Radio-komunikacije</a><ul><li class="text-sm"><a href="/sr/radio-difuzija">Radio-difuzija</a></li><li class="text-sm"><a href="/sr/dvb-t2">Digitalna televizija DVB-T2</a></li><li class="text-sm"><a href="/sr/t-dab">Digitalni radio T-DAB+</a></li><li class="text-sm"><a href="/sr/fm">Analogni radio FM</a></li><li class="text-sm"><a href="/sr/radio-stanice-u-javnoj-mobilnoj-komunikacionoj-mrezi">Radio-stanice u javnoj mobilnoj komunikacionoj mreži</a></li><li class="text-sm"><a href="/sr/radio-stanice-u-privatnoj-mobilnoj-komunikacionoj-mrezi">Radio-stanice u privatnoj mobilnoj komunikacionoj mreži</a></li><li class="text-sm"><a href="/sr/radio-stanice-na-brodu-i-drugom-plovilu">Radio-stanice na brodu i drugom plovilu</a></li><li class="text-sm"><a href="/sr/radio-stanice-na-vazduhoplovu">Radio-stanice na vazduhoplovu</a></li><li class="text-sm"><a href="/sr/radio-stanice-na-lokomotivi">Radio-stanice na lokomotivi</a></li><li class="text-sm"><a href="/sr/fiksne-radio-komunikacije">Fiksne radio-komunikacije</a></li><li class="text-sm"><a href="/sr/satelitske-radio-komunikacije">Satelitske radio-komunikacije</a><ul><li class="text-sm"><a href="/sr/fiksne-satelitske-veze">Fiksne satelitske veze</a></li><li class="text-sm"><a href="/sr/mobilne-satelitske-veze">Mobilne satelitske veze</a></li><li class="text-sm"><a href="/sr/sng">SNG</a></li></ul></li><li class="text-sm"><a href="/sr/amaterska-radio-sluzba">Amaterska radio-služba</a><ul><li class="text-sm"><a href="/sr/radioamaterska-licenca">Radioamaterska licenca</a></li><li class="text-sm"><a href="/sr/dozvola-za-radioamatersku-stanicu">Dozvola za radioamatersku stanicu</a></li><li class="text-sm"><a href="/sr/cept-i-harec">CEPT i HAREC</a></li><li class="text-sm"><a href="/sr/strani-drzavljani">Strani državljani</a></li></ul></li><li class="text-sm"><a href="/sr/radiodeterminacijska-sluzba">Radiodeterminacijska služba</a></li><li class="text-sm"><a href="/sr/javne-komunikacione-mreze">Javne komunikacione mreže</a></li><li class="text-sm"><a href="/sr/privatne-komunikacione-mreze">Privatne komunikacione mreže</a></li><li class="text-sm"><a href="/sr/uredaji-kratkog-domena-srd">Uređaji kratkog dometa (SRD)</a></li><li class="text-sm"><a href="/sr/oprema-za-proizvodnju-programa-i-organizaciju-specijalnih-dogadaja">Oprema za proizvodnju programa i organizaciju specijalnih događaja</a><ul><li class="text-sm"><a href="/sr/pmse-1">PMSE</a></li><li class="text-sm"><a href="/sr/pmr">PMR</a></li></ul></li></ul></li><li class="text-sm"><a href="/sr/koriscenje-radiofrekvencijskog-spektra2">Korišćenje radiofrekvencijskog spektra</a><ul><li class="text-sm"><a href="/sr/dozvole-za-koriscenje-radiofrekvencijskog-spektra">Dozvole za korišćenje radiofrekvencijskog spektra</a></li><li class="text-sm"><a href="/sr/koriscenje-radiofrekvencijskog-spektra-po-rezimu-opsteg-ovlascenja">Korišćenje radiofrekvencijskog spektra po režimu opšteg ovlašćenja</a></li><li class="text-sm"><a href="/sr/koriscenje-radiofrekvencijskog-spektra-za-posebne-namene">Korišćenje radiofrekvencijskog spektra za posebne namene</a></li></ul></li><li class="text-sm"><a href="/sr/evidentiranje-radio-stanica-po-rezimu-opsteg-ovlascenja">Evidentiranje korišćenja radiofrekvencijskog spektra</a></li><li class="text-sm"><a href="/sr/kontrola-spektra">Kontrola radiofrekvencijskog spektra</a><ul><li class="text-sm"><a href="/sr/galerija-slika">Galerija slika</a><ul><li class="text-sm"><a href="/sr/daljinski-upravljane-kontrolno-merne-stanice">Daljinski upravljane kontrolno-merne stanice</a></li><li class="text-sm"><a href="/sr/kompaktne-daljinski-upravljane-merne-stanice">Kompaktne daljinski upravljane merne stanice</a></li><li class="text-sm"><a href="/sr/kontrolno-merni-centri">Kontrolno-merni centri</a></li><li class="text-sm"><a href="/sr/merna-vozila">Merna vozila</a></li><li class="text-sm"><a href="/sr/senzorske-stanice">Senzorske stanice</a></li><li class="text-sm"><a href="/sr/prenosna-oprema">Prenosna oprema</a></li></ul></li></ul></li><li class="text-sm"><a href="/sr/tehnicki-pregled-radio-stanica">Tehnički pregled radio-stanica</a></li><li class="text-sm"><a href="/sr/prijava-stetnih-smetnji">Prijava smetnji</a></li><li class="text-sm"><a href="/sr/baza-podataka-o-koriscenju-radiofrekvencijskog-spektra">Baza podataka o korišćenju radiofrekvencijskog spektra</a></li><li class="text-sm"><a href="/sr/uputstva-i-obrasci-1">Uputstva i obrasci</a><ul><li class="text-sm"><a href="/sr/dozvole-za-radio-stanice">Uputstva i obrasci za dozvole za korišćenje radiofrekvencijskog spektra</a></li><li class="text-sm"><a href="/sr/obrasci-i-uputstvo-za-podnosenje-prijava-za-evidentiranje-radio-stanice-u-radiofrekvencijskim-opsezima-koji-se-koriste-po-rezimu-opsteg-ovlascenja">Uputstva za podnošenje prijava za evidentiranje radio-stanice u radiofrekvencijskim opsezima koji se koriste po režimu opšteg ovlašćenja</a></li><li class="text-sm"><a href="/sr/uputstva-za-tehnicki-pregled-radio-stanica">Uputstva za tehnički pregled radio-stanica</a></li><li class="text-sm"><a href="/sr/lista-angazovanih-lica">Lista angažovanih lica</a></li><li class="text-sm"><a href="/sr/tehnicko-uputstvo-o-postupanju-prilikom-izdavanja-pojedinacne-dozvole-za-koriscenje-radio-frekvencija-za-vhf-fm-radio-difuzne-stanice-i-koriscenje-sistema-radio-podataka-rds">Tehničko uputstvo o postupanju prilikom izdavanja pojedinačne dozvole za korišćenje radio-frekvencija za VHF FM radio-difuzne stanice i korišćenje sistema radio podataka – RDS</a></li><li class="text-sm"><a href="/sr/uputstva-za-izradu-projektne-dokumentacije">Uputstva za izradu projektne dokumentacije</a></li></ul></li></ul></li><li class="text-sm"><a href="/sr/mreze-i-usluge">Mreže i usluge</a><ul><li class="text-sm"><a href="/sr/nove-tehnologije">Nove tehnologije</a></li><li class="text-sm"><a href="/sr/za-korisnike">Za korisnike</a><ul><li class="text-sm"><a href="/sr/tehnicke-specifikacije-interfejsa-u-terminalnoj-tacki-mreze">Tehničke specifikacije interfejsa u terminalnoj tački mreže</a></li><li class="text-sm"><a href="/sr/kontrola-kvaliteta-usluga">Kontrola kvaliteta usluga</a></li><li class="text-sm"><a href="/sr/vas-usluge-1">VAS usluge</a></li><li class="text-sm"><a href="/sr/numeracija">Numeracija</a></li><li class="text-sm"><a href="/sr/prenos-broja">Prenos broja</a></li><li class="text-sm"><a href="/sr/univerzalni-servis">Univerzalni servis</a></li><li class="text-sm"><a href="/sr/roming">Roming</a></li><li class="text-sm"><a href="/sr/alati-za-korisnike">Alati za korisnike</a></li><li class="text-sm"><a href="/sr/geografski-pregled-rasprostranjenosti-sirokopojasnih-mreza">Geografski pregled rasprostranjenosti širokopojasnih mreža</a></li><li class="text-sm"><a href="/sr/otvoreni-pristup-internetu">Otvoreni pristup internetu</a></li><li class="text-sm"><a href="/sr/bezbednost-i-integritet-javnih-komunikacionih-mreza-i-usluga">Bezbednost i integritet javnih komunikacionih mreža i usluga</a></li></ul></li><li class="text-sm"><a href="/sr/za-operatore-i-pruzaoce-usluga">Za operatore i pružaoce usluga</a><ul><li class="text-sm"><a href="/sr/uputstva-i-obrasci">Uputstva, obrasci i izveštaji</a><ul><li class="text-sm"><a href="/sr/obavestenje-o-obavljanju-delatnosti-elektronskih-komunikacija">Obaveštenje o obavljanju delatnosti elektronskih komunikacija</a></li><li class="text-sm"><a href="/sr/zahtev-za-izdavanje-numeracije-komunikacija">Zahtev za izdavanje numeracije</a></li><li class="text-sm"><a href="/sr/uputstvo-za-medunarodno-povezivanje">Uputstvo za međunarodno povezivanje</a></li><li class="text-sm"><a href="/sr/izvestaji-koje-dostavljaju-operatori-i-pruzaoci-usluga">Izveštaji koje dostavljaju operatori i pružaoci usluga</a></li><li class="text-sm"><a href="/sr/godisnji-izvestaji-o-parametrirma-kvaliteta">Godišnji izveštaji o parametrirma kvaliteta</a></li><li class="text-sm"><a href="/sr/upitnici-sa-listom-indikatora">Upitnici sa listom indikatora</a><ul><li class="text-sm"><a href="/sr/upitnici-tehnicki">Godišnji izveštaji - tehnički deo</a></li><li class="text-sm"><a href="/sr/upitnici-finansijski">Godišnji izveštaji - finansijski deo</a></li></ul></li><li class="text-sm"><a href="/sr/kvartalni-izvestaji">Kvartalni izveštaji</a></li></ul></li><li class="text-sm"><a href="/sr/godisnje-naknade">Godišnje naknade</a><ul><li class="text-sm"><a href="/sr/naknade-za-obavljanje-delatnosti-elektronskih-komunikacija">Naknade za obavljanje delatnosti elektronskih komunikacija</a></li><li class="text-sm"><a href="/sr/naknade-za-koriscenje-numeracije">Naknade za korišćenje numeracije</a></li></ul></li><li class="text-sm"><a href="/sr/kontrola-kvaliteta-usluga-operatora-i-pruzaoca-usluga">Kontrola kvaliteta usluga operatora i pružaoca usluga</a></li><li class="text-sm"><a href="/sr/strucni-nadzor">Stručni nadzor operatora i pružaoca usluga</a></li><li class="text-sm"><a href="/sr/numeracija-za-operatore">Numeracija za pružaoce usluga</a></li><li class="text-sm"><a href="/sr/prenos-broja-za-operatore">Prenos broja za pružaoce usluga</a></li><li class="text-sm"><a href="/sr/univerzalni-servis-za-operatore">Univerzalni servis za pružaoce usluga</a></li><li class="text-sm"><a href="/sr/infrastruktura-za-zajednicko-koriscenje">Infrastruktura za zajedničko korišćenje</a></li><li class="text-sm"><a href="/sr/geografski-pregled-rasprostranjenosti-sirokopojasnih-mreza-za-operatore">Geografski pregled rasprostranjenosti širokopojasnih mreža za operatore</a></li><li class="text-sm"><a href="/sr/otvoreni-pristup-internetu-za-operatore">Otvoreni pristup internetu pružalaca usluga</a></li><li class="text-sm"><a href="/sr/bezbednost-i-integritet-javnih-komunikacionih-mreza-i-usluga-za-operatore">Bezbednost i integritet javnih komunikacionih mreža i usluga za operatore</a></li></ul></li><li class="text-sm"><a href="/sr/radio-oprema">Radio-oprema</a></li></ul></li></ul></li>
+                                                                                                            <li class="text-sm"><a href="/sr/postanske-usluge">Poštanske usluge</a><ul><li class="text-sm"><a href="/sr/regulativa">Regulativa</a><ul><li class="text-sm"><a href="/sr/zakon-o-postanskim-uslugama">Zakon o poštanskim uslugama</a></li><li class="text-sm"><a href="/sr/podzakonski-akti">Podzakonski akti</a></li><li class="text-sm"><a href="/sr/medunarodna-akta">Međunarodna akta</a></li><li class="text-sm"><a href="/sr/strategija-za-regulative">Strategije - poštanske usluge</a></li></ul></li><li class="text-sm"><a href="/sr/registar">Registar - poštanske usluge</a></li><li class="text-sm"><a href="/sr/opsti-uslovi-i-cenovnici-za-obavljanje-postanskih-usluga">Opšti uslovi i Cenovnici za obavljanje poštanskih usluga</a><ul><li class="text-sm"><a href="/sr/cenovnici-za-obavljanje-postanskih-usluga">Cenovnici za obavljanje poštanskih usluga</a><ul><li class="text-sm"><a href="/sr/cene-postanskih-usluga-za-unutrasnji-saobracaj">Cene poštanskih usluga za unutrašnji saobraćaj</a></li><li class="text-sm"><a href="/sr/cenovnik-postanskih-usluga-za-medunarodni-saobracaj">Cenovnik poštanskih usluga za međunarodni saobraćaj</a></li></ul></li><li class="text-sm"><a href="/sr/opsti-uslovi-za-za-obavljanje-postanskih-usluga">Opšti uslovi za obavljanje poštanskih usluga</a></li></ul></li><li class="text-sm"><a href="/sr/za-korisnike-postanskih-usluga">Za korisnike poštanskih usluga</a><ul><li class="text-sm"><a href="/sr/cene-usluga-postanskih-operatera">Cene usluga poštanskih operatera</a></li><li class="text-sm"><a href="/sr/prigovori-korisnika-postanskih-usluga">Prigovori korisnika poštanskih usluga</a></li></ul></li><li class="text-sm"><a href="/sr/za-postanske-operatore">Za poštanske operatore</a><ul><li class="text-sm"><a href="/sr/izdavanje-dozvola-za-obavljanje-postanskih-usluga-i-obrasci">Izdavanje dozvola za obavljanje poštanskih usluga i obrasci</a></li><li class="text-sm"><a href="/sr/naknade-za-obavljanje-postanskih-usluga">Naknade za obavljanje poštanskih usluga</a></li><li class="text-sm"><a href="/sr/obrasci-za-dostavljanje-statistickih-podataka-operatora">Obrasci za dostavljanje statističkih podataka operatora</a></li><li class="text-sm"><a href="/sr/podnosenje-izvestaja">Podnošenje izveštaja</a></li></ul></li><li class="text-sm"><a href="/sr/univerzalna-postanska-usluga">Univerzalna poštanska usluga</a><ul><li class="text-sm"><a href="/sr/regulatorni-izvestaji">Regulatorni izveštaji</a></li><li class="text-sm"><a href="/sr/wacc-studije">WACC studije</a></li><li class="text-sm"><a href="/sr/rezultati-nezavisnog-merenja-neregistrovanih-pismenih-posiljaka">Rezultati nezavisnog merenja neregistrovanih pismonosnih pošiljaka</a></li></ul></li><li class="text-sm"><a href="/sr/trziste-postanskih-usluga">Tržište poštanskih usluga</a><ul><li class="text-sm"><a href="/sr/kvartalni-podaci-postanske-usluge">Kvartalni podaci – poštanske usluge</a></li><li class="text-sm"><a href="/sr/studije-i-istrazivanja">Studije i istraživanja</a></li><li class="text-sm"><a href="/sr/godisnji-pregled-trzista">Godišnji pregled tržišta</a></li></ul></li><li class="text-sm"><a href="/sr/cesta-pitanja-i-odgovori">Česta pitanja i odgovori</a></li><li class="text-sm"><a href="/sr/inovacije-i-informacije">Inovacije i informacije</a></li></ul></li>
+                                                                                                            <li class="text-sm"><a href="/sr/informaciona-bezbednost">Informaciona bezbednost</a><ul><li class="text-sm"><a href="/sr/zakoni-informaciona-bezbednost">Zakoni - Informaciona bezbednost</a></li><li class="text-sm"><a href="/sr/podzakonski-akti-informaciona-bezbednost">Podzakonski akti - Informaciona bezbednost</a></li><li class="text-sm"><a href="/sr/strategije-studije-i-smernice-iz-oblasti-informacione-bezbednosti">Strategije, studije i smernice iz oblasti informacione bezbednosti</a></li></ul></li>
+                                                                                                            <li class="text-sm">
+                        <a href="/sr/kontakt">Kontakt</a>
+                    </li>
+                                                                                                            <li class="text-sm">
+                        <a href="/sr/korisni-linkovi">Korisni linkovi</a>
+                    </li>
+                                                                                                            <li class="text-sm">
+                        <a href="/sr/prigovori-na-rad-operatora">Prigovori na rad operatora</a>
+                    </li>
+                                        </ul>
+</section>
+<div id="dimScreen" class="hidden fixed inset-0  w-screen h-screen overflow-y-auto bg-black opacity-50 z-[80000]"></div>
+<nav class="fixed top-0 bg-white z-[100000] w-full border-y-2 border-secondary">
+    <div class="max-w-[1382px] px-8 sm:px-16 xl:px-0 mx-auto flex justify-between items-center">
+        <div class="-ml-5 w-32 xs:w-44">
+            <a href="/sr/pocetna/" >
+
+    <img src="https://www.ratel.rs/storage/images/ratel_logo_sr.png"
+        title=""
+        alt=""
+        class="min-h-16 min-w-32"
+        />
+</a>        </div>
+
+        <div class="flex justify-between items-center gap-4 md:gap-8">
+            <ul class="hidden tab:flex gap-8 uppercase font-semibold">
+                                                                            
+                    <li class="m-0 itc-menu-item hover:scale-105 duration-150 ease-in-out">
+                        <a href="/sr/o-regulatoru"
+                           class="text-text-primary text-nowrap text-xs md:text-sm "
+                                                   >
+                            O Regulatoru
+                        </a>
+                    </li>
+                                                                            
+                    <li class="m-0 itc-menu-item hover:scale-105 duration-150 ease-in-out">
+                        <a href="/sr/blog-posts-view-all"
+                           class="text-text-primary text-nowrap text-xs md:text-sm "
+                                                   >
+                            Novosti
+                        </a>
+                    </li>
+                                                                            
+                    <li class="m-0 itc-menu-item hover:scale-105 duration-150 ease-in-out">
+                        <a href="/sr/kontakt"
+                           class="text-text-primary text-nowrap text-xs md:text-sm "
+                                                   >
+                            Kontakt
+                        </a>
+                    </li>
+                            </ul>
+            <div class="hidden tab:block w-[2px] h-4 bg-secondary"></div>
+            <ul class="hidden tab:flex gap-8 uppercase font-semibold text-xs md:text-sm">
+                                                                                                                <li class="m-0 itc-menu-item hover:scale-105 duration-150 ease-in-out">
+                                <a href="/sr/prigovori-na-rad-operatora"
+                                   class="text-text-primary text-nowrap text-xs md:text-sm ">
+                                    Prigovori na rad operatora
+                                </a>
+                            </li>
+                                                                                                                                                            <li class="m-0 itc-menu-item hover:scale-105 duration-150 ease-in-out">
+                                <a href="https://registar.ratel.rs/cyr/"
+                                   class="text-text-primary text-nowrap text-xs md:text-sm ">
+                                    Registar
+                                </a>
+                            </li>
+                                                                        </ul>
+            <button id="searchBarButton" class="group flex">
+                <svg id="searchBarSvg" class="hover:scale-110 duration-150 ease-in-out" width="18" height="18"
+                     viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="searchBarPath" class="group-hover:fill-primary"
+                          d="M15.8464 4C22.3784 4 27.6928 9.31426 27.6928 15.8464C27.6928 18.6719 26.6978 21.2692 25.0406 23.3075L30 28.2669L28.2669 30L23.3075 25.0406C21.2693 26.6978 18.672 27.6928 15.8464 27.6928C9.31426 27.6928 4 22.3784 4 15.8464C4 9.31426 9.31426 4 15.8464 4ZM15.8464 25.2417C21.027 25.2417 25.2417 21.027 25.2417 15.8464C25.2417 10.6658 21.027 6.45096 15.8464 6.45096C10.6657 6.45096 6.45096 10.6658 6.45096 15.8464C6.45096 21.027 10.6658 25.2417 15.8464 25.2417Z"
+                          fill="black"/>
+                </svg>
+            </button>
+            <div class="flex items-center">
+                <form
+    action="https://www.ratel.rs/locales"
+    method="POST"
+    class="flex items-center gap-4"
+>
+    <input type="hidden" name="_method" value="PATCH">    <input type="hidden" name="_token" value="XcB3Hx2zUeJNRILb1edBUXrtHB6DOrvk7NewkNtC" autocomplete="off">    <input name="currentPageSlugs" type="hidden" value="{&quot;cyr&quot;:&quot;radio-oprema&quot;,&quot;en&quot;:&quot;radio-oprema&quot;,&quot;sr&quot;:&quot;radio-oprema&quot;}">
+
+    <select
+        class="cursor-pointer uppercase text-sm font-semibold focus:outline-none bg-white hover:scale-105 hover:text-primary focus:scale-105 focus:text-primary duration-150 ease-in-out"
+        name="locale" id="locale" value="locale" onchange="this.form.submit()">
+        
+                                    <option value="cyr"
+                        class="uppercase"
+                    >
+                    СРБ
+                </option>
+                                                <option value="sr"
+                        class="uppercase"
+                    selected>
+                    SRB
+                </option>
+                                                <option value="en"
+                        class="uppercase"
+                    >
+                    EN
+                </option>
+                        </select>
+    <input type="hidden" name="query_string" value="">
+</form>
+            </div>
+
+            <div class="flex items-center">
+                <div class="flex flex-col items-center justify-center h-full nav-link cursor-pointer">
+                    <button id="hamburger-menu-icon" class="group hamburger-menu-icon modal-menu-open"
+                            aria-hidden="false">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <section id="searchBarSection" class="hidden absolute max-w-full top-[64px] xs:top-[89px] left-0 right-0 w-full bg-secondary z-[99999] animation duration-150 ease-in">
+            <div class="py-5 md:py-6 px-8 sm:px-16 xl:px-0 max-w-[1382px] w-full xs:mx-auto flex flex-col md:flex-row justify-between items-center gap-y-4 md:gap-y-0 gap-x-6 tab:gap-x-12">
+
+                <div class="w-full md:w-fit flex flex-row justify-between items-center">
+                    <h1 class="md:py-4 text-primary text-2xl md:text-2xl font-semibold">Pretraga</h1>
+                    <button id="closeSearchBtn" type="button" class="flex md:hidden">
+                        <svg class="w-6" width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.7497 6.41422L6.41519 29.7487L5.00098 28.3345L28.3355 5.00001L29.7497 6.41422Z" fill="#1c3d76"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.00029 6.41422L28.3348 29.7487L29.749 28.3345L6.4145 5.00001L5.00029 6.41422Z" fill="#1c3d76"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <form class="flex flex-col md:flex-row justify-start md:justify-end items-start md:items-center gap-y-4 md:gap-y-0 gap-x-2 md:gap-x-4 xl:gap-x-8 w-full" id="news-form" action="https://www.ratel.rs/search-page?" method="GET">
+                    <!-- Text input -->
+                    <label for="textInput" class="hidden"></label>
+                    <input class="flex-grow-2 flex-shrink-0 w-full md:w-4/6 px-2 py-2 md:px-4 md:py-4 focus:outline-none text-sm" type="text" id="textInput" name="search"  value="" placeholder="Pretražite po ključnoj reči">
+
+                    <!-- Submit button -->
+                    <button class="w-full md:w-1/6 py-3 md:py-4 flex justify-center bg-primary text-white text-sm xl:text-md border-0 text-nowrap hover:bg-error animation duration-150 ease-in" type="submit">
+                        Pretraži                    </button>
+                </form>
+            </div>
+        </div> 
+        </section></nav>
+
+<script>
+    dropdownButton = document.getElementById('dropdownButton');
+    dropdownContent = document.getElementById('dropdownContent');
+    searchBarSection = document.getElementById('searchBarSection');
+    searchBarButton = document.getElementById('searchBarButton');
+    searchBarSvg = document.getElementById('searchBarSvg');
+    searchBarPath = document.getElementById('searchBarPath');
+    dimScreen = document.getElementById('dimScreen');
+
+    searchBarButton.addEventListener('click', () => {
+        searchBarSection.classList.toggle('hidden');
+        searchBarSvg.classList.toggle('scale-110');
+        searchBarPath.classList.toggle('fill-primary');
+        dimScreen.classList.toggle('hidden');
+        document.body.classList.toggle('overflow-hidden')
+    })
+
+    dimScreen.addEventListener('click', () => {
+        searchBarSection.classList.toggle('hidden');
+        searchBarSvg.classList.toggle('scale-110');
+        searchBarPath.classList.toggle('fill-primary');
+        dimScreen.classList.toggle('hidden');
+        document.body.classList.toggle('overflow-hidden')
+    })
+
+    dropdownButton.addEventListener('mouseenter', () => {
+        dropdownContent.classList.remove('hidden');
+    });
+
+    dropdownButton.addEventListener('mouseleave', () => {
+        setTimeout(() => {
+            if (!dropdownContent.matches(':hover')) {
+                dropdownContent.classList.add('hidden');
+            }
+        }, 200);
+    });
+
+    dropdownContent.addEventListener('mouseleave', () => {
+        dropdownContent.classList.add('hidden');
+    });
+
+
+</script>
+</header>
+
+
+        <!-- Page Content -->
+        <main>
+            <section class="h-auto sm:h-80">
+    <div class="relative flex justify-center items-end h-auto xs:h-full">
+        <div class="max-w-[1382px] py-4 sm:py-12 px-8 sm:px-16 xl:px-0 xl:mx-auto w-full h-full absolute flex flex-col justify-end gap-2 xs:gap-4 z-20">
+            <div class="group flex flex-col justify-end">
+                <!-- <span class="hidden xs:block w-fit px-2 opacity-0 group-hover:opacity-100 duration-300 ease-in bg-secondary text-primary">Radio-oprema</span> -->
+                                    <h1 class="w-full text-white text-xl sm:text-3xl font-semibold uppercase sm:truncate">Radio-oprema</h1>
+                            </div>
+                        <div class="hidden tab:flex">
+                <p class="w-full flex flex-row items-center gap-1">
+    <a href="https://www.ratel.rs" class="flex hover:underline underline-offset-2 text-xs sm:text-base uppercase">Ratel</a>
+                <a href="/sr/elektronske-komunikacije" class="flex text-white text-xs sm:text-base truncate">
+                <span class="mr-1 text-white">/ </span>
+                <span class="hover:underline underline-offset-2 truncate">
+                    Elektronske komunikacije
+                </span>
+        </a>
+                    <a href="/sr/mreze-i-usluge" class="flex text-white text-xs sm:text-base truncate">
+                <span class="mr-1 text-white">/ </span>
+                <span class="hover:underline underline-offset-2 truncate">
+                    Mreže i usluge
+                </span>
+        </a>
+            <!-- <a href="mreze-i-usluge" class="flex sm:hidden text-white text-xs sm:text-base truncate"><span class="mr-1 text-white">/ </span><span class="hover:underline underline-offset-2 truncate">Mreže i usluge</span></a> -->
+    <span class="flex items-center gap-1 truncate">
+        <span class="text-white">/ </span><span class="text-white text-xs sm:text-base opacity-60 truncate">Radio-oprema</span>
+    </span>
+</p>            </div>
+            <div class="flex tab:hidden">
+                                    <a href="/sr/mreze-i-usluge" class="inline-flex flex-row justify-start items-center gap-2 hover:bg-transparent">
+                        <svg class="rotate-180" width="16" height="16" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="fill-white" fill-rule="evenodd" clip-rule="evenodd" d="M19.1617 6.56235L20.7 5L32.7983 17.2873L20.7 29.5747L19.1617 28.0123L28.614 18.4123H2V16.1623H28.614L19.1617 6.56235Z" />
+                        </svg>
+                        <h1 class="text-sm font-bold text-white">Mreže i usluge</h1>
+                    </a>
+                            </div>
+        </div>
+        <div class="absolute w-full h-full bg-gradient-to-t from-primary opacity-60 z-10"></div>
+        <img
+            src="https://www.ratel.rs/storage/upload/2024/11/f5SkNEueiPUB7ZxeLpwBJzJnGaZzTEZ2S3uhsNrE_ORIGINAL.webp"
+            title=""
+            alt=""
+            class="w-full h-56 sm:h-full object-cover object-[center_33%]"
+        />
+
+    </div>
+</section>
+    
+            <section class="my-16 px-8 3xs:px-0 3xs:mx-16">
+            <div class="w-full max-w-[1382px] xs:mx-auto grid grid-cols-12 gap-y-8 lg:gap-y-0 lg:gap-x-8">
+                <div class="col-span-12 lg:col-span-3 order-last lg:order-first">
+                    <section class="border border-secondary">
+    <div>
+        <div class="p-2 xs:p-4 bg-secondary border-b border-secondary">
+            <a href="/sr/mreze-i-usluge" class="inline-flex flex-row justify-start items-center gap-4 hover:bg-transparent">
+                <svg class="rotate-180" width="16" height="16" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="fill-error" fill-rule="evenodd" clip-rule="evenodd" d="M19.1617 6.56235L20.7 5L32.7983 17.2873L20.7 29.5747L19.1617 28.0123L28.614 18.4123H2V16.1623H28.614L19.1617 6.56235Z" />
+                </svg>
+                <h1 class="text-sm font-bold text-error">Mreže i usluge</h1>
+            </a>
+        </div>
+        <div class="divide divide-y divide-secondary">
+            <ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-4"><a class="text-left hover:underline text-text-primary text-sm " href="regulativa-elektronske-komunikacije">Regulativa - Elektronske komunikacije</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="zakoni-elektronske-komunikacije">Zakoni - Elektronske komunikacije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="podzakonski-akti-elektronske-komunikacije">Podzakonski akti - Elektronske komunikacije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="plan-namene-i-planovi-raspodele">Plan namene i planovi raspodele</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="plan-numeracije">Plan numeracije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="koordinacioni-sporazumi">Koordinacioni sporazumi</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="smernice-strategije-i-studije">Strategije, studije i smernice</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="ostala-opsta-akta">Ostala opšta akta</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-4"><a class="text-left hover:underline text-text-primary text-sm " href="trziste-elektronske-komunikacije">Tržište</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="analiza-trzista">Analize tržišta</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-terminacije-poziva-u-fiksnoj-mrezi">Veleprodajno tržište terminacije poziva u fiksnoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="ostala-trzista">Ostala tržišta</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-visokokvalitetnog-pristupa">Veleprodajno tržište visokokvalitetnog pristupa</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-originacije-poziva-u-fiksnoj-mrezi">Veleprodajno tržište originacije poziva u fiksnoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="maloprodajno-trziste-pristupa-fiksnoj-mrezi">Maloprodajno tržište pristupa fiksnoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="maloprodajno-trziste-distribucije-medijskih-sadrzaja">Maloprodajno tržište distribucije medijskih sadržaja</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="maloprodajno-trziste-javno-dostupne-fiksne-telefonske-usluge">Maloprodajno tržište javno dostupne fiksne telefonske usluge</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-sredisnjeg-pristupa">Veleprodajno tržište središnjeg pristupa</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-lokalnog-pristupa-elementima-mreze">Veleprodajno tržište lokalnog pristupa elementima mreže</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="veleprodajno-trziste-terminacije-poziva-u-mobilnoj-mrezi">Veleprodajno tržište terminacije poziva u mobilnoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="odluke-o-odredivanju-relevantnih-trzista-i-zakljucci-o-usvajanju-izvestaja">Odluke o određivanju relevantnih tržišta i zaključci o usvajanju izveštaja</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="standardne-ponude">Standardne ponude</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="izvestaji-revizora">Mišljenja revizora</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="wacc-studije-elektronske-komunikacije">WACC studije - Elektronske komunikacije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="godisnji-pregledi-trzista">Godišnji pregledi tržišta</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="kvartalni-podaci-elektronske-komunikacije">Kvartalni pregledi tržišta</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="regulacija-cena-vezanih-usluga">Regulacija cena vezanih usluga</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-4"><a class="text-left hover:underline text-text-primary text-sm " href="rf-spektar">Radiofrekvencijski spektar</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="radio-komunikacije">Radio-komunikacije</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-difuzija">Radio-difuzija</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="dvb-t2">Digitalna televizija DVB-T2</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="t-dab">Digitalni radio T-DAB+</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="fm">Analogni radio FM</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-stanice-u-javnoj-mobilnoj-komunikacionoj-mrezi">Radio-stanice u javnoj mobilnoj komunikacionoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-stanice-u-privatnoj-mobilnoj-komunikacionoj-mrezi">Radio-stanice u privatnoj mobilnoj komunikacionoj mreži</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-stanice-na-brodu-i-drugom-plovilu">Radio-stanice na brodu i drugom plovilu</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-stanice-na-vazduhoplovu">Radio-stanice na vazduhoplovu</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radio-stanice-na-lokomotivi">Radio-stanice na lokomotivi</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="fiksne-radio-komunikacije">Fiksne radio-komunikacije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="satelitske-radio-komunikacije">Satelitske radio-komunikacije</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="fiksne-satelitske-veze">Fiksne satelitske veze</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="mobilne-satelitske-veze">Mobilne satelitske veze</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="sng">SNG</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="amaterska-radio-sluzba">Amaterska radio-služba</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="radioamaterska-licenca">Radioamaterska licenca</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="dozvola-za-radioamatersku-stanicu">Dozvola za radioamatersku stanicu</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="cept-i-harec">CEPT i HAREC</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="strani-drzavljani">Strani državljani</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="radiodeterminacijska-sluzba">Radiodeterminacijska služba</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="javne-komunikacione-mreze">Javne komunikacione mreže</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="privatne-komunikacione-mreze">Privatne komunikacione mreže</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="uredaji-kratkog-domena-srd">Uređaji kratkog dometa (SRD)</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="oprema-za-proizvodnju-programa-i-organizaciju-specijalnih-dogadaja">Oprema za proizvodnju programa i organizaciju specijalnih događaja</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="pmse-1">PMSE</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="pmr">PMR</a>
+                            </div></li></ul></div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="koriscenje-radiofrekvencijskog-spektra2">Korišćenje radiofrekvencijskog spektra</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="dozvole-za-koriscenje-radiofrekvencijskog-spektra">Dozvole za korišćenje radiofrekvencijskog spektra</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="koriscenje-radiofrekvencijskog-spektra-po-rezimu-opsteg-ovlascenja">Korišćenje radiofrekvencijskog spektra po režimu opšteg ovlašćenja</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="koriscenje-radiofrekvencijskog-spektra-za-posebne-namene">Korišćenje radiofrekvencijskog spektra za posebne namene</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="evidentiranje-radio-stanica-po-rezimu-opsteg-ovlascenja">Evidentiranje korišćenja radiofrekvencijskog spektra</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="kontrola-spektra">Kontrola radiofrekvencijskog spektra</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="galerija-slika">Galerija slika</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="daljinski-upravljane-kontrolno-merne-stanice">Daljinski upravljane kontrolno-merne stanice</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="kompaktne-daljinski-upravljane-merne-stanice">Kompaktne daljinski upravljane merne stanice</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="kontrolno-merni-centri">Kontrolno-merni centri</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="merna-vozila">Merna vozila</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="senzorske-stanice">Senzorske stanice</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="prenosna-oprema">Prenosna oprema</a>
+                            </div></li></ul></div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="tehnicki-pregled-radio-stanica">Tehnički pregled radio-stanica</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="prijava-stetnih-smetnji">Prijava smetnji</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="baza-podataka-o-koriscenju-radiofrekvencijskog-spektra">Baza podataka o korišćenju radiofrekvencijskog spektra</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="uputstva-i-obrasci-1">Uputstva i obrasci</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="dozvole-za-radio-stanice">Uputstva i obrasci za dozvole za korišćenje radiofrekvencijskog spektra</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="obrasci-i-uputstvo-za-podnosenje-prijava-za-evidentiranje-radio-stanice-u-radiofrekvencijskim-opsezima-koji-se-koriste-po-rezimu-opsteg-ovlascenja">Uputstva za podnošenje prijava za evidentiranje radio-stanice u radiofrekvencijskim opsezima koji se koriste po režimu opšteg ovlašćenja</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="uputstva-za-tehnicki-pregled-radio-stanica">Uputstva za tehnički pregled radio-stanica</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="lista-angazovanih-lica">Lista angažovanih lica</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="tehnicko-uputstvo-o-postupanju-prilikom-izdavanja-pojedinacne-dozvole-za-koriscenje-radio-frekvencija-za-vhf-fm-radio-difuzne-stanice-i-koriscenje-sistema-radio-podataka-rds">Tehničko uputstvo o postupanju prilikom izdavanja pojedinačne dozvole za korišćenje radio-frekvencija za VHF FM radio-difuzne stanice i korišćenje sistema radio podataka – RDS</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="uputstva-za-izradu-projektne-dokumentacije">Uputstva za izradu projektne dokumentacije</a>
+                            </div></li></ul></div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-4"><a class="text-left hover:underline text-text-primary text-sm " href="mreze-i-usluge">Mreže i usluge</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm " href="nove-tehnologije">Nove tehnologije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="za-korisnike">Za korisnike</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="tehnicke-specifikacije-interfejsa-u-terminalnoj-tacki-mreze">Tehničke specifikacije interfejsa u terminalnoj tački mreže</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="kontrola-kvaliteta-usluga">Kontrola kvaliteta usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="vas-usluge-1">VAS usluge</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="numeracija">Numeracija</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="prenos-broja">Prenos broja</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="univerzalni-servis">Univerzalni servis</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="roming">Roming</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="alati-za-korisnike">Alati za korisnike</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="geografski-pregled-rasprostranjenosti-sirokopojasnih-mreza">Geografski pregled rasprostranjenosti širokopojasnih mreža</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="otvoreni-pristup-internetu">Otvoreni pristup internetu</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="bezbednost-i-integritet-javnih-komunikacionih-mreza-i-usluga">Bezbednost i integritet javnih komunikacionih mreža i usluga</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-8"><a class="text-left hover:underline text-text-primary text-sm " href="za-operatore-i-pruzaoce-usluga">Za operatore i pružaoce usluga</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="uputstva-i-obrasci">Uputstva, obrasci i izveštaji</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="obavestenje-o-obavljanju-delatnosti-elektronskih-komunikacija">Obaveštenje o obavljanju delatnosti elektronskih komunikacija</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="zahtev-za-izdavanje-numeracije-komunikacija">Zahtev za izdavanje numeracije</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="uputstvo-za-medunarodno-povezivanje">Uputstvo za međunarodno povezivanje</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="izvestaji-koje-dostavljaju-operatori-i-pruzaoci-usluga">Izveštaji koje dostavljaju operatori i pružaoci usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="godisnji-izvestaji-o-parametrirma-kvaliteta">Godišnji izveštaji o parametrirma kvaliteta</a>
+                            </div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-16"><a class="text-left hover:underline text-text-primary text-sm " href="upitnici-sa-listom-indikatora">Upitnici sa listom indikatora</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-20">
+                                <a class="hover:underline text-text-primary text-sm " href="upitnici-tehnicki">Godišnji izveštaji - tehnički deo</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-20">
+                                <a class="hover:underline text-text-primary text-sm " href="upitnici-finansijski">Godišnji izveštaji - finansijski deo</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="kvartalni-izvestaji">Kvartalni izveštaji</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><button class="py-4 pr-4 w-full flex justify-between items-center dropdown-button pl-12"><a class="text-left hover:underline text-text-primary text-sm " href="godisnje-naknade">Godišnje naknade</a><span class="text-base font-bold leading-3 transition-transform animation duration-150 ease-in">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="20px" height="20px" viewBox="0 0 256 256" id="Flat">
+                                    <path d="M128,180a3.98881,3.98881,0,0,1-2.82861-1.17139l-80-80.00024a4.00009,4.00009,0,0,1,5.65722-5.65674L128,170.34326l77.17139-77.17163a4.00009,4.00009,0,0,1,5.65722,5.65674l-80,80.00024A3.98881,3.98881,0,0,1,128,180Z"/>
+                                </svg>
+                            </span></button><div class="hidden"><ul class="divide divide-y divide-secondary"><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="naknade-za-obavljanje-delatnosti-elektronskih-komunikacija">Naknade za obavljanje delatnosti elektronskih komunikacija</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-16">
+                                <a class="hover:underline text-text-primary text-sm " href="naknade-za-koriscenje-numeracije">Naknade za korišćenje numeracije</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="kontrola-kvaliteta-usluga-operatora-i-pruzaoca-usluga">Kontrola kvaliteta usluga operatora i pružaoca usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="strucni-nadzor">Stručni nadzor operatora i pružaoca usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="numeracija-za-operatore">Numeracija za pružaoce usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="prenos-broja-za-operatore">Prenos broja za pružaoce usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="univerzalni-servis-za-operatore">Univerzalni servis za pružaoce usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="infrastruktura-za-zajednicko-koriscenje">Infrastruktura za zajedničko korišćenje</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="geografski-pregled-rasprostranjenosti-sirokopojasnih-mreza-za-operatore">Geografski pregled rasprostranjenosti širokopojasnih mreža za operatore</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="otvoreni-pristup-internetu-za-operatore">Otvoreni pristup internetu pružalaca usluga</a>
+                            </div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-12">
+                                <a class="hover:underline text-text-primary text-sm " href="bezbednost-i-integritet-javnih-komunikacionih-mreza-i-usluga-za-operatore">Bezbednost i integritet javnih komunikacionih mreža i usluga za operatore</a>
+                            </div></li></ul></div></li><li class="divide divide-y divide-secondary"><div class="py-4 pr-4 pl-8">
+                                <a class="hover:underline text-text-primary text-sm active-link" href="radio-oprema">Radio-oprema</a>
+                            </div></li></ul></div></li></ul>
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.dropdown-button').forEach(button => {
+        button.addEventListener('click', function() {
+            const currentDropdown = this.nextElementSibling;
+
+            // Close other sibling dropdowns at the same depth level
+            const parentLi = this.closest('li'); // The current LI element containing this button
+            const siblingDropdowns = parentLi.parentElement.querySelectorAll(':scope > li > .dropdown-button + ul');
+
+            siblingDropdowns.forEach(dropdown => {
+                if (dropdown !== currentDropdown && !dropdown.classList.contains('hidden')) {
+                    dropdown.classList.add('hidden');
+                    const siblingButton = dropdown.previousElementSibling; // The associated button for the sibling
+                    const siblingCaret = siblingButton.querySelector('span');
+                    if (siblingCaret) {
+                        siblingCaret.classList.remove('-rotate-180');
+                    }
+                }
+            });
+
+            // Toggle the current dropdown
+            if (currentDropdown) {
+                const isHidden = currentDropdown.classList.contains('hidden');
+                currentDropdown.classList.toggle('hidden', !isHidden);
+                const caret = this.querySelector('span');
+                if (caret) {
+                    caret.classList.toggle('-rotate-180', isHidden);
+                }
+            }
+        });
+    });
+
+    // Automatically open dropdowns with active links
+    const activeLink = document.querySelector('.active-link');
+    if (activeLink) {
+        let parentDropdown = activeLink.closest('.dropdown-button + .hidden');
+        while (parentDropdown) {
+            parentDropdown.classList.remove('hidden');
+            const caret = parentDropdown.previousElementSibling.querySelector('span');
+            if (caret) {
+                caret.classList.add('-rotate-180');
+            }
+            parentDropdown = parentDropdown.closest('.dropdown-button + .hidden');
+        }
+    }
+});
+
+</script>                </div>
+                <div class="col-span-12 lg:col-span-9 flex flex-col gap-2 xs:gap-4 xl:gap-7 order-first lg:order-last">
+                                            <div class="flex justify-end items-center mb-6 mt-3 mr-12">
+                            <span class="mr-4">Čitaj mi</span>
+                            <audio controls>
+                                <source src="https://www.ratel.rs/storage/page-audio/8c3dda17b5041da79678976c2b687b3a.mp3" type="audio/mp3">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                                                                <div class="px-8 sm:px-16 xl:px-0 mx-auto w-full page-builder pb-4 sm:pb-0 max-w-[1382px] xl:mx-auto">
+                        <h2 class=" text-left">
+    O radio-opremi
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema je električni ili elektronski proizvod, koji namerno emituje i/ili prima radio-talase u svrhu radio-komunikacije i/ili radio-determinacije, ili električni ili elektronski proizvod koji mora biti upotpunjen pomoćnom opremom, kao što je antena, da bi namerno emitovao i/ili primao radio-talase u svrhu radio-komunikacije i/ili radio-determinacije;
+</p>
+                                <h2 class=" text-left">
+    Bitni zahtevi za radio-opremu
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Članom 4. Pravilnika o radio-opremi propisano je da radio-oprema mora da ispunjava sledeće bitne zahteve:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    1) zaštita zdravlja i bezbednost ljudi i domaćih životinja i zaštita imovine, uključujući i bitne zahteve u vezi sa bezbednošću u skladu sa posebnim propisom kojim se uređuje oblast električne opreme koja je namenjena za korišćenje u okviru određenih granica napona, ali bez primene granica napona iz tog propisa;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    2) odgovarajući nivo elektromagnetske kompatibilnosti u skladu s posebnim propisom kojim se uređuje oblast elektromagnetske kompatibilnosti.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema se izrađuje tako da delotvorno koristi i podržava efikasno korišćenje radiofrekvencijskog spektra da bi se izbegla štetna smetnja.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema u određenim kategorijama ili klasama se izrađuje tako da je u skladu sa sledećim bitnim zahtevima:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    1) međusobno radi sa dodacima koji nisu uređaji za punjenje za kategorije ili klase radio-opreme iz člana 4. stav 4. &nbsp;i Dela I Priloga 11. Pravilnika o radio-opremi;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    2) međusobno radi putem mreža sa drugom radio-opremom;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    3) da može da se poveže na interfejse odgovarajućeg tipa;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    4) ne šteti mreži ni njenom funkcionisanju i ne koristi nepravilno mrežne resurse, izazivajući time neprihvatljivo umanjivanje kvaliteta usluge;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    5) uključuje zaštitne mere da bi se obezbedila zaštita podataka o ličnosti i privatnost korisnika i pretplatnika;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    6) podržava određene karakteristike koje obezbeđuju zaštitu od prevare;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    7) podržava određene karakteristike koje obezbeđuju pristup službama za hitne intervencije;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    8) podržava određene karakteristike da bi se njeno korišćenje olakšalo korisnicima sa invaliditetom;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    9) podržava određene karakteristike da bi se obezbedilo da softver može da se učita u radio-opremu isključivo ako je dokazana usaglašenost kombinacije radio-opreme i softvera.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema obuhvaćena kategorijama ili klasama navedenim u Delu I Priloga 11. Pravilnika o radio-opremi izrađuje se tako da bude u skladu sa specifikacijama koje se odnose na mogućnosti punjenja utvrđene u tom prilogu za odgovarajuću kategoriju ili klasu radio-opreme.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtev iz člana 4. stav 3. tačka 4) Pravilnika o radio-opremi primenjuje se na radio-opremu koja može da uspostavi komunikaciju putem interneta, nezavisno od toga da li je ta komunikacija direktna ili posredstvom bilo koje druge opreme (u daljem tekstu: radio-oprema priključena na internet).
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtev iz člana 4. stav 3. tačka 5) Pravilnika o radio-opremi primenjuje se na sledeću radio-opremu ako ta radio-oprema ima mogućnost obrade podataka o ličnosti u smislu zakona kojim se uređuje zaštita podataka o ličnosti ili podataka o saobraćaju ili podataka o lokaciji u smislu zakona kojim se uređuje oblast elektronskih komunikacija:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    1) radio-opremu priključenu na internet, a koja nije obuhvaćena&nbsp; tač. 2)-4);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    2) radio-opremu projektovanu ili namenjenu isključivo za brigu o deci;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    3) radio-opremu koja je obuhvaćena propisom kojim se uređuje bezbednost igračaka;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    4) radio-opremu koja je projektovana ili namenjena da se nosi, pričvrsti ili okači na:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    &nbsp; &nbsp; &nbsp; &nbsp; (1) bilo koji deo ljudskog tela, uključujući glavu, vrat, trup, ruke, dlanove, noge i stopala;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    &nbsp; &nbsp; &nbsp; &nbsp; (2) bilo koju odeću, uključujući odeću kojom se pokrivaju glava i ruke ili obuću, a koju nose ljudi.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtev iz člana 4. stav 3. tačka 6) Pravilnika o radio-opremi primenjuje se na svu radio-opremu priključenu na internet ako ta radio-oprema vlasniku ili korisniku omogućava prenos novca, novčanih vrednosti ili virtuelne valute.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtevi iz člana 4. stav 3. tač. 4)-6) Pravilnika o radio-opremi ne primenjuju se na radio-opremu na koju se primenjuje propis kojim se uređuju medicinska sredstva.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtevi iz člana 4. stav 3. tač. 5) i 6) Pravilnika o radio-opremi ne primenjuju se na radio-opremu na koju se primenjuju propisi kojima se uređuje:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    1) homologacija tipa motornih i priključnih vozila;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    2) način elektronske naplate putarine, posebni uslovi i tehnički zahtevi za evropsku elektronsku naplatu putarine i elementi interoperabilnosti.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Bitni zahtev iz člana 4. stav 3. tačka 7) Pravilnika o radio-opremi primenjuju se na mobilne telefone sa funkcijama sličnim funkcijama računara u pogledu mogućnosti obrade i skladištenja podataka. Ispunjenost ovog zahteva obezbeđuje se tehničkim rešenjima za prijem i obradu podataka iz signala bežične mreže sa lokalnim pokrivanjem (WLAN/Wi-Fi) i podataka iz globalnih navigacionih satelitskih sistema koji su kompatibilni i interoperabilni barem sa sistemom Galileo, kao i tehničkim rešenjima koja omogućavaju prenos tih podataka u komunikaciji sa službama za hitne intervencije.&nbsp;&nbsp;&nbsp;
+</p>
+                                <h2 class=" text-left">
+    Isporuka na tržište
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema se isporučuje na tržište Republike Srbije u skladu sa zahtevima i uslovima iz Pravilnika o radio-opremi.
+</p>
+                                <h2 class=" text-left">
+    Puštanje u rad i stavljanje u upotrebu
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema može da se pusti u rad i stavlja u upotrebu u skladu sa zahtevima i uslovima iz Pravilnika o radio-opremi i pod uslovom da se pravilno instalira, održava i upotrebljava u skladu sa svojom predviđenom namenom.
+</p>
+                                <h2 class=" text-left">
+    Slobodno kretanje radio-opreme
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema, koja je u skladu sa zahtevima i uslovima iz Pravilnika o radio-opremi, isporučuje se na tržište Republike Srbije slobodno, bez ikakvih ograničenja.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema, koja nije u skladu sa odredbama Pravilnika o radio-opremi, može da se javno izlaže i predstavlja na sajmovima, izložbama i sličnim događajima u Republici Srbiji, samo uz jasno i vidljivo istaknutu oznaku da isporuka na tržište ili puštanje u rad takve opreme nije dozvoljena u Republici Srbiji. Takva radio-oprema može da se javno predstavlja isključivo ako su preduzete odgovarajuće mere da bi se izbegle štetne smetnje, elektromagnetske smetnje i rizik po zdravlje ili bezbednost ljudi, domaćih životinja i imovine.
+</p>
+                                <h2 class=" text-left">
+    Potvrda o usaglašenosti
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Pre stavljanja radio-opreme na tržište, proizvođač, njegov zastupnik ili uvoznik te radio-opreme, pribavlja od tela za ocenjivanje usaglašenosti radio-opreme sa bitnim zahtevima iz člana 4. Pravilnika o radio-opremi, potvrdu o usaglašenosti ili izvod iz evidencije o izdatim potvrdama o usaglašenosti.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Potvrda o usaglašenosti, odnosno izvod iz evidencije o izdatim potvrdama o usaglašenosti obezbeđuje se za sledeću radio-opremu:
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    1) korisničku opremu koja radi u okviru GSM/UTRA/E-UTRA/NRA IMT&nbsp;&nbsp;&nbsp;&nbsp; ćelijskih mreža;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    2) nespecificirane uređaje kratkog dometa (SRD);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    3) uređaje kratkog dometa (SRD) za nalaženje, praćenje i prikupljanje podataka;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    4) širokopojasne sisteme za prenos podataka (WAS/RLANs);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    5) za primene na železnici;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    6) za transport i telematiku u saobraćaju (TTT);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    7) za radiodeterminacijske primene;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    8) alarme;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    9) za primene za upravljanje modelima;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    10) za induktivne primene;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    11) radio-mikrofone, slušne aparate i bežične audio i multimedijalne sisteme za direktni prenos (striming);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    12) za primene za radiofrekvencijsku identifikaciju (RFID);
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    13) aktivne medicinske implante i pridružene periferne uređaje;
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    14) za prikupljanje medicinskih podataka.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Potvrda o usaglašenosti, odnosno izvod iz evidencije o izdatim potvrdama o usaglašenosti ne obezbeđuje za navedenu radio-opremu ukoliko je za tu radio-opremu, u Republici Srbiji, sproveden postupak ocenjivanja usaglašenosti iz Priloga 2. i&nbsp; Priloga 3. Pravilnika o radio-opremi za sve aspekte bitnih zahteva.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Potvrda o usaglašenosti važi za isti tip i/ili model radio-opreme istog proizvođača pet godina od dana njenog izdavanja.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Preporuka je da inostrani proizvođači odnosno njihovi zastupnici u Republici Srbiji, odnosno uvoznici radio-opreme, za radio-opremu koju nameravaju da stave na tržište Republike Srbije, blagovremeno, pre nameravanog stavljanja na tržište, imenovanom telu za ocenjivanje usaglašenosti podnesu zahtev za izdavanje potvrde o usaglašenosti (sa propisanom dokumentacijom). Na ovaj način bi se omogućilo pravovremeno izdavanje potvrde o usaglašenosti i time izbeglo nepotrebno zadržavanje proizvoda, čime bi bili eliminisani dodatni troškovi (troškovi uskladištenja, ležarine i sl.).
+</p>
+                                <h2 class=" text-left">
+    Označavanje usaglašenosti
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Radio-oprema koja je usaglašena sa bitnim zahtevima, pre stavljanja na tržište, označava se Srpskim znakom usaglašenosti.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Znak usaglašenosti stavlja se na radio-opremu ili njegovu natpisnu pločicu tako da bude vidljiv, čitljiv i neizbrisiv, a ukoliko to nije moguće ili nije opravdano zbog karakteristika radio-opreme, na njenu ambalažu ili dokumentaciju koja je prati.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Uz Srpski znak usaglašenosti se stavlja registarski broj imenovanog tela iz registra imenovanih tela za ocenjivanje usaglašenosti, kao i poslednje dve cifre godine izdavanja isprave o usaglašenosti, ako je to telo sprovodilo, odnosno učestvovalo u ocenjivanju usaglašenosti.
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    
+</p>
+                                <h2 class=" text-left">
+    Stručni
+nadzor
+</h2>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-justify"
+>
+    Regulatorno tela za
+elektronske komunikacije i poštanske usluge (u daljem tekstu: Regulator) obavlja
+stručni nadzor kod
+ispunjenosti&nbsp; tehničkih zahteva za radio-opremu, propisanih <a href="https://www.ratel.rs/storage/upload/2024/09/Pravilnik%20o%20radio-opremi.pdf">Pravilnikom
+o radio-opremi („Službeni glasnik RSˮ,
+broj 24/24)</a>, u skladu sa članom 161.
+Zakona o elektronskim komunikacijama („Službeni glasnik RSˮ, broj 35/23) i <a href="https://www.ratel.rs/storage/upload/2024/10/Pravilnik-o-nacinu-i-postupku-sprovodjenja-strucnog-nadzora-(1).pdf">Pravilnikom o načinu i postupku
+sprovođenja stručnog nadzora u oblasti elektronskih komunikacija („Službeni
+glasnik RSˮ, broj 84/24)</a>.
+U postupku stručnog nadzora
+Regulator primenjuje&nbsp; <a href="https://www.ratel.rs/storage/upload/2025/04/Kontrolna-lista-(1).pdf">kontrolnu listu ispunjenosti tehničkih zahteva za radio-opremu</a>. 
+</p>
+                                <p class="<?php echo e($block->textVariantClass); ?> <?php echo e($block->blockAlignmentClass); ?> min-h-[2rem] break-words text-wrap text-sm xs:text-base text-left"
+>
+    
+</p>
+            </div>
+
+                        <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('navbar').style.backgroundColor = 'var(--primary)';
+    });
+</script>
+                                        <div id="sections" >
+    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <!-- Page Footer -->
+        <footer class="w-full bg-secondary divide-y divide-primary divide-opacity-10">
+    <div
+        class="max-w-[1382px] mx-auto px-8 sm:px-16 xl:px-0 py-10 xs:py-16 w-full grid grid-cols-12 lg:justify-items-start gap-y-12 lg:gap-y-0">
+        <div class="w-60 col-span-12 lg:-ml-6 lg:col-span-3 justify-self-center lg:justify-self-start">
+            <a href="/sr/pocetna/" >
+
+    <img src="https://www.ratel.rs/storage/images/ratel_logo_sr.png"
+        title=""
+        alt=""
+        class="min-h-16 min-w-32"
+        />
+</a>        </div>
+        <div class="col-span-12 lg:col-span-6 flex flex-col justify-self-center items-center gap-y-3">
+            <p class="text-center text-sm">Regulatorno telo za elektronske komunikacije i poštanske usluge</p>
+            <p class="text-center text-sm">PIB: 103986571 | Matični broj: 17606590</p>
+            <p class="text-center text-sm">Palmotićeva 2 11103 Beograd, PAK 106306, Republika Srbija</p>
+            <a class="text-sm text-text-primary hover:text-error underline"
+               href="https://www.google.rs/maps/place/Palmoti%C4%87eva+2,+Beograd/@44.8125358,20.4677744,17z/data=!3m1!4b1!4m6!3m5!1s0x475a7aa5504ca16f:0xc659fd365873ec92!8m2!3d44.8125358!4d20.4677744!16s%2Fg%2F11dz5b802k?hl=en&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+               target="_blank">
+                Lokacija na mapi grada            </a>
+        </div>
+        <div
+            class="col-span-12 lg:col-span-3 social-media-footer flex flex-col xs:flex-row lg:flex-col justify-self-center lg:justify-self-end justify-center items-start gap-x-6 gap-y-3 lg:gap-x-0 lg:gap-y-3 text-primary">
+                            <div>
+                    <a href="tel:0800/800-999" class="flex justify-center items-center gap-x-2">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/phone.svg" alt="phone"/>
+                        <p class="text-text-primary text-sm">0800/800-999</p>
+                    </a>
+                </div>
+                                        <div>
+                    <a href="mailto:ratel@ratel.rs" class="flex justify-center items-center gap-x-2">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/email.svg" alt="email"/>
+                        <p class="text-text-primary text-sm">ratel@ratel.rs</p>
+                    </a>
+                </div>
+                                        <div>
+                    <a href="tel:011/3232-537" class="flex justify-center items-center gap-x-2">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/fax.svg" alt="fax"/>
+                        <p class="text-text-primary text-sm">011/3232-537</p>
+                    </a>
+                </div>
+                    </div>
+    </div>
+    <div class="bg-primary">
+        <div
+            class="max-w-[1382px] px-8 sm:px-16 xl:px-0 mx-auto py-4 w-full grid grid-cols-12 gap-y-6 lg:gap-y-0 text-secondary">
+            <div
+                class="col-span-12 lg:col-span-3 social-media-footer flex items-center justify-self-center lg:justify-self-start gap-x-4">
+                                    <a href="https://www.linkedin.com/company/regulatory-authority-for-electronic-communications-and-postal-services/"
+                       class="footer-in">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/linkedin.svg" alt="linkedin"/>
+                    </a>
+                                                    <a href="https://www.facebook.com/ratelsrb" class="footer-fb">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/facebook.svg" alt="facebook"/>
+                    </a>
+                                                    <a href="https://www.youtube.com/channel/UCm3M6ighWQECz1eC0hKjoLg" class="footer-yt">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/youtube.svg" alt="youtube"/>
+                    </a>
+                                                    <a href="https://www.instagram.com/ratel.srbija/?hl=en" class="footer-ig">
+                        <img class="h-5" src="https://www.ratel.rs/storage/images/instagram.svg" alt="instagram"/>
+                    </a>
+                            </div>
+            <div
+                class="col-span-12 lg:col-span-6 flex flex-row justify-self-center items-center gap-x-4 text-center text-sm xs:text-sm leading-5">
+                <a href="https://ratel.rs/sr/pravno-obavestenje"
+                   class="hover:text-white hover:underline">Pravno obaveštenje</a>
+                <a href="https://ratel.rs/sr/politika-privatnosti"
+                   class="hover:text-white hover:underline">Politika privatnosti</a>
+            </div>
+            <!-- <div class="lg:ms-40 flex flex-col xs:flex-row justify-center items-center gap-y-2 gap-x-4 xs:gap-y-0 text-xs xs:text-lg text-secondary">
+                        </div> -->
+            <div class="col-span-12 lg:col-span-3 justify-self-center lg:justify-self-end">
+                <p class="text-xs xs:text-sm text-center">
+                    &copy; 2026 RATEL | Sva prava zadržana</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- Scripts -->
+        <script>
+    function lazyLoadScripts(urls) {
+        let bodyTag = document.getElementsByTagName('body')[0];
+        urls.forEach((url) => {
+            let scriptTag = document.createElement('script');
+            scriptTag.type = 'text/javascript';
+            scriptTag.async = true;
+            scriptTag.src = url;
+            bodyTag.appendChild(scriptTag);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Paths for scripts which are lazy loaded
+        let scriptPaths = [];
+
+                scriptPaths.push('https://www.ratel.rs/core/js/app.js');
+                scriptPaths.push('https://www.ratel.rs/core/js/google-analytics.js');
+                scriptPaths.push('https://www.ratel.rs/primary-theme/js/theme.js');
+                scriptPaths.push('https://www.ratel.rs/primary-theme/js/theme.js.LICENSE.txt');
+        
+        let isGoogleCaptchaSet = true;
+        let isGoogleAnalyticsSet = true;
+        let userHasConsentedWithCookies = false;
+        // Greater than one because there is always one form in the header (language switcher)
+        let pageHasForm = document.getElementsByTagName('form').length > 1;
+        // If Hotel module is active and there is booking widget on the page
+        let pageHasBookingWidget = document.getElementById('booking-calendar-root') && false;
+
+        // Only when hotel module is active and there is widget on the page load scripts for it
+        if (pageHasBookingWidget) {
+            scriptPaths.push('https://www.ratel.rs/primary-theme/js/booking-widget-main.js');
+            scriptPaths.push('https://www.ratel.rs/primary-theme/js/787.29e81ec6.chunk.js');
+        }
+
+        // Only load form script if there is actual form on page.
+        if (pageHasForm) {
+            scriptPaths.push('https://www.ratel.rs/core/js/forms.js');
+        }
+
+        // Only load captcha when it is present and there is form.
+        if (pageHasForm && isGoogleCaptchaSet) {
+            scriptPaths.push('https://www.google.com/recaptcha/api.js?render=GOOGLE_CAPTCHA_CODE');
+            scriptPaths.push('https://www.ratel.rs/core/js/grecaptcha.js');
+        }
+
+        // Only load analytics when it is present
+        if (isGoogleAnalyticsSet && userHasConsentedWithCookies) {
+            scriptPaths.push('https://www.googletagmanager.com/gtag/js?id=GOOGLE_ANALYTICS_MEASUREMENT_ID');
+            scriptPaths.push('https://www.ratel.rs/core/js/google-analytics.js');
+        }
+
+
+        // Call main functions.
+        lazyLoadScripts(scriptPaths);
+    }, { passive: true });
+</script>
+    </div>
+
+<script>
+    const header = document.getElementById('header');
+
+    const callback = function (mutationsList, observer) {
+    for (const mutation of mutationsList) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'inert') {
+        header.removeAttribute('inert');
+        }
+    }
+    };
+
+    const observer = new MutationObserver(callback);
+
+    observer.observe(header, { attributes: true, attributeFilter: ['inert'] });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.querySelector(".hamburger-menu-icon");
+        menuIcon.addEventListener("click", function () {
+            this.classList.toggle("open");
+        });
+    });
+</script>
+<!-- Cookie --------------------------------------------------------------------->
+<section
+    class="cookie-consent-js fixed bottom-0 right-0 flex flex-col w-full box-shadow p-8 mx-auto bg-white md:mx-0 lg:w-2/5 md:w-3/5 md:bottom-10 md:right-10 md:left-auto z-[500]"
+>
+    <p class="font-bold text-base md:text-lg mt-4">
+        Sajt www.ratel.rs koristi samo nužne kolačiće. <a class="hover:underline text-primary" href="https://www.ratel.rs/sr/politika-privatnosti?">Više o kolačićima pročitajte ovde.</a>    </p>
+
+    <!-- Btn -->
+    <div class="flex gap-4 mt-10 text-center uppercase w-full">
+        <button
+            class="js-cookie-consent-agree hover:underline text-primary md:text-xl uppercase w-full py-3"
+        >
+            Prihvati kolačiće        </button>
+        <a class="w-full" href="https://ratel.rs/cyr/politika-privatnosti">
+            <button
+                class="js-cookie-consent-disagree hover:underline text-primary md:text-xl uppercase w-full py-3"
+            >
+                Saznaj više            </button>
+        </a>
+    </div>
+</section>
+
+    <script>
+        window.laravelCookieConsent = (function () {
+            const COOKIE_ACCEPT_VALUE = 1;
+            const COOKIE_DECLINE_VALUE = 0;
+            const COOKIE_DOMAIN = 'ratel.rs';
+
+            function consentWithCookies() {
+                setCookie('ratel_cookie_consent', COOKIE_ACCEPT_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function declineCookieConsent() {
+                setCookie('ratel_cookie_consent', COOKIE_DECLINE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_ACCEPT_VALUE) !== -1) ||
+                    (document.cookie.split('; ').indexOf(name + '=' + COOKIE_DECLINE_VALUE) !== -1)
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('cookie-consent-js');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.setProperty('display', 'none', 'important');
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/;secure'
+                    + ';samesite=lax';
+            }
+
+            function addClickEventToButtons(buttons, callback) {
+                for (let i = 0; i < buttons.length; ++i) {
+                    buttons[i].addEventListener('click', callback);
+                }
+            }
+
+            if (cookieExists('ratel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            addClickEventToButtons(document.getElementsByClassName('js-cookie-consent-agree'), () => {
+                consentWithCookies();
+                location.reload();
+            });
+            addClickEventToButtons(document.getElementsByClassName('js-cookie-consent-disagree'), declineCookieConsent);
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+</body>
+</html>

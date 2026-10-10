@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="sr" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <script>
+        addEventListener('error', function (ev) {
+            var el = ev.target;
+            if (!el || el.tagName !== 'IMG' || el.dataset.retried) return;
+            var src = el.currentSrc || el.src;
+            if (!src) return;
+            el.dataset.retried = '1';
+            try {
+                var u = new URL(src, location.href);
+                u.searchParams.set('r', Date.now());
+                el.removeAttribute('srcset'); // spreči da srcset ponovo izabere polomljeni kandidat
+                el.src = u.href;
+            } catch (e) {}
+        }, true);
+    </script>
+
+     
+    <meta name="theme-color" content="#0B0C0E">
+
+    <title>Prelić Invest d.o.o. — Prodaja stanova, Novi Surčin - Ledine</title>
+<meta name="description" content="Porodična gradnja od poverenja — useljivi i stanovi u izgradnji, fiksne cene, mogućnost kupovine na kredit.">
+<link rel="canonical" href="https://www.prelicinvest.com">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prelić Invest d.o.o.">
+<meta property="og:title" content="Prelić Invest d.o.o. — Prodaja stanova, Novi Surčin - Ledine">
+<meta property="og:description" content="Porodična gradnja od poverenja — useljivi i stanovi u izgradnji, fiksne cene, mogućnost kupovine na kredit.">
+<meta property="og:url" content="https://www.prelicinvest.com">
+<meta property="og:image" content="https://www.prelicinvest.com/img/og-default.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Prelić Invest d.o.o. — Prodaja stanova, Novi Surčin - Ledine">
+<meta property="og:locale" content="sr_RS">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Prelić Invest d.o.o. — Prodaja stanova, Novi Surčin - Ledine">
+<meta name="twitter:description" content="Porodična gradnja od poverenja — useljivi i stanovi u izgradnji, fiksne cene, mogućnost kupovine na kredit.">
+<meta name="twitter:image" content="https://www.prelicinvest.com/img/og-default.jpg">
+
+    
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+
+        <link rel="preload" as="image" href="/img/site/hero.webp?v=2" fetchpriority="high">
+    <link rel="preload" as="style" href="https://www.prelicinvest.com/build/assets/app-FBpE8Bww.css" /><link rel="modulepreload" as="script" href="https://www.prelicinvest.com/build/assets/app-tLKzDOCv.js" /><link rel="stylesheet" href="https://www.prelicinvest.com/build/assets/app-FBpE8Bww.css" data-navigate-track="reload" /><script type="module" src="https://www.prelicinvest.com/build/assets/app-tLKzDOCv.js" data-navigate-track="reload"></script>    <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+            <link rel="stylesheet" href="https://www.prelicinvest.com/vendor/leaflet/leaflet.css">
+        <style>
+            .leaflet-popup-content-wrapper{border-radius:14px;overflow:hidden;padding:0}
+            .leaflet-popup-content{margin:0;width:200px !important}
+            .leaflet-container{font-family:Inter,system-ui,sans-serif}
+            .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.92) contrast(.92) grayscale(.35)}
+        </style>
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Prelić Invest d.o.o.","url":"https://www.prelicinvest.com","image":"https://www.prelicinvest.com/img/logo-gold.webp","logo":"https://www.prelicinvest.com/img/logo-gold.webp","telephone":"+381 66 266 666","email":"prelicinvest@yahoo.com","priceRange":"€€","foundingDate":"2000","address":{"@type":"PostalAddress","streetAddress":"Miodraga Petrovića Čkalje 4","addressLocality":"Novi Surčin - Ledine","addressRegion":"Beograd","addressCountry":"RS"},"areaServed":{"@type":"Place","name":"Novi Surčin - Ledine, Beograd"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"10:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:00","closes":"17:00"}],"sameAs":["https://www.facebook.com/prelicinvest","https://www.instagram.com/prelicinvest"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Prelić Invest d.o.o.","url":"https://www.prelicinvest.com","inLanguage":"sr-RS","potentialAction":{"@type":"SearchAction","target":"https://www.prelicinvest.com/stanovi?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+</head>
+<body class="min-h-screen flex flex-col theme-dark">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[70] focus:m-3 focus:rounded-lg focus:bg-gold-500 focus:px-4 focus:py-2 focus:text-canvas focus:font-semibold">Preskoči na sadržaj</a>
+
+    
+    <div aria-hidden="true" data-scroll-progress class="fixed left-0 top-0 z-[60] h-[3px] w-full origin-left scale-x-0"
+         style="background:linear-gradient(90deg,#c8a24a,#e7cd87,#c8a24a)"></div>
+
+    <header id="main-nav" x-data="mobileMenu" class="fixed inset-x-0 top-0 z-50">
+    <nav class="container-wide flex h-20 items-center justify-between lg:h-24" aria-label="Glavna navigacija">
+        
+        <a href="https://www.prelicinvest.com" class="flex shrink-0 items-center" aria-label="Prelić Invest — početna">
+            <img src="/img/logo-gold.webp" alt="Prelić Invest" width="65" height="96" class="h-14 w-auto object-contain drop-shadow-[0_4px_14px_rgba(200,162,74,0.28)] lg:h-16">
+        </a>
+
+        
+        <div class="hidden items-center gap-x-3 xl:flex">
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide"  aria-current="page" >
+                        Početna
+                                            </a>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/o-nama" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        O nama
+                                            </a>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/stanovi?type=stanovi" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Stanovi useljivi
+                                                    <svg class="h-2.5 w-2.5 opacity-60 transition group-hover:rotate-180" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                                            </a>
+                                            <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+                            <div class="glass-strong overflow-hidden rounded-2xl p-2">
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-2" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Miodraga Petrovića Čkalje broj 2A</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-25" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Miodraga Petrovića Čkalje broj 25</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-24" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Oplenačka broj 24</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=ledine" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Ledine</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=surcin" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Surčin</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-14" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Oplenačka broj 14</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-26" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Oplenačka broj 26</a>
+                                                            </div>
+                        </div>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/stanovi?type=stanovi-u-izgradnji" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Stanovi u izgradnji
+                                                    <svg class="h-2.5 w-2.5 opacity-60 transition group-hover:rotate-180" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                                            </a>
+                                            <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+                            <div class="glass-strong overflow-hidden rounded-2xl p-2">
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-petrovica-ckalje-broj-18" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Miodraga Petrovića Čkalje broj 18</a>
+                                                            </div>
+                        </div>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/stanovi?status=stanovi-na-kredit" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Stanovi na kredit
+                                            </a>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/stanovi?type=lokali" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Lokali
+                                                    <svg class="h-2.5 w-2.5 opacity-60 transition group-hover:rotate-180" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                                            </a>
+                                            <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+                            <div class="glass-strong overflow-hidden rounded-2xl p-2">
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?type=lokali&amp;status=prodaja" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Prodaja</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?type=lokali&amp;status=izdavanje" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Izdavanje</a>
+                                                            </div>
+                        </div>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/stanovi?type=placevi" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Placevi
+                                                    <svg class="h-2.5 w-2.5 opacity-60 transition group-hover:rotate-180" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                                            </a>
+                                            <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+                            <div class="glass-strong overflow-hidden rounded-2xl p-2">
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?type=placevi" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Prodaja</a>
+                                                                    
+                                    <a href="https://www.prelicinvest.com/stanovi?type=placevi&amp;status=izdavanje" class="block rounded-xl px-4 py-2.5 text-[13px] leading-snug text-paper/85 transition hover:bg-gold-500/15 hover:text-gold-200">Izdavanje</a>
+                                                            </div>
+                        </div>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/kontakt" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Kontakt
+                                            </a>
+                                    </div>
+                            <div class="group relative">
+                    <a href="https://www.prelicinvest.com/konfigurator" class="nav-link flex items-center gap-1 whitespace-nowrap py-2 text-[12px] font-medium uppercase tracking-wide" >
+                        Konfigurator
+                                            </a>
+                                    </div>
+                    </div>
+
+        
+        <div class="flex items-center gap-2 sm:gap-3">
+            <div x-data="langSwitch" class="relative hidden md:block">
+                
+                <button type="button" @click="open=!open" class="flex items-center gap-1.5 rounded-full bg-gold-500 px-3 py-1.5 text-sm font-medium text-canvas shadow-lg shadow-gold-500/25 ring-1 ring-gold-300/40 transition hover:bg-gold-400" :aria-expanded="open" aria-label="Izbor jezika">
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                </button>
+                <div x-show="open" x-transition.opacity @click.outside="open=false" x-cloak class="glass-strong absolute right-0 mt-2 w-36 overflow-hidden rounded-2xl p-1.5">
+                                            <button type="button" @click="pick('zh-CN')" class="flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm text-paper/85 transition hover:bg-paper/10"><img src="/img/flags/cn.png" width="24" height="18" alt="" class="h-[18px] w-6 rounded-sm object-cover ring-1 ring-white/10">中文</button>
+                                            <button type="button" @click="pick('ru')" class="flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm text-paper/85 transition hover:bg-paper/10"><img src="/img/flags/ru.png" width="24" height="18" alt="" class="h-[18px] w-6 rounded-sm object-cover ring-1 ring-white/10">Русский</button>
+                                            <button type="button" @click="pick('en')" class="flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm text-paper/85 transition hover:bg-paper/10"><img src="/img/flags/gb.png" width="24" height="18" alt="" class="h-[18px] w-6 rounded-sm object-cover ring-1 ring-white/10">English</button>
+                                            <button type="button" @click="pick('de')" class="flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm text-paper/85 transition hover:bg-paper/10"><img src="/img/flags/de.png" width="24" height="18" alt="" class="h-[18px] w-6 rounded-sm object-cover ring-1 ring-white/10">Deutsch</button>
+                                            <button type="button" @click="pick('sr')" class="flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm text-paper/85 transition hover:bg-paper/10"><img src="/img/flags/rs.png" width="24" height="18" alt="" class="h-[18px] w-6 rounded-sm object-cover ring-1 ring-white/10">Srpski</button>
+                                    </div>
+            </div>
+
+            <a href="tel:+38166266666" class="hidden items-center gap-2 text-sm font-medium text-paper/85 transition hover:text-gold-300 2xl:inline-flex">
+                <svg class="h-4 w-4 text-gold-400" viewBox="0 0 20 20" fill="currentColor"><path d="M2 4a2 2 0 0 1 2-2h2.3a1 1 0 0 1 .95.68l1 3a1 1 0 0 1-.27 1.05L6.6 8.4a12 12 0 0 0 5 5l1.67-1.38a1 1 0 0 1 1.05-.27l3 1a1 1 0 0 1 .68.95V16a2 2 0 0 1-2 2A14 14 0 0 1 2 4Z"/></svg>
+                +381 66 266 666
+            </a>
+
+            <button type="button" @click="toggle()" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-hairline text-paper xl:hidden" :aria-expanded="open" aria-label="Otvori meni">
+                <svg x-show="!open" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+                <svg x-show="open" x-cloak class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6 6 18" stroke-linecap="round"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    
+    <div x-show="open" x-cloak @keydown.escape.window="close()" :class="open ? 'mm-open' : ''" class="fixed inset-0 z-40 xl:hidden">
+        <div x-show="open" x-transition.opacity class="absolute inset-0 bg-canvas/95 backdrop-blur-xl"></div>
+        <div class="relative flex h-full flex-col overflow-y-auto px-6 pt-24 pb-10">
+            <nav class="flex flex-col" aria-label="Mobilna navigacija">
+                                    <div data-mm-link class="border-b border-hairline/60" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Početna</a>
+                                                    </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/o-nama" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">O nama</a>
+                                                    </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60"  x-data="{ sub: false }" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/stanovi?type=stanovi" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Stanovi useljivi</a>
+                                                            <button type="button" @click="sub=!sub" class="p-3 text-gold-400" aria-label="Proširi Stanovi useljivi">
+                                    <svg class="h-4 w-4 transition" :class="sub && 'rotate-180'" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                                </button>
+                                                    </div>
+                                                    <div x-show="sub" x-transition x-cloak class="pb-3">
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-2" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Miodraga Petrovića Čkalje broj 2A</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-25" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Miodraga Petrovića Čkalje broj 25</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-24" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Oplenačka broj 24</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=ledine" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Ledine</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=surcin" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Surčin</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-14" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Oplenačka broj 14</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=oplenacka-broj-26" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Oplenačka broj 26</a>
+                                                            </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60"  x-data="{ sub: false }" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/stanovi?type=stanovi-u-izgradnji" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Stanovi u izgradnji</a>
+                                                            <button type="button" @click="sub=!sub" class="p-3 text-gold-400" aria-label="Proširi Stanovi u izgradnji">
+                                    <svg class="h-4 w-4 transition" :class="sub && 'rotate-180'" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                                </button>
+                                                    </div>
+                                                    <div x-show="sub" x-transition x-cloak class="pb-3">
+                                                                    <a href="https://www.prelicinvest.com/stanovi?lokacija=miodraga-petrovica-ckalje-broj-18" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Miodraga Petrovića Čkalje broj 18</a>
+                                                            </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/stanovi?status=stanovi-na-kredit" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Stanovi na kredit</a>
+                                                    </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60"  x-data="{ sub: false }" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/stanovi?type=lokali" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Lokali</a>
+                                                            <button type="button" @click="sub=!sub" class="p-3 text-gold-400" aria-label="Proširi Lokali">
+                                    <svg class="h-4 w-4 transition" :class="sub && 'rotate-180'" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                                </button>
+                                                    </div>
+                                                    <div x-show="sub" x-transition x-cloak class="pb-3">
+                                                                    <a href="https://www.prelicinvest.com/stanovi?type=lokali&amp;status=prodaja" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Prodaja</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?type=lokali&amp;status=izdavanje" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Izdavanje</a>
+                                                            </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60"  x-data="{ sub: false }" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/stanovi?type=placevi" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Placevi</a>
+                                                            <button type="button" @click="sub=!sub" class="p-3 text-gold-400" aria-label="Proširi Placevi">
+                                    <svg class="h-4 w-4 transition" :class="sub && 'rotate-180'" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                                </button>
+                                                    </div>
+                                                    <div x-show="sub" x-transition x-cloak class="pb-3">
+                                                                    <a href="https://www.prelicinvest.com/stanovi?type=placevi" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Prodaja</a>
+                                                                    <a href="https://www.prelicinvest.com/stanovi?type=placevi&amp;status=izdavanje" @click="close()" class="block py-2 pl-4 text-base text-fog transition hover:text-gold-300">Izdavanje</a>
+                                                            </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/kontakt" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Kontakt</a>
+                                                    </div>
+                                            </div>
+                                    <div data-mm-link class="border-b border-hairline/60" >
+                        <div class="flex items-center justify-between">
+                            <a href="https://www.prelicinvest.com/konfigurator" @click="close()" class="block py-4 font-display text-2xl uppercase text-paper transition hover:text-gold-300">Konfigurator</a>
+                                                    </div>
+                                            </div>
+                            </nav>
+            <div class="mt-8 flex flex-col gap-4">
+                <div class="flex items-center gap-3" data-mm-link>
+                                            <button type="button" x-data="langSwitch" @click="pick('zh-CN')" aria-label="Jezik 中文"><img src="/img/flags/cn.png" width="32" height="24" alt="中文" class="h-6 w-8 rounded object-cover ring-1 ring-white/10"></button>
+                                            <button type="button" x-data="langSwitch" @click="pick('ru')" aria-label="Jezik Русский"><img src="/img/flags/ru.png" width="32" height="24" alt="Русский" class="h-6 w-8 rounded object-cover ring-1 ring-white/10"></button>
+                                            <button type="button" x-data="langSwitch" @click="pick('en')" aria-label="Jezik English"><img src="/img/flags/gb.png" width="32" height="24" alt="English" class="h-6 w-8 rounded object-cover ring-1 ring-white/10"></button>
+                                            <button type="button" x-data="langSwitch" @click="pick('de')" aria-label="Jezik Deutsch"><img src="/img/flags/de.png" width="32" height="24" alt="Deutsch" class="h-6 w-8 rounded object-cover ring-1 ring-white/10"></button>
+                                            <button type="button" x-data="langSwitch" @click="pick('sr')" aria-label="Jezik Srpski"><img src="/img/flags/rs.png" width="32" height="24" alt="Srpski" class="h-6 w-8 rounded object-cover ring-1 ring-white/10"></button>
+                                    </div>
+                <a href="tel:+38166266666" data-mm-link class="text-lg text-gold-300">+381 66 266 666</a>
+            </div>
+        </div>
+    </div>
+</header>
+    
+    <main id="main" class="flex-1">
+        
+
+<section data-hero class="relative flex min-h-[100svh] items-center overflow-hidden">
+    <div data-hero-bg class="absolute inset-0 -z-10 will-change-transform">
+        <img src="/img/site/hero.webp?v=2" alt="Stambeni kompleks Prelić Invest — Novi Surčin - Ledine" fetchpriority="high" width="1600" height="1200" class="h-full w-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-b from-canvas/35 via-canvas/20 to-canvas/90"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-canvas/80 via-canvas/20 to-transparent"></div>
+    </div>
+
+    <div class="container-wide w-full pt-28 pb-20">
+        <div class="max-w-3xl">
+            <p data-hero-rise class="eyebrow-gold mb-6">Investitor · Naselje Novi Surčin - Ledine, Beograd</p>
+            <h1 data-hero-rise class="display-hero font-display text-paper">
+                Prelić <span class="foil">Invest</span> d.o.o
+            </h1>
+            <p data-hero-rise class="mt-6 max-w-xl text-lg leading-relaxed text-fog sm:text-xl">
+                Luksuz · Komfor · Udobnost — stambeno-poslovni kompleks u naselju Novi Surčin - Ledine, sa najvećim potencijalom.
+            </p>
+            <div data-hero-rise class="mt-9 flex flex-wrap gap-4">
+                <a href="https://www.prelicinvest.com/stanovi" data-magnetic class="btn-foil">Pogledajte ponudu</a>
+                <a href="https://www.prelicinvest.com/kontakt" class="btn-outline-gold">Zakažite obilazak</a>
+            </div>
+
+            
+            <div data-hero-rise x-data="heroSearch" class="glass mt-12 rounded-[22px] p-3 sm:p-4">
+                <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+                    <select x-model="type" aria-label="Tip nekretnine" class="rounded-xl border border-hairline bg-canvas/60 px-4 py-3 text-sm text-paper focus:border-gold-500 focus:outline-none">
+                        <option value="">Tip nekretnine</option>
+                        <option value="stanovi">Stanovi useljivi</option>
+                        <option value="stanovi-u-izgradnji">U izgradnji</option>
+                        <option value="lokali">Lokali</option>
+                        <option value="placevi">Placevi</option>
+                        <option value="kredit">Stanovi na kredit</option>
+                    </select>
+                    <select x-model="status" aria-label="Status" class="rounded-xl border border-hairline bg-canvas/60 px-4 py-3 text-sm text-paper focus:border-gold-500 focus:outline-none">
+                        <option value="">Status</option>
+                        <option value="novo">Novo</option>
+                        <option value="prodaja">U prodaji</option>
+                        <option value="stanovi-na-kredit">Na kredit</option>
+                        <option value="rezervisano">Rezervisano</option>
+                    </select>
+                    <select x-model="struktura" aria-label="Struktura" class="rounded-xl border border-hairline bg-canvas/60 px-4 py-3 text-sm text-paper focus:border-gold-500 focus:outline-none">
+                        <option value="">Struktura</option>
+                        <option value="1.0">Jednosoban</option>
+                        <option value="2.0">Dvosoban</option>
+                        <option value="2.5">Dvoiposoban</option>
+                        <option value="3.0">Trosoban</option>
+                        <option value="4.0">Četvorosoban+</option>
+                    </select>
+                    <input x-model="cenaMax" type="number" min="0" step="5000" placeholder="Cena do (€)" aria-label="Maksimalna cena" class="rounded-xl border border-hairline bg-canvas/60 px-4 py-3 text-sm text-paper placeholder:text-fog/60 focus:border-gold-500 focus:outline-none">
+                    <button type="button" @click="submit()" class="btn-foil w-full justify-center">Pretraži</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#istaknute" aria-label="Skroluj nadole" class="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-fog/70 md:flex">
+        <span class="text-[10px] uppercase tracking-[0.3em]">Istražite</span>
+        <span class="flex h-9 w-5 justify-center rounded-full border border-fog/40 pt-1.5"><span class="h-2 w-1 animate-bounce rounded-full bg-gold-400"></span></span>
+    </a>
+</section>
+
+
+<section id="istaknute" class="section">
+    <div class="container-wide">
+        <div class="reveal mb-12 flex flex-wrap items-end justify-between gap-6">
+            <div>
+                <p class="eyebrow-gold mb-4">Izdvojeno iz ponude</p>
+                <h2 class="display-xl font-display text-paper">Istaknute nekretnine</h2>
+            </div>
+            <a href="https://www.prelicinvest.com/stanovi" class="btn-outline-gold">Cela ponuda</a>
+        </div>
+        <div class="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+                            <div class="reveal reveal-delay-1">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/lux-penthaus-sa-najlepsim-pogledom-na-expo" class="relative block aspect-[4/3] overflow-hidden" aria-label="LUX PENTHAUS SA NAJLEPŠIM POGLEDOM NA EXPO">
+                    <img src="https://www.prelicinvest.com/storage/properties/17973/18883.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/17973/18883-480.webp 480w, https://www.prelicinvest.com/storage/properties/17973/18883-768.webp 768w, https://www.prelicinvest.com/storage/properties/17973/18883-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/17973/18883-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="LUX PENTHAUS SA NAJLEPŠIM POGLEDOM NA EXPO" loading="lazy" decoding="async"
+                  width="1600" height="1200"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #059669">Prodaja</span>
+                                            </div>
+                            <span class="chip chip-gold shrink-0">★ Izdvojeno</span>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€156.750 + PDV</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Stanovi useljivi</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/lux-penthaus-sa-najlepsim-pogledom-na-expo" class="transition hover:text-gold-300">LUX PENTHAUS SA NAJLEPŠIM POGLEDOM NA EXPO</a>
+        </h3>
+                    <p class="mt-1.5 flex items-center gap-1.5 text-sm text-fog"><span class="text-gold-500">⌖</span>Ledine</p>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">57</b> m²</span>            <span><b class="font-semibold text-paper">3</b> sob.</span>            <span>Sprat <b class="font-semibold text-paper">3</b></span>        </div>
+    </div>
+</article>
+                </div>
+                            <div class="reveal reveal-delay-2">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/lux-stanovi-u-izgradnji-u-stambenom-kompleksu-prodaja-na-kredit-2" class="relative block aspect-[4/3] overflow-hidden" aria-label="LUX STANOVI U STAMBENOM KOMPLEKSU – PRODAJA I NA KREDIT">
+                    <img src="https://www.prelicinvest.com/storage/properties/19028/21463.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/19028/21463-480.webp 480w, https://www.prelicinvest.com/storage/properties/19028/21463-768.webp 768w, https://www.prelicinvest.com/storage/properties/19028/21463-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/19028/21463-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="LUX STANOVI U STAMBENOM KOMPLEKSU – PRODAJA I NA KREDIT" loading="lazy" decoding="async"
+                  width="1600" height="1200"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #0284c7">STANOVI NA KREDIT</span>
+                                            </div>
+                            <span class="chip chip-gold shrink-0">★ Izdvojeno</span>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€196.650</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Stanovi useljivi</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/lux-stanovi-u-izgradnji-u-stambenom-kompleksu-prodaja-na-kredit-2" class="transition hover:text-gold-300">LUX STANOVI U STAMBENOM KOMPLEKSU – PRODAJA I NA KREDIT</a>
+        </h3>
+                    <p class="mt-1.5 flex items-center gap-1.5 text-sm text-fog"><span class="text-gold-500">⌖</span>Miodraga Petrovića Čkalje broj 2A</p>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">69</b> m²</span>            <span><b class="font-semibold text-paper">3</b> sob.</span>            <span>Sprat <b class="font-semibold text-paper">3</b></span>        </div>
+    </div>
+</article>
+                </div>
+                            <div class="reveal reveal-delay-3">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/najekskluzivnija-gradnja-na-ledinama" class="relative block aspect-[4/3] overflow-hidden" aria-label="NAJEKSKLUZIVNIJA GRADNJA NA LEDINAMA">
+                    <img src="https://www.prelicinvest.com/storage/properties/18812/21228.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/18812/21228-480.webp 480w, https://www.prelicinvest.com/storage/properties/18812/21228-768.webp 768w, https://www.prelicinvest.com/storage/properties/18812/21228-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/18812/21228-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="NAJEKSKLUZIVNIJA GRADNJA NA LEDINAMA" loading="lazy" decoding="async"
+                  width="1600" height="1200"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #059669">Prodaja</span>
+                                            </div>
+                            <span class="chip chip-gold shrink-0">★ Izdvojeno</span>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€135.000</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Stanovi useljivi</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/najekskluzivnija-gradnja-na-ledinama" class="transition hover:text-gold-300">NAJEKSKLUZIVNIJA GRADNJA NA LEDINAMA</a>
+        </h3>
+                    <p class="mt-1.5 flex items-center gap-1.5 text-sm text-fog"><span class="text-gold-500">⌖</span>Oplenačka broj 26</p>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">39,8</b> m²</span>            <span><b class="font-semibold text-paper">2</b> sob.</span>            <span>Sprat <b class="font-semibold text-paper">3</b></span>        </div>
+    </div>
+</article>
+                </div>
+                            <div class="reveal reveal-delay-1">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/lux-stan-odmah-useljiv-u-najkvalitetnijoj-novogradnji" class="relative block aspect-[4/3] overflow-hidden" aria-label="LUX STAN ODMAH USELJIV U NAJKVALITETNIJOJ NOVOGRADNJI">
+                    <img src="https://www.prelicinvest.com/storage/properties/21820/21834.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/21820/21834-480.webp 480w, https://www.prelicinvest.com/storage/properties/21820/21834-768.webp 768w, https://www.prelicinvest.com/storage/properties/21820/21834-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/21820/21834-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="LUX STAN ODMAH USELJIV U NAJKVALITETNIJOJ NOVOGRADNJI" loading="lazy" decoding="async"
+                  width="1600" height="1200"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #0284c7">STANOVI NA KREDIT</span>
+                                            </div>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€183.000</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Stanovi useljivi</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/lux-stan-odmah-useljiv-u-najkvalitetnijoj-novogradnji" class="transition hover:text-gold-300">LUX STAN ODMAH USELJIV U NAJKVALITETNIJOJ NOVOGRADNJI</a>
+        </h3>
+                    <p class="mt-1.5 flex items-center gap-1.5 text-sm text-fog"><span class="text-gold-500">⌖</span>Oplenačka broj 14</p>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">66,6</b> m²</span>            <span><b class="font-semibold text-paper">3</b> sob.</span>            <span>Sprat <b class="font-semibold text-paper">2</b></span>        </div>
+    </div>
+</article>
+                </div>
+                            <div class="reveal reveal-delay-2">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/plac-od-98-ari-kod-petlje-u-jakovu" class="relative block aspect-[4/3] overflow-hidden" aria-label="Plac od 98 ari kod petlje u Jakovu">
+                    <img src="https://www.prelicinvest.com/storage/properties/21817/21815.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/21817/21815-480.webp 480w, https://www.prelicinvest.com/storage/properties/21817/21815-768.webp 768w, https://www.prelicinvest.com/storage/properties/21817/21815-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/21817/21815-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="Plac od 98 ari kod petlje u Jakovu" loading="lazy" decoding="async"
+                  width="899" height="750"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #059669">Prodaja</span>
+                                            </div>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€1.200.000</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Placevi</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/plac-od-98-ari-kod-petlje-u-jakovu" class="transition hover:text-gold-300">Plac od 98 ari kod petlje u Jakovu</a>
+        </h3>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">980</b> m²</span>                                </div>
+    </div>
+</article>
+                </div>
+                            <div class="reveal reveal-delay-3">
+                    <article class="card-dark group flex flex-col">
+    <a href="https://www.prelicinvest.com/stan/najekskluzivnija-gradnja-na-ledinama-7-26" class="relative block aspect-[4/3] overflow-hidden" aria-label="NOVOGRADNJA SA PAMETNIM STANOVIMA">
+                    <img src="https://www.prelicinvest.com/storage/properties/16/01M469QCZZHT6G7T4FPWAXWP71.webp"
+                  srcset="https://www.prelicinvest.com/storage/properties/16/01M469QCZZHT6G7T4FPWAXWP71-480.webp 480w, https://www.prelicinvest.com/storage/properties/16/01M469QCZZHT6G7T4FPWAXWP71-768.webp 768w, https://www.prelicinvest.com/storage/properties/16/01M469QCZZHT6G7T4FPWAXWP71-1200.webp 1200w, https://www.prelicinvest.com/storage/properties/16/01M469QCZZHT6G7T4FPWAXWP71-1600.webp 1600w" sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"                  alt="NOVOGRADNJA SA PAMETNIM STANOVIMA" loading="lazy" decoding="async"
+                  width="1600" height="1200"                  class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]">
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-canvas/90 via-canvas/15 to-transparent"></div>
+        <div class="absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-4">
+            <div class="flex flex-wrap items-center gap-1.5">
+                                    <span class="badge text-white shadow-lg" style="background-color: #059669">Prodaja</span>
+                                            </div>
+                    </div>
+        <div class="absolute inset-x-0 bottom-0 p-5">
+            <p class="font-display text-2xl font-semibold text-paper drop-shadow">€96.500 + PDV</p>        </div>
+    </a>
+    <div class="flex flex-1 flex-col p-5">
+        <p class="text-[11px] font-medium uppercase tracking-[0.18em] text-gold-400">Stanovi u izgradnji</p>
+        <h3 class="mt-1.5 line-clamp-2 font-display text-lg font-medium text-paper">
+            <a href="https://www.prelicinvest.com/stan/najekskluzivnija-gradnja-na-ledinama-7-26" class="transition hover:text-gold-300">NOVOGRADNJA SA PAMETNIM STANOVIMA</a>
+        </h3>
+                    <p class="mt-1.5 flex items-center gap-1.5 text-sm text-fog"><span class="text-gold-500">⌖</span>Miodraga Petrovića Čkalje broj 18</p>
+                <div class="mt-auto flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-4 text-sm text-fog">
+            <span><b class="font-semibold text-paper">29,2</b> m²</span>            <span><b class="font-semibold text-paper">1.0</b> sob.</span>            <span>Sprat <b class="font-semibold text-paper">Prizemlje</b></span>        </div>
+    </div>
+</article>
+                </div>
+                    </div>
+    </div>
+</section>
+
+
+<section class="section-sm">
+    <div class="container-wide">
+        <div class="reveal mb-12 text-center">
+            <p class="eyebrow-gold mb-4 justify-center">Pregled ponude</p>
+            <h2 class="display-xl font-display text-paper">Kategorije nekretnina</h2>
+        </div>
+                <div class="grid gap-6 sm:grid-cols-2">
+                            <a href="https://www.prelicinvest.com/stanovi?type=stanovi" class="reveal reveal-delay-1 group relative block aspect-[5/4] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/useljivi.webp?v=2" alt="Stanovi useljivi" loading="lazy" width="600" height="480" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/40 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-6">
+                        <p class="font-display text-5xl font-semibold text-paper"><span data-count="56">0</span></p>
+                        <p class="mt-1 text-sm text-fog">Stanovi useljivi</p>
+                        <span class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Pogledaj <span>→</span></span>
+                    </div>
+                </a>
+                            <a href="https://www.prelicinvest.com/stanovi?type=stanovi-u-izgradnji" class="reveal reveal-delay-2 group relative block aspect-[5/4] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/izgradnji.webp?v=2" alt="Stanovi u izgradnji" loading="lazy" width="600" height="480" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/40 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-6">
+                        <p class="font-display text-5xl font-semibold text-paper"><span data-count="43">0</span></p>
+                        <p class="mt-1 text-sm text-fog">Stanovi u izgradnji</p>
+                        <span class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Pogledaj <span>→</span></span>
+                    </div>
+                </a>
+                            <a href="https://www.prelicinvest.com/stanovi?type=lokali" class="reveal reveal-delay-3 group relative block aspect-[5/4] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/lokali.webp" alt="Lokali" loading="lazy" width="600" height="480" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/40 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-6">
+                        <p class="font-display text-5xl font-semibold text-paper"><span data-count="1">0</span></p>
+                        <p class="mt-1 text-sm text-fog">Lokali</p>
+                        <span class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Pogledaj <span>→</span></span>
+                    </div>
+                </a>
+                            <a href="https://www.prelicinvest.com/stanovi?status=stanovi-na-kredit" class="reveal reveal-delay-4 group relative block aspect-[5/4] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/kredit.webp" alt="Stanovi na kredit" loading="lazy" width="600" height="480" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/40 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-6">
+                        <p class="font-display text-5xl font-semibold text-paper"><span data-count="29">0</span></p>
+                        <p class="mt-1 text-sm text-fog">Stanovi na kredit</p>
+                        <span class="mt-3 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Pogledaj <span>→</span></span>
+                    </div>
+                </a>
+                    </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container-wide grid items-center gap-14 lg:grid-cols-2">
+        <div class="reveal">
+            <p class="eyebrow-gold mb-5">O naselju</p>
+            <h2 class="display-xl font-display text-paper">Najkvalitetnija novogradnja u naselju Novi Surčin - Ledine</h2>
+            <p class="mt-6 text-lg leading-relaxed text-fog">
+                Na najlepšem i najurbanijem delu naselja Novi Surčin - Ledine, kod nove crkve Sv. Apostola Mateja, gradimo stambeno-poslovni kompleks preko 50.000 m². Stanovi različite orijentacije i strukture, od jednosobnih do petosobnih.
+            </p>
+            <div class="mt-10 grid grid-cols-3 gap-6">
+                <div><p class="font-display text-4xl font-semibold text-gold-400"><span data-count="50" data-count-suffix="k">0</span></p><p class="mt-1 text-xs uppercase tracking-wider text-fog">m² kompleks</p></div>
+                <div><p class="font-display text-4xl font-semibold text-gold-400"><span data-count="100">0</span></p><p class="mt-1 text-xs uppercase tracking-wider text-fog">jedinica</p></div>
+                <div><p class="font-display text-4xl font-semibold text-gold-400"><span data-count="26" data-count-suffix="+">0</span></p><p class="mt-1 text-xs uppercase tracking-wider text-fog">god. iskustva</p></div>
+            </div>
+        </div>
+        <div class="reveal reveal-delay-1 relative aspect-[4/3] overflow-hidden rounded-[24px] border border-hairline">
+            <img src="/img/site/naselje.webp" alt="Naselje Prelić — Novi Surčin - Ledine" loading="lazy" width="1100" height="825" class="h-full w-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-canvas/40 to-transparent"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-sm">
+    <div class="container-wide">
+        
+        <div class="reveal mb-12">
+            <p class="eyebrow-gold mb-4">Zemljište</p>
+            <h2 class="display-xl font-display text-paper">Placevi</h2>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2">
+                            <a href="https://www.prelicinvest.com/stanovi?type=placevi&amp;status=prodaja" class="reveal reveal-delay-1 group relative block aspect-[16/10] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/placevi-prodaja.webp" alt="Prodaja" loading="lazy" width="800" height="500" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/30 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-7">
+                        <h3 class="font-display text-2xl font-medium text-paper">Prodaja</h3>
+                        <p class="mt-1.5 max-w-sm text-sm text-fog">Atraktivne lokacije sa kompletnom infrastrukturom.</p>
+                        <span class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Detaljnije <span>→</span></span>
+                    </div>
+                </a>
+                            <a href="https://www.prelicinvest.com/stanovi?type=placevi&amp;status=izdavanje" class="reveal reveal-delay-2 group relative block aspect-[16/10] overflow-hidden rounded-[20px] border border-hairline">
+                    <img src="/img/site/placevi-izdavanje.webp" alt="Izdavanje" loading="lazy" width="800" height="500" class="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/30 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-7">
+                        <h3 class="font-display text-2xl font-medium text-paper">Izdavanje</h3>
+                        <p class="mt-1.5 max-w-sm text-sm text-fog">Zemljište i parcele pod zakup.</p>
+                        <span class="mt-4 inline-flex items-center gap-2 text-sm font-medium text-gold-400 transition group-hover:gap-3">Detaljnije <span>→</span></span>
+                    </div>
+                </a>
+                    </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container-wide">
+        <div class="reveal mb-12 text-center">
+            <p class="eyebrow-gold mb-4 justify-center">Tim</p>
+            <h2 class="display-xl font-display text-paper">Upoznajte naše agente</h2>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-3">
+                                            <div class="reveal reveal-delay-1 card-dark flex flex-col items-center p-8 text-center">
+                    <div class="grid h-24 w-24 place-items-center rounded-full border border-gold-500/40 bg-gradient-to-br from-gold-500/20 to-transparent font-display text-3xl font-semibold text-gold-300">SP</div>
+                    <h3 class="mt-5 font-display text-xl text-paper">Srđan Prelić</h3>
+                    <p class="mt-1 text-sm text-fog">Direktor prodaje</p>
+                    <a href="tel:+381669666699" class="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-gold-300 transition hover:text-gold-200"><span class="text-gold-500">☏</span>+381 66 966 6699</a>
+                    <div class="mt-5 flex gap-2.5">
+                        <a href="tel:+381669666699" aria-label="Pozovite Srđan Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 4a2 2 0 0 1 2-2h2.3a1 1 0 0 1 .95.68l1 3a1 1 0 0 1-.27 1.05L6.6 8.4a12 12 0 0 0 5 5l1.67-1.38a1 1 0 0 1 1.05-.27l3 1a1 1 0 0 1 .68.95V16a2 2 0 0 1-2 2A14 14 0 0 1 2 4Z"/></svg></a>
+                        <a href="https://wa.me/381669666699" target="_blank" rel="noopener" aria-label="WhatsApp Srđan Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm4.4 12.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.6 6.6 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c2.2.9 2.2.6 2.6.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+                        <a href="mailto:prelicinvest@yahoo.com" aria-label="Email Srđan Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2l-8 5L2 5Zm0 2.5V15a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5l-8 5-8-5Z"/></svg></a>
+                    </div>
+                </div>
+                                            <div class="reveal reveal-delay-2 card-dark flex flex-col items-center p-8 text-center">
+                    <div class="grid h-24 w-24 place-items-center rounded-full border border-gold-500/40 bg-gradient-to-br from-gold-500/20 to-transparent font-display text-3xl font-semibold text-gold-300">AP</div>
+                    <h3 class="mt-5 font-display text-xl text-paper">Aleksandar Prelić</h3>
+                    <p class="mt-1 text-sm text-fog">Agent nekretnina</p>
+                    <a href="tel:+381644454444" class="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-gold-300 transition hover:text-gold-200"><span class="text-gold-500">☏</span>+381 64 445 4444</a>
+                    <div class="mt-5 flex gap-2.5">
+                        <a href="tel:+381644454444" aria-label="Pozovite Aleksandar Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 4a2 2 0 0 1 2-2h2.3a1 1 0 0 1 .95.68l1 3a1 1 0 0 1-.27 1.05L6.6 8.4a12 12 0 0 0 5 5l1.67-1.38a1 1 0 0 1 1.05-.27l3 1a1 1 0 0 1 .68.95V16a2 2 0 0 1-2 2A14 14 0 0 1 2 4Z"/></svg></a>
+                        <a href="https://wa.me/381644454444" target="_blank" rel="noopener" aria-label="WhatsApp Aleksandar Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm4.4 12.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.6 6.6 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c2.2.9 2.2.6 2.6.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+                        <a href="mailto:prelicinvest@yahoo.com" aria-label="Email Aleksandar Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2l-8 5L2 5Zm0 2.5V15a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5l-8 5-8-5Z"/></svg></a>
+                    </div>
+                </div>
+                                            <div class="reveal reveal-delay-3 card-dark flex flex-col items-center p-8 text-center">
+                    <div class="grid h-24 w-24 place-items-center rounded-full border border-gold-500/40 bg-gradient-to-br from-gold-500/20 to-transparent font-display text-3xl font-semibold text-gold-300">GP</div>
+                    <h3 class="mt-5 font-display text-xl text-paper">Gabrijela Prelić</h3>
+                    <p class="mt-1 text-sm text-fog">Agent nekretnina</p>
+                    <a href="tel:+381644434444" class="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-gold-300 transition hover:text-gold-200"><span class="text-gold-500">☏</span>+381 64 443 4444</a>
+                    <div class="mt-5 flex gap-2.5">
+                        <a href="tel:+381644434444" aria-label="Pozovite Gabrijela Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 4a2 2 0 0 1 2-2h2.3a1 1 0 0 1 .95.68l1 3a1 1 0 0 1-.27 1.05L6.6 8.4a12 12 0 0 0 5 5l1.67-1.38a1 1 0 0 1 1.05-.27l3 1a1 1 0 0 1 .68.95V16a2 2 0 0 1-2 2A14 14 0 0 1 2 4Z"/></svg></a>
+                        <a href="https://wa.me/381644434444" target="_blank" rel="noopener" aria-label="WhatsApp Gabrijela Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm4.4 12.1c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.6 6.6 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c2.2.9 2.2.6 2.6.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+                        <a href="mailto:prelicinvest@yahoo.com" aria-label="Email Gabrijela Prelić" class="grid h-10 w-10 place-items-center rounded-full border border-hairline text-paper transition hover:border-gold-500 hover:text-gold-300"><svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2l-8 5L2 5Zm0 2.5V15a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5l-8 5-8-5Z"/></svg></a>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</section>
+
+
+<section class="section-sm">
+    <div class="container-wide">
+        <div class="mb-6 flex items-end justify-between gap-4">
+            <div>
+                <p class="eyebrow-gold mb-3">Lokacija</p>
+                <h2 class="font-display text-3xl text-paper sm:text-4xl">Naše zgrade u naselju Novi Surčin - Ledine</h2>
+            </div>
+            <a href="https://www.prelicinvest.com/lokacije" class="hidden shrink-0 text-sm font-medium text-gold-400 transition hover:text-gold-300 sm:block">Sve lokacije &rarr;</a>
+        </div>
+        <div class="reveal relative overflow-hidden rounded-2xl border border-hairline shadow-2xl">
+            <div id="home-naselje-map" style="height: 420px" class="w-full bg-surface"></div>
+                </div>
+    </div>
+</section>
+
+
+<section class="section-sm">
+    <div class="container-wide">
+        <div class="reveal grid items-center gap-10 overflow-hidden rounded-[28px] border border-hairline bg-surface/60 p-8 lg:grid-cols-2 lg:p-14">
+            <div>
+                <p class="eyebrow-gold mb-4">Aplikacija</p>
+                <h2 class="font-display text-3xl text-paper sm:text-4xl">Ponesite ponudu u džepu</h2>
+                <p class="mt-4 max-w-md text-fog">Instalirajte Prelić Invest kao aplikaciju na telefon ili računar — brz pristup ponudi stanova, radi i van mreže, bez preuzimanja sa prodavnice aplikacija.</p>
+                <ul class="mt-6 space-y-3 text-sm text-fog">
+                    <li class="flex items-center gap-3"><span class="text-gold-400">✓</span> Otvara se kao prava aplikacija, sa svojom ikonicom</li>
+                    <li class="flex items-center gap-3"><span class="text-gold-400">✓</span> Brže učitavanje i rad bez interneta</li>
+                    <li class="flex items-center gap-3"><span class="text-gold-400">✓</span> Uvek najnovija ponuda i cene</li>
+                </ul>
+                <div class="mt-8 flex flex-wrap items-center gap-4">
+                    <button type="button" data-pwa-install class="btn-foil">Instaliraj aplikaciju</button>
+                    <span data-pwa-installed class="hidden text-sm font-medium text-gold-400">✓ Aplikacija je već instalirana</span>
+                </div>
+                <div data-pwa-help class="mt-4 hidden max-w-md rounded-xl border border-hairline bg-canvas/60 p-4 text-sm text-fog">
+                    <p class="mb-2 font-medium text-paper">Kako da instalirate:</p>
+                    <ul class="space-y-1.5">
+                        <li><strong class="text-paper">Android · Chrome:</strong> meni (⋮) → „Instaliraj aplikaciju".</li>
+                        <li><strong class="text-paper">iPhone · Safari:</strong> Podeli (⬆︎) → „Dodaj na početni ekran".</li>
+                        <li><strong class="text-paper">Računar · Chrome/Edge:</strong> ikonica „Instaliraj" (⊕) u adresnoj traci.</li>
+                    </ul>
+                    <p class="mt-2">Ili skenirajte QR kod telefonom.</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-4">
+                <div class="rounded-2xl bg-white p-5 shadow-xl">
+                    <img src="https://www.prelicinvest.com/img/pwa-qr.png" alt="QR kod za instalaciju aplikacije Prelić Invest" width="200" height="200" class="h-48 w-48" loading="lazy">
+                </div>
+                <p class="text-sm text-fog">Skenirajte kamerom telefona</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-sm pb-24">
+    <div class="container-wide">
+        <div class="reveal relative overflow-hidden rounded-[28px] border border-gold-500/25 px-8 py-16 text-center sm:px-16 sm:py-20">
+            <div class="absolute inset-0 -z-10 bg-gradient-to-br from-gold-500/12 via-surface to-canvas"></div>
+            <h2 class="display-xl font-display text-paper">Pronađite svoj dom u naselju Novi Surčin - Ledine</h2>
+            <p class="mx-auto mt-4 max-w-xl text-fog">Zakažite obilazak ili nas kontaktirajte — naš tim vam stoji na raspolaganju za sve informacije o stanovima, kreditima i rokovima useljenja.</p>
+            <div class="mt-8 flex flex-wrap justify-center gap-4">
+                <a href="https://www.prelicinvest.com/kontakt" data-magnetic class="btn-foil">Kontaktirajte nas</a>
+                <a href="tel:+38166266666" class="btn-outline-gold">+381 66 266 666</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="border-t border-hairline bg-canvas text-fog">
+    <div class="container-wide grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-10 lg:py-20">
+        
+        <div>
+            <a href="https://www.prelicinvest.com" class="inline-flex items-center" aria-label="Prelić Invest">
+                <img src="/img/logo-gold.webp" alt="Prelić Invest" width="54" height="80" class="h-20 w-auto object-contain">
+            </a>
+            <p class="mt-6 max-w-sm text-sm leading-relaxed">
+                Porodični investitor sa tradicijom od 2000. godine. Gradimo stambeno-poslovni kompleks u naselju Novi Surčin - Ledine — fiksne cene, kvalitetna novogradnja i kupovina na kredit.
+            </p>
+                            <div class="mt-7 flex gap-3">
+                                            <a href="https://wa.me/381669666699" target="_blank" rel="noopener" aria-label="WhatsApp"
+                           class="grid h-11 w-11 place-items-center rounded-full border border-hairline text-fog transition hover:border-gold-500 hover:bg-gold-500 hover:text-canvas">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4-1.1l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 1 1 12 20Zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.6 6.6 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.2 0-.4 0-.5l-.7-1.7c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4c2.2.9 2.2.6 2.6.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+                        </a>
+                                            <a href="https://www.instagram.com/prelicinvest" target="_blank" rel="noopener" aria-label="Instagram"
+                           class="grid h-11 w-11 place-items-center rounded-full border border-hairline text-fog transition hover:border-gold-500 hover:bg-gold-500 hover:text-canvas">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9s.7.8.9 1.4c.1.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4s-.8.7-1.4.9c-.4.1-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4a3.7 3.7 0 0 1-1.4-.9 3.7 3.7 0 0 1-.9-1.4c-.1-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4s.8-.7 1.4-.9c.4-.1 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 4.9A4.9 4.9 0 1 0 16.9 12 4.9 4.9 0 0 0 12 7.1Zm0 8a3.1 3.1 0 1 1 3.1-3.1A3.1 3.1 0 0 1 12 15.1Zm5.1-8.3a1.1 1.1 0 1 0 1.2 1.1 1.1 1.1 0 0 0-1.2-1.1Z"/></svg>
+                        </a>
+                                            <a href="https://www.facebook.com/prelicinvest" target="_blank" rel="noopener" aria-label="Facebook"
+                           class="grid h-11 w-11 place-items-center rounded-full border border-hairline text-fog transition hover:border-gold-500 hover:bg-gold-500 hover:text-canvas">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.5 1.6-1.5h1.7V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V13h2.6v8h3.6Z"/></svg>
+                        </a>
+                                    </div>
+                    </div>
+
+        
+        <div>
+            <h3 class="text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">Ponuda</h3>
+            <ul class="mt-5 space-y-3 text-sm">
+                <li><a href="https://www.prelicinvest.com/stanovi?type=stanovi" class="transition hover:text-gold-300">Stanovi useljivi</a></li>
+                <li><a href="https://www.prelicinvest.com/stanovi?type=stanovi-u-izgradnji" class="transition hover:text-gold-300">Stanovi u izgradnji</a></li>
+                <li><a href="https://www.prelicinvest.com/stanovi?status=stanovi-na-kredit" class="transition hover:text-gold-300">Stanovi na kredit</a></li>
+                <li><a href="https://www.prelicinvest.com/stanovi?type=lokali" class="transition hover:text-gold-300">Lokali</a></li>
+                <li><a href="https://www.prelicinvest.com/stanovi?type=placevi" class="transition hover:text-gold-300">Placevi</a></li>
+            </ul>
+        </div>
+
+        
+        <div>
+            <h3 class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
+                <img src="/img/flags/rs.png" width="20" height="15" alt="" class="h-[15px] w-5 rounded-sm object-cover ring-1 ring-white/10" onerror="this.style.display='none'">
+                Srbija
+            </h3>
+            <ul class="mt-5 space-y-3 text-sm not-italic">
+                <li class="flex gap-3"><span class="mt-0.5 text-gold-500">⌖</span><span>Miodraga Petrovića Čkalje 4, Novi Surčin - Ledine</span></li>
+                <li class="flex gap-3"><span class="text-gold-500">☏</span><a href="tel:+38166266666" class="transition hover:text-gold-300">+381 66 266 666</a></li>
+                <li class="flex gap-3"><span class="text-gold-500">✉</span><a href="mailto:prelicinvest@yahoo.com" class="break-all transition hover:text-gold-300">prelicinvest@yahoo.com</a></li>
+                <li class="flex gap-3"><span class="text-gold-500">◴</span><span>Pon–Pet 10–18h, Sub 10–17h</span></li>
+            </ul>
+            <div class="mt-5 overflow-hidden rounded-2xl border border-hairline">
+                <iframe src="https://www.google.com/maps?q=Miodraga+Petrovi%C4%87a+%C4%8Ckalje+4%2C+Novi+Sur%C4%8Din+-+Ledine&amp;output=embed" title="Lokacija — Miodraga Petrovića Čkalje 4, Novi Surčin - Ledine" width="100%" height="150" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;filter:grayscale(1) invert(0.9) contrast(0.85);"></iframe>
+            </div>
+        </div>
+
+        
+                    <div>
+                <h3 class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold-400">
+                    <img src="/img/flags/at.png" width="20" height="15" alt="" class="h-[15px] w-5 rounded-sm object-cover ring-1 ring-white/10" onerror="this.style.display='none'">
+                    Austrija
+                </h3>
+                <ul class="mt-5 space-y-3 text-sm not-italic">
+                    <li class="flex gap-3"><span class="mt-0.5 text-gold-500">▣</span><span>Prelić Invest GmbH</span></li>                    <li class="flex gap-3"><span class="mt-0.5 text-gold-500">⌖</span><span>Meiereistraße 14/336, 1020 Wien, Austria</span></li>                    <li class="flex gap-3"><span class="text-gold-500">☏</span><a href="tel:+436673337000" class="transition hover:text-gold-300">+43 667 3337000</a></li>                    <li class="flex gap-3"><span class="text-gold-500">◴</span><span>Pon–Pet 09–17h, vikend neradan</span></li>                </ul>
+                                    <div class="mt-5 overflow-hidden rounded-2xl border border-hairline">
+                        <iframe src="https://www.google.com/maps?q=Meiereistra%C3%9Fe+14%2F336%2C+1020+Wien%2C+Austria&amp;output=embed" title="Lokacija — Meiereistraße 14/336, 1020 Wien, Austria" width="100%" height="150" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;filter:grayscale(1) invert(0.9) contrast(0.85);"></iframe>
+                    </div>
+                            </div>
+            </div>
+
+    <div class="border-t border-hairline">
+        <div class="container-wide flex flex-col items-center justify-between gap-3 py-6 text-xs text-fog/70 lg:flex-row">
+            <p>© 2026 Prelić Invest d.o.o. · PIB 111495144 · MB 21490733</p>
+            
+            <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2" aria-label="Pravno">
+                <a href="https://www.prelicinvest.com/o-nama" class="transition hover:text-gold-300">O nama</a>
+                <a href="https://www.prelicinvest.com/kontakt" class="transition hover:text-gold-300">Kontakt</a>
+                <a href="https://www.prelicinvest.com/politika-privatnosti" class="transition hover:text-gold-300">Politika privatnosti</a>
+                <a href="https://www.prelicinvest.com/sitemap.xml" class="transition hover:text-gold-300">Mapa sajta</a>
+            </nav>
+            <p>Izrada sajta: <a href="https://izradawebstranica.rs" target="_blank" rel="noopener" class="font-medium text-paper/80 transition hover:text-gold-300">StartUp Solutions</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <div id="google_translate_element" class="sr-only" aria-hidden="true"></div>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'sr', includedLanguages: 'en,de,ru,zh-CN', autoDisplay: false }, 'google_translate_element');
+        }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+
+            <script src="https://www.prelicinvest.com/vendor/leaflet/leaflet.js"></script>
+    <script>
+(function () {
+    var pts = [{"name":"Ledine","lat":44.7972,"lng":20.3287,"count":2,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=ledine","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/17973\/18883.webp"},{"name":"Miodraga Petrovi\u0107a \u010ckalje broj 2A","lat":44.798297,"lng":20.327625,"count":15,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-2","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/19074\/20176.webp"},{"name":"Miodraga Petrovi\u0107a \u010ckalje broj 25","lat":44.796226,"lng":20.328816,"count":8,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=miodraga-oetrovica-ckalje-broj-25","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/19104\/21172.webp"},{"name":"Miodraga Petrovi\u0107a \u010ckalje broj 18","lat":44.796555,"lng":20.328288,"count":35,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=miodraga-petrovica-ckalje-broj-18","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/6\/01M469H75AAGGRT1CK0P85Z0MV.webp"},{"name":"Oplena\u010dka broj 14","lat":44.797126,"lng":20.329304,"count":1,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=oplenacka-broj-14","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/21820\/21834.webp"},{"name":"Oplena\u010dka broj 24","lat":44.797994,"lng":20.329071,"count":5,"url":"https:\/\/www.prelicinvest.com\/stanovi?lokacija=oplenacka-broj-24","img":"https:\/\/www.prelicinvest.com\/storage\/properties\/18880\/21234.webp"}];
+    var el = document.getElementById('home-naselje-map');
+    if (!window.L || !el || !pts.length) { return; }
+    function init() {
+        var map = L.map(el, { scrollWheelZoom: false, attributionControl: true });
+        // 23.09.2026: CARTO basemap od skora trazi API kljuc (na plocicama je pisalo API KEY REQUIRED).
+        // Presli smo na OSM plocice bez kljuca; tamni izgled pravi CSS filter na .leaflet-tile-pane.
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+        var bounds = [];
+        pts.forEach(function (p) {
+            var icon = L.divIcon({
+                className: '', iconSize: [38, 38], iconAnchor: [19, 19], popupAnchor: [0, -20],
+                html: '<div style="width:38px;height:38px;border-radius:50%;display:grid;place-items:center;'
+                    + 'background:#C8A24A;color:#0B0C0E;font:700 14px/1 Inter,sans-serif;border:2px solid #F4F1EA;'
+                    + 'box-shadow:0 0 0 4px rgba(200,162,74,.25),0 4px 14px rgba(0,0,0,.55)">' + p.count + '</div>'
+            });
+            var html = '<div style="width:200px">'
+                + (p.img ? '<img src="' + p.img + '" alt="" style="width:100%;height:112px;object-fit:cover;display:block">' : '')
+                + '<div style="padding:10px 12px 12px;text-align:center;background:#fff">'
+                + '<strong style="font-size:14px;color:#0B0C0E">' + p.name + '</strong>'
+                + '<div style="color:#555;margin:3px 0 9px;font-size:12px">' + p.count + ' ' + (p.count === 1 ? 'nekretnina' : 'nekretnina u ponudi') + '</div>'
+                + '<a href="' + p.url + '" style="display:inline-block;background:#C8A24A;color:#0B0C0E;padding:7px 14px;border-radius:9px;font-weight:700;text-decoration:none;font-size:13px">Pogledaj stanove &rarr;</a>'
+                + '</div></div>';
+            L.marker([p.lat, p.lng], { icon: icon }).addTo(map).bindPopup(html, { maxWidth: 200, minWidth: 200 });
+            bounds.push([p.lat, p.lng]);
+        });
+        if (bounds.length > 1) { map.fitBounds(bounds, { padding: [50, 50], maxZoom: 16 }); }
+        else { map.setView(bounds[0], 16); }
+        setTimeout(function () { map.invalidateSize(); }, 200);
+    }
+    if (document.readyState !== 'loading') { init(); } else { document.addEventListener('DOMContentLoaded', init); }
+})();
+</script>
+<script>
+(function () {
+    var btns = [].slice.call(document.querySelectorAll('[data-pwa-install]'));
+    var help = document.querySelector('[data-pwa-help]');
+    var installed = document.querySelector('[data-pwa-installed]');
+    if (!btns.length) return;
+    var standalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+    if (standalone) { btns.forEach(function (b) { b.classList.add('hidden'); }); if (installed) installed.classList.remove('hidden'); return; }
+    btns.forEach(function (b) {
+        b.addEventListener('click', function () {
+            var p = window.__deferredPrompt;
+            if (p) { p.prompt(); p.userChoice.finally(function () { window.__deferredPrompt = null; }); }
+            else if (help) { help.classList.toggle('hidden'); }
+        });
+    });
+    window.addEventListener('appinstalled', function () {
+        btns.forEach(function (b) { b.classList.add('hidden'); });
+        if (help) help.classList.add('hidden');
+        if (installed) installed.classList.remove('hidden');
+    });
+})();
+</script>
+</body>
+</html>

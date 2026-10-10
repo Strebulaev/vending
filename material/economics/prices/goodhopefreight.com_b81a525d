@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Logistics | Shipping From China | Freight Forwarder | Amazon FBA | GoodHope Freight</title>
+<link rel="canonical" href="https://goodhopefreight.com/">
+<meta name="description" content="GoodHope Freight Forwarder - Professional international freight forwarding services from China. Sea freight, air freight, DHL/FedEx/UPS/TNT, customs clearance, and Amazon FBA shipping.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Goodhope Freight">
+<meta property="og:title" content="Global Logistics & Shipping From China | Goodhope Freight">
+<meta property="og:description" content="Professional freight forwarder in Shenzhen, China. Sea, air, rail and Amazon FBA shipping from China to worldwide destinations. Transparent pricing, customs clearance, door-to-door delivery. Get a free quote within 24 hours.">
+<meta property="og:url" content="https://goodhopefreight.com/">
+<meta property="og:image" content="https://goodhopefreight.com/freightimg/shipping-from-china.png">
+<meta property="og:image:alt" content="Goodhope Freight - International shipping from China to worldwide">
+<meta property="og:locale" content="en_US">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Global Logistics & Shipping From China | Goodhope Freight">
+<meta name="twitter:description" content="Sea, air, rail and Amazon FBA shipping from China to worldwide. Transparent pricing, customs clearance, door-to-door delivery. Get a free quote within 24 hours.">
+<meta name="twitter:image" content="https://goodhopefreight.com/freightimg/shipping-from-china.png">
+<!-- Bootstrap 5 CSS -->
+<!-- Google Fonts -->
+<link href="https://goodhopefreight.com/css/vendor/bootstrap-5.3.0.min.css" rel="stylesheet">
+<!-- Font Awesome Icons -->
+<!-- Bootstrap Icons -->
+<link href="https://goodhopefreight.com/css/goodhope-critical-2026.css" rel="stylesheet"/>
+<link rel="preload" href="https://goodhopefreight.com/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="https://goodhopefreight.com/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="https://goodhopefreight.com/fonts/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin/>
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('https://goodhopefreight.com/fonts/inter-latin-400-normal.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('https://goodhopefreight.com/fonts/inter-latin-600-normal.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('https://goodhopefreight.com/fonts/inter-latin-700-normal.woff2') format('woff2')}
+svg.icon-svg{height:1em;width:auto;fill:currentColor;display:inline-block;vertical-align:-0.125em;flex-shrink:0}
+.footer-contact-item svg.icon-svg{color:var(--accent);margin-top:5px;width:20px;height:20px}
+</style>
+<link rel="stylesheet" href="https://goodhopefreight.com/css/goodhope-index-2026.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "LocalBusiness"],
+  "@id": "https://goodhopefreight.com/#organization",
+  "name": "Goodhope Freight",
+  "alternateName": "好望角国际物流",
+  "legalName": "Goodhope Freight (China) Limited",
+  "foundingDate": "2012",
+  "url": "https://goodhopefreight.com",
+  "logo": "https://goodhopefreight.com/freightimg/goodhope-freight.png",
+  "description": "International freight forwarder based in Shenzhen, China. Specializing in sea freight, air freight, rail freight, Amazon FBA shipping, and battery shipping from China to worldwide.",
+  "telephone": "+86 18938691638",
+  "email": "sales007@goodhopefreight.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Room 1012, Zhonghao Building, No. 10, Bagua Fourth Road, Futian District, Shenzhen, Guangdong Province, China",
+    "addressLocality": "Shenzhen",
+    "addressRegion": "Guangdong",
+    "postalCode": "518028",
+    "addressCountry": "CN"
+  },
+  "areaServed": ["US", "CA", "UK", "DE", "FR", "IT", "ES", "JP", "AU", "RU"],
+  "sameAs": [
+ 
+    "https://www.linkedin.com/company/goodhope-freight",
+    "https://www.facebook.com/goodhopefreight",
+    "https://www.trustpilot.com/review/goodhopefreight.com"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Freight Forwarding Services",
+    "itemListElement": [
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Sea Freight (FCL & LCL)", "url": "https://goodhopefreight.com/sea-freight.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Air Freight", "url": "https://goodhopefreight.com/air-freight.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Rail Freight (China-Europe Express)", "url": "https://goodhopefreight.com/railway.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Amazon FBA Shipping", "url": "https://goodhopefreight.com/door-to-door/shipping-to-fba.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Battery & Dangerous Goods Shipping", "url": "https://goodhopefreight.com/dg/lithium-battery.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Customs Clearance", "url": "https://goodhopefreight.com/customs-clearance-china.html"}},
+      {"@type": "Offer", "item": {"@type": "Service", "name": "Express & Courier (DHL/FedEx/UPS)", "url": "https://goodhopefreight.com/express.html"}}
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://goodhopefreight.com/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What shipping methods do you offer from China?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer sea freight (FCL & LCL), air freight, rail freight on the China-Europe Express, express courier (DHL, FedEx, UPS), and door-to-door Amazon FBA shipping. Tell us your cargo type, weight and destination, and our team will recommend the most cost-effective option."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does shipping from China take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transit times depend on the service and destination. As a general guide, express courier takes a few days, air freight around one week, and sea freight usually between 2 and 5 weeks depending on the port-to-port route. Our sales team will confirm the exact transit time when preparing your quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you ship lithium batteries and other dangerous goods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Battery and dangerous goods shipping is one of our specialties. We handle lithium batteries, power banks, and other DG cargo with properly certified packaging and compliant documentation. Contact us with the battery type, watt-hour rating, and quantity for a feasibility check and rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide Amazon FBA shipping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer complete Amazon FBA head-haulage from China, including sea, air and rail options, plus warehouse booking, FBA labeling, palletization and delivery to Amazon fulfillment centers across the US, UK, EU, Canada, and other markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get a freight quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Send us your cargo details - product name, weight, dimensions, quantity, pickup city in China and destination country - via email or WhatsApp. Our freight experts will get back to you with a tailored rate, usually within 24 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle customs clearance and door-to-door delivery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide customs clearance support and can arrange door-to-door delivery to most countries worldwide, covering export documentation in China and import handling at the destination. Our team will guide you through the required documents for your specific goods."
+      }
+    }
+  ]
+}
+</script>
+    <link rel="stylesheet" href="https://goodhopefreight.com/css/goodhope-cookie-2026.css">
+</head>
+<body>
+<div class="top-bar" id="topBar"> <a href="https://goodhopefreight.com/info/about-us.html" class="top-item"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/></svg> Since 2012 </a> <a href="https://goodhopefreight.com/info/about-us/awards-ccreditations.html" class="top-item"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
+  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/></svg> NVOCC GD20230925153335 </a> <span class="top-item"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/></svg> 24h Response </span>
+  <div class="topbar-right"> <a href="tel:+8618938691638" class="top-item"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg> +86 18938691638 </a> <a href="mailto:sales007@goodhopefreight.com" class="top-item"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/></svg> sales007@goodhopefreight.com </a>
+    <form class="search-box" action="https://www.google.com/search" method="get" target="_blank" rel="noopener" onSubmit="this.q.value=('site:goodhopefreight.com '+(this.q.value||'')).trim();">
+      <input type="text" name="q" placeholder="Search site..." aria-label="Search this site">
+      <button type="submit" aria-label="Search"></button>
+    </form>
+    <div class="lang-item" id="langItem"> <button type="button" aria-haspopup="true" aria-expanded="false"  class="top-item" id="langToggle"> Language <span class="lang-arrow"></span> </button>
+      <div class="lang-dropdown"> <a href="https://goodhopefreight.com/">English</a> <a href="https://fr.goodhopefreight.com/">French</a> </div>
+    </div>
+    <span aria-disabled="true"  class="top-item" title="Customer portal — coming soon"> <svg class="icon-svg icon-orange" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg> Login </span> </div>
+</div>
+<header class="header-nav">
+  <div class="logo-wrap"> <a href="https://goodhopefreight.com/"><img src="https://goodhopefreight.com/freightimg/goodhope-freight.png" alt="Goodhope Freight"></a> </div>
+  <button class="menu-toggle" id="toggleBtn"> <svg class="icon-svg" viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg> </button>
+  <ul class="nav-list" id="mainMenu">
+    <li class="nav-item"> <a href="https://goodhopefreight.com/services.html" class="nav-link"> Shipping Services <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-shipping"> <a href="https://goodhopefreight.com/fcl.html">Sea Freight (FCL)</a> <a href="https://goodhopefreight.com/lcl.html">Sea Freight (LCL)</a> <a href="https://goodhopefreight.com/air-freight.html">Air Freight</a> <a href="https://goodhopefreight.com/express.html">International Express</a> <a href="https://goodhopefreight.com/railway.html">Railway Express</a> <a href="https://goodhopefreight.com/road-freight.html">Road Freight</a> <a href="https://goodhopefreight.com/parcel.html">Parcel</a> <a href="https://goodhopefreight.com/consolidated-shipment.html">Consolidated Shipment</a> <a href="https://goodhopefreight.com/container-trailer.html">Container Trailer</a> <a href="https://goodhopefreight.com/cross-border-freight.html">Cross-Border Freight</a> </div>
+    </li>
+    <li class="nav-item"> <a href="https://goodhopefreight.com/solutions.html" class="nav-link"> Solutions <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-solution"> <a href="https://goodhopefreight.com/chinashiping.html">DDU &amp; DDP</a>  <a href="https://goodhopefreight.com/dg.html">Dangerous Goods</a> </div>
+    </li>
+    <li class="nav-item"> <a href="https://goodhopefreight.com/value-added.html" class="nav-link"> Customs &amp; Value-Added <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-value"> <a href="https://goodhopefreight.com/customs-clearance-china.html">Customs Brokerage</a> <a href="https://goodhopefreight.com/warehouse.html">Warehouse &amp; Storage</a> <a href="https://goodhopefreight.com/pick-up.html">Pick Up</a> <a href="https://goodhopefreight.com/documents.html">Documents</a> <a href="https://goodhopefreight.com/quarantine.html">Quarantine Inspection</a> <a href="https://goodhopefreight.com/cargo-insurance.html">Cargo Insurance</a> <a href="https://goodhopefreight.com/inspection.html">China Inspection Service</a> </div>
+    </li>
+    <li class="nav-item"> <a href="https://goodhopefreight.com/tools.html" class="nav-link"> Tools <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-tools"> <a href="https://goodhopefreight.com/tracking.html">Track &amp; Trace</a> <a href="https://goodhopefreight.com/freight.html">Freight Rates</a> <a href="https://goodhopefreight.com/sea-freight-tool.html">Sea Freight Tools</a> <a href="https://goodhopefreight.com/air-cargo-tools.html">Air Cargo Tools</a> <a href="https://goodhopefreight.com/volumetric-weight.html">Volumetric Weight</a> <a href="https://goodhopefreight.com/local-charges.html">Local Charges</a> <a href="https://goodhopefreight.com/ports-world-list.html">Container Terminals</a> <a href="https://goodhopefreight.com/airportslist.html">Cargo Airports</a> <a href="https://goodhopefreight.com/shipping-companies.html">Shipping Companies</a> <a href="https://goodhopefreight.com/cargo-airlines.html">Cargo Airlines</a> <a href="https://goodhopefreight.com/customs-list.html">Customs Contacts</a> <a href="https://goodhopefreight.com/holidays.html">Holidays</a> </div>
+    </li>
+    <li class="nav-item"> <a href="https://goodhopefreight.com/resources.html" class="nav-link"> Resources <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-resources"> <a href="https://goodhopefreight.com/info/news.html">Freight News</a> <a href="https://goodhopefreight.com/blog.html">Blog</a> <a href="https://goodhopefreight.com/customs-regulations.html">Customs Regulations &amp; Policies</a> <a href="https://goodhopefreight.com/customs-clear-documents.html">Import Clearance Documents</a> </div>
+    </li>
+    <li class="nav-item"> <a href="https://goodhopefreight.com/info/about-us.html" class="nav-link"> About Us <span class="arrow"></span> </a>
+      <div class="dropdown dropdown-about"> <a href="https://goodhopefreight.com/info/about-us.html">About Us</a> <a href="https://goodhopefreight.com/info/why-choose-goodhope.html">Why Goodhope</a> <a href="https://goodhopefreight.com/info/about-us/goodhope-people.html">Our Team</a> <a href="https://goodhopefreight.com/info/about-us/job-opportunity.html">Careers</a> <a href="https://goodhopefreight.com/info/about-us/our-contacts.html">Contact Us</a> <a href="https://goodhopefreight.com/info/faq.html">FAQ About Goodhope</a> </div>
+    </li>
+    <li> <a href="https://goodhopefreight.com/info/about-us/ship-quote.html" class="quote-btn">Get Quote</a> </li>
+  </ul>
+</header>
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-content">
+        <div class="hero-badge"> <svg class="icon-svg fa-check-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> Trusted Freight Partner · Since 2012 </div>
+        <h1>Reliable <span>Freight Forwarder</span> &amp; Shipping from China</h1>
+        <p>A reliable international freight forwarder in Shenzhen, China — sea freight, air freight, rail, express courier (DHL/FedEx/UPS) and Amazon FBA shipping, with customs clearance and door-to-door delivery worldwide.</p>
+        <div class="hero-buttons"> <a href="https://goodhopefreight.com/info/about-us/ship-quote.html" class="btn-hero-primary"> <svg class="icon-svg fa-paper-plane" viewBox="0 0 512 512" aria-hidden="true"><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg> Get Free Quote </a> <a href="#services" class="btn-hero-outline"> <svg class="icon-svg fa-play-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c-7.6 4.2-12.3 12.3-12.3 20.9V344c0 8.7 4.7 16.7 12.3 20.9s16.8 4.1 24.3-.5l144-88c7.1-4.4 11.5-12.1 11.5-20.5s-4.4-16.1-11.5-20.5l-144-88c-7.4-4.5-16.7-4.7-24.3-.5z"/></svg> Our Services </a> </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="stat-number">NVOCC</div>
+            <div class="stat-label">Licensed Forwarder</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">24h</div>
+            <div class="stat-label">Quote Response</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">7</div>
+            <div class="stat-label">Global Brand Sites</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 hero-image"> <img src="freightimg/amazon-freight-forwarder.jpg" alt="Amazon FBA and international freight forwarding from China" class="img-fluid"> </div>
+    </div>
+  </div>
+</section>
+<!-- ===== QUICK TOOLS BAR ===== -->
+<section class="quick-tools">
+  <div class="container">
+    <div class="tools-wrapper"> <a href="https://goodhopefreight.com/info/about-us/ship-quote.html" class="tool-item">
+      <div class="tool-icon"><svg class="icon-svg fa-calculator" viewBox="0 0 384 512" aria-hidden="true"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM96 64H288c17.7 0 32 14.3 32 32v32c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V96c0-17.7 14.3-32 32-32zm32 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM96 352a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM64 416c0-17.7 14.3-32 32-32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM192 256a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm64-64a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 448a32 32 0 1 1 0-64 32 32 0 1 1 0 64z"/></svg></div>
+      <div class="tool-text">
+        <h6>QUICK CALCULATE</h6>
+        <p>Calculate DHL UPS FedEx TNT Cost</p>
+      </div>
+      </a> <a href="https://goodhopefreight.com/tracking.html" class="tool-item">
+      <div class="tool-icon"><svg class="icon-svg fa-box-open" viewBox="0 0 640 512" aria-hidden="true"><path d="M58.9 42.1c3-6.1 9.6-9.6 16.3-8.7L320 64 564.8 33.4c6.7-.8 13.3 2.7 16.3 8.7l41.7 83.4c9 17.9-.6 39.6-19.8 45.1L439.6 217.3c-13.9 4-28.8-1.9-36.2-14.3L320 64 236.6 203c-7.4 12.4-22.3 18.3-36.2 14.3L37.1 170.6c-19.3-5.5-28.8-27.2-19.8-45.1L58.9 42.1zM321.1 128l54.9 91.4c14.9 24.8 44.6 36.6 72.5 28.6L576 211.6v167c0 22-15 41.2-36.4 46.6l-204.1 51c-10.2 2.6-20.9 2.6-31 0l-204.1-51C79 419.7 64 400.5 64 378.5v-167L191.6 248c27.8 8 57.6-3.8 72.5-28.6L318.9 128h2.2z"/></svg></div>
+      <div class="tool-text">
+        <h6>TRACK SHIPMENT</h6>
+        <p>DHL FedEx UPS TNT Tracking</p>
+      </div>
+      </a> <a href="https://goodhopefreight.com/info/about-us/ship-quote.html" class="tool-item">
+      <div class="tool-icon"><svg class="icon-svg fa-file-invoice-dollar" viewBox="0 0 384 512" aria-hidden="true"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM64 80c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16s-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zm128 72c8.8 0 16 7.2 16 16v17.3c8.5 1.2 16.7 3.1 24.1 5.1c8.5 2.3 13.6 11 11.3 19.6s-11 13.6-19.6 11.3c-11.1-3-22-5.2-32.1-5.3c-8.4-.1-17.4 1.8-23.6 5.5c-5.7 3.4-8.1 7.3-8.1 12.8c0 3.7 1.3 6.5 7.3 10.1c6.9 4.1 16.6 7.1 29.2 10.9l.5 .1 0 0 0 0c11.3 3.4 25.3 7.6 36.3 14.6c12.1 7.6 22.4 19.7 22.7 38.2c.3 19.3-9.6 33.3-22.9 41.6c-7.7 4.8-16.4 7.6-25.1 9.1V440c0 8.8-7.2 16-16 16s-16-7.2-16-16V422.2c-11.2-2.1-21.7-5.7-30.9-8.9l0 0c-2.1-.7-4.2-1.4-6.2-2.1c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1c2.5 .8 4.8 1.6 7.1 2.4l0 0 0 0 0 0c13.6 4.6 24.6 8.4 36.3 8.7c9.1 .3 17.9-1.7 23.7-5.3c5.1-3.2 7.9-7.3 7.8-14c-.1-4.6-1.8-7.8-7.7-11.6c-6.8-4.3-16.5-7.4-29-11.2l-1.6-.5 0 0c-11-3.3-24.3-7.3-34.8-13.7c-12-7.2-22.6-18.9-22.7-37.3c-.1-19.4 10.8-32.8 23.8-40.5c7.5-4.4 15.8-7.2 24.1-8.7V232c0-8.8 7.2-16 16-16z"/></svg></div>
+      <div class="tool-text">
+        <h6>GET QUOTATION</h6>
+        <p>Free Quote Within 24 Hours</p>
+      </div>
+      </a> </div>
+  </div>
+</section>
+<!-- ===== SERVICES SECTION ===== -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-star" viewBox="0 0 576 512" aria-hidden="true"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg> OUR SERVICES</span>
+      <h2 class="section-title">Freight Services</h2>
+      <p class="section-subtitle">International freight forwarding shipping services from China. We provide comprehensive logistics solutions tailored to your needs.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Sea Freight -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-ship" viewBox="0 0 576 512" aria-hidden="true"><path d="M192 32c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V64h48c26.5 0 48 21.5 48 48V240l44.4 14.8c23.1 7.7 29.5 37.5 11.5 53.9l-101 92.6c-16.2 9.4-34.7 15.1-50.9 15.1c-19.6 0-40.8-7.7-59.2-20.3c-22.1-15.5-51.6-15.5-73.7 0c-17.1 11.8-38 20.3-59.2 20.3c-16.2 0-34.7-5.7-50.9-15.1l-101-92.6c-18-16.5-11.6-46.2 11.5-53.9L96 240V112c0-26.5 21.5-48 48-48h48V32zM160 218.7l107.8-35.9c13.1-4.4 27.3-4.4 40.5 0L416 218.7V128H160v90.7zM306.5 421.9C329 437.4 356.5 448 384 448c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 501.7 417 512 384 512c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 437.2 165.1 448 192 448c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/></svg></div>
+          <h4>Sea Freight</h4>
+          <p>FCL (Full container shipping), LCL (Less than container shipping). Competitive sea freight rates from Shenzhen, Shanghai, Qingdao, Chongqing, Dalian, Tianjin, Wuhan, Xiamen, Yiwu, and Ningbo.</p>
+          <p class="small text-muted">Booking from: COSCO, MSK, MSC, OOCL, APL, EMC, HPL, PIL</p>
+          <a href="https://goodhopefreight.com/fcl.html" class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a> </div>
+      </div>
+      <!-- Air Freight -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-plane" viewBox="0 0 576 512" aria-hidden="true"><path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z"/></svg></div>
+          <h4>Air Freight</h4>
+          <p>Arrange your shipments by air freight from Shenzhen/Guangzhou/Shanghai/Hong Kong/Beijing airports to worldwide destinations.</p>
+          <p class="small text-muted">Via: EK, CA, UA, SQ, HU, CX, TK, CZ, KE, UPS, BA, ZH, PO, AK, MH</p>
+          <a href="https://goodhopefreight.com/air-freight.html" class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a> </div>
+      </div>
+      <!-- Consolidated Shipment -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-boxes" viewBox="0 0 576 512" aria-hidden="true"><path d="M248 0H208c-26.5 0-48 21.5-48 48V160c0 35.3 28.7 64 64 64H352c35.3 0 64-28.7 64-64V48c0-26.5-21.5-48-48-48H328V80c0 8.8-7.2 16-16 16H264c-8.8 0-16-7.2-16-16V0zM64 256c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H224c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64H184v80c0 8.8-7.2 16-16 16H120c-8.8 0-16-7.2-16-16V256H64zM352 512H512c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64H472v80c0 8.8-7.2 16-16 16H408c-8.8 0-16-7.2-16-16V256H352c-15 0-28.8 5.1-39.7 13.8c4.9 10.4 7.7 22 7.7 34.2V464c0 12.2-2.8 23.8-7.7 34.2C323.2 506.9 337 512 352 512z"/></svg></div>
+          <h4>Consolidated Shipment</h4>
+          <p>Consolidated shipment services for international shipping. General warehouse near seaports for collecting goods from different suppliers into one container. Perfect for Taobao purchases and small shipments.</p>
+          <a href="https://goodhopefreight.com/consolidated-shipment.html" class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a> </div>
+      </div>
+      <!-- International Express -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-shipping-fast" viewBox="0 0 640 512" aria-hidden="true"><path d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z"/></svg></div>
+          <h4>International Express</h4>
+          <p>As a top-tier agent for DHL, FedEx, UPS, TNT, and EMS, we provide express solutions at rates occasionally lower than air freight. DDU and DDP options available.</p>
+          <a href="https://goodhopefreight.com/courier.html" class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a> </div>
+      </div>
+      <!-- Train Transport -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-train" viewBox="0 0 448 512" aria-hidden="true"><path d="M96 0C43 0 0 43 0 96V352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512H82.7c8.5 0 16.6-3.4 22.6-9.4L160 448H288l54.6 54.6c6 6 14.1 9.4 22.6 9.4H405c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9V96c0-53-43-96-96-96H96zM64 96c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V96zM224 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></div>
+          <h4>Train Transport</h4>
+          <p>FCL LCL container shipping to Europe by train. "China train express" services from Zhengzhou/Wuhan/Chengdu/Hunan/Yiwu/Haerbin to Europe, Poland, Germany, Italy, Holland, Czech, Belarus, and France.</p>
+          <a href="https://goodhopefreight.com/railway.html" class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></a> </div>
+      </div>
+      <!-- Shipping To FBA -->
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-icon"><svg class="icon-svg fa-warehouse" viewBox="0 0 640 512" aria-hidden="true"><path d="M0 488V171.3c0-26.2 15.9-49.7 40.2-59.4L308.1 4.8c7.6-3.1 16.1-3.1 23.8 0L599.8 111.9c24.3 9.7 40.2 33.3 40.2 59.4V488c0 13.3-10.7 24-24 24H568c-13.3 0-24-10.7-24-24V224c0-17.7-14.3-32-32-32H128c-17.7 0-32 14.3-32 32V488c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24zm488 24l-336 0c-13.3 0-24-10.7-24-24V432H512l0 56c0 13.3-10.7 24-24 24zM128 400V336H512v64H128zm0-96V224H512l0 80H128z"/></svg></div>
+          <h4>Shipping To Amazon FBA</h4>
+          <p>Various DDP and DDU shipping solutions including FedEx, UPS, TNT Express, LCL sea freight, and air freight. Covering USA, Canada, Europe, Japan, Australia. In-depth knowledge of FBA requirements and customs regulations.</p>
+          <span  class="service-link">Learn More <svg class="icon-svg fa-arrow-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></span> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== ABOUT SECTION ===== -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 about-image"> <img src="freightimg/about/goodhope-freight.jpg" alt="Chinese logistics" class="img-fluid">
+        <div class="experience-badge"> <span class="years">10+</span> <span class="label">Years Experience</span> </div>
+      </div>
+      <div class="col-lg-6 about-content"> <span class="section-badge"><svg class="icon-svg fa-info-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> ABOUT US</span>
+        <h2>About GoodHope Freight Forwarder</h2>
+        <p class="lead">Reliable Shipping Partner</p>
+        <p>GoodHope Freight Forwarding is a rapidly growing international logistics provider based in Shenzhen, China. We specialize in comprehensive global shipping solutions for clients importing or sourcing goods from China.</p>
+        <p>Our service portfolio accommodates all shipment sizes—from bulk cargo, including Full Container Load (FCL), to small parcel delivery, ranging from 0.1kg items via China Post to 18kg express shipments through DHL.</p>
+        <ul class="about-features">
+          <li><svg class="icon-svg fa-check-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> Freight Consolidation from multiple suppliers</li>
+          <li><svg class="icon-svg fa-check-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> Third-Party Logistics (3PL) services</li>
+          <li><svg class="icon-svg fa-check-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> Local warehousing, repacking &amp; labeling</li>
+          <li><svg class="icon-svg fa-check-circle" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg> Direct partnerships with major carriers</li>
+        </ul>
+        <a href="https://goodhopefreight.com/info/about-us/our-contacts.html" class="btn-hero-primary mt-3" style="display: inline-flex;"> <svg class="icon-svg fa-envelope" viewBox="0 0 512 512" aria-hidden="true"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> Contact Our Team </a> </div>
+    </div>
+  </div>
+</section>
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="section why-choose" id="why-choose">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-trophy" viewBox="0 0 576 512" aria-hidden="true"><path d="M400 0H176c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8H24C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9H192c-17.7 0-32 14.3-32 32s14.3 32 32 32H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H357.9C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24H446.4c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112h84.4c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6h84.4c-5.1 66.3-31.1 111.2-63 142.3z"/></svg> WHY CHOOSE US</span>
+      <h2 class="section-title">Why Use GoodHope?</h2>
+      <p class="section-subtitle">We combine professional excellence with cost efficiency to deliver the best logistics experience.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-certificate" viewBox="0 0 512 512" aria-hidden="true"><path d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.3-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"/></svg></div>
+          <h5>Fully Licensed &amp; Credentialed</h5>
+          <p>Legally registered international freight forwarder with valid business license and tax registration certificate.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-eye" viewBox="0 0 576 512" aria-hidden="true"><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"/></svg></div>
+          <h5>Transparent Pricing – No Hidden Costs</h5>
+          <p>Strict "no hidden fees" policy. Once a quote is issued, the price will not be adjusted.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-tasks" viewBox="0 0 512 512" aria-hidden="true"><path d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></div>
+          <h5>Comprehensive End-to-End Management</h5>
+          <p>From quotation, booking, documentation, pickup, packaging, customs clearance to final delivery — we handle it all.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-users" viewBox="0 0 640 512" aria-hidden="true"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg></div>
+          <h5>Experienced Global Professional Team</h5>
+          <p>Our seasoned logistics experts work closely with our global agent network to ensure smooth operations.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-dollar-sign" viewBox="0 0 320 512" aria-hidden="true"><path d="M160 0c17.7 0 32 14.3 32 32V67.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.1c-.4-.1-.9-.1-1.3-.2l-.2 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.1-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7 0 0C119.4 279.3 84.4 270 58.4 253c-14.2-9.3-27.5-22-35.8-39.6c-8.4-17.9-10.1-37.9-6.1-59.2C23.7 116 52.3 91.2 84.8 78.3c13.3-5.3 27.9-8.9 43.2-11V32c0-17.7 14.3-32 32-32z"/></svg></div>
+          <h5>Highly Competitive Rates</h5>
+          <p>Industry-leading prices for sea freight, air freight, and international express (DHL/FedEx/UPS/TNT).</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="why-card">
+          <div class="why-icon"><svg class="icon-svg fa-clock" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></div>
+          <h5>Rapid Response – Quotes within 24 Hours</h5>
+          <p>Instant quotes during working hours, guaranteed response within 16 hours for off-hour inquiries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== STATS SECTION ===== -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="stat-box">
+          <div class="stat-icon"><svg class="icon-svg fa-globe-americas" viewBox="0 0 512 512" aria-hidden="true"><path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg></div>
+          <div class="counter">50+</div>
+          <p>Countries Served</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="stat-box">
+          <div class="stat-icon"><svg class="icon-svg fa-ship" viewBox="0 0 576 512" aria-hidden="true"><path d="M192 32c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V64h48c26.5 0 48 21.5 48 48V240l44.4 14.8c23.1 7.7 29.5 37.5 11.5 53.9l-101 92.6c-16.2 9.4-34.7 15.1-50.9 15.1c-19.6 0-40.8-7.7-59.2-20.3c-22.1-15.5-51.6-15.5-73.7 0c-17.1 11.8-38 20.3-59.2 20.3c-16.2 0-34.7-5.7-50.9-15.1l-101-92.6c-18-16.5-11.6-46.2 11.5-53.9L96 240V112c0-26.5 21.5-48 48-48h48V32zM160 218.7l107.8-35.9c13.1-4.4 27.3-4.4 40.5 0L416 218.7V128H160v90.7zM306.5 421.9C329 437.4 356.5 448 384 448c26.9 0 55.4-10.8 77.4-26.1l0 0c11.9-8.5 28.1-7.8 39.2 1.7c14.4 11.9 32.5 21 50.6 25.2c17.2 4 27.9 21.2 23.9 38.4s-21.2 27.9-38.4 23.9c-24.5-5.7-44.9-16.5-58.2-25C449.5 501.7 417 512 384 512c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9c-33 0-65.5-10.3-94.5-25.8c-13.4 8.4-33.7 19.3-58.2 25c-17.2 4-34.4-6.7-38.4-23.9s6.7-34.4 23.9-38.4c18.1-4.2 36.2-13.3 50.6-25.2c11.1-9.4 27.3-10.1 39.2-1.7l0 0C136.7 437.2 165.1 448 192 448c27.5 0 55-10.6 77.5-26.1c11.1-7.9 25.9-7.9 37 0z"/></svg></div>
+          <div class="counter">100+</div>
+          <p>Containers Shipped</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="stat-box">
+          <div class="stat-icon"><svg class="icon-svg fa-smile" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM164.1 325.5C182 346.2 212.6 368 256 368s74-21.8 91.9-42.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C349.8 372.1 311.1 400 256 400s-93.8-27.9-116.1-53.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg></div>
+          <div class="counter">500+</div>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="stat-box">
+          <div class="stat-icon"><svg class="icon-svg fa-award" viewBox="0 0 384 512" aria-hidden="true"><path d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z"/></svg></div>
+          <div class="counter">10+</div>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== SUCCESS STORIES ===== -->
+<section class="section stories" id="stories">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-quote-right" viewBox="0 0 448 512" aria-hidden="true"><path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg> SUCCESS STORIES</span>
+      <h2 class="section-title">Client Success Stories</h2>
+      <p class="section-subtitle">Real feedback from our valued clients around the world.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="story-card">
+          <div class="quote-icon"><svg class="icon-svg fa-quote-left" viewBox="0 0 448 512" aria-hidden="true"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg></div>
+          <p>"Five years ago, Mr. Shab from MSV Sport (UK) launched his sports apparel and accessories business. From the very beginning, he entrusted his logistics to our premium DHL, FedEx, and UPS courier services. Today, MSV Sport has successfully established a market presence across the entire European region."</p>
+          <div class="story-author">
+            <div class="author-avatar">MS</div>
+            <div class="author-info">
+              <h6>MSV SPORT</h6>
+              <span>United Kingdom • Sports Apparel</span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="story-card">
+          <div class="quote-icon"><svg class="icon-svg fa-quote-left" viewBox="0 0 448 512" aria-hidden="true"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg></div>
+          <p>"Mr. Jacky manages the lighting business from Zhongshan and Yiwu to America. After using our China air freight services shipping to the USA, their business keeps increasing year by year, and their clients give them more and more business."</p>
+          <div class="story-author">
+            <div class="author-avatar">AT</div>
+            <div class="author-info">
+              <h6>ASHOKA TRADING LIMITED</h6>
+              <span>USA • Lighting Products</span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="story-card">
+          <div class="quote-icon"><svg class="icon-svg fa-quote-left" viewBox="0 0 448 512" aria-hidden="true"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg></div>
+          <p>"FOTON serves as our pivotal strategic partner in Novorossiysk, Russia. To date, we have orchestrated the transport of over 100 containers from major Chinese hubs to the Black Sea region. Through rigorous end-to-end oversight, we maintain a 100% on-time success rate."</p>
+          <div class="story-author">
+            <div class="author-avatar">FE</div>
+            <div class="author-info">
+              <h6>FOTON EUROPE LOGISTICS</h6>
+              <span>Russia • Container Shipping</span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="story-card">
+          <div class="quote-icon"><svg class="icon-svg fa-quote-left" viewBox="0 0 448 512" aria-hidden="true"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg></div>
+          <p>"Mr. Jorge operates a building materials business, importing products from China to the United States. He frequently sources varying volumes from multiple factories. Our role is to consolidate these orders into a single container for shipment to Long Beach, optimizing his shipping costs."</p>
+          <div class="story-author">
+            <div class="author-avatar">JV</div>
+            <div class="author-info">
+              <h6>JAVIER VIDAL CALFA</h6>
+              <span>USA • Building Materials</span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== PROCESS SECTION ===== -->
+<section class="section process">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-list-ol" viewBox="0 0 512 512" aria-hidden="true"><path d="M24 56c0-13.3 10.7-24 24-24H80c13.3 0 24 10.7 24 24V176h16c13.3 0 24 10.7 24 24s-10.7 24-24 24H40c-13.3 0-24-10.7-24-24s10.7-24 24-24H56V80H48C34.7 80 24 69.3 24 56zM86.7 341.2c-6.5-7.4-18.3-6.9-24 1.2L51.5 357.9c-7.7 10.8-22.7 13.3-33.5 5.6s-13.3-22.7-5.6-33.5l11.1-15.6c23.7-33.2 72.3-35.6 99.2-4.9c21.3 24.4 20.8 60.9-1.1 84.7L86.8 432H120c13.3 0 24 10.7 24 24s-10.7 24-24 24H32c-9.5 0-18.2-5.6-22-14.4s-2.1-18.9 4.3-25.9l72-78c5.3-5.8 5.4-14.6 .3-20.5zM224 64H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 160H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 160H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg> HOW IT WORKS</span>
+      <h2 class="section-title">How to Order</h2>
+      <p class="section-subtitle">Simple 4-step process to ship your goods from China to anywhere in the world.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <h5>Request a Quote</h5>
+          <p>Contact us with your shipment details. Get a free quote within 16 hours.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <h5>Book &amp; Pickup</h5>
+          <p>Confirm the order and we arrange pickup from your supplier anywhere in China.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <h5>Consolidation &amp; Shipping</h5>
+          <p>We consolidate, package, handle customs clearance, and ship your goods.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="process-step">
+          <div class="step-number">4</div>
+          <h5>Delivery</h5>
+          <p>Track your shipment and receive it at your doorstep anywhere in the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== PARTNERS ===== -->
+<section class="partners">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-handshake" viewBox="0 0 640 512" aria-hidden="true"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg> PARTNERS</span>
+      <h2 class="section-title">Our Trusted Partners</h2>
+      <p class="section-subtitle">We work with the world's leading shipping lines, airlines, and express carriers.</p>
+    </div>
+    <div class="row align-items-center justify-content-center g-4">
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">COSCO</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">MSK</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">MSC</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">OOCL</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">DHL</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">FedEx</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">UPS</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">TNT</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">CMA</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">EMC</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">CA</span> </div>
+      </div>
+      <div class="col-6 col-md-2">
+        <div class="partner-logo"> <span style="font-weight: 800; color: var(--primary); font-size: 1.2rem;">EK</span> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row">
+    <h2>International Freight Services Update</h2>
+    <ul class="col-lg-6">
+      <li><a href="https://goodhopefreight.com/blog/used-car-to-africa.html">Professional Shipping Used Car from Guangzhou to Africa Services</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-mexico/air-mexico.html">Air DDP Logistics from China to Mexico Door to Door Freight</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-canada/air-oversize.html">Oversized Air DDP Logistics from China to Canada Door to Door Freight</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-canada/air-canada.html">Canada Air Freight DDP Service - Door to Door from China to Canada</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/air-usa-oversize.html">Oversized Air DDP Logistics from China to USA Door to Door Freight</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/air-usa-truck.html">Air to Truck DDP Freight from China to USA Door to Door Logistics</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/air-usa-battery.html">Door to Door from China to USA Air Freight DDP – Battery Cargo Welcome</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/air-usa-common.html">Air DDP Shipping from China to USA – Heavy Cargo Air Freight with Delivery Guarantee</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/self-pickup.html">China to USA Sea Freight DDP - Warehouse Pickup</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/los-cheap.html">Lowest Door to Door from China to USA via LA Direct DDP Sea Freight</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/oversize-usa.html">Oversized Cargo Door to Door from China to USA with Sea Freight DDP Service </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/chicago-fba.html"> Door to Door from Shenzhen to USA Chicago FBA Sea Freight Rates (DDU & DDP Accepted)</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/fba-amazon.html"> Door to Door from China to USA – Savannah FBA DDP Service </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/new-york.html"> Reliable Door to Door From Shenzhen Warehouse to USA DDP Sea Freight Service </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/oakland-ddp.html"> USA Direct Ocean Freight DDP Door to Door from China to Oakland </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/cheap-delivery-usa.html"> Cheapest door to door from China to USA truck delivery cost per kg </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/usa-fba-discount.html"> FCL DDP Door to Door Shipping from China to USA </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/usa-fba.html">Professional Door to Door From Shenzhen Warehouse to USA </a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/best-ddp-ddu.html">Best door to door From Shenzhen warehouse to USA Freight Forwarder</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/usa-ddp-ddu.html">DDP and DDU Door to Door from China to USA Freight Forwarder</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/cheap-shenzhen-usa.html">The Cheapest Door to Door From Shenzhen to USA</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/ddp2.html">Cheapest door to door from china to usa price</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/ddp1.html">Shipping Cost Door to Door From Shenzhen warehouse to USA per kg</a></li>
+      <li><a href="https://goodhopefreight.com/info/news/20260325.html">COSCO Shipping Resumes Middle East Container Booking Service March 26, 2026</a></li>
+      <li><a href="https://goodhopefreight.com//spain/2026battery.html">Shipping Shipping Lithium Batteries from China to MAD Price</a></li>
+      <li><a href="https://goodhopefreight.com/blog/2026-chinese-new-year.html">2026 Spring Festival Holiday Period in China</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2026-current-pirce.html">The Marketing Freight Rates 2026 Update Weekly from China to the U.S.A</a></li>
+      <li><a href="blog/34.html">Will ocean and air freight rates drop after Trump imposes 34% tariffs on China?</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-canada/canada.html">Air Cargo Services from China to Canada</a></li>
+      <li><a href="https://goodhopefreight.com/brazil/brazil.html">Latest Service Information on Air Freight from China to Brazil</a></li>
+      <li><a href="https://goodhopefreight.com/chile/chile.html">Integration of the Latest Frontier Information on Air Freight from China to Chile</a></li>
+      <li><a href="https://goodhopefreight.com/costarica/costarica.html">The Most Comprehensive Air Freight Services from China to Costa Rica Airports</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-mexico/mexico.html">The Newest Comprehensive Air Cargo Services from China to Mexico Information</a></li>
+      <li><a href="https://goodhopefreight.com/peru.html">Comprehensive Integration of the Latest Air Cargo Services from China to Peru</a></li>
+      <li><a href="https://goodhopefreight.com/blog/ship-capsules.html">Shipping Space Capsules from China to Romania by sea</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2025/mid.html">How to Correctly Fill Out a MID Number when ready CI by Express</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2025/customs.html">US Customs Import Policy Update 2025</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2025/air.html">2025 Air Freight from airports of China to the Airports of USA</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2025/fcl.html">Full Container Shipping Sea Freight From China to the USA</a></li>
+      <li><a href="https://goodhopefreight.com/shipping-to-usa/2025-current-rates.html">Current Shipping Rates from China to the US in 2025</a></li>
+      <li><a href="https://goodhopefreight.com/cargo-airports/botswana-airports-comprehensive-guide.html" target="_blank">Botswana Airports Comprehensive Guide</a></li>
+      <li><a href="https://goodhopefreight.com/tax/botswana-customs-goods-import-and-export-tax-rates-in-depth-analysis.html" target="_blank">Botswana Customs Goods Import and Export Tax Rates In-depth Analysis</a></li>
+      <li><a href="https://goodhopefreight.com/customs-contact/botswana-customs-information-at-a-glance.html" target="_blank">Botswana Customs Information at a Glance</a></li>
+      <li><a href="https://goodhopefreight.com/customs-regulations/botswana-customs-management-regulations.html" target="_blank">Botswana Customs Management Regulations</a></li>
+      <li><a href="https://goodhopefreight.com/holidays/botswana.html" target="_blank">Botswana Holiday Information Summary</a></li>
+      <li><a href="https://goodhopefreight.com/world-ports/introduction-to-botswana-ports-and-shipping-companies.html" target="_blank">Introduction to Botswana Ports and Shipping Companies</a></li>
+      <li><a href="https://goodhopefreight.com/freight/shipping-rates-from-china-to-botswana.html" target="_blank">Shipping rates From China to Botswana</a></li>
+      <li><a href="https://goodhopefreight.com/customs-regulations/bosnia-and-herzegovina-customs-goods-import-and-export-policy.html" target="_blank">Bosnia and Herzegovina Customs Goods Import and Export Policy</a></li>
+      <li><a href="https://goodhopefreight.com/holidays/bosnia-and-herzegovina.html" target="_blank">Bosnia and Herzegovina Holidays</a></li>
+      <li><a href="https://goodhopefreight.com/world-ports/bosnia-and-herzegovina-port-guide.html" target="_blank">Bosnia and Herzegovina Port Guide</a></li>
+      <li><a href="https://goodhopefreight.com/cargo-airports/comprehensive-guide-to-bosnia-and-herzegovina-airports.html" target="_blank">Comprehensive Guide to Bosnia and Herzegovina Airports</a></li>
+      <li><a href="https://goodhopefreight.com/customs-contact/introduction-to-the-customs-of-the-republic-of-bosnia-and-herzegovina.html" target="_blank">Introduction to the Customs of the Republic of Bosnia and Herzegovina</a></li>
+      <li><a href="https://goodhopefreight.com/tax/overview-of-bosnia-and-herzegovina’s-customs-tariffs.html" target="_blank">Overview of Bosnia and Herzegovina’s customs tariffs</a></li>
+      <li><a href="https://goodhopefreight.com/freight/shipping-rates-from-china-to-bosnia-and-herzegovina.html" target="_blank">Shipping rates from China to Bosnia and Herzegovina</a></li>
+      <li><a href="https://goodhopefreight.com/freight/freight-price-list-from-china-to-papua-new-guinea.html" target="_blank">Freight price list from China to Papua New Guinea</a></li>
+      <li><a href="https://goodhopefreight.com/cargo-airports/papua-new-guinea-airports-and-flight-information.html" target="_blank">Papua New Guinea airports and flight information</a></li>
+      <li><a href="https://goodhopefreight.com/customs-contact/papua-new-guinea-customs-information-at-a-glance.html" target="_blank">Papua New Guinea Customs Information at a Glance</a></li>
+      <li><a href="https://goodhopefreight.com/tax/papua-new-guinea-customs-tariffs-overview.html" target="_blank">Papua New Guinea Customs Tariffs Overview</a></li>
+      <li><a href="https://goodhopefreight.com/holidays/papua-new-guinea.html" target="_blank">Papua New Guinea holiday information summary</a></li>
+      <li><a href="https://goodhopefreight.com/world-ports/comprehensive-guide-to-guinea-ports.html" target="_blank">Comprehensive Guide to Guinea Ports</a></li>
+      <li><a href="https://goodhopefreight.com/freight/freight-price-list-from-china-to-guinea.html" target="_blank">Freight Price list from China to Guinea</a></li>
+      <li><a href="https://goodhopefreight.com/blog/2026qingdao.html">Goodhope Freight Heads to Qingdao: Connecting Global Supply Chains at the 5th China International Logistics Expo</a></li>
+      <li><a href="https://goodhopefreight.com/blog/2026tisie.html">Goodhope Freight Debuts at the 4th Tianjin International Shipping Industry Expo</a></li>
+      <li><a href="https://goodhopefreight.com/afghanistan.html">Shipping from China to Afghanistan</a></li>
+      <li><a href="https://goodhopefreight.com/albania.html">Shipping from China to Albania</a></li>
+      <li><a href="https://goodhopefreight.com/american-samoa.html">Shipping from China to American Samoa</a></li>
+      <li><a href="https://goodhopefreight.com/andigua.html">Shipping from China to Andigua</a></li>
+      <li><a href="https://goodhopefreight.com/andorra.html">Shipping from China to Andorra</a></li>
+      <li><a href="https://goodhopefreight.com/angola.html">Shipping from China to Angola</a></li>
+      <li><a href="https://goodhopefreight.com/argentina.html">Shipping from China to Argentina</a></li>
+      <li><a href="https://goodhopefreight.com/armenia.html">Shipping from China to Armenia</a></li>
+      <li><a href="https://goodhopefreight.com/aruba.html">Shipping from China to Aruba</a></li>
+      <li><a href="https://goodhopefreight.com/azerbaijan.html">Shipping from China to Azerbaijan</a></li>
+      <li><a href="https://goodhopefreight.com/british-virgin-islands.html">Complete Shipping Guide From China to British Virgin Islands (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/bangladesh.html">Complete Shipping Guide From China to Bangladesh (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/belarus.html">Complete Shipping Guide From China to Belarus (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/bhutan.html">Complete Shipping Guide From China to Bhutan (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/bermuda.html">Complete Shipping Guide From China to Bermuda (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/benin.html">Complete Shipping Guide From China to Benin (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/burundi.html">Complete Shipping Guide From China to Burundi (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/botswana.html">Complete Shipping Guide From China to Botswana (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/bolivia.html">Complete Shipping Guide From China to Bolivia (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/bonaire.html">Complete Shipping Guide From China to Bonaire (Cost, Time, Customs) 2026</a></li>
+      <li><a href="https://goodhopefreight.com/belgium.html">Shipping from China to Belgium</a></li>
+      <li><a href="https://goodhopefreight.com/brunei.html">Shipping from China to Brunei</a></li>
+      <li><a href="https://goodhopefreight.com/bosnia-and-herzegovina.html">Shipping from China to Bosnia and Herzegovina</a></li>
+      <li><a href="https://goodhopefreight.com/bulgaria.html">Shipping from China to Bulgaria</a></li>
+      <li><a href="https://goodhopefreight.com/brazil.html">Shipping from China to Brazil</a></li>
+      <li><a href="https://goodhopefreight.com/burkina-faso.html">Shipping from China to Burkina Faso</a></li>
+      <li><a href="https://goodhopefreight.com/belize.html">Shipping options and rates from China to Belize</a></li>
+      <li><a href="https://goodhopefreight.com/bahamas.html">Step-by-Step Guide to Shipping Cargo From China to Bahamas</a></li>
+      <li><a href="https://goodhopefreight.com/bahrain.html">Freight Shipping From China to Bahrain: Ports, Tariffs & Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/cook-islands.html">How to Ship Goods From China to Cook Islands｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/costa-rica.html">How to Ship Goods From China to Costa Rica｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cote-divoire.html">How to Ship Goods From China to Côte d'Ivoire｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cuba.html">How to Ship Goods From China to Cuba｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/czech-republic.html">How to Ship Goods From China to Czech Republic｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cameroon.html">How to Ship Goods From China to Cameroon｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cape-verde.html">How to Ship Goods From China to Cape Verde｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/central-african-republic.html">How to Ship Goods From China to Central African Republic｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cambodia.html">How to Ship Goods From China to Cambodia｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/chad.html">How to Ship Goods From China to Chad｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/chile.html">How to Ship Goods From China to Chile｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/christmas-island.html">How to Ship Goods From China to Christmas Island｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cocos-keeling-islands.html">How to Ship Goods From China to Cocos (Keeling) Islands｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/colombia.html">How to Ship Goods From China to Colombia｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/comoros.html">How to Ship Goods From China to Comoros｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/cayman-islands.html">Shipping From China to Cayman-islands</a></li>
+      <li><a href="https://goodhopefreight.com/curaso-island.html">Shipping from China to Curaso Island</a></li>
+      <li><a href="https://goodhopefreight.com/cyprus.html">Shipping from China to Cyprus</a></li>
+      <li><a href="https://goodhopefreight.com/croatia.html">Complete Shipping Guide From China to Croatia (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/canada.html">Complete Shipping Guide From China to Canada(Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/dpr-korea.html">China to DPRK Shipping: Cost, Transit Time &amp; Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/dr-congo.html">How to Ship Goods From China to DR Congo｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/djibouti.html">How to Ship Goods From China to Djibouti｜Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/dominica.html">China to Dominica Shipping: Cost, Transit Time &amp; Customs Clearance Tips </a></li>
+      <li><a href="https://goodhopefreight.com/denmark.html">Shipping from China to Denmark</a></li>
+      <li><a href="https://goodhopefreight.com/dominican-republic.html">How to Ship Goods From China to Dominican Republic | Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/faroe.html">Shipping from China to Faroe</a></li>
+      <li><a href="https://goodhopefreight.com/egypt.html">LCL &amp; FCL Shipping From China to Egypt: Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/el-salvador.html">LCL & FCL Shipping From China to El Salvador Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/equatorial-guinea.html">LCL & FCL Shipping From China to Equatorial Guinea Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/eritrea.html">LCL & FCL Shipping From China to Eritrea Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/estonia.html">LCL & FCL Shipping From China to Estonia Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/eswatini.html">LCL & FCL Shipping From China to Eswatini Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/ethiopia.html">LCL & FCL Shipping From China to Ethiopia Everything You Need to Know</a></li>
+      <li><a href="https://goodhopefreight.com/ecuador.html">International Logistics by Sea & Air from China to Ecuador</a></li>
+      <li><a href="https://goodhopefreight.com/falkland-islands.html">Freight Shipping From China to Falkland Islands: Ports, Tariffs & Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/french-polynesia.html">Freight Shipping From China to French Polynesia: Ports, Tariffs &amp; Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/french-southern-antarctic-lands.html">Freight Shipping From China to French Southern and Antarctic Lands: Ports, Tariffs & Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/finland.html">Shipping from China to Finland: Complete Guide 2026 </a></li>
+      <li><a href="https://goodhopefreight.com/french-southern-antarctic-lands.html">Shipping from China to French Southern and Antarctic Lands: Complete Guide 2026 </a></li>
+      <li><a href="https://goodhopefreight.com/france.html">Shipping from China to France: Complete Guide 2026 </a></li>
+      <li><a href="https://goodhopefreight.com/french-guiana.html">Shipping from China to French Guiana</a></li>
+      <li><a href="https://goodhopefreight.com/federated-states-of-micronesia.html">Shipping from China to Federated States of Micronesia: Complete Guide 2026</a></li>
+    </ul>
+    <ul class="col-lg-6">
+      <li><a href="https://goodhopefreight.com/fiji.html">Shipping from China to fiji: Complete Guide 2026</a></li>
+      <li><a href="https://goodhopefreight.com/gabon.html">Step-by-Step Guide to Shipping Cargo From China to Gabon</a></li>
+      <li><a href="https://goodhopefreight.com/gambia.html">Step-by-Step Guide to Shipping Cargo From China to Gambia</a></li>
+      <li><a href="https://goodhopefreight.com/ghana.html">Step-by-Step Guide to Shipping Cargo From China to Ghana</a></li>
+      <li><a href="https://goodhopefreight.com/guatemala.html">Step-by-Step Guide to Shipping Cargo From China to Guatemala</a></li>
+      <li><a href="https://goodhopefreight.com/guinea.html">Step-by-Step Guide to Shipping Cargo From China to Guinea</a></li>
+      <li><a href="https://goodhopefreight.com/guinea-bissau.html">Step-by-Step Guide to Shipping Cargo From China to Guinea-Bissau</a></li>
+      <li><a href="https://goodhopefreight.com/guyana.html">Step-by-Step Guide to Shipping Cargo From China to Guyana</a></li>
+      <li><a href="https://goodhopefreight.com/germany.html">Shipping from China to Germany</a></li>
+      <li><a href="https://goodhopefreight.com/georgia.html">Authentic current global shipping services China to Georgia</a></li>
+      <li><a href="https://goodhopefreight.com/gibraltar.html">Shipping from China to Gibraltar</a></li>
+      <li><a href="https://goodhopefreight.com/greece.html">Shipping from China to Greece</a></li>
+      <li><a href="https://goodhopefreight.com/greenland.html">Shipping from China to Greenland: Complete Guide 2026</a></li>
+      <li><a href="https://goodhopefreight.com/guadeloupe.html">Shipping from China to Guadeloupe</a></li>
+      <li><a href="https://goodhopefreight.com/guernsey.html">Shipping from China to Guernsey</a></li>
+      <li><a href="https://goodhopefreight.com/grenada.html">Complete Shipping Guide From China to Grenada (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/guam.html">Shipping from China to Guam</a></li>
+      <li><a href="https://goodhopefreight.com/haiti.html">China to Haiti Logistics: Air, Sea & Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/honduras.html">China to Honduras Logistics: Air, Sea & Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/hungary.html">China to Hungary Logistics: Air, Sea & Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/hong-kong.html">China to Hong Kong Logistics: Air, Sea & Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/iraq.html">Container shipping and air cargo  from China to Iraq</a></li>
+      <li><a href="https://goodhopefreight.com/iran.html">Container shipping and air cargo  from China to Iran</a></li>
+      <li><a href="https://goodhopefreight.com/indonesia.html">Container shipping and air cargo  from China to Indonesia</a></li>
+      <li><a href="https://goodhopefreight.com/india.html">Container shipping and air cargo  from China to India</a></li>
+      <li><a href="https://goodhopefreight.com/iceland.html">Container shipping and air cargo  from China to Iceland</a></li>
+      <li><a href="https://goodhopefreight.com/ireland.html">Shipping from China to Ireland</a></li>
+      <li><a href="https://goodhopefreight.com/israel.html">Shipping from China to Israel: Multi-Type Freight Transport Complete Overview</a></li>
+      <li><a href="https://goodhopefreight.com/italy.html">Shipping from China to Italy: Essential Transport Reference Updated for 2026</a></li>
+      <li><a href="https://goodhopefreight.com/japan.html">How to shipping from China to Japan by sea & air</a></li>
+      <li><a href="https://goodhopefreight.com/jamaica.html">How to shipping from China to Jamaica by sea & air</a></li>
+      <li><a href="https://goodhopefreight.com/jersey.html">How to Ship Goods From China to Jersey: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/jordan.html">How to Ship Goods From China to Jordan: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/kazakhstan.html">How to ship from China to Kazakhstan by sea & air</a></li>
+      <li><a href="https://goodhopefreight.com/kiribati.html">How to Ship Goods From China to Kiribati: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/kuwait.html">How to Ship Goods From China to Kuwait: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/kyrgyzstan.html">How to Ship Goods From China to Kyrgyzstan: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/kosovo.html">How to Ship Goods From China to Kosovo: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/kenya.html">How to Ship Goods From China to Kenya: Full Logistics Breakdown</a></li>
+      <li><a href="https://goodhopefreight.com/laos.html">Shipping from China to Laos: Real Transit Periods and Hidden Logistics Charges</a></li>
+      <li><a href="https://goodhopefreight.com/lebanon.html">Shipping from China to Lebanon: Real Transit Periods and Hidden Logistics Charges</a></li>
+      <li><a href="https://goodhopefreight.com/lesotho.html">Shipping from China to Lesotho: Real Transit Periods and Hidden Logistics Charges</a></li>
+      <li><a href="https://goodhopefreight.com/liberia.html">Shipping from China to Liberia: Real Transit Periods and Hidden Logistics Charges</a></li>
+      <li><a href="https://goodhopefreight.com/latvia.html">China to Latvia Shipping: Cost, Transit Time & Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/libya.html">China to Libya Shipping: Cost, Transit Time & Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/liechtenstein.html">China to Liechtenstein Shipping: Cost, Transit Time & Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/lithuania.html">China to Lithuania Shipping: Cost, Transit Time & Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/luxembourg.html">China to Luxembourg Shipping: Cost, Transit Time & Customs Clearance Tips</a></li>
+      <li><a href="https://goodhopefreight.com/madagascar.html">Complete Shipping Guide From China to Madagascar (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/malawi.html">Complete Shipping Guide From China to Malawi (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/malaysia.html">Complete Shipping Guide From China to Malaysia (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/maldives.html">Complete Shipping Guide From China to Maldives (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/mauritania.html">Complete Shipping Guide From China to Mauritania (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/micronesia.html">Complete Shipping Guide From China to Micronesia (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/moldova.html">Complete Shipping Guide From China to Moldova (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/mongolia.html">Complete Shipping Guide From China to Mongolia (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/montserrat.html">Complete Shipping Guide From China to Montserrat (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/morocco.html">Complete Shipping Guide From China to Morocco  (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/mozambique.html">Complete Shipping Guide From China to Mozambique (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/myanmar.html">Complete Shipping Guide From China to Myanmar (Cost, Time, Customs)</a></li>
+      <li><a href="https://goodhopefreight.com/malta.html">LCL & FCL Shipping From China to Malta: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/martinique.html">LCL & FCL Shipping From China to Martinique: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/mauritius.html">LCL & FCL Shipping From China to Mauritius: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/mayotte.html">LCL & FCL Shipping From China to Mayotte: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/monaco.html">LCL & FCL Shipping From China to Monaco: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/montenegro.html">LCL & FCL Shipping From China to Montenegro: Everything You Need to Know </a></li>
+      <li><a href="https://goodhopefreight.com/namibia.html">China to Namibia Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/nauru.html">China to Nauru Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/nepal.html">China to Nepal Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/new-zealand.html">China to New Zealand Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/nicaragua.html">China to Nicaragua Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/niger.html">China to Niger Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/nigeria.html">China to Nigeria Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/norway.html">China to Norway Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/new-caledonia.html">China to New Caledonia Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/niue.html">China to Niue Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/norfolk-island.html">China to Norfolk Island Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/netherlands.html">Freight Shipping From China to Netherlands: Ports, Tariffs & Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/nevis.html">Freight Shipping From China to Nevis: Ports, Tariffs & Delivery Options</a></li>
+      <li><a href="https://goodhopefreight.com/oman.html">China to Oman Logistics: Air, Sea &amp; Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/pakistan.html">International logistics by sea &amp; air from China to Pakistan</a></li>
+      <li><a href="https://goodhopefreight.com/palau.html">International logistics by sea &amp; air from China to Palau</a></li>
+      <li><a href="https://goodhopefreight.com/panama.html">International logistics by sea &amp; air from China to Panama</a></li>
+      <li><a href="https://goodhopefreight.com/papua-new-guinea.html">International logistics by sea &amp; air from China to Papua New Guinea</a></li>
+      <li><a href="https://goodhopefreight.com/paraguay.html">International logistics by sea &amp; air from China to Paraguay</a></li>
+      <li><a href="https://goodhopefreight.com/peru.html">International logistics by sea &amp; air from China to Peru</a></li>
+      <li><a href="https://goodhopefreight.com/philippines.html">International logistics by sea &amp; air from China to Philippines</a></li>
+      <li><a href="https://goodhopefreight.com/pitcairn-islands.html">International logistics by sea &amp; air from China to Pitcairn Islands</a></li>
+      <li><a href="https://goodhopefreight.com/puerto-rico.html">International logistics by sea &amp; air from China to Puerto Rico</a></li>
+      <li><a href="https://goodhopefreight.com/poland.html">Step-by-Step Guide to Shipping Cargo From China to Poland</a></li>
+      <li><a href="https://goodhopefreight.com/portugal.html">Step-by-Step Guide to Shipping Cargo From China to Portugal</a></li>
+      <li><a href="https://goodhopefreight.com/qatar.html">China to Qatar Logistics: Air, Sea & Express Shipping Comparison</a></li>
+      <li><a href="https://goodhopefreight.com/republic-of-korea.html">China to Republic of Korea Freight Forwarding: Integrated Sea &amp; Air Logistics Solutions</a></li>
+      <li><a href="https://goodhopefreight.com/republic-of-the-congo.html">China to Republic of the Congo Freight Forwarding: Integrated Sea &amp; Air Logistics Solutions</a></li>
+      <li><a href="https://goodhopefreight.com/russian-federation.html">China to Russian Federation Freight Forwarding: Integrated Sea &amp; Air Logistics Solutions</a></li>
+      <li><a href="https://goodhopefreight.com/rwanda.html">China to Rwanda Freight Forwarding: Integrated Sea &amp; Air Logistics Solutions</a></li>
+      <li><a href="https://goodhopefreight.com/reunion.html">Container shipping and air cargo  from China to Reunion</a></li>
+      <li><a href="https://goodhopefreight.com/romania.html">Container shipping and air cargo  from China to Romania</a></li>
+      <li><a href="https://goodhopefreight.com/saint-helena.html">Dual-Mode Shipping from China to Saint Helena: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/saint-kitts-and-nevis.html">Dual-Mode Shipping from China to Saint Kitts and Nevis: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/saint-pierre-and-miquelon.html">Dual-Mode Shipping from China to Saint Pierre and Miquelon: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/saint-vincent-and-the-grenadines.html">Dual-Mode Shipping from China to Saint Vincent and the Grenadines: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/samoa.html">Dual-Mode Shipping from China to Samoa: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/sao-tome-and-principe.html">Dual-Mode Shipping from China to Sao Tome and Principe: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/senegal.html">Dual-Mode Shipping from China to Senegal: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/serbia.html">Dual-Mode Shipping from China to Serbia: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/seychelles.html">Dual-Mode Shipping from China to Seychelles: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/sierra-leone.html">Dual-Mode Shipping from China to Sierra Leone: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/singapore.html">Dual-Mode Shipping from China to Singapore: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/solomon-islands.html">Dual-Mode Shipping from China to Solomon Islands: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/somalia.html">Dual-Mode Shipping from China to Somalia: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/south-africa.html">Dual-Mode Shipping from China to South Africa: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/south-sudan.html">Dual-Mode Shipping from China to South Sudan: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/sri-lanka.html">Dual-Mode Shipping from China to Sri Lanka: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/sudan.html">Dual-Mode Shipping from China to Sudan: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/suriname.html">Dual-Mode Shipping from China to Suriname: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/sweden.html">Dual-Mode Shipping from China to Sweden: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/syria.html">Dual-Mode Shipping from China to Syria: Reliable Sea and Air Freight Transport</a></li>
+      <li><a href="https://goodhopefreight.com/saint-eustatius-island.html">International logistics by sea & air from China to Saint Eustatius Island</a></li>
+      <li><a href="https://goodhopefreight.com/saint-lucia.html">International logistics by sea & air from China to Saint Lucia</a></li>
+      <li><a href="https://goodhopefreight.com/saint-martin.html">International logistics by sea & air from China to saint-martin</a></li>
+      <li><a href="https://goodhopefreight.com/saipan.html">International logistics by sea & air from China to Saipan</a></li>
+      <li><a href="https://goodhopefreight.com/sanmarino.html">International logistics by sea & air from China to San Marino</a></li>
+      <li><a href="https://goodhopefreight.com/saudi-arabia.html">International logistics by sea & air from China to Saudi Arabia</a></li>
+      <li><a href="https://goodhopefreight.com/slovak-republic.html">International logistics by sea & air from China to Slovak Republic</a></li>
+      <li><a href="https://goodhopefreight.com/slovenia.html">International logistics by sea & air from China to Slovenia</a></li>
+      <li><a href="https://goodhopefreight.com/spain.html">International logistics by sea & air from China to Spain</a></li>
+
+    </ul>
+  </div>
+</section>
+<!-- ===== FAQ SECTION ===== -->
+<section class="section faq-section" id="faq">
+  <div class="container">
+    <div class="section-header"> <span class="section-badge"><svg class="icon-svg fa-circle-question" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM169.8 165.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V250.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H222.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg> FAQ</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Quick answers to the questions we hear most from shippers around the world.</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1"> What shipping methods do you offer from China? </button>
+            </h3>
+            <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>We offer sea freight (FCL &amp; LCL), air freight, rail freight on the China-Europe Express, express courier (DHL, FedEx, UPS), and door-to-door Amazon FBA shipping. Tell us your cargo type, weight and destination, and our team will recommend the most cost-effective option.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2"> How long does shipping from China take? </button>
+            </h3>
+            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Transit times depend on the service and destination. As a general guide, express courier takes a few days, air freight around one week, and sea freight usually between 2 and 5 weeks depending on the port-to-port route. Our sales team will confirm the exact transit time when preparing your quote.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3"> Can you ship lithium batteries and other dangerous goods? </button>
+            </h3>
+            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Yes. Battery and dangerous goods shipping is one of our specialties. We handle lithium batteries, power banks, and other DG cargo with properly certified packaging and compliant documentation. Contact us with the battery type, watt-hour rating, and quantity for a feasibility check and rate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4"> Do you provide Amazon FBA shipping? </button>
+            </h3>
+            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Yes. We offer complete Amazon FBA head-haulage from China, including sea, air and rail options, plus warehouse booking, FBA labeling, palletization and delivery to Amazon fulfillment centers across the US, UK, EU, Canada, and other markets.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5"> How do I get a freight quote? </button>
+            </h3>
+            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Send us your cargo details - product name, weight, dimensions, quantity, pickup city in China and destination country - via email or WhatsApp. Our freight experts will get back to you with a tailored rate, usually within 24 hours.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="faqHeading6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6"> Do you handle customs clearance and door-to-door delivery? </button>
+            </h3>
+            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Yes. We provide customs clearance support and can arrange door-to-door delivery to most countries worldwide, covering export documentation in China and import handling at the destination. Our team will guide you through the required documents for your specific goods.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== CTA SECTION ===== -->
+<section class="cta-section" id="contact">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Ship With  Goodhope?</h2>
+      <p>Contact GoodHope Freight today and let our experienced team handle all your logistics needs from China to the world.</p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap"> <a href="mailto:sales007@goodhopefreight.com" class="btn-hero-primary"> <svg class="icon-svg fa-envelope" viewBox="0 0 512 512" aria-hidden="true"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> Email Us Now </a> <a href="https://wa.me/8618938691638" class="btn-hero-outline"> <svg class="icon-svg fa-whatsapp" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> WhatsApp Us </a> </div>
+    </div>
+  </div>
+</section>
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6"> <img src="https://goodhopefreight.com/freightimg/shipping-from-china.png" alt="Goodhope Freight" class="img-fluid"/>
+        <p style="margin-top: 15px;">Your trusted freight partner in China. We provide comprehensive international logistics solutions from China to all over the world.</p>
+        <p style="margin-top: 10px; font-size: 13px; opacity: .85;">Goodhope Freight (China) Limited<br>
+          NVOCC License No: GD20230925153335</p>
+        <div class="social-links"> <a href="https://www.facebook.com/people/Goodhope-Freight-China-Limited/61586156103355/"><svg class="icon-svg fa-facebook-f" viewBox="0 0 320 512" aria-hidden="true"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a> <a href="https://www.linkedin.com/in/shippingchina/"><svg class="icon-svg fa-linkedin-in" viewBox="0 0 448 512" aria-hidden="true"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a> <a href="https://x.com/GoodhopeFreigh8"><svg class="icon-svg fa-twitter" viewBox="0 0 512 512" aria-hidden="true"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a> <a href="https://www.instagram.com/goodhopelogistics"><svg class="icon-svg fa-instagram" viewBox="0 0 448 512" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a> </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="https://goodhopefreight.com/">Home</a></li>
+          <li><a href="https://goodhopefreight.com/info/about-us.html">About Us</a></li>
+          <li><a href="https://goodhopefreight.com/info/why-choose-goodhope.html">Why Partner with Goodhope?</a></li>
+          <li><a href="https://goodhopefreight.com/info/clients-reviews.html">Success Stories</a></li>
+          <li><a href="https://goodhopefreight.com/info/faq.html">FAQs Shipping From China</a></li>
+          <li><a href="https://goodhopefreight.com/info/about-us/our-contacts.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>Our services</h5>
+        <ul>
+          <li><a href="https://goodhopefreight.com/fcl.html">Full Container Shipping</a></li>
+          <li><a href="https://goodhopefreight.com/lcl.html">Less than container shipping (LCL)</a> </li>
+          <li><a href="https://goodhopefreight.com/air-freight.html">Air Freight</a> </li>
+          <li><a href="https://goodhopefreight.com/express.html">International Express</a> </li>
+          <li><a href="https://goodhopefreight.com/railway.html">Railway Express</a> </li><li><a href="https://goodhopefreight.com/consolidated-shipment.html">Consolidated Shipment</a> </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>Contact Info</h5>
+        <div class="footer-contact-item"> <svg class="icon-svg fa-map-marker-alt" viewBox="0 0 384 512" aria-hidden="true"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg> <span>Shenzhen, China (HQ)<br>
+          Shanghai, China (Branch)</span> </div>
+        <div class="footer-contact-item"> <svg class="icon-svg fa-envelope" viewBox="0 0 512 512" aria-hidden="true"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> <span>sales007@goodhopefreight.com</span> </div>
+        <div class="footer-contact-item"> <svg class="icon-svg fa-phone" viewBox="0 0 512 512" aria-hidden="true"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg> <span>+86 18938691638</span> </div>
+        <div class="footer-contact-item"> <svg class="icon-svg fa-clock" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg> <span>Mon - Sat: 9:00 AM - 6:00 PM</span> </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2012 - 2026 Goodhope Freight (China) Limited. All Rights Reserved. | <a href="https://goodhopefreight.com/info/about-us/privacy-policy.html" style="color: rgba(255,255,255,0.6);">Privacy Policy</a> | <a href="https://goodhopefreight.com/info/about-us/terms.html" style="color: rgba(255,255,255,0.6);">Terms of Service</a> | <a href="https://goodhopefreight.com/info/about-us/cookie.html" style="color: rgba(255,255,255,0.6);">Cookie Policy</a> </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// 滚动隐藏顶部栏
+let lastScrollY = 0;
+const topBar = document.getElementById('topBar');
+window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+    if(currentScrollY > lastScrollY && currentScrollY > 10){
+        topBar.classList.add('hide-bar');
+    }else{
+        topBar.classList.remove('hide-bar');
+    }
+    lastScrollY = currentScrollY;
+});
+
+// 移动端汉堡菜单切换
+const toggleBtn = document.getElementById('toggleBtn');
+const mainMenu = document.getElementById('mainMenu');
+toggleBtn.addEventListener('click',()=>{
+    mainMenu.classList.toggle('open');
+});
+
+// 语言下拉切换（点击展开/收起，点击外部关闭）
+const langItem = document.getElementById('langItem');
+const langToggle = document.getElementById('langToggle');
+langToggle.addEventListener('click', (e) => {
+    e.preventDefault();
+    langItem.classList.toggle('open');
+});
+document.addEventListener('click', (e) => {
+    if (!langItem.contains(e.target)) langItem.classList.remove('open');
+});
+</script>
+<!-- Bootstrap 5 JS Bundle (collapse/accordion, etc.) -->
+    <script src="https://goodhopefreight.com/js/goodhope-cookie-2026.js"></script>
+</body>
+</html>

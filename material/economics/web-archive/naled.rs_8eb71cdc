@@ -1,0 +1,2116 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Half a million dollars more for innovations</title>
+    <meta name="description" content="The fifth StarTech competition, worth half a million dollars, which supports the development of i">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- FB Meta -->
+    <meta property="og:url" content="https://naled.rs/en/vest-jos-pola-miliona-dolara-za-inovacije-otvoren-novi-startech-konkurs-10575" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="National Alliance for Local Economic Development" />
+    <meta property="og:title" content="NALED | Half a million dollars more for innovations" />
+    <meta property="og:description" content="The fifth StarTech competition, worth half a million dollars, which supports the development of i" />
+    <meta property="og:image" content="https://naled.rs/htdocs/Image/17094/Jos-pola-miliona-dolara-za-inovacije-otvoren-novi-StarTech-konkurs.png" />
+
+    <!-- GOOGLE+ Meta -->
+    <meta itemprop="name" content="National Alliance for Local Economic Development" />
+    <meta itemprop="description" content="The fifth StarTech competition, worth half a million dollars, which supports the development of i" />
+    <meta itemprop="image" content="https://naled.rs/htdocs/Image/17094/Jos-pola-miliona-dolara-za-inovacije-otvoren-novi-StarTech-konkurs.png" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="favicons/manifest.json">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#e87e04">
+<meta name="apple-mobile-web-app-title" content="NALED">
+<meta name="application-name" content="NALED">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48835084-5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-48835084-5');
+</script>
+    <!-- Web Fonts -->
+    <!-- Web Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Scada:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i&amp;subset=latin-ext" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+    <!-- Styles CSS -->
+    <!-- Bootstrap core CSS -->
+<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+<!-- Font Awesome CSS -->
+<link href="/htdocs/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<!-- Fontello CSS -->
+<link href="/htdocs/fonts/fontello/css/fontello.css" rel="stylesheet">
+
+<!-- Transportation icons CSS -->
+<link href="/htdocs/fonts/transport/flaticon.css" rel="stylesheet">
+
+<!-- JQuery countdown -->
+<link href="plugins/jquery.countdown/jquery.countdown.css" rel="stylesheet">
+
+<!-- Plugins CSS -->
+<link href="/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="/css/animations.css" rel="stylesheet">
+<link href="/plugins/owl-carousel/2.0_owl.carousel.css" rel="stylesheet">
+<link href="/plugins/hover/hover-min.css" rel="stylesheet">
+<link href="/plugins/rs-plugin/css/settings.css" rel="stylesheet">
+<link href="/plugins/jasny-bootstrap/css/jasny-bootstrap.css" rel="stylesheet">
+<link href="/css/flag-icon.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/plugins/bootstrap-table/bootstrap-table/bootstrap-table.css">
+<link rel="stylesheet" href="/plugins/bootstrap-table/bootstrap-table/extension/filter-control/bootstrap-table-filter-control.css">
+<link rel="stylesheet" href="/plugins/bootstrap-table/bootstrap-table/bootstrap-table.css">
+<link href="/plugins/selectize/css/selectize.bootstrap3.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="/plugins/pagination/simplePagination.css"> -->
+<!-- Chosen CSS -->
+<link rel="stylesheet" type="text/css" href="/plugins/chosen-js/chosen.css">
+
+<!-- Slick -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link href="/css/slick.css" rel="stylesheet">
+<link href="/css/slick-theme.css" rel="stylesheet">
+
+<!-- CSS -->
+<link href="/css/style51.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+<script src="https://apis.google.com/js/api:client.js"></script>
+<script>
+  var googleUser = {};
+  var startApp = function() {
+
+    gapi.load('auth2', function() {
+      // Retrieve the singleton for the GoogleAuth library and set up the client.
+      auth2 = gapi.auth2.init({
+        client_id: '182085639701-ngqdl3oqu3a2kkdktfcr780bc0fcnf5s.apps.googleusercontent.com',
+        cookiepolicy: 'single_host_origin',
+        prompt: 'select_account'
+      });
+      attachSignin(document.getElementById('customBtn'));
+    });
+  };
+
+  function attachSignin(element) {
+    auth2.attachClickHandler(element, {},
+      function(googleUser) {
+        $.ajax({
+          url: "LoginGoogleClanovi.php",
+          method: "post",
+          data: {
+            email: googleUser.getBasicProfile().getEmail()
+          },
+          success: function(data) {
+
+            if (data.status == "error") {
+              $("#MessageError").show().delay(5000).fadeOut();
+            }
+
+            if (data.status == "success") {
+
+              window.location.reload();
+            }
+          }
+        });
+      });
+  }
+</script>
+
+    <!-- <link rel="stylesheet" href="css/lightgallery.css"> -->
+
+    <style>
+        /* #sekcija_galerija img {
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        } */
+
+        .nova-godina-galerija img {
+            aspect-ratio: 3/2 !important;
+            object-fit: contain !important;
+        }
+
+        .jednake-slike img {
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        }
+
+        img {
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-drag: none;
+        }
+
+        .jednake-slike-slajder-footer {
+            width: 60% !important;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            mix-blend-mode: color-burn;
+        }
+
+        .container-galerija img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .container-galerija {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-auto-rows: 200px;
+            grid-auto-flow: dense;
+        }
+
+        .container-galerija div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-galerija div a {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container-galerija div a img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .container-galerija .tall {
+            grid-row: span 2;
+        }
+
+        .naled-baket a {
+            color: #4cbcfc !important;
+        }
+    </style>
+
+        <!-- <link rel="canonical" href="https://naled.rs/news-half-a-million-dollars-more-for-innovations-10575" /> -->
+    <link rel="canonical" href="https://naled.rs/en/vest-jos-pola-miliona-dolara-za-inovacije-otvoren-novi-startech-konkurs-10575" />
+</head>
+
+<body class="no-trans  eng">
+
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop square"><i class="icon-up-open-big"></i></div>
+
+    <!-- page wrapper start -->
+    <!-- ================ -->
+    <div class="page-wrapper">
+
+        <!-- Offcanvas side start -->
+        <div class="offcanvas-container">
+    
+                                <!-- <div id="gSignInWrapper" class=" width-100 p-10">
+
+        <div id="customBtn" class="btn btn-transparent customGPlusSignIn width-100 ">
+              <span class="icon"><img src="/images/google.webp" alt=""></span>
+            <span class="buttonText"> Google sign in</span>
+          </div>
+        </div> -->
+                                <!-- <script>startApp();</script> -->
+
+                                <!-- <ul class="list-unstyled mt-10">
+                                    <li><a href="//naled.rs/kontakt" class="text-dark">Zaboravili ste lozinku?</a></li>
+                                </ul> -->
+                                                            </form>
+                        </ul>
+                    </li>
+                </ul>
+
+            
+                    
+
+    <!-- Offcanvas press -->
+    <nav id="offcanvas-press" class="animated navmenu navmenu-default navmenu-fixed-right offcanvas offcanvas-right" role="navigation">
+        <div class="col-xs-12 p-0">
+            <!-- logo -->
+            <div class="logo">
+                <img id="logo" src="images/logo-naled-2018.png" alt="NALED">
+            </div>
+            <!-- name-and-slogan -->
+            <div class="site-slogan">
+                Zajedno činimo razliku
+            </div>
+
+            <div class="mt-10"></div>
+            <ul class="social-links circle small colored clearfix margin-clear text-center">
+                <li class="facebook"><a class="animated-fade" target="_blank" title="Facebook" href="http://www.facebook.com/pages/Nacionalna-alijansa-za-lokalni-ekonomski-razvoj-NALED/389326194423536"><i class="fa fa-facebook"></i></a></li>
+                <li class="twitter"><a class="animated-fade" target="_blank" title="Twitter" href="https://twitter.com/naled_serbia"><i class="fa fa-twitter"></i></a></li>
+                <li class="youtube"><a class="animated-fade" target="_blank" title="YouTube" href="http://www.youtube.com/NALEDSerbia"><i class="fa fa-youtube-play"></i></a></li>
+                <li class="linkedin"><a class="animated-fade" target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/NALEDSerbia"><i class="fa fa-linkedin"></i></a></li>
+                <li class="slideshare"><a class="animated-fade" target="_blank" title="Slideshare" href="https://www.slideshare.net/NALED"><i class="fa fa-slideshare"></i></a></li>
+                <li class="flickr"><a class="animated-fade" target="_blank" title="Flickr" href="https://www.flickr.com/photos/naled"><i class="fa fa-flickr"></i></a></li>
+                <li class="instagram"><a class="animated-fade" target="_blank" title="Instagram" href="https://www.instagram.com/naled_rs/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <div class="mb-20"></div>
+            <ul class="nav navbar-nav text-left">
+
+                <!-- Always visible -->
+                <li class="dropdown open" id="zaPressCentar">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pen"></i> Press centar</a>
+                    <ul class="dropdown-menu">
+                             
+
+                                                                                    <li><a href="covid">COVID-19</a></li>
+                            
+
+
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                    
+
+
+                                                            <li class="dropdown">
+
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="novo-iz-naled-a">New in NALED</a>
+                                    <ul class="dropdown-menu">
+
+                                        
+                                                                                            <li><a href="http://naled.rs/vesti.php">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="http://naled.rs/obavestenja.php">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="http://naled.rs/blog.php">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                                                        </ul>
+                                </li>
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                                                    <li><a href="press-kliping">Clipping</a></li>
+                            
+
+
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                    
+
+
+                                                            <li class="dropdown">
+
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="kampanje">Campaigns</a>
+                                    <ul class="dropdown-menu">
+
+                                        
+                                                                                            <li><a href="https://naled.rs/umetnost-srbije">​&nbsp;&nbsp;&nbsp;The Art of Serbia</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="http://naled.rs/suzbijanje-sive-ekonomije">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="press-pitajte-kada">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="press-investirajte-u-srbiju">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="https://naled.rs/sampioni-lokalnog-razvoja">​&nbsp;&nbsp;&nbsp;Champions of local development 2018/19</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="press-izlaz-iz-lavirinta">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                                                        </ul>
+                                </li>
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                    
+
+
+                                                            <li class="dropdown">
+
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="priznanja-naled-a">NALED awards</a>
+                                    <ul class="dropdown-menu">
+
+                                        
+                                                                                            <li><a href="press-reformator-godine">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="http://naled.rs/sampioni-lokalnog-razvoja">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="press-strela-naled-a">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                    
+                                                                                            <li><a href="press-najclan">​&nbsp;&nbsp;&nbsp;</a></li>
+                                            
+
+                                                                                                                        </ul>
+                                </li>
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                                                    <li><a href="naled-logotip-1">Branding</a></li>
+                            
+
+
+                                                        <!--                        <li><a href="coming-soon.php">Monitoring reformi</a></li>
+                            <li><a href="coming-soon.php">Kalkulator lokalnih taksi</a></li>
+                            <li><a href="coming-soon.php">Baza fondova</a></li>
+                            <li><a href="coming-soon.php">Baza stipendija</a></li>
+                            <li><a href="coming-soon.php">NALED Berza</a></li>-->
+
+                                                    <li><a href="video_snimci.php">​​Video servis</a></li>
+                    </ul>
+
+                </li>
+
+            </ul>
+            <button type="button" class="offcanvas-toggle-inside" data-toggle="offcanvas" data-target="#offcanvas-press" title="Zatvori"><i class="icon-cancel"></i></button>
+        </div>
+    </nav>
+
+
+
+    
+<!-- Jquery and Bootstap -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<!-- Modernizr javascript -->
+<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+<!-- jQuery Revolution Slider  -->
+<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+
+<!-- Isotope javascript -->
+<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="plugins/js-cookie-master/src/js.cookie.js"></script>
+<!-- Magnific Popup javascript -->
+<script type="text/javascript" src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Appear javascript -->
+<script type="text/javascript" src="plugins/waypoints/jquery.waypoints.min.js"></script>
+
+<!-- Jasny Bootstrap  -->
+<script type="text/javascript" src="plugins/jasny-bootstrap/js/jasny-bootstrap.js"></script>
+
+<!-- Bootsrap table -->
+<script src="plugins/bootstrap-table/bootstrap-table/bootstrap-table.js"></script>
+
+<script type="text/javascript" src="plugins/tableExport/libs/FileSaver/FileSaver.min.js"></script>
+<script type="text/javascript" src="plugins/tableExport/libs/js-xlsx/xlsx.core.min.js"></script>
+
+<script type="text/javascript" src="plugins/tableExport/tableExport.js"></script>
+<script src="plugins/bootstrap-table/bootstrap-table/export/bootstrap-table-export.js"></script>
+<!--Selectize-->
+<script type="text/javascript" src="plugins/selectize/js/standalone/selectize.min.js"></script>
+<script src="plugins/bootstrap-table/bootstrap-table/extension/filter/bootstrap-table-filter.js"></script>
+<script src="plugins/bootstrap-table/bootstrap-table/extension/filter-control/bootstrap-table-filter-control.js"></script>
+<!-- <script src="plugins/bootstrap-table/bootstrap-table/extension/cookie/boostrap-table-cookie.js"></script> -->
+<!-- Chosen script -->
+<script type="text/javascript" src="plugins/chosen-js/chosen.jquery.js"></script>
+
+<!-- Count To javascript -->
+<script type="text/javascript" src="plugins/jquery.countTo.js"></script>
+
+<!--Bootbox-->
+<script src="plugins/bootbox.min.js" type="text/javascript"></script>
+
+<!-- Parallax javascript -->
+<script src="plugins/jquery.parallax-1.1.3.js"></script>
+
+<!-- Contact form -->
+<script src="plugins/jquery.validate.js"></script>
+
+<!-- Owl carousel javascript -->
+<script type="text/javascript" src="plugins/owl-carousel/2.0_owl.carousel.js"></script>
+<!-- Owl carousel thumbs plugin -->
+<script type="text/javascript" src="plugins/owl-carousel/owl.carousel2.thumbs.js"></script>
+
+<!-- SmoothScroll javascript -->
+<script type="text/javascript" src="plugins/jquery.browser.js"></script>
+<script type="text/javascript" src="plugins/SmoothScroll.js"></script>
+
+<!-- Date picker -->
+<script type="text/javascript" src="plugins/date-time/moment.js"></script>
+<script type="text/javascript" src="plugins/date-time/daterangepicker.js"></script>
+
+<script type="text/javascript" src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
+
+<link rel="stylesheet" href="plugins/jquery-ui-1.11.0/jquery-ui.css" />
+<script src="plugins/jquery-ui-1.11.0/jquery-ui.js"></script>
+
+<script src="plugins/pagination/jquery.simplePagination.js"></script>
+<!-- Initialization of Plugins -->
+<script type="text/javascript" src="js/custom.js?v=1791632242"></script>
+
+<!-- Countdown javascript -->
+<script type="text/javascript" src="plugins/jquery.countdown/jquery.plugin.js"></script>
+<script type="text/javascript" src="plugins/jquery.countdown/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/coming.soon.config.krajskupstine.js"></script>
+
+<!-- Slick JS -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Twitter Hashtag search plugin -->
+<script>
+    !function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");
+</script>
+<!-- Twitter plugin END -->
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aa258a54d65ddcc"></script>    <!-- Fiksno dugme izvan offcanvasa  <button type="button" class="offcanvas-toggle-right navbar-toggle" data-toggle="offcanvas" data-target="#offcanvas"></button>-->
+    <script type="text/javascript">
+        //                var prviPut = 0;
+
+
+        $(document).ready(function() {
+            $("#MessageSuccess").hide();
+            $("#MessageError").hide();
+            var welcome = localStorage.getItem("welcome");
+            if (welcome == 1) {
+                $('#offcanvas-users').collapse();
+                $("#MessageSuccess").show().delay(5000).fadeOut();
+                localStorage.removeItem("welcome");
+            }
+        });
+        $("#btnLogin").click(function() {
+            var username = $("#txtUsername").val();
+            var password = $("#txtPassword").val();
+            $.ajax({
+                url: "LoginClanoviNovi.php",
+                method: "post",
+                data: {
+                    username: username,
+                    password: password
+                },
+                success: function(data) {
+
+                    if (data.status == 'error')
+                        $("#MessageError").show().delay(5000).fadeOut();
+                    if (data.status == 'success') {
+
+                        localStorage.setItem("welcome", "1");
+                        window.location.href = "/en/moj-profil";
+
+                    }
+                }
+            });
+        });
+
+        $('#txtUsername').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                $('#txtPassword').focus();
+            }
+        });
+
+        $('#txtPassword').on('keyup', function(e) {
+            if (e.keyCode == 13) {
+                $( "#btnLogin" ).trigger( "click" );
+            }
+        });
+
+        </script>
+</div>        <!-- offcanvas side end -->
+
+        <!-- Header -->
+        <div class="header-container">
+
+    <!-- header-top start -->
+    <!-- ================ -->
+    <div class="header-top colored">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 text-center">
+
+                    <!-- header-top-second start -->
+                    <!-- ================ -->
+                    <div id="header-top-second" class="clearfix">
+
+                        <div class="top-head-left">
+                            <ul class="list-inline">
+                                                                <li><a class="animated-fade" href="/en/"><i class="icon-home"></i> <span class="hidden-xs">
+                                            Home                                        </span></a></li>
+
+                                <li><a class="animated-fade " href="/vest-jos-pola-miliona-dolara-za-inovacije-otvoren-novi-startech-konkurs-10575" title="Srpski">Srpski</a></li>
+                                <li><a class="animated-fade  selected " href="" title="English">English</a></li>
+                                <!--  Opcija za jezik sa dropdownom <li>
+                                    <a data-toggle="dropdown" title="Izaberi jezik"><i class="flag-icon flag-icon-rs"></i> Srpski<i class="icon-down-open"></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-language dropdown-menu-right dropdown-animation">
+                                        <li>
+                                            <ul class="language text-center" role="menu">
+                                                <li><a class="animated-fade" href="#"><i class="flag-icon flag-icon-gb mr-5"></i> English</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>-->
+                            </ul>
+                        </div>
+
+                        <div class="top-head-right">
+                            <ul class="list-inline">
+                                <li class="hidden-xs">
+                                    <ul class="social-links small circle">
+                                        <li class="linkedin"><a class="animated-fade" target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/naled/"><i class="fa fa-linkedin"></i></a></li>
+                                        <li class="instagram"><a class="animated-fade" target="_blank" title="Instagram" href="https://www.instagram.com/naled_rs/"><i class="fa fa-instagram"></i></a></li>
+                                        <li class="facebook"><a class="animated-fade" target="_blank" title="Facebook" href="https://www.facebook.com/NALEDSerbia/#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="youtube"><a class="animated-fade" target="_blank" title="YouTube" href="https://www.youtube.com/NALEDSerbia"><i class="fa fa-youtube-play"></i></a></li>
+                                        <li class="twitter"><a class="animated-fade" target="_blank" title="Twitter" href="https://x.com/naled_serbia"><i class="bi bi-twitter-x"></i></a></li>
+                                        <li class="twitter"><a class="animated-fade" target="_blank" title="Tiktok" href="https://www.tiktok.com/@naled.rs?_r=1&_t=ZS-94lqYjxp8rJ"><i class="bi bi-tiktok"></i></a></li>
+
+                                        <!-- <li class="slideshare"><a class="animated-fade" target="_blank" title="Slideshare" href="https://www.slideshare.net/NALED"><i class="fa fa-slideshare"></i></a></li> -->
+                                        <!-- <li class="flickr"><a class="animated-fade" target="_blank" title="Flickr" href="https://www.flickr.com/photos/naled"><i class="fa fa-flickr"></i></a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="hidden-lg hidden-md hidden-sm">
+                                    <div class="social-links circle small">
+                                        <div class="btn-group dropdown">
+                                            <button type="button" class="animated-fade btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+                                            <ul class="dropdown-menu dropdown-animation">
+                                                <li class="linkedin"><a class="animated-fade" target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/naled/"><i class="fa fa-linkedin"></i></a></li>
+                                                <li class="instagram"><a class="animated-fade" target="_blank" title="Instagram" href="https://www.instagram.com/naled_rs/"><i class="fa fa-instagram"></i></a></li>
+                                                <li class="facebook"><a class="animated-fade" target="_blank" title="Facebook" href="https://www.facebook.com/NALEDSerbia/#"><i class="fa fa-facebook"></i></a></li>
+                                                <li class="youtube"><a class="animated-fade" target="_blank" title="YouTube" href="https://www.youtube.com/NALEDSerbia"><i class="fa fa-youtube-play"></i></a></li>
+                                                <li class="twitter"><a class="animated-fade" target="_blank" title="Twitter" href="https://x.com/naled_serbia"><i class="bi bi-twitter-x"></i></a></li>
+                                                <li class="twitter"><a class="animated-fade" target="_blank" title="Tiktok" href="https://www.tiktok.com/@naled.rs?_r=1&_t=ZS-94lqYjxp8rJ"><i class="bi bi-tiktok"></i></a></li>
+
+                                                <!-- <li class="slideshare"><a class="animated-fade" target="_blank" title="Slideshare" href="https://www.slideshare.net/NALED"><i class="fa fa-slideshare"></i></a></li> -->
+                                                <!-- <li class="flickr"><a class="animated-fade" target="_blank" title="Flickr" href="https://www.flickr.com/photos/naled"><i class="fa fa-flickr"></i></a></li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn-group">
+                                        <a class="animated-fade xs-fix" href="kontakt" title="Pošalji e-mejl">
+                                            <i class="icon-mail "></i> Contact Us                                        </a>
+                                    </div>
+                                </li>
+
+                                <!--  Opcija za jezik sa dropdownom <li>
+                                    <a data-toggle="dropdown" title="Izaberi jezik"><i class="flag-icon flag-icon-rs"></i> Srpski<i class="icon-down-open"></i></a>
+                                    <ul class="dropdown-menu dropdown-menu-language dropdown-menu-right dropdown-animation">
+                                        <li>
+                                            <ul class="language text-center" role="menu">
+                                                <li><a class="animated-fade" href="#"><i class="flag-icon flag-icon-gb mr-5"></i> English</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>-->
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!-- header-top-second end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-top end -->
+
+
+    <!-- ================ -->
+    <header class="header fixed centered clearfix">
+
+        <div class="container hidden-xs">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- header-left start -->
+                    <!-- ================ -->
+                    <div class="header-left clearfix">
+
+                        <!-- logo -->
+                        <div id="logo" class="logo pull-left">
+                            <ul class="list-inline">
+                                <li><a href="/en/"><img src="images/20 godina za sajt.png" alt="NALED"></a></li>
+                                <!-- <li><a href="/en/"><img src="images/logo-naled-2019.png" alt="NALED"></a></li> -->
+                                <!-- <li><a href="/"><img class="logo-15god" src="images/logo-15god.png" alt="15 godina zajedno"></a></li> -->
+                                                            </ul>
+                        </div>
+
+                        <div class="pull-right header-buttons">
+                            <ul class="list-inline">
+                                
+                                                                <li><a class="btn btn-transparent" href='regulator-publikacija.php'><i class="fa fa-book text-orange"></i> <span class="hidden-sm">Publications</span></a></li>
+
+                                <li><a class="btn btn-transparent" href="/en/presscentar-1"><i class="icon-pen text-orange"></i> <span class="hidden-sm">
+                                            Press center                                        </span></a>
+                                    <a data-toggle="offcanvas" data-target="#offcanvas-press" id="otvori_presscentar_modal" class="hidden"></a>
+                                </li>
+                                <li><a class="btn btn-default animated-fade" href='/moj-profil'><i class="icon-users"></i> <span class="hidden-sm">
+                                            NALED platform                                        </span></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- header-left end -->
+
+                </div>
+            </div>
+        </div>
+        <div class="light-gray-bg">
+            <div class="container">
+
+
+                <!-- header-right start -->
+                <!-- ================ -->
+                <div class="header-right clearfix">
+
+                    <!-- main-navigation start -->
+                    <!-- ================ -->
+                    <div class="main-navigation animated">
+
+                        <!-- navbar start -->
+                        <!-- ================ -->
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+
+                                <!-- Toggle get grouped for better mobile display -->
+                                <div class="navbar-header visible-xs">
+                                    <!-- logo -->
+                                    <div id="logo" class="logo pull-left">
+                                        <ul class="list-inline">
+                                            <li><a href="/en/"><img src="images/logo-naled-2018.png" alt="NALED"></a></li>
+                                            <!-- <li><a href="/"><img class="logo-15god" src="images/logo-15god.png" alt="15 godina zajedno"></a></li> -->
+                                        </ul>
+                                    </div>
+
+                                    <div class="pull-right header-buttons">
+                                        <ul class="list-inline">
+                                            <!-- <li><a class="btn btn-default animated-fade" data-toggle="offcanvas" data-target="#offcanvas-users"><img class="icon-strela" src="images/naled-strela-1.png" alt="NALED"> <span class="hidden-xs">Za članove</span></a></li> -->
+                                            <!--                                            <li><a href="/covid19" class="btn btn-blue covid19 animated-fade"><i class="fa fa-stethoscope"></i> <span class="hidden-xs">COVID19 info</span></a></li>-->
+                                            <li><a href="/moj-profil" class="btn btn-transparent animated-fade" data-toggle="offcanvas" data-target="#offcanvas-users"><i class="icon-users text-orange"></i> <span class="hidden-xs">Za članove</span></a></li>
+
+                                            <li><a href="/baza-publikacija" class="btn btn-transparent"><i class="icon-book-open text-orange"></i> <span class="hidden-xs">Publications</span></a></li>
+
+                                            
+                                            <li><a class="btn btn-transparent" href="/en/presscentar-1""><i class=" icon-pen text-orange"></i> <span class="hidden-xs">Press center</span></a></li>
+
+                                            <li><a href="#search" class="btn btn-transparent pretraga"><i class="icon-search text-orange"></i></a></li>
+                                            <li>
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                                    <!-- main-menu -->
+                                    <ul class="nav navbar-nav navbar-right">
+                                                                                    <!-- mega-menu start -->
+                                            <li  class="dropdown mega-menu" >
+                                                <a href="o-nama"  class="dropdown-toggle" data-toggle="dropdown" >ABOUT US</a>
+                                                                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="row">
+                                                                                                                                                    <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="upoznajte-naled" > ABOUT NALED</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="kako-naled-radi">How NALED works</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="misija-i-ciljevi">Mission and goals</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="nase-vrednosti">Our values</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="organizacionastruktura">Organizational structure</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="kljucni-rezultati">Key results</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="naled-u-brojkama">NALED in numbers</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="nasi-inovativni-alati">Our Innovation Tools</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="istorijat">History</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="najcesca-pitanja">Frequently asked questions</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="nasa-mreza" > OUR NETWORK</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="clanovi-2">Members</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="institucionalni-partneri">Institutional partners</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="medjunarodna-zajednica">International partners</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="regionalna-mreza-bfc-see"></a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="expose">EXPOSE </a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="aktuelnosti" > Highlights</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="vesti-2">News</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="obavestenja-1">Info</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="naled-publikacije">Publications</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="blog-1">Blog</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="kliping">Clipping</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="podkast-2">Podcast</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="kontakt" > CONTACT</a>
+                                                                                        </h2>
+                                                                                                                                                </li>
+                                                    </ul>
+                                </div>
+                                                        </div>
+                    </div>
+                </div>
+                </li>
+                </ul>
+                        </li>
+            <!-- mega-menu end -->
+                                                    <!-- mega-menu start -->
+                                            <li  class="dropdown mega-menu" >
+                                                <a href="sta-radimo"  class="dropdown-toggle" data-toggle="dropdown" >WHAT WE DO</a>
+                                                                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="row">
+                                                                                                                                                    <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="reformske-oblasti" > Reform areas</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="siva-ekonomija">Countering shadow economy</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="javne-finansije">Public finance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="razvoj-euprave">eGovernment development</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="zivotna-sredina">Environment protection</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="hrana-poljoprivreda">Agriculture and food industry development</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="modernizacija-zdravstva">Healthcare development</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="imovina-investicije">Property and investments</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="preduzetnistvo-inovacije">Entrepreneurship and innovation</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="teritorijalni-razvoj" > Territorial development</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="jacanje-kapaciteta-ls">Municipal capacity building</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="regionalna-saradnja-1">Regional cooperation</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="sertifikacija-opstina">Municipal certification BFC SEE</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="opstine-po-meri-privrede">Business Friendly Municipalities</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="digitalizacija-opstinskih-usluga">Digitalization of municipal services</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="eu-integracije">EU integration</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="monitoring-institucija" > Monitoring of institutions</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="regulatorni-indeks-srbije">Regulatory Index of Serbia</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="siva-knjiga">Grey Book</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="lokalni-indeks-euprave">Local eGovernment Index</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="indeks-izdavanja-gradjevinskih-dozvola">Construction Permitting Efficiency Index</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="javno-privatni-dijalog" > Public Private Dialogue</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="doing-business">Joint Group for Doing Business</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="strucna-grupa-siva-ekonomija">Expert Group on Shadow Economy</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savet-digitalna-ekonomija">Council for Digital Economy Development </a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-radnih-grupa">Working groups database</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                        </div>
+                    </div>
+                </div>
+                </li>
+                </ul>
+                        </li>
+            <!-- mega-menu end -->
+                                                    <!-- mega-menu start -->
+                                            <li  class="dropdown mega-menu" >
+                                                <a href="uprava"  class="dropdown-toggle" data-toggle="dropdown" >NALED TEAM</a>
+                                                                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="row">
+                                                                                                                                                    <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="rukovodeci-organi" > Managing bodies</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="skupstina">Assembly</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="upravni-odbor">Managing Board</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="izvrsni-odbor">Executive Board</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="nadzorni-odbor">Supervisory Board</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savetodavni-odbor">Advisory Board</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="izvrsni-direktor">Executive Director</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="strucni-tim" > Expert team</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="izvrsna-kancelarija">Executive Office</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="naucno-vece">Science Council</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="izvrsna-kancelarija-2" > Executive Office</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="konkurentnost-i-investicije-1">Competitiveness and Investments Department</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="regulatorna-reforma">Sustainable Development Department</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="dobra-uprava-1">Good Governance and Projects Department</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="komunikacije-i-razvoj">Communications and Development Department</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="finansije-i-projekti">Finance Department</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="odeljenje-operative">General Affairs Department</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                        </div>
+                    </div>
+                </div>
+                </li>
+                </ul>
+                        </li>
+            <!-- mega-menu end -->
+                                                    <!-- mega-menu start -->
+                                            <li  class="dropdown mega-menu" >
+                                                <a href="nasi-clanovi"  class="dropdown-toggle" data-toggle="dropdown" >MEMBERS</a>
+                                                                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="row">
+                                                                                                                                                    <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="nasiclanovi" > Our members</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="struktura-clanova"></a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="uticaj-clanova"></a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="lista-clanova">List of members</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="prednosti-clanstva">Membership benefits</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="radna-tela" > Working bodies</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="savez-za-zastitu-zivotne-sredine">Environment Protection Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savez-za-fer-konkurenciju">Fair Competition Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savez-za-zdravstvo">Healthcare Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savez-za-e-upravu">E-Government Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savez-za-hranu-i-poljoprivredu">Food and Agriculture Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savez-za-imovinu-i-investicije">Property and Investment Alliance</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="bfc-klub">BFC club of cities and municipalities </a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savet-za-male-biznise">Small Business Council</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="savet-za-odrzivu-energetiku"></a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                                                                        <div class="col-sm-4">
+                                                                                <ul class="menu">
+                                                                                    <li >
+                                                                                        <h2 class="title">
+                                                                                            <a href="servisi-za-clanove" > Member services</a>
+                                                                                        </h2>
+                                                                                                                                                                                                                                                                        <li>
+                                                                                        <a href="baza-investicija">Database of investments</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-radnih-grupa">Working groups database</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-publikacija-1">Database of publications</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-fondova-1">Database of funds</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-klipinga">Clipping database</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="baza-jkp">Database of public utilities</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="nominujte-preporuku">Nominate a recommendation</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="vesti-iz-clanstva">Member news</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="naled-berza-1">NALED Market</a>
+                                                                                    </li>
+                                                                                                                                                                    <li>
+                                                                                        <a href="naled-recnik">NALED Glossary</a>
+                                                                                    </li>
+                                                                                                                                                                                                                    </li>
+                                                    </ul>
+                                </div>
+                                                        </div>
+                    </div>
+                </div>
+                </li>
+                </ul>
+                        </li>
+            <!-- mega-menu end -->
+                                                    <!-- mega-menu start -->
+                                            <li >
+                                                <a href="projekti" >PROJECTS</a>
+                                                            </li>
+            <!-- mega-menu end -->
+                <!--                                            <li class="dropdown">
+                                            <a href="kontakt.php" class="dropdown-toggle" data-toggle="dropdown">Kontakt</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Kontakt</a></li>
+                                                <li><a href="#">Lična karta</a></li>
+                                            </ul>
+                                        </li>-->
+        <li><a class="hidden-xs pretraga" href="#search">
+                Search                <span class="icon-search text-orange"></span></a></li>
+        </ul>
+        <!-- main-menu end -->
+
+            </div>
+
+        </div>
+        </nav>
+        <!-- navbar end -->
+
+</div>
+<!-- main-navigation end -->
+</div>
+<!-- header-right end -->
+
+
+</div>
+</div>
+
+</header>
+<!-- header end -->
+</div>
+
+        <div class="clearfix"></div>
+
+        <!-- banner start -->
+        <!-- banner section is option, only show if there is image -->
+        <!-- ================ -->
+
+
+        <!-- banner end -->
+
+        <!-- main-container start -->
+        <!-- ================ -->
+        
+                    
+                                                                    <div class="banner inner dark-translucent-bg" style="background-image:url('images/bkg-inner-no-image.jpg'); background-position: 50% 45%;">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 text-center col-md-offset-2 top-blockquote">
+                                    <h2 class="title object-non-visible" data-animation-effect="fadeInDown" data-effect-delay="300"><i><article class="w-full text-token-text-primary" dir="auto" data-testid="conversation-turn-8" data-scroll-anchor="true">
+<div class="text-base my-auto mx-auto py-5 px-6">
+<div class="mx-auto flex flex-1 text-base gap-4 md:gap-5 lg:gap-6 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem] group/turn-messages focus-visible:outline-none" tabindex="-1">
+<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn @xs/thread:px-0 @sm/thread:px-1.5 @md/thread:px-4">
+<div class="relative flex-col gap-1 md:gap-3">
+<div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="28f695d8-2a6f-46e9-bb54-43689c0ce181" data-message-model-slug="gpt-4o-mini">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p class="" style="text-align: center;" data-start="0" data-end="279">The StarTech innovation support program is part of a six-year project implemented by NALED with the support of Philip Morris, aimed at accelerating economic growth and transforming the traditional economy into a digital, export-oriented economy based on knowledge and innovation</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article></i></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                <section class="main-container white-bg 2">
+                    <div class="breadcrumb-container">
+                        <div class="container">
+                            <ol class="breadcrumb">
+                                <li><i class="fa fa-home pr-10"></i><a class="link-dark" href="index.php">
+                                        Home                                    </a></li>
+                                <li><a class="link-dark" href="/vesti">News</a></li>
+                                <li class="active">Half a million dollars more for innovations</li>
+                            </ol>
+                            <p class="breadcrumb-date"><i class="icon-calendar"></i>01.04.2025                                <!--<i class="pl-10 icon-user"></i>-->
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- main start -->
+                            <!-- ================ -->
+                            <div class="main">
+
+                                <!-- section start -->
+                                <!-- ================ -->
+                                <section class="clearfix white-bg pv-10">
+                                    <!-- page-title start -->
+                                    <!-- ================ -->
+                                    <div class="col-xs-12">
+                                        <h1 class="page-title">Half a million dollars more for innovations – the new StarTech competition is now open</h1>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-md-12">
+                                        <div class="image-box style-2 mb-20 white-bg inner-page-box">
+                                            <div class="body">
+                                                                                                    <div class="preuzmite mb-20">
+                                                                                                                    <div class="inline-flex mb-10">
+                                                                <div><span><i class="icon-download-outline mr-5 text-orange"></i></span>
+                                                                </div>
+                                                                <div><a class="animated-fade text-dark small" href="/htdocs/Files/17099/Startech-2025-Lansiranje-konkursa-1-april.pdf" target="_blank">Startech 2025 - Lansiranje konkursa 1. april.pdf</a></div>
+                                                            </div>
+                                                            <br />
+                                                                                                                    <div class="inline-flex mb-10">
+                                                                <div><span><i class="icon-download-outline mr-5 text-orange"></i></span>
+                                                                </div>
+                                                                <div><a class="animated-fade text-dark small" href="/htdocs/Files/17100/Startech-Infolist-2025.pdf" target="_blank">Startech Infolist 2025.pdf</a></div>
+                                                            </div>
+                                                            <br />
+                                                                                                                    <div class="inline-flex mb-10">
+                                                                <div><span><i class="icon-download-outline mr-5 text-orange"></i></span>
+                                                                </div>
+                                                                <div><a class="animated-fade text-dark small" href="/htdocs/Files/17101/Startech-brosura.pdf" target="_blank">Startech brosura.pdf</a></div>
+                                                            </div>
+                                                            <br />
+                                                                                                            </div>
+                                                                                                <p class="" style="text-align: justify;" data-start="0" data-end="344">The fifth <a href="https://startech.org.rs/">StarTech</a> competition, worth half a million dollars, which supports the development of innovative products and the digital transformation of businesses in Serbia, was announced today. All interested entrepreneurs, micro, small, and medium-sized enterprises, as well as informal teams, can apply by May 15th for grants of up to $50,000.</p>
+<p class="" style="text-align: justify;" data-start="346" data-end="625">The StarTech innovation support program is part of a six-year project implemented by NALED with the support of <a href="https://www.pmi.com/">Philip Morris</a>, aimed at accelerating economic growth and transforming the traditional economy into a digital, export-oriented economy based on knowledge and innovation.</p>
+<p class="" style="text-align: justify;" data-start="627" data-end="830">Dragana Vujko, Corporate Affairs Director for Southeast Europe at Philip Morris International, emphasized that StarTech is the largest entrepreneurship support program fully funded by the private sector.</p>
+<p class="" style="text-align: justify;" data-start="832" data-end="1481">"This project is much more than that &ndash; it is designed to help reform processes in the system that should continue to support and nurture our innovators, providing them with a healthy environment for development. We are all witnesses to the significant progress made in this area in Serbia, and I am proud that this project is part of that transformation. What is particularly important to us in StarTech are topics such as improving cooperation between the economy and science, the role of innovation in economic development, strengthening scientific institutions, and retaining or bringing back our scientists and innovators to Serbia," said Vujko.</p>
+<p class="" style="text-align: justify;" data-start="1483" data-end="1991">"We expect that, based on this competition, which will be open until May 15th, we will award at least 10 grants of $50,000 each to finance the development, implementation, or commercialization of innovations," said Du&scaron;an Vasiljević, Director for Competitiveness and Investments at NALED. He also mentioned that professional support is available to all candidates who need assistance in formulating a business plan, which is a key part of the application, and they can apply for this support until April 23rd.</p>
+<p class="" style="text-align: justify;" data-start="1993" data-end="2233">To date, StarTech has supported 99 innovations through mentoring and grants worth approximately $3.5 million. A successful example is the company Smartsy, a winner of a StarTech grant in the previous cycle, which developed a smart doghouse.</p>
+<p class="" style="text-align: justify;" data-start="2235" data-end="2488">"StarTech's support allowed us to improve our product and introduce it to new markets. This program is not just financial aid; it's also an opportunity for expert support and networking with relevant partners," said Teodora Pećanac, co-owner of Smartsy.</p>
+<p class="" style="text-align: justify;" data-start="2490" data-end="2660">It is worth mentioning that StarTech grant recipients are present in 27 countries, including Australia, the USA, Japan, China, South Korea, Egypt, Malta, Qatar, and more.</p>                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- main end 2 -->
+                                                                        <div class="col-xs-12">
+                                        
+                                            <div class="col-md-3 jednake-slike">
+                                                <div class="image-box text-center mb-20">
+                                                    <div class="overlay-container">
+                                                        <img src="/htdocs/Image/17095/Dragana-Vujko-PMI.jpg" alt="Half a million dollars more for innovations">
+                                                        <a class="overlay-link animated-fade popup-img" href="/htdocs/Image/17095/Dragana-Vujko-PMI.jpg" title="Half a million dollars more for innovations"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="col-md-3 jednake-slike">
+                                                <div class="image-box text-center mb-20">
+                                                    <div class="overlay-container">
+                                                        <img src="/htdocs/Image/17096/Dragana-Vujko-PMI.jpg" alt="Half a million dollars more for innovations">
+                                                        <a class="overlay-link animated-fade popup-img" href="/htdocs/Image/17096/Dragana-Vujko-PMI.jpg" title="Half a million dollars more for innovations"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="col-md-3 jednake-slike">
+                                                <div class="image-box text-center mb-20">
+                                                    <div class="overlay-container">
+                                                        <img src="/htdocs/Image/17097/Dusan-Vasiljevic-NALED.jpg" alt="Half a million dollars more for innovations">
+                                                        <a class="overlay-link animated-fade popup-img" href="/htdocs/Image/17097/Dusan-Vasiljevic-NALED.jpg" title="Half a million dollars more for innovations"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="col-md-3 jednake-slike">
+                                                <div class="image-box text-center mb-20">
+                                                    <div class="overlay-container">
+                                                        <img src="/htdocs/Image/17098/Teodora-Pecanac-Smartsy.jpg" alt="Half a million dollars more for innovations">
+                                                        <a class="overlay-link animated-fade popup-img" href="/htdocs/Image/17098/Teodora-Pecanac-Smartsy.jpg" title="Half a million dollars more for innovations"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                                                <!-- Tagovi -->
+                                                                                    <div class="col-md-12 clearfix">
+                                                <hr>
+                                                <ul class="list-unstyled list-inline tag-list">
+                                                                                                            <li>
+                                                            <a href="/en/vesti.php?IDTag=6452" class="btn btn-gray">Innovation</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="/en/vesti.php?IDTag=6709" class="btn btn-gray">Grey Book of Innovation</a>
+                                                        </li>
+                                                    
+                                                </ul>
+                                                <!-- tag-option end -->
+                                            </div>
+                                                                                <!-- Kraj tagova -->
+                                        <!-- cole end -->
+                                </section>
+
+                                 <div class="col-md-12 p-0">
+
+     <div class="clearfix"></div>
+     <div class="masonry-grid-fitrows">
+
+              </div>
+
+     <!-- .masonry-grid-fitrows end -->
+
+ </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    </div>
+
+
+    <!-- Ovde dodati bazu reformskih inicijativa -->
+    
+    
+    <!-- main-container end -->
+
+    <!-- slider carousel povezani sadrzaj section start -->
+    <!-- ====================== -->
+                    <div class="container">
+                             <hr/>
+                    <div class="row">
+
+                        <!-- main start -->
+                        <!-- ================ -->
+                        <div class="main">
+                
+                                 <section class="light-default-bg-2 clearfix">
+                                     
+                            <div class="col-xs-12">
+                                <div class="text-center mb-30">
+                                <span class="icon"><i class="icon-desktop text-orange"></i></span>
+                                <h2 class="text-uppercase font-400">
+                                    Related Content</h2>
+                            </div>         
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12" id="slajder-povezani-sadrzaji">
+
+
+                        
+
+                  <div class="col-md-4 col-sm-6 mb-30">
+                           <div class="image-box colored style-2 fixed-height default-bg shadow-2">
+                           
+
+                                                                                              <div class="white-bg">
+                                                <a class="animated-fade" href="vest-danski-investitor-norholm-na-dogadjaju-startech-a-i-see-up-a-10377"><img src="/htdocs/Image/16545/Danski-investitor-Norholm-na-dogadjaju-StarTech-a-i-SEE-UP-a.png" alt=""></a>
+                                            </div>
+                                                                           <div class="body">
+                                                <span class="badge badge-tag"><a href="/vesti" class="badge-link animated-fade"><i class="icon-news mr-9"></i>News</a></span>
+                                                <h3><a class="animated-fade" href="vest-danski-investitor-norholm-na-dogadjaju-startech-a-i-see-up-a-10377">Danish investor Norholm at the StarTech and SEE UP event</a></h3><p class="small mb-10"><i class="icon-calendar"></i>29.11.2024</p>Experienced Danish business angel and investor Ib Dyhr N&oslash;rholm, whose...<a href="vest-danski-investitor-norholm-na-dogadjaju-startech-a-i-see-up-a-10377" class="btn btn-link pl-0 btn-animated margin-clear btn-fixed-left">Read more<i class="icon-right-open-big"></i></a>
+
+                                            </div>
+
+                                                                                    </div>
+                    </div>
+
+                           
+ 
+                                              
+
+                  <div class="col-md-4 col-sm-6 mb-30">
+                           <div class="image-box colored style-2 fixed-height default-bg shadow-2">
+                           
+
+                                                                                              <div class="white-bg">
+                                                <a class="animated-fade" href="vest-frilenseri-od-2023-podneli-22400-poreskih-prijava-10414"><img src="/htdocs/Image/16655/Frilenseri-od-2023-podneli-22400-poreskih-prijava.png" alt=""></a>
+                                            </div>
+                                                                           <div class="body">
+                                                <span class="badge badge-tag"><a href="/vesti" class="badge-link animated-fade"><i class="icon-news mr-9"></i>News</a></span>
+                                                <h3><a class="animated-fade" href="vest-frilenseri-od-2023-podneli-22400-poreskih-prijava-10414">Freelancers filed 22,400 tax returns in 2023</a></h3><p class="small mb-10"><i class="icon-calendar"></i>12.12.2024</p>The number of freelancers who submit their tax returns on time, within the legally prescribed deadline, is steadily increasing...<a href="vest-frilenseri-od-2023-podneli-22400-poreskih-prijava-10414" class="btn btn-link pl-0 btn-animated margin-clear btn-fixed-left">Read more<i class="icon-right-open-big"></i></a>
+
+                                            </div>
+
+                                                                                    </div>
+                    </div>
+
+                           
+ 
+                                              
+
+                  <div class="col-md-4 col-sm-6 mb-30">
+                           <div class="image-box colored style-2 fixed-height default-bg shadow-2">
+                           
+
+                                                                                              <div class="white-bg">
+                                                <a class="animated-fade" href="vest-srpski-startapi-hoce-u-mongoliju-10345"><img src="/htdocs/Image/16430/Srpski-startapi-hoce-u-Mongoliju.png" alt=""></a>
+                                            </div>
+                                                                           <div class="body">
+                                                <span class="badge badge-tag"><a href="/vesti" class="badge-link animated-fade"><i class="icon-news mr-9"></i>News</a></span>
+                                                <h3><a class="animated-fade" href="vest-srpski-startapi-hoce-u-mongoliju-10345">Serbian startups are looking to expand into Mongolia</a></h3><p class="small mb-10"><i class="icon-calendar"></i>18.11.2024</p>The majority of startups in Serbia plan to export to the Asian market (63%). The...<a href="vest-srpski-startapi-hoce-u-mongoliju-10345" class="btn btn-link pl-0 btn-animated margin-clear btn-fixed-left">Read more<i class="icon-right-open-big"></i></a>
+
+                                            </div>
+
+                                                                                    </div>
+                    </div>
+
+                           
+ 
+                                              
+
+                  <div class="col-md-4 col-sm-6 mb-30">
+                           <div class="image-box colored style-2 fixed-height default-bg shadow-2">
+                           
+
+                                                                                              <div class="white-bg">
+                                                <a class="animated-fade" href="vest-startech-podrzao-jos-12-srpskih-inovatora-10393"><img src="/htdocs/Image/16608/StarTech-podrzao-jos-12-srpskih-inovatora.png" alt=""></a>
+                                            </div>
+                                                                           <div class="body">
+                                                <span class="badge badge-tag"><a href="/vesti" class="badge-link animated-fade"><i class="icon-news mr-9"></i>News</a></span>
+                                                <h3><a class="animated-fade" href="vest-startech-podrzao-jos-12-srpskih-inovatora-10393">StarTech supported 12 more Serbian innovators</a></h3><p class="small mb-10"><i class="icon-calendar"></i>06.12.2024</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+In a competition of more than 160 submitted projects, 12 companies presented the most innovative ideas at the...<a href="vest-startech-podrzao-jos-12-srpskih-inovatora-10393" class="btn btn-link pl-0 btn-animated margin-clear btn-fixed-left">Read more<i class="icon-right-open-big"></i></a>
+
+                                            </div>
+
+                                                                                    </div>
+                    </div>
+
+                           
+ 
+                                              
+
+                  <div class="col-md-4 col-sm-6 mb-30">
+                           <div class="image-box colored style-2 fixed-height default-bg shadow-2">
+                           
+
+                                                                                              <div class="white-bg">
+                                                <a class="animated-fade" href="vest-za-srpske-startape-zainteresovani-svetski-investitori-10358"><img src="/htdocs/Image/16498/Za-srpske-startape-zainteresovani-svetski-investitori.png" alt=""></a>
+                                            </div>
+                                                                           <div class="body">
+                                                <span class="badge badge-tag"><a href="/vesti" class="badge-link animated-fade"><i class="icon-news mr-9"></i>News</a></span>
+                                                <h3><a class="animated-fade" href="vest-za-srpske-startape-zainteresovani-svetski-investitori-10358">Global investors interested in Serbian startups</a></h3><p class="small mb-10"><i class="icon-calendar"></i>25.11.2024</p>Several global companies have shown interest today in numerous Serbian startups that offer various solutions for reducing waste, baby health...<a href="vest-za-srpske-startape-zainteresovani-svetski-investitori-10358" class="btn btn-link pl-0 btn-animated margin-clear btn-fixed-left">Read more<i class="icon-right-open-big"></i></a>
+
+                                            </div>
+
+                                                                                    </div>
+                    </div>
+
+                           
+ 
+                                                                       </div>
+                        </div>
+                    </div>
+                    </section>
+                    </div>
+                 </div>
+            </div>
+    <!-- section end -->
+
+    
+    <!-- slider carousel partneri section start -->
+    <!-- ====================== -->
+    <section class="section pv-10 clearfix white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="owl-carousel clients">
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+        <!-- Footer -->
+    <!-- ================ -->
+<footer id="footer" class="clearfix">
+
+    <!-- .footer start -->
+    <!-- ================ -->
+    <div class="footer default-bg clearfix">
+
+        <div class="footer-inner">
+            <!--            <div id="map-canvas" class="map-footer white-bg"></div>-->
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-content">
+                            <div class="logo-footer naled-logo">
+                                <img class="" src="images/logo-naled-2019-w.png" alt="NALED">
+                            </div>
+                            <ul class="list-unstyled">
+                                                                <li><i class="icon-pin-outline"></i> <strong>Makedonska 30/VII, 11103
+                                        Belgrade, Serbia</strong></li>
+                                <li><i class="icon-phone-outline"></i> <strong>Tel: <a class="animated-fade" href="tel:+381 11 337 30 63" title="Pozovite nas"> +381 11 337 30 63</a></strong></li>
+                                <li><i class="icon-phone-outline"></i> <strong>Tel: <a class="animated-fade" href="tel:+381 11 337 30 61" title="Pozovite nas"> +381 11 337 30 61</a></strong></li>
+                                <li><i class="icon-mail-1"></i> <strong>E-mail: <a class="animated-fade" href="mailto:&#x6e;&#x61;&#x6c;&#101;&#100;&#x40;&#x6e;&#97;&#x6c;&#101;&#100;&#x2e;&#114;&#115;">naled@naled.rs</a></strong></li>
+                                <li><i class="icon-briefcase-1"></i> <strong>
+                                        TIN:                                        104478656</strong></li>
+                                <li><i class="icon-briefcase-1"></i> <strong>
+                                        Registration number:                                        17646877</strong></li>
+                                <li><i class='icon-check mr-5'></i><strong><a class="animated-fade" href='https://naled.rs/naled-nosilac-iso-sertifikata-9001-i-27001'>ISO standardi</a></strong></li>
+                            </ul>
+                            <br />
+                            <a href="uslov-za-clanstvo" class="btn btn-sm btn-gray-transparent" title="Pridružite nam se!"><i class="icon-pen mr-5"></i>Become a member </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-content">
+                            <h2 class="title"><a href="baza-publikacija.php" class="animated-fade">
+                                    Publications                                </a>
+                            </h2>
+
+                            <nav>
+                                <div class="nav nav-pills nav-stacked">
+
+                                    <div class="flex-container">
+                                        <div class="flex-icon">
+                                            <a class="animated-fade" href="/files/GREY-BOOK-18.pdf" target="_blank"><i class="icon-download-outline"></i></a>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="ellipsis">
+                                                <a class="animated-fade" href="/files/GREY-BOOK-18.pdf" title="Grey book 18 | PDF 1.4MB" target="_blank"><strong>Grey book 18</strong> <br /><span class="small">PDF 1.4MB</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-container">
+                                        <div class="flex-icon">
+                                            <a class="animated-fade" href="/files/publikacije-footer/en/2. Annual report - Quality of regulatory environment 2021-22.pdf" target="_blank"><i class="icon-download-outline"></i></a>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="ellipsis">
+                                                <a class="animated-fade" href="/files/publikacije-footer/en/2. Annual report - Quality of regulatory environment 2021-22.pdf" title="Annual report - Quality of regulatory environment | PDF 9.2MB" target="_blank"><strong>Annual report - Quality of regulatory environment</strong> <br /><span class="small">PDF 9.2MB</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-container">
+                                        <div class="flex-icon">
+                                            <a class="animated-fade" href="/files/publikacije-footer/en/3. NALED Agenda 2021 - Together for Better Business Conditions.pdf" target="_blank"><i class="icon-download-outline"></i></a>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="ellipsis">
+                                                <a class="animated-fade" href="/files/publikacije-footer/en/3. NALED Agenda 2021 - Together for Better Business Conditions.pdf" title="NALED Agenda 2021 - Together for Better Business Conditions | PDF 604KB" target="_blank"><strong>NALED Agenda 2021 - Together for Better Business Conditions</strong> <br /><span class="small">PDF 604KB</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-container">
+                                        <div class="flex-icon">
+                                            <a class="animated-fade" href="/files/SKI-2026-ENG-web.pdf" target="_blank"><i class="icon-download-outline"></i></a>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="ellipsis">
+                                                <a class="animated-fade" href="/files/SKI-2026-ENG-web.pdf" title="Grey Book Of Innovation 3.0 | PDF 1.3MB" target="_blank"><strong>Grey Book Of Innovation 3.0</strong> <br /><span class="small">PDF 1.3MB</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex-container">
+                                        <div class="flex-icon">
+                                            <a class="animated-fade" href="/files/publikacije-footer/en/5. Reform Impact - Seasonal Employment in Agriculture.pdf" target="_blank"><i class="icon-download-outline"></i></a>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="ellipsis">
+                                                <a class="animated-fade" href="/files/publikacije-footer/en/5. Reform Impact - Seasonal Employment in Agriculture.pdf" title="Reform Impact - Seasonal Employment in Agriculture | PDF 707KB" target="_blank"><strong>Reform Impact - Seasonal Employment in Agriculture</strong> <br /><span class="small">PDF 707KB</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="footer-content">
+                            <h2 class="title">
+                                Follow us!                            </h2>
+                            <ul class="social-links colored small circle mt-20">
+                                <li class="linkedin"><a class="animated-fade" target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/naled/"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="instagram"><a class="animated-fade" target="_blank" title="Instagram" href="https://www.instagram.com/naled_rs/"><i class="fa fa-instagram"></i></a></li>
+                                <li class="facebook"><a class="animated-fade" target="_blank" title="Facebook" href="https://www.facebook.com/NALEDSerbia/#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="youtube"><a class="animated-fade" target="_blank" title="YouTube" href="https://www.youtube.com/NALEDSerbia"><i class="fa fa-youtube-play"></i></a></li>
+                                <li class="twitter"><a class="animated-fade" target="_blank" title="Twitter" href="https://x.com/naled_serbia"><i class="bi bi-twitter-x"></i></a></li>
+                                <li class="twitter"><a class="animated-fade" target="_blank" title="Tiktok" href="https://www.tiktok.com/@naled.rs?_r=1&_t=ZS-94lqYjxp8rJ"><i class="bi bi-tiktok"></i></a></li>
+
+                                <!-- <li class="slideshare"><a class="animated-fade" target="_blank" title="Slideshare" href="https://www.slideshare.net/NALED"><i class="fa fa-slideshare"></i></a></li> -->
+                                <!-- <li class="flickr"><a class="animated-fade" target="_blank" title="Flickr" href="https://www.flickr.com/photos/naled"><i class="fa fa-flickr"></i></a></li> -->
+                                <!-- *** collapse btn *** <li class="share"><a class="animated-fade" href="#collapseContent" data-toggle="collapse" aria-expanded="false" aria-controls="collapseContent" title="Podelite sa prijateljima"><i class="fa fa-share"></i></a></li>-->
+                            </ul>
+
+                            <!-- Collapse content -->
+                            <!--                            <div class="collapse" id="collapseContent">
+                                                            <h2 class="sub-title">Podelite sa prijateljima!</h2>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="addthis_inline_share_toolbox"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>-->
+                            <!-- Collapse content end -->
+
+                            <h2 class="sub-title">
+                                Keep in touch!                            </h2>
+                            <!-- addthis inline tool -->
+                            <div class="addthis_inline_share_toolbox"></div>
+
+                            <!-- FB like button -->
+                            <div class="fb-like mt-20 mb-20" data-href="https://www.facebook.com/NALEDSerbia/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
+
+                            <a href="kontakt" class="btn btn-sm btn-gray-transparent" title="Pridružite nam se!"><i class="icon-mail mr-5"></i>Contact Us </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- .footer end -->
+
+    <!-- .subfooter start -->
+    <!-- ================ -->
+    <div class="subfooter colored">
+        <div class="container">
+            <div class="subfooter-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright © <a class="animated-fade" href="index.php" title="Podržavamo reforme u Srbiji">NALED</a> | 20 years together we make a difference |
+                                All rights reserved 2026.
+
+                                <br class="hidden-sm hidden-md hidden-lg">
+                                <span class="hidden-xs">|</span>
+                                                                    <a class="animated-fade" href="/en/obavestenje-o-privatnosti-za-posetioce-internet-stranice">Privacy and data protection</a>
+                                
+                            </p>
+                            <p class="mt-10">
+                                Web design                                <a class="animated-fade" target="_blank" href="https://zeastim.com" title="We are nice people, we make cool things">Zea Stim R&amp;D</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .subfooter end -->
+
+</footer>
+<!-- footer end -->
+
+<!-- <div id="notification" class="alert animated fadeInUp notification-box" role="alert">
+    <span class="badge pill badge-orange"><i class="fa fa-exclamation-triangle mr-5"></i>Notifikacija</span>
+    <a href="#" class=""><img class="center-block" src="images/demo-img-2.jpg" alt=""></a>
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus? Voluptatem distinctio laborum porro aspernatur.</p>
+    <div class="clearfix"></div>
+    <a href="#" class="btn btn-link text-dark pl-0 margin-clear pull-left">Pročitaj više <i class="icon-right-open-big"></i></a>
+    <a href="#" class="btn btn-link text-dark pl-0 margin-clear pull-right" data-dismiss="alert" aria-label="Close">Zatvori <i aria-hidden="true" class="fa fa-times"></i></a>
+</div> -->
+
+<!-- GDPR -->
+            <div id="gdprEn" class="animated fadeInUp gdpr-box">
+            <p>This website uses cookies to ensure the best user experience. By continuing to browse the site, you consent to the use of cookies.</p>
+            <!-- <a href="#" id='nePrihvatamEn' class="btn btn-gray text-dark">CONTINUE <i class="icon-cancel"></i></a> -->
+            <a href="#" id='daPrihvatamEn' class="btn btn-default">CONTINUE <i class="icon-check"></i></a>
+            <a href="https://naled.rs/en/obavestenje-o-privatnosti-za-posetioce-internet-stranice" class="btn btn-blue"> LEARN MORE <i class="icon-right-open-big"></i></a>
+        </div>
+    
+    <script>
+        let sr = localStorage.getItem("kolacici");
+        let en = localStorage.getItem("kolaciciEn");
+
+        if (sr == 1) {
+            $('#gdpr').addClass('hidden');
+        }
+
+        if (en == 1) {
+            $('#gdprEn').addClass('hidden');
+        }
+
+
+        $('#nePrihvatam').on('click', function(e) {
+            e.preventDefault();
+            $('#gdpr').addClass('hidden');
+        })
+
+        $('#nePrihvatamEn').on('click', function(e) {
+            e.preventDefault();
+            $('#gdprEn').addClass('hidden');
+        })
+
+        $('#daPrihvatam').on('click', function(e) {
+            e.preventDefault();
+            localStorage.setItem("kolacici", 1);
+            $('#gdpr').addClass('hidden');
+            console.log('test');
+        })
+
+        $('#daPrihvatamEn').on('click', function(e) {
+            e.preventDefault();
+            localStorage.setItem("kolaciciEn", 1);
+            $('#gdprEn').addClass('hidden');
+        })
+    </script>
+
+<script>
+    $('.offcanvasProvera').on('click', function(e) {
+
+        e.preventDefault();
+
+        let offcanvas = ['#offcanvas-users', '#offcanvas-press'];
+
+        let trenutni = $(this).data('target');
+
+        jQuery.each(offcanvas, function(i, val) {
+            if (val != trenutni) {
+                var slid = $(val).hasClass("canvas-slid");
+                if (slid) {
+                    $(val).find("button").trigger('click');
+                }
+            }
+        })
+    })
+
+    // Povezani sadrzaji
+    $('#slajder-povezani-sadrzaji').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-circle-left"></i></div>',
+        nextArrow: '<div class="slick-next"><i class="fa fa fa-chevron-circle-right"></i></div>',
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false
+                }
+            }
+        ]
+    });
+    // Povezani sadrzaji END
+</script>
+
+    <!-- Search fullscreen -->
+    <div id="search">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 search-wrapp">
+
+                <button id="close" type="button" class="close"><i class="icon-cancel"></i></button>
+                <!-- class="idle" on initial, when user starts to type change to class="searching" to show results -->
+                <form class="idle" method="GET" action="search.php " autocomplete="off" > 
+                    <div class="form-group has-feedback mb-0">
+                        <input class="form-control" type="search" placeholder="Pretraži NALED..." value="" name="query" id="query" onkeyup="javascript:chk_me(event);"/>
+                        <i class="icon-search form-control-feedback"></i>
+                    </div>
+
+                    <div class="search-box-wrapp hidden" id="search-result">
+                        <div class="search-fixed-height">
+
+                            <ul class="list-unstyled search-list" id='pretraga'>
+                               
+                                  <li class="search-cat-title" id="vest" hidden>Vesti</li>
+                                  <li id="vesti"><li>
+                                      
+                                  <li class="search-cat-title" id="obavestenje" hidden>Obaveštenja</li>
+                                  <li id="obavestenja"><li>
+                                      
+                                  <li class="search-cat-title" id="blog" hidden>Blog</li>
+                                  <li id="blogovi"><li>
+                                      
+                                  <li class="search-cat-title" id="stranica" hidden>Stranice</li>
+                                  <li id="stranice"><li>
+                                    
+                                  
+
+                                
+                            </ul>
+                        </div>
+                    
+                 
+                        <div class="fixed-bottom">
+                         <button type="submit" class="btn btn-default">Pretraži <i class="icon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+      
+          
+          $('.pretraga').click(function(){
+              $('#search').show();
+              $("#query").focus();
+              $("#vesti").empty();
+               $("#vest").hide();
+              $("#obavestenja").empty();
+               $("#obavestenje").hide();
+               $("#blogovi").empty();
+               $("#blog").hide();
+               $("#stranice").empty();
+               $("#stranica").hide();
+               $("#query").val("");
+          });
+          
+            $('#close').click(function(){
+              $('#search').hide();
+          });    
+                
+                var timer;
+               
+               var activeAjaxConnections = 0;
+               var karakter;
+                var proveraNiz = new Array();
+                
+       
+                
+        function chk_me(event){
+      firstSearch = false;
+   clearTimeout(timer);
+   karakter = event;
+   var str = $("#query").val();
+                 var key = event.keyCode;
+                     
+                            $("#vesti").empty();
+                            $("#obavestenja").empty();
+                            $("#stranice").empty();
+                            $("#blogovi").empty();
+                             $("#blog").hide();
+                             $("#vest").hide();
+                             $("#obavestenje").hide();
+                            $("#stranica").hide();
+                            firstSearch = false;
+                      
+                    
+   
+   
+   timer=setTimeout(function showResult(str){
+                 
+                 var vesti;
+                
+                   var str = $("#query").val();
+                 
+             if(str.length > 2) {
+             var str = encodeURI(str);
+             $("form").removeClass( "idle" ).addClass( "searching" );
+            $.ajax({
+                url:'pretraga.php?query='+str,
+                dataType:'json',
+                ContentType:'application/json; charset=utf-8',
+                method:'post',
+                beforeSend: function(xhr) {
+                activeAjaxConnections++;
+                },
+                success:function(data) {
+                   vesti = data.vesti;
+                    var obavestenja = data.obavestenja;
+                    var blogovi = data.blogovi;
+                    var strane = data.stranice;
+                   $( "#search-result" ).removeClass( "hidden" );
+                   activeAjaxConnections--;
+                  
+                    for (var i in vesti) {
+                        if(proveraNiz.includes(vesti[i].id)){
+                      
+                    }
+                    }
+                   
+                    var i = 0;
+                
+                    if(activeAjaxConnections === 0 && firstSearch == false){
+                        
+
+                     if(vesti !== undefined){
+                    for (var i in vesti) {
+                    $("#vest").show();
+                    $("#vesti").append("<a  href='"+vesti[i].link+"'><div class='inline-flex result'>\n\
+                        <div><span><i class='icon-news mr-5'></i><span></div>\n\
+                        <div>"+vesti[i].title+"</div></div></a>");
+                        //alert(vesti[i].id);
+                        proveraNiz.push(vesti[i].id);
+                     
+                    }
+                   
+                    }else {
+                        $("#vesti").empty();
+                        $("#vest").hide();
+                    }
+                    
+                    
+                    
+                    
+                    if(obavestenja !== undefined){
+                    for (var i in obavestenja) {
+                  $("#obavestenje").show();
+                    $("#obavestenja").append("<a  href='"+obavestenja[i].link+"'><div class='inline-flex'>\n\
+                        <div><span><i class='icon-clipboard mr-5'></i><span></div>\n\
+                        <div>"+obavestenja[i].title+"</div></div></a>");
+                    }
+                    }
+                    else {
+                        $("#obavestenja").empty();
+                        $("#obavestenje").hide();
+                    }
+                    if(blogovi !== undefined){
+                     for (var i in blogovi) {
+                    $("#blog").show();
+                    $("#blogovi").append("<a  href='"+blogovi[i].link+"'><div class='inline-flex'>\n\
+                        <div><span><i class='icon-pen mr-5'></i><span></div>\n\
+                        <div>"+blogovi[i].title+"</div></div></a>");
+                    }
+                    }
+                    else {
+                        $("#blogovi").empty();
+                        $("#blog").hide();
+                    }
+                    if(strane !== undefined){
+                     for(var i in strane) {
+                    $("#stranica").show();
+                    $("#stranice").append("<a  href='"+strane[i].link+"'><div class='inline-flex'>\n\
+                        <div><span><i class='icon-globe mr-5'></i><span></div>\n\
+                        <div>"+strane[i].title+"</div></div></a>");
+                    }
+                    }
+                    else {
+                        $("#stranice").empty();
+                        $("#stranica").hide();
+                    }
+                   // typeCheck();
+                 firstSearch = true;
+             
+                }
+                else {
+                               
+                    
+                    
+                    
+                }
+                }
+            });
+            //return;
+            }
+            else if(firstSearch){
+            $("#vesti").empty();
+            }
+            else{
+             $( "#search-result" ).addClass( "hidden" );
+             $("form").removeClass( "searching" ).addClass( "idle" );
+             }
+   
+},100);
+
+
+}
+          
+                
+
+
+   
+    </script>    <!-- Search fullscreen end -->
+
+    </div>
+    <!-- page-wrapper end -->
+
+    <!-- JavaScript files -->
+    <!-- ================================================== -->
+    
+</body>
+
+</html>

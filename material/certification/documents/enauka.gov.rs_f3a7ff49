@@ -1,0 +1,1246 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ispravnost vode za piće na teritoriji Grada Novog Sada i naselja u periodu 2005-2009 | eNauka</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <meta name="Generator" content="DSpace CRIS-6.3.0-SNAPSHOT" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+        <link rel="resourcesync sitemap" href="https://enauka.gov.rs/rs/resourcesync.xml" type="application/xml"/>
+        <link rel="shortcut icon" href="/image/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="/static/css/jquery-ui/redmond/jquery-ui-1.12.1.css" type="text/css" />
+        <link href="/css/researcher.css" type="text/css" rel="stylesheet" />
+        <link href="/css/jdyna.css" type="text/css" rel="stylesheet" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+        <link href="/static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="/static/css/jstree/themes/default/style.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" href="/css/orcid.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="/static/css/dataTables.bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/css/buttons.bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/css/responsive.bootstrap.min.css"/>
+        <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css" />
+        <link rel="stylesheet" type="text/css" href="/static/css/select.dataTables.min.css" />
+        <!-- Vukasin menjao: Dodat overide-bootstrap.css on overajduje osnovni bootstrap-->
+        <link rel="stylesheet" type="text/css" href="/static/css/overide-bootstrap.css"/>
+        <!-- Otas dodao metatag za GA -->
+        <meta name="google-site-verification" content="8RicBzSnk_cd7mQsoSQL3LZhmjy-FcIE2H3L8ktNgNk" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-stacked100@1.0.0"></script>
+        
+        <!-- Vukasin menjao: Dodat custom.css koji dodaje nove css klase-->
+        <link rel="stylesheet" type="text/css" href="/static/css/custom.css"/>
+        
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+        
+        
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Bijelović, Sanja" />
+<meta name="DC.creator" content="Jevtić, Marija" />
+<meta name="DC.creator" content="Živadinović Emil" />
+<meta name="DC.creator" content="POPOVIĆ, MILKA" />
+<meta name="DC.creator" content="BJELANOVIĆ, JELENA" />
+<meta name="DC.creator" content="DRAGIĆ, NATAŠA" />
+<meta name="DCTERMS.dateAccepted" content="2022-11-19T12:19:45Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2022-11-19T12:19:45Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2010" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="https://enauka.gov.rs/handle/123456789/154669" scheme="DCTERMS.URI" />
+<meta name="DC.publisher" content="Institut za javno zdravlje, Niš, Srbija" />
+<meta name="DC.source" content="44 Dani Preventivne Medicine" />
+<meta name="DC.title" content="Ispravnost vode za piće na teritoriji Grada Novog Sada i naselja u periodu 2005-2009" />
+<meta name="DC.type" content="conferenceObject" />
+<meta name="DC.identifier" content="http://www.izjz-nis.org.rs/html/skupovi.html" />
+<meta name="DC.contributor" content="6" />
+<meta name="DC.description" content="Migrirano iz RIS podataka" />
+
+<meta name="citation_keywords" content="conferenceObject" />
+<meta name="citation_title" content="Ispravnost vode za piće na teritoriji Grada Novog Sada i naselja u periodu 2005-2009" />
+<meta name="citation_publisher" content="Institut za javno zdravlje, Niš, Srbija" />
+<meta name="citation_author" content="Bijelović, Sanja" />
+<meta name="citation_author" content="Jevtić, Marija" />
+<meta name="citation_author" content="Živadinović Emil" />
+<meta name="citation_author" content="POPOVIĆ, MILKA" />
+<meta name="citation_author" content="BJELANOVIĆ, JELENA" />
+<meta name="citation_author" content="DRAGIĆ, NATAŠA" />
+<meta name="citation_date" content="2010" />
+<meta name="citation_abstract_html_url" content="https://enauka.gov.rs/handle/123456789/154669" />
+
+        
+
+        <script type='text/javascript' src="/static/js/jquery/jquery-3.4.1.min.js"></script>
+        <script type='text/javascript' src='/static/js/jquery/jquery-ui-1.12.1.min.js'></script>
+        <script type="text/javascript" src="/js/moment-2.24.0.js"></script>
+        <script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+        <script type='text/javascript' src='/static/js/holder.js'></script>
+        <script type="text/javascript" src="/utils.js"></script>
+        <script type='text/javascript' src='/static/js/custom-functions.js'></script>
+        <script type="text/javascript" src="/static/js/choice-support.js"></script>
+
+        <script type="text/javascript" src="/js/jdyna/jdyna.js"></script>    
+        <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="/js/dataTables.bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="/js/buttons.bootstrap.min.js"></script>
+        <script type="text/javascript" src="/js/buttons.html5.min.js"></script>
+        <script type="text/javascript" src="/js/dataTables.responsive.min.js"></script>	
+        <script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="/static/js/dataTables.select.min.js"></script>
+        <script type="text/javascript" src="/js/jszip.min.js"></script>
+        <script type='text/javascript'>
+            var j = jQuery.noConflict();
+            var $ = jQuery.noConflict();
+            var JQ = j;
+            dspaceContextPath = "";
+            jQuery(document).ready(function ($) {
+                $('span[data-toggle="tooltip"]').tooltip();
+                $('i[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+        
+    
+
+
+    
+    
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-156929958-3', 'auto');
+            ga('send', 'pageview');
+        </script>
+    
+
+    
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        j(document).ready(function () {
+
+        
+
+        
+        
+        });
+    </script>
+    
+
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>  
+      <script src="/static/js/html5shiv.js"></script>
+      <script src="/static/js/selectivizr-min.js"></script>
+      <script src="/static/js/respond.min.js"></script>
+      <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme-IElte9.css" type="text/css" />
+    <![endif]-->
+</head>
+
+
+
+<body class="undernavigation" dir="ltr" style="font-family: 'TT Norms Pro Regular'">
+    <a class="sr-only" href="#content">Skip navigation</a>
+    <header class="sonar-header">    
+        
+        <div class="container-fluid">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+ @media only screen and (max-width: 1000px) {
+  .hoverableNavbarIcon {
+      display:none;
+  }
+}
+
+
+    @media only screen and (max-width: 1448px) {
+     .feedbackIcon {
+        width:1vw !important;
+        
+        left: -.3vw !important;
+     }
+   }
+   
+    @media only screen and (max-width: 1300px) {
+     .feedbackIcon {
+        width:1.45rem !important;
+        
+        left: -1.3vw !important;
+     }
+   }
+
+    .feedbackIcon{
+        width:1.45rem;
+        position:absolute;
+        left: -1.3vw;
+    }
+
+    .hoverableNavbarIcon{
+        /*margin-left:2%;*/
+        fill:#23527c;
+        transition: .2s ease-in-out;
+    }
+    .hoverableNavbarIcon:hover{
+        fill:#2c669b;
+    }
+    
+        
+    @media only screen and (max-width: 1200px) {
+        .pom1{
+            width:40% !important;
+            margin-left: -20px;
+        }
+        .pom2{
+            width:33%;
+        }
+        .pom3{
+            width:50%;
+            margin-left:20px;
+        }
+    }
+</style>
+<script type='text/javascript'>
+    function hover(element) {
+        element.className = "dropdown open";
+    }
+    function out(element) {
+        element.className = "dropdown";
+    }
+</script>
+
+<div class="navbar-header">
+
+</div>
+<nav role="navigation">
+
+
+
+    <div class="row">
+
+
+        <div class="col-sm-2" id="before-logo">
+
+        </div>
+        <div class="col-sm-2 col-xs-8 shrinked">
+            <!--        <a href="https://nitra.gov.rs/" target="_blank" id="logo-href2">
+                        
+                        <div class="col sonar-header__top__logo2">
+            
+            
+            
+                        </div>
+                    </a>-->
+            <a href="/" id="logo-href">
+
+                <div class="col sonar-header__top__logo">
+
+
+
+                </div>
+            </a>
+        </div>
+        <div class="nav-links col-sm-4 row-position-navbar pom1">
+
+            
+
+            
+            
+            
+            
+                
+                    
+                    
+                        <li>
+                            <a href="/simple-search?query=&location=researcherprofiles&crisID=&relationName=&query=&rpp=50&order=ASC">Researchers</a>
+                        </li>
+                    
+                    
+                    
+                
+            
+
+            
+
+            
+            
+            
+            
+                
+                    
+                    
+                    
+                    
+                        <li>
+                             
+                            <a href="/simple-search?query=&location=orgunits&sort_by=crismetrics_dimensions_aggregate&order=DESC">Organisations</a>
+                        </li>
+                    
+                
+            
+
+            
+
+            
+            
+            
+            
+                
+                    
+                    
+                    
+                        <li>
+                            <a href="/simple-search?query=&location=publications&crisID=&relationName=&query=&rpp=10">Results</a>
+                        </li>
+                    
+                    
+                
+            
+
+            
+
+            
+            
+            
+            
+                
+                    
+                        <li>
+                            <a href="/simple-search?query=&location=statistics&crisID=&relationName=&query=&rpp=50&sort_by=statistics.rcub_extension.number_of_publications&order=DESC">Statistics</a>
+                        </li>
+                    
+                    
+                    
+                    
+                
+            
+
+            
+
+        </div>
+
+        <div class="col-sm-4 col-xs-4 row-position-navbar pom2">
+
+
+
+            <!-- deo za login-->
+            <div class="col-sm-4 no-list-style pom2">
+                            
+            <!--<div class="col-sm-1 no-list-style row-position-navbar">-->
+                
+                 <!--<li class="one-line-list">-->
+                     <a title="Ask questions" href="/feedback" class="hoverableNavbarIcon">
+                         <svg class="feedbackIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                         <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                         <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                    </a>
+                 <!--</li>-->
+            <!--</div>-->
+                <div class="nav navbar-nav" style="position: relative; top:-10px">
+
+                    
+
+
+
+
+                    <li id="user-top-menu" >
+                        <a href="/password-login" class="dropdown-toggle hidden-xs">
+                            <img src="/image/people_icon_little.png"/> <span class="samo-cikica-kod-logina">Sign on to </span>
+                            
+                        </a>
+                        
+                                     
+                    <li class="one-line-list hidden-desktop">
+                        <button type="button" class="btn btn-primary navbar-toggle moved" data-toggle="collapse" style="float:left" data-target="#collapseExample">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+
+                        </button>
+                    </li>
+                </div>
+                </li>
+
+
+
+            </div><!-- comment -->
+            <div class=" hidden-xs hidden-sm col-sm-8 pom3" style="margin-top: 5px;">
+
+
+
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'sr';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=sr">
+                        Српски 
+
+                    </a></li>
+                </li>
+                
+                &nbsp;
+                &#124;
+                &nbsp;
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'rs';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=rs">
+                        Srpski 
+
+                    </a></li>
+                </li>
+                
+                &nbsp;
+                &#124;
+                &nbsp;
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'en';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=en">
+                        English 
+
+                    </a></li>
+                </li>
+                
+                
+            </div>
+        </div>    
+
+
+
+    </div>
+    <div class="row mobile-languages-display">
+        <div class="col-xs-3">
+
+        </div>
+        
+        <div class="col-xs-3">
+              <li class="one-line-list">
+                     <a href="/feedback">
+                         <svg style="width:1.45rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                         <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                         <path fill="#23527c" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                         <p>
+                             Ask questions
+                         </p>
+                     </a>
+                 </li>
+        </div>
+        <div class="col-xs-2" style="margin-right: 15px;">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><img style="height: 20px" src="/image/people_icon_ico.png"/>Sign on to </span><b  class="samo-cikica-kod-logina caret"></b></a>
+
+
+                    <ul class="dropdown-menu" style="position:absolute; z-index:99999999999999; left: -50px">
+                        <li><a href="/mydspace">My eNauka</a></li>
+<!--                    <li><a href="/subscribe">Receive email<br/>updates</a></li>
+                        <li><a href="/profile">Edit Account details</a></li>-->
+
+                
+            </ul>
+        </div>
+        <div class="col-xs-2">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b  style="display:grid" class="glyphicon glyphicon-globe"></b>Choose language</a>
+
+
+            <ul class="dropdown-menu" style="position:absolute; z-index:99999999999999; left: -150px">
+
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'sr';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=sr">
+                        Српски 
+
+                    </a></li>
+                </li>
+                
+                <!--
+                &nbsp;
+                &#124;
+                 &nbsp;
+                -->
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'rs';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=rs">
+                        Srpski 
+
+                    </a></li>
+                </li>
+                
+                <!--
+                &nbsp;
+                &#124;
+                 &nbsp;
+                -->
+                
+                <li class="one-line-list">
+                    <a onclick="javascript:document.repost.locale.value = 'en';
+                        document.repost.submit();" href="/handle/123456789/154669?locale=en">
+                        English 
+
+                    </a></li>
+                </li>
+                
+            </ul>
+        </div>
+
+
+    </div>
+
+</div>
+
+<nav class="row sonar-header__bottom  collapse navbar-collapse" id="collapseExample">
+    <ul class="sonar-header__bottom__menu">
+        
+        
+        
+        
+            <li>
+
+                
+
+
+                <a href="/simple-search?query=&location=researcherprofiles">Researchers</a>
+            </li>
+        
+
+        
+        
+        
+        
+            <li>
+
+                
+
+
+                <a href="/simple-search?query=&location=orgunits">Organisations</a>
+            </li>
+        
+
+        
+        
+        
+        
+            <li>
+
+                
+
+
+                <a href="/simple-search?query=&location=publications">Results</a>
+            </li>
+        
+
+        
+        
+        
+        
+            <li>
+
+                
+
+
+                <a href="/simple-search?query=&location=statistics">Statistics</a>
+            </li>
+        
+
+        
+    </ul>
+</nav>
+
+
+
+</nav>
+
+          
+            
+        </div>
+        
+
+        
+    </header>
+    <div class="layer-menu"></div>
+    <main id="content" role="main"  style="padding-bottom: 4rem;">
+            <div class="unhide-overflow-content">
+                   
+            <div style="height: 120px">
+            <div class="header-za-istrazivace-pre-slike">
+                
+            </div>
+            <div class="pozadina" style="height: 65%">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8" style="font-family:TT Norms Pro Medium; font-size: 30px; padding-left: 70px; margin-top: 25px;">
+                    
+                            <p>Results</p>
+                            
+                </div>
+            </div>
+            
+            </div>
+            
+        <div  class="container banner ">
+            
+                
+                
+                        
+            </div>
+        </div>
+            
+        
+
+        
+        
+
+        
+       
+        <div class="container fullheight">
+            
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="/static/css/find_doi.css"/>
+    <script src="/static/js/find-doi.js"></script>
+    <script>
+        $(document).ready(function() {
+            let itemId = "86581f58-24c5-4973-b5e9-c333764f15c2";
+            let cpath = '';
+            setUpModalForFindingDoi(cpath, itemId, 'findDoiButton', 'findDoiLoadingGif');
+        });
+    </script>
+
+
+
+
+
+
+
+    
+    <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            
+
+            
+
+
+            
+        </div>
+        
+    </div>
+    
+
+    <style>
+        .crisouname{
+            font-size: 10pt;
+            color: #ababab;
+            font-style: italic;
+            margin-left: 1vw;
+        }
+    </style>
+    <div class="row">
+        <div id="wrapperDisplayItem" style="background-color:#fff" class="col-lg-12">
+            <div style="
+                 margin-top: 20px;
+                 box-sizing: border-box;
+                 /* position:relative; */
+                 /* top: -100px; */
+                 ">
+                <a href="/">
+                    eNauka&nbsp;&gt;&nbsp;
+                </a>
+                <a href="/simple-search?query=&amp;location=publications">
+                    Results&nbsp;&gt;&nbsp;
+                </a>
+                <a href="http://enauka.gov.rs/handle/123456789/154669?locale=en">
+                    Ispravnost vode za piće na teritoriji Grada Novog Sada i naselja u periodu 2005-2009
+                </a>
+            </div>
+            
+            <div class="col-lg-9 table-responsive" style="margin-top: 100px; overflow-x:inherit">
+<table class="table itemDisplayTable">
+<td class="metadataFieldLabel">Title:&nbsp;</td><td class="metadataFieldValue">Ispravnost&#x20;vode&#x20;za&#x20;piće&#x20;na&#x20;teritoriji&#x20;Grada&#x20;Novog&#x20;Sada&#x20;i&#x20;naselja&#x20;u&#x20;periodu&#x20;2005-2009</td></tr>
+<td class="metadataFieldLabel">Authors:&nbsp;</td><td class="metadataFieldValue"><a href="/browse?type=author&amp;authority=rp01089" class="authority author">Bijelović,&#x20;Sanja</a>&nbsp;<a  href="/cris/rp/rp01089" class="authority"><span data-toggle="tooltip" data-placement="top" title="Bijelović, Sanja (rp01089)"><img src="/image/people_icon_ico.png"></span></a>&nbsp;<a  href="/cris/uuid/e6d506af-4012-4c2c-922b-7e08ae827b59"><span data-toggle="tooltip" data-placement="top" title="Univerzitet u Novom Sadu, Medicinski fakultet"><img src="/image/organisations_icon_ico.png"></span></a>; <a href="/browse?type=author&amp;authority=rp04320" class="authority author">Jevtić,&#x20;Marija</a>&nbsp;<a  href="/cris/rp/rp04320" class="authority"><span data-toggle="tooltip" data-placement="top" title="Jevtić, Marija (rp04320)"><img src="/image/people_icon_ico.png"></span></a>&nbsp;<a  href="/cris/uuid/e6d506af-4012-4c2c-922b-7e08ae827b59"><span data-toggle="tooltip" data-placement="top" title="Univerzitet u Novom Sadu, Medicinski fakultet"><img src="/image/organisations_icon_ico.png"></span></a>; <a href="/browse?type=author&amp;value=%C5%BDivadinovi%C4%87+Emil">Živadinović&#x20;Emil</a>; <a href="/browse?type=author&amp;authority=rp08824" class="authority author">POPOVIĆ,&#x20;MILKA</a>&nbsp;<a  href="/cris/rp/rp08824" class="authority"><span data-toggle="tooltip" data-placement="top" title="Popović, Milka (rp08824)"><img src="/image/people_icon_ico.png"></span></a>&nbsp;<a  href="/cris/uuid/e6d506af-4012-4c2c-922b-7e08ae827b59"><span data-toggle="tooltip" data-placement="top" title="Univerzitet u Novom Sadu, Medicinski fakultet"><img src="/image/organisations_icon_ico.png"></span></a>; <a href="/browse?type=author&amp;authority=rp23343" class="authority author">BJELANOVIĆ,&#x20;JELENA</a>&nbsp;<a  href="/cris/rp/rp23343" class="authority"><span data-toggle="tooltip" data-placement="top" title="Bjelanović, Jelena (rp23343)"><img src="/image/people_icon_ico.png"></span></a>&nbsp;<a  href="/cris/uuid/e6d506af-4012-4c2c-922b-7e08ae827b59"><span data-toggle="tooltip" data-placement="top" title="Univerzitet u Novom Sadu, Medicinski fakultet"><img src="/image/organisations_icon_ico.png"></span></a>; <a href="/browse?type=author&amp;authority=rp27220" class="authority author">DRAGIĆ,&#x20;NATAŠA</a>&nbsp;<a  href="/cris/rp/rp27220" class="authority"><span data-toggle="tooltip" data-placement="top" title="Dragić, Nataša (rp27220)"><img src="/image/people_icon_ico.png"></span></a>&nbsp;<a  href="/cris/uuid/e6d506af-4012-4c2c-922b-7e08ae827b59"><span data-toggle="tooltip" data-placement="top" title="Univerzitet u Novom Sadu, Medicinski fakultet"><img src="/image/organisations_icon_ico.png"></span></a></td></tr>
+<td class="metadataFieldLabel">Issue Date:&nbsp;</td><td class="metadataFieldValue">2010</td></tr>
+<td class="metadataFieldLabel">Publication:&nbsp;</td><td class="metadataFieldValue">44&#x20;Dani&#x20;Preventivne&#x20;Medicine</td></tr>
+<td class="metadataFieldLabel">Publisher:&nbsp;</td><td class="metadataFieldValue">Institut&#x20;za&#x20;javno&#x20;zdravlje,&#x20;Niš,&#x20;Srbija</td></tr>
+<td class="metadataFieldLabel">Type:&nbsp;</td><td class="metadataFieldValue">Conference Paper</td></tr>
+<td class="metadataFieldLabel">Collation:&nbsp;</td><td class="metadataFieldValue">str. 123-124</td></tr>
+<td class="metadataFieldLabel">URI:&nbsp;</td><td class="metadataFieldValue"><a href="https://enauka.gov.rs/handle/123456789/154669">https://enauka.gov.rs/handle/123456789/154669</a></td></tr>
+<td class="metadataFieldLabel">URL:&nbsp;</td><td class="metadataFieldValue"><a target="_blank"href="http://www.izjz-nis.org.rs/html/skupovi.html">http://www.izjz-nis.org.rs/html/skupovi.html</a></td></tr>
+<td class="metadataFieldLabel">Metadata source:&nbsp;</td><td class="metadataFieldValue">Migrirano iz RIS podataka</td></tr>
+<td class="metadataFieldLabel">M-category:&nbsp;</td><td class="metadataFieldValue"><div><div class = "tooltipAh"><span class='sonar-kolona-sadrzaj sonar-kategorija-m-default sonar-kategorija-m3060 neprecizno '><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg><span class="tooltiptextAh">Mp. category will be shown later</span></span></div></div></td></tr>
+</table><br/>
+
+            
+            
+
+            
+            
+        </div>
+        <div class="col-lg-3" style="margin-top: 100px;">
+            <div class="row">
+                
+
+                
+                    
+                    
+                    <script type="text/javascript">
+                        function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function customRedirect(href) {
+                            try {
+                                var canOpenScopusLink = getCookie("canOpenScopusLink");
+                                if (canOpenScopusLink === "true") {
+                                    return;
+                                }
+                                var windowZ = window.open("https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85128489408&origin=inward", '_blank');
+
+                                setTimeout(
+                                        function () {
+                                            setCookie("canOpenScopusLink", "true", null);
+                                            windowZ.close();
+                                            return true;
+                                        }
+                                , 1500);
+
+
+                            } catch (error) {
+
+                            }
+                            return false;
+
+                        }
+                    </script>
+                    
+                
+                    
+                    
+                    <script type="text/javascript">
+                        function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function customRedirect(href) {
+                            try {
+                                var canOpenScopusLink = getCookie("canOpenScopusLink");
+                                if (canOpenScopusLink === "true") {
+                                    return;
+                                }
+                                var windowZ = window.open("https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85128489408&origin=inward", '_blank');
+
+                                setTimeout(
+                                        function () {
+                                            setCookie("canOpenScopusLink", "true", null);
+                                            windowZ.close();
+                                            return true;
+                                        }
+                                , 1500);
+
+
+                            } catch (error) {
+
+                            }
+                            return false;
+
+                        }
+                    </script>
+                    
+                
+                    
+                    
+                    <script type="text/javascript">
+                        function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function customRedirect(href) {
+                            try {
+                                var canOpenScopusLink = getCookie("canOpenScopusLink");
+                                if (canOpenScopusLink === "true") {
+                                    return;
+                                }
+                                var windowZ = window.open("https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85128489408&origin=inward", '_blank');
+
+                                setTimeout(
+                                        function () {
+                                            setCookie("canOpenScopusLink", "true", null);
+                                            windowZ.close();
+                                            return true;
+                                        }
+                                , 1500);
+
+
+                            } catch (error) {
+
+                            }
+                            return false;
+
+                        }
+                    </script>
+                    
+                
+                    
+                    
+                    <script type="text/javascript">
+                        function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function customRedirect(href) {
+                            try {
+                                var canOpenScopusLink = getCookie("canOpenScopusLink");
+                                if (canOpenScopusLink === "true") {
+                                    return;
+                                }
+                                var windowZ = window.open("https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85128489408&origin=inward", '_blank');
+
+                                setTimeout(
+                                        function () {
+                                            setCookie("canOpenScopusLink", "true", null);
+                                            windowZ.close();
+                                            return true;
+                                        }
+                                , 1500);
+
+
+                            } catch (error) {
+
+                            }
+                            return false;
+
+                        }
+                    </script>
+                    
+                
+                
+                
+                <style>
+                    .hiddenCitText{
+                        display:none;
+                    }
+                    
+                </style>
+ 
+          
+
+                
+                
+
+                <script>
+
+
+                    $(document).ready(function () {
+                        $(function () {
+                            $('.__dimensions_badge_embed__').on('dimensions_embed:hide', function () {
+                                $('#dimensions-badge-div').hide();
+                            });
+                        });
+                        $(function () {
+                            $('.__dimensions_badge_embed__').on('dimensions_embed:show', function () {
+                                $('#dimensions-badge-div').show();
+                            });
+                        });
+                        
+                    });
+                    function closeDialog(dialogId){
+                        const favDialog = document.getElementById(dialogId);
+                        favDialog.close();
+                        location.reload(); 
+                    }
+                </script>
+                
+                <style>
+                    .containerDialog {
+width:890px;height: 360px;
+  position: relative;
+}
+
+.centerDialog {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+                    </style>
+
+
+                <dialog id="dialogFoundDoi" style="border: #295780 3px solid;border-radius: 1vw;">
+                    <div id="dialogFoundDoiForm">
+                        <div class="col sonar-header__top__logo" style="float: inline-start; margin-bottom:10px;"></div>
+
+                        <h3 style="display:inline-block;margin-bottom:15px;">Find the DOI</h3>
+                        <form method="dialog">
+                            <p>
+                                <label>
+                                    Finding a DOI in CrossRef based on publication meta-data. The DOI (and metadata) with the similar data match will be displayed. ATTENTION - it doesn't have to be that publication.
+                                </label>
+                                <input class="form-control" type="text" id="foundDoiValueId" name="foundDoiValue" readonly>
+                            </p>
+                            <table class="table table-bordered" id="findDoiDetails">
+                                <thead>
+
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <div id = "findDoiActionButtons" style = "display:flex">
+                                <button class="btn btn-danger" value="cancel">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </dialog>
+
+           
+
+                
+                
+                
+                                
+                
+
+                
+                <div class="col-lg-12 col-md-4 col-sm-6 col-xs-6 non-decorated">
+                    <a target="_blank"
+                       href="https://scholar.google.com/scholar?as_q=&as_epq=Ispravnost vode za piće na teritoriji Grada Novog Sada i naselja u periodu 2005-2009&as_occt=any">
+                        <span data-toggle="tooltip" data-placement="right" data-html="true" title="<div class='google'>Search Google Scholar</div>">
+                            <img src="/image/google-favicon-png.ico" />
+                        </span>
+                        <br/>
+                    </a>
+                    <span class="citation-text">
+                        Google Scholar<sup>TM</sup><br/>
+                    </span>
+                </div>
+                
+            </div>  
+        </div>  
+
+
+
+
+        
+        <div class="modal fade" id="dialogPMC" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                </div>
+            </div>
+        </div>
+        
+        <!--<div class="row">-->
+        
+
+    </div>
+
+    <div class="container">
+        
+        
+        <br/>
+        
+        
+        <p class="text-center alert alert-info" ">Items in eNauka are protected by copyright, with all rights reserved, unless otherwise indicated.</p>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<br/>
+</main>
+
+<script type="text/javascript" src="/static/js/more_authors_accordion.js"></script>
+
+<style>
+    .basedUpon{
+        text-align:center;
+        padding-bottom:10px; 
+        margin-top:-10px;
+        display: flex;
+    /* background: white;
+     */
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    @media only screen and (max-width: 1410px) {
+  .basedUpon {
+        position: relative;
+  }
+}
+
+ .div-pre-footera {
+     display: flex;
+    /* background: white;
+     */
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+ .basedUpon > hr {
+     width: 100%;
+}
+    
+</style>
+
+
+<footer  class="footer-ostale-stranice">
+    <div class="container">
+        <div class="div-pre-footera">
+            
+
+
+            <div class="rcub-about">
+                <div class="panel-title" style="margin-bottom: 10px;">Support</div>
+            </div>
+
+            <div style="display: flex; justify-content: space-around;">
+                <div style="padding:0 3px">
+                    <a href="/help/index.html" onclick="var popupwin = window.open('/help/index.html', 'dspacepopup', 'height=600,width=550,resizable,scrollbars');popupwin.focus();return false;"><span style="margin-left: 40px;float: right;">Guides </span></a>
+                </div>
+                <div>&nbsp;&#124;&nbsp;</div>                   
+                <div style="padding:0 3px">
+                    <a target="_blank" href="/regres">
+                        Video clips
+                    </a>
+                </div>
+                    
+                <div>&nbsp;&#124;&nbsp;</div>                   
+                <div style="padding:0 3px">
+                    <a target="_blank" href="https://docs.google.com/document/d/1pIIy_JfmMuHD-lr0_ErnDw7l8kfjZx_MzNqRk22CjdQ/edit?usp=sharing">
+                        FAQ
+                    </a>
+                </div>
+                    
+                <div>&nbsp;&#124;&nbsp;</div>
+
+                <div style="padding:0 3px">
+                    <a target="_blank" href="/feedback">Ask questions</a>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div id="footer_section" class="footer-stajl">
+        <div id="designedby" class="kartice-za-entitete" style="margin: 20px; display: inline-block;">
+            <div id="logoi">
+                <a href="https://nitra.gov.rs/" target="_blank">
+                    <img src="/image/Nitra.png"
+                         alt="Logo Nitra" height="32px"/>
+                    <div style="margin-left: 20px; color:#23527c; max-width: 30%; display: inline-block; font-size: 10px; min-width: 165px;max-width: 165px;">
+                        Министарство науке, технолошког развоја и иновација
+                    </div>
+                </a>
+
+                <a href="https://euprava.gov.rs/" target="_blank">
+                    <img style="margin-left: 5px; display: inline-block;" src="/image/LogoITE.jpg"
+                         alt="Logo eUPRAVA" height="32px"/></a>
+
+            </div>       
+        </div>
+                         
+            <br>
+       
+        <div class="basedUpon">
+            <div style="display: flex; justify-content: space-around;">
+                <div style="padding:0 3px">
+                    <a href="/doc/eNauka_politika_privatnosti.pdf" onclick="var popupwin = window.open('/doc/eNauka_politika_privatnosti.pdf', 'dspacepopup', 'resizable,scrollbars');popupwin.focus();return false;">
+                        Privacy policy
+                    </a>
+                </div>
+                <div>&nbsp;&#124;&nbsp;</div>                   
+                <div style="padding:0 3px">
+                    <a href="/help/privacypolicy.html" onclick="var popupwin = window.open('/help/privacypolicy.html', 'dspacepopup', 'height=600,width=550,resizable,scrollbars');popupwin.focus();return false;">
+                                          Data reliability (note)
+                    </a>
+                </div>    
+            </div>
+        </div>
+        <br/>
+    </div>
+</footer>
+                    <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer="true"></script>
+</body>
+</html>
+

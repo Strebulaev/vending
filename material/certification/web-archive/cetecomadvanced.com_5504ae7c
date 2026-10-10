@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" hreflang="en" />
+<link rel="alternate" href="https://cetecomadvanced.com/de/news/serbien-aenderungen-an-den-vorgaben-fuer-emv-und-niederspannungsrichtlinie/" hreflang="de" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Serbia: Amendments to EMC and Low Voltage Directive regulations</title>
+	<meta name="description" content="Here are the most important regulatory changes introduced by Regulation No. 21/2020 regarding EMC and voltage limit requirements." />
+	<link rel="canonical" href="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale:alternate" content="de_DE" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Serbia: Amendments to EMC and Low Voltage Directive regulations" />
+	<meta property="og:description" content="Here are the most important regulatory changes introduced by Regulation No. 21/2020 regarding EMC and voltage limit requirements." />
+	<meta property="og:url" content="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" />
+	<meta property="og:site_name" content="cetecom advanced GmbH" />
+	<meta property="article:published_time" content="2020-05-18T05:00:20+00:00" />
+	<meta property="article:modified_time" content="2026-08-17T13:53:01+00:00" />
+	<meta property="og:image" content="https://cetecomadvanced.com/files/images/news/serbien-1.jpg" />
+	<meta property="og:image:width" content="340" />
+	<meta property="og:image:height" content="170" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Marius Winzler" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Marius Winzler" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#article","isPartOf":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/"},"author":{"name":"Marius Winzler","@id":"https:\/\/cetecomadvanced.com\/en\/#\/schema\/person\/732f0e01a5e6416329da8a902aca340b"},"headline":"Serbia – Amendments on the rulebook of EMC and LVD","datePublished":"2020-05-18T05:00:20+00:00","dateModified":"2026-08-17T13:53:01+00:00","mainEntityOfPage":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/"},"wordCount":164,"publisher":{"@id":"https:\/\/cetecomadvanced.com\/en\/#organization"},"image":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#primaryimage"},"thumbnailUrl":"https:\/\/cetecomadvanced.com\/files\/images\/news\/serbien-1.jpg","keywords":["CE","EMC","RED","Serbia"],"articleSection":["News"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/","url":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/","name":"Serbia: Amendments to EMC and Low Voltage Directive regulations","isPartOf":{"@id":"https:\/\/cetecomadvanced.com\/en\/#website"},"primaryImageOfPage":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#primaryimage"},"image":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#primaryimage"},"thumbnailUrl":"https:\/\/cetecomadvanced.com\/files\/images\/news\/serbien-1.jpg","datePublished":"2020-05-18T05:00:20+00:00","dateModified":"2026-08-17T13:53:01+00:00","description":"Here are the most important regulatory changes introduced by Regulation No. 21\/2020 regarding EMC and voltage limit requirements.","breadcrumb":{"@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#primaryimage","url":"https:\/\/cetecomadvanced.com\/files\/images\/news\/serbien-1.jpg","contentUrl":"https:\/\/cetecomadvanced.com\/files\/images\/news\/serbien-1.jpg","width":340,"height":170,"caption":"serbia"},{"@type":"BreadcrumbList","@id":"https:\/\/cetecomadvanced.com\/en\/news\/serbia-amendments-on-the-rulebook-of-emc-and-lvd\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"cetecom advanced","item":"https:\/\/cetecomadvanced.com\/en\/"},{"@type":"ListItem","position":2,"name":"Knowledge Center","item":"https:\/\/cetecomadvanced.com\/en\/knowledgecenter\/"},{"@type":"ListItem","position":3,"name":"News","item":"https:\/\/cetecomadvanced.com\/en\/news\/2020\/"},{"@type":"ListItem","position":4,"name":"Serbia – Amendments on the rulebook of EMC and LVD"}]},{"@type":"WebSite","@id":"https:\/\/cetecomadvanced.com\/en\/#website","url":"https:\/\/cetecomadvanced.com\/en\/","name":"cetecom advanced","description":"","publisher":{"@id":"https:\/\/cetecomadvanced.com\/en\/#organization"},"alternateName":"cetecom advanced GmbH","inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/cetecomadvanced.com\/en\/#organization","name":"cetecom advanced GmbH","alternateName":"cetecom advanced","url":"https:\/\/cetecomadvanced.com\/en\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cetecomadvanced.com\/en\/#\/schema\/logo\/image\/","url":"https:\/\/cetecomadvanced.com\/files\/vector-graphics\/cetecom-advanced-logo-dark.svg","contentUrl":"https:\/\/cetecomadvanced.com\/files\/vector-graphics\/cetecom-advanced-logo-dark.svg","width":310,"height":84,"caption":"cetecom advanced GmbH"},"image":{"@id":"https:\/\/cetecomadvanced.com\/en\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/x.com\/cetecom","https:\/\/www.linkedin.com\/company\/cetecom-advanced","https:\/\/www.youtube.com\/user\/CETECOMGroup","https:\/\/de.wikipedia.org\/wiki\/Cetecom_Advanced","https:\/\/www.wikidata.org\/wiki\/Q1057680"]},{"@type":"Person","@id":"https:\/\/cetecomadvanced.com\/en\/#\/schema\/person\/732f0e01a5e6416329da8a902aca340b","name":"Marius Winzler","sameAs":["https:\/\/cetecomadvanced.com\/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//gdpr.koch-essen.de' />
+<script id="fallback-font-js"> /* <![CDATA[ */  (function(){    if(window.ke_fonts_loaded){ return; }   var hasfont=false; try{ hasfont=("fonts" in document) && document.fonts.status==="loaded" && document.fonts.check("700 16px 'Bryant'"); }catch(e){}    if(hasfont){ return; }   var s=document.getElementById("fallback-font-js");    s.insertAdjacentHTML("afterend","<style id='fallback-font-css'>@font-face{font-family:Bryant-fallback;font-weight:300;size-adjust:118.64999999999993%;ascent-override:80%;src:local(\"Arial\")}@font-face{font-family:Bryant-fallback;font-weight:400;size-adjust:119.17999999999998%;ascent-override:78%;src:local(\"Arial\")}@font-face{font-family:Bryant-fallback;font-weight:500;size-adjust:120.17999999999998%;ascent-override:77%;src:local(\"Arial\")}@font-face{font-family:Bryant-fallback;font-weight:700;size-adjust:121.36999999999996%;ascent-override:76%;src:local(\"Arial\")}@font-face{font-family:Roboto-fallback;font-weight:300;size-adjust:98.41000000000004%;ascent-override:96%;src:local(\"Arial\")}@font-face{font-family:Roboto-fallback;font-weight:400;size-adjust:100.06%;ascent-override:95%;src:local(\"Arial\")}@font-face{font-family:Roboto-fallback;font-weight:700;size-adjust:101.69999999999996%;ascent-override:93%;src:local(\"Arial\")}</style>");   })();  /* ]]> */ </script>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<link rel='stylesheet' id='style-css' href='https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/style.bundle.min.css?ver=1786970032' media='all' />
+<link rel="preload" as="style" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/fonts.bundle.min.css?ver=1786970032" />
+<link rel="stylesheet" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/fonts.bundle.min.css?ver=1786970032" media="print" onload="this.media='all';window.ke_fonts_loaded=true;var t=document.getElementById('fallback-font-css');t&&t.parentNode&&t.parentNode.removeChild(t);" />
+<script id="ccm19-js" src="https://gdpr.koch-essen.de/app.js?apiKey=9fd15d3b82a41004d9e9f01c713113997ad4ec40bc498f02&#038;domain=bb05a52&#038;lang=en_US&#038;ver=6.0.3"></script>
+<link rel="alternate" href="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" hreflang="x-default" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.75-->
+			<script class="hsq-set-content-id" data-content-id="blog-post">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			    <link rel="apple-touch-icon" sizes="180x180" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/favicon-16x16.png" />
+    <link rel="shortcut icon" sizes="48x48" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/favicon.ico" />
+    <link rel="mask-icon" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/safari-pinned-tab.svg" color="#00516c" />
+    <link rel="manifest" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/favicons/site.webmanifest" />        <noscript><style> .d-nojs-none{display:none;} .header-meta-nav-menu-items-ul [data-location]{visibility:hidden;} </style></noscript>
+
+    
+    <meta name="apple-mobile-web-app-title" content="cetecom advanced" />
+    <meta name="application-name" content="cetecom advanced" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+
+                    <link rel="alternate" type="application/rss+xml" title="cetecom advanced News RSS-feed" href="https://cetecomadvanced.com/en/news/?feed=rss2" />
+                <link rel="alternate" type="application/rss+xml" title="cetecom advanced Seminars RSS-Newsfeed" href="https://cetecomadvanced.com/en/seminars/?feed=rss2" />
+    
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-12503 single-format-standard wp-theme-cetecom-2023 page-serbia-amendments-on-the-rulebook-of-emc-and-lvd">
+    <noscript data-nosnippet><link rel="stylesheet" href="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/fonts.bundle.min.css?ver=1786970032" /></noscript>
+
+    <div class="header">
+        <div class="container px-0">
+            <div class="row mx-0">
+
+                <!-- burgermenu -->
+                <input type="checkbox" name="show-burgermenu" id="show-burgermenu" class="d-print-none" value="1" aria-label="Show or hide the main navigation" />
+                <label class="burgermenu-toggle d-print-none" for="show-burgermenu">
+                    <span>View services &amp; information</span>
+                </label>
+                <!-- /burgermenu -->
+
+                <!-- header left -->
+                <div class="col-lg-3 col-12 header-logo-container">
+                    <div class="header-logo-wrap">
+                                                <div class="header-logo-image notranslate" translate="no"><a href="https://cetecomadvanced.com/en/" title="cetecom advanced"><img class="w-100 h-100" src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/logo/cetecom-advanced-logo-dark.svg" width="252" height="64" alt="cetecom advanced" title="cetecom advanced" loading="eager" /></a></div>
+                    </div>
+                </div>
+                <!-- /header left -->
+
+                
+                <!-- .header-meta-nav-langswitcher -->
+                <div class="desktop header-meta-nav-langswitcher langswitcher-length-2 d-print-none">
+                    <ul><li class="lang-item lang-item-5 lang-item-en current-lang lang-item-first"><a hreflang="en" href="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" title="View this page in English: &#10;&ldquo;Serbia – Amendments on the rulebook of EMC and LVD&rdquo;" aria-label="View this page in English: &ldquo;Serbia – Amendments on the rulebook of EMC and LVD&rdquo;"> <span class="inner">Serbia – Amendments on the rulebook of EMC and LVD</span> </a></li><li class="lang-item lang-item-2 lang-item-de"><a hreflang="de" href="https://cetecomadvanced.com/de/news/serbien-aenderungen-an-den-vorgaben-fuer-emv-und-niederspannungsrichtlinie/" title="Diese Seite auf deutsch ansehen: &#10;&bdquo;Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie&ldquo;" aria-label="Diese Seite auf deutsch ansehen: &bdquo;Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie&ldquo;"> <span class="inner">Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie</span> </a></li></ul>
+                </div>
+                <!-- /.header-meta-nav-langswitcher -->
+
+                <!-- header right -->
+                <div class="col-lg-9 col-12 menu-container d-print-none">
+
+                    <!-- .header-meta-nav -->
+                    <div class="header-meta-nav">
+
+                        <div class="header-meta-nav-search" data-nosnippet>
+                                <form action="https://cetecomadvanced.com/en/" method="get" id="searchbox" role="search">
+        <input type="text" inputmode="search" name="s" id="searchbox-input" placeholder="Search" aria-label="Your Searchquery (for the entire website)" value="" required/>
+        <input type="image" id="searchbox-submit" aria-label="Search now" alt="Search now" src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/icons/magnifier-v2_new.svg" />
+    </form>
+                        </div>
+
+                        <div class="header-meta-nav-menu">
+                            <!-- .header-meta-nav-langswitcher -->
+                            <div class="mobile header-meta-nav-langswitcher langswitcher-length-2">
+                                <ul><li class="lang-item lang-item-5 lang-item-en current-lang lang-item-first"><a hreflang="en" href="https://cetecomadvanced.com/en/news/serbia-amendments-on-the-rulebook-of-emc-and-lvd/" title="View this page in English: &#10;&ldquo;Serbia – Amendments on the rulebook of EMC and LVD&rdquo;" aria-label="View this page in English: &ldquo;Serbia – Amendments on the rulebook of EMC and LVD&rdquo;"> <span class="inner">Serbia – Amendments on the rulebook of EMC and LVD</span> </a></li><li class="lang-item lang-item-2 lang-item-de"><a hreflang="de" href="https://cetecomadvanced.com/de/news/serbien-aenderungen-an-den-vorgaben-fuer-emv-und-niederspannungsrichtlinie/" title="Diese Seite auf deutsch ansehen: &#10;&bdquo;Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie&ldquo;" aria-label="Diese Seite auf deutsch ansehen: &bdquo;Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie&ldquo;"> <span class="inner">Serbien &#8211; Änderungen an den Vorgaben für EMV und Niederspannungsrichtlinie</span> </a></li></ul>
+                            </div>
+                            <!-- /.header-meta-nav-langswitcher -->
+
+                            <ul class="header-meta-nav-menu-items-ul" data-nosnippet>
+                                                                                                        <li class="header-meta-nav-item header-meta-nav-item-hide-on-mobile"><span data-location="https://cert.cetecom.com/">CERT</span></li>
+                                    <li class="header-meta-nav-item"><span data-location="https://cetecomadvanced.com/en/about-us/accreditations-references/">Accreditations</span></li>
+                                    <li class="header-meta-nav-item"><span data-location="https://cetecomadvanced.com/en/career/">Jobs</span></li>
+                                    <li class="header-meta-nav-item"><span data-location="https://cetecomadvanced.com/en/contact/">Contact</span></li>
+                                                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /.header-meta-nav -->
+
+                    <!-- .header-main-nav -->
+                                            <div class="menu-main-en-container" role="navigation" aria-label="Main menu"><ul id="menu-main-en" class="header-main-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://cetecomadvanced.com/en/testing/">Product Testing</a><div class="submenus"><div class="submenu-animation "><div class="container"><div class="submenu-teaser-link"><div class="submenu-teaser-link__sup-headline secondary">International market approval</div><div class="submenu-teaser-link__headline">cetecom advanced: Your partner for successful market approval</div><div class="submenu-teaser-link__image"><img src="https://cetecomadvanced.com/files/images/01herozertifizierungsstellen-391x195.jpg" alt="Product approval worldwide - The comprehensive spectrum of cetecom advanced. You can launch new devices with us in all the countries you see here." loading="lazy" width="391" height="195" /></div><div></div><div class="button-container submenu-teaser-link__button-container"><span data-location="https://cetecomadvanced.com/en/country-approval/" class="button button-border-mint w-100 submenu-teaser-link__button">Learn more</span></div></div><div class="submenu hubpages-submenu hubpages-submenu-testing row"><ul class="col-lg-12 col-sm-7 col-5"><li ><a href="https://cetecomadvanced.com/en/testing/acoustic-testing/" >Acoustic Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/aviation-radio/" >Aviation Radio Communications Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/battery-safety-testing/" >Battery Safety Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/bluetooth-testing/" >Bluetooth<sup>®</sup> Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/cellular-testing/" >Cellular / 5G Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/dect/" >DECT Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/electrical-safety-testing/" >Electrical Safety</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/emc-testing/" >EMC Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/emce-testing/" >EMCE Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/environmental-simulation/" >Environmental Simulation Tests</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/it-security/" >IoT Cybersecurity Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/over-the-air-ota-testing/" >Over-the-Air (OTA) Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/propagation-tests/" >Propagation Tests</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/radar-testing/" >Radar Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/directional-radio-testing/" >Radio Relay Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/radio-testing/" >Regulatory Radio Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/rfid/" >RFID Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/sar-testing/" >SAR Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/satellite-communication/" >Satellite Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/short-range-devices/" >Short Range Devices Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/smartcard/" >SmartCard Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/ultra-wideband-testing/" >Ultra-Wideband Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/wireless-power-testing/" >Wireless Power Testing</a></li> <li ><a href="https://cetecomadvanced.com/en/testing/wi-fi-testing/" >WLAN Testing</a></li></ul></div></div></div></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://cetecomadvanced.com/en/certification/">Product Certification</a><div class="submenus"><div class="submenu-animation "><div class="container"><div class="submenu-teaser-link"><div class="submenu-teaser-link__sup-headline secondary">International market approval</div><div class="submenu-teaser-link__headline">cetecom advanced: Your partner for successful market approval</div><div class="submenu-teaser-link__image"><img src="https://cetecomadvanced.com/files/images/01herozertifizierungsstellen-391x195.jpg" alt="Product approval worldwide - The comprehensive spectrum of cetecom advanced. You can launch new devices with us in all the countries you see here." loading="lazy" width="391" height="195" /></div><div></div><div class="button-container submenu-teaser-link__button-container"><span data-location="https://cetecomadvanced.com/en/country-approval/" class="button button-border-mint w-100 submenu-teaser-link__button">Learn more</span></div></div><div class="submenu hubpages-submenu hubpages-submenu-certification row"><ul class="col-lg-12 col-sm-7 col-5"><li ><a href="https://cetecomadvanced.com/en/certification/acma-certification/" >ACMA Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/amazon-alexa-certification/" >Amazon Alexa Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/anatel-certification/" >Anatel Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/bluetooth-sig-certification/" >Bluetooth® SIG Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/cb-scheme/" >CB Scheme</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ccc-certification/" >CCC Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ce-marking/" >CE Marking</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/certification-bodies/" >Certification Bodies</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/e112/" >E112</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ecall-certification/" >eCall Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/emergency-call-systems/" >Emergency Call Systems</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/era-glonass-certification/" >ERA-GLONASS Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/fcc-certification/" >FCC Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/gcf-certification/" >GCF Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/country-approval/" >International Market Approval</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ised-certification/" >ISED Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/kc-certification/" >KC Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/lorawan-certification/" >LoRaWAN Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/mic-certification/" >MIC Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/mii-nal-certification/" >MII / NAL Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ptcrb-certification/" >PTCRB Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/qi-certification/" >Qi Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/srrc-certification/" >SRRC Certification</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/ukca-marking/" >UKCA Marking</a></li> <li ><a href="https://cetecomadvanced.com/en/certification/wi-fi-alliance-certification/" >Wi-Fi Alliance Certification</a></li></ul></div></div></div></div></li><li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://cetecomadvanced.com/en/about-us/">About us</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://cetecomadvanced.com/en/about-us/#variety-of-services-for-your-industry">Industries</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://cetecomadvanced.com/en/knowledgecenter/">Knowledge Center</a><div class="submenus"><div class="submenu-animation"><div class="container"><div class="submenu-teaser-link"><div class="submenu-teaser-link__sup-headline secondary">Knowledge Center</div><div class="submenu-teaser-link__headline">Whitepaper, professional articles, news, webinars and downloads</div><div class="submenu-teaser-link__image"><img src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/placeholder/consulting.jpg" alt="Knowledge Center topic overview by cetecom advanced" loading="lazy" width="391" height="195" /></div><div></div><div class="button-container submenu-teaser-link__button-container"><span data-location="https://cetecomadvanced.com/en/knowledgecenter/" class="button button-border-mint w-100 submenu-teaser-link__button">Learn more</span></div></div><div class="submenu hubpages-submenu hubpages-submenu-knowledge-center row"><ul class="col-lg-12 col-sm-7 col-5"><li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/seminars/"><span class="knowledgecenter-submenu-title">Webinars, keynotes and events</span></a></li> <li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/whitepaper/"><span class="knowledgecenter-submenu-title">Whitepaper</span></a></li> <li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/professional-article/"><span class="knowledgecenter-submenu-title">Professional Articles</span></a></li> <li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/market-approval/"><span class="knowledgecenter-submenu-title">Market approval</span></a></li> <li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/news/2026/"><span class="knowledgecenter-submenu-title">News</span></a></li> <li class="knowledgecenter-submenu-item"><a href="https://cetecomadvanced.com/en/downloads/"><span class="knowledgecenter-submenu-title">Downloads</span></a></li></ul></div></div></div></div></li></ul></div>
+                                        <!-- /.header-main-nav -->
+
+                </div>
+                <!-- /header right -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary">
+        <!-- BEGIN BREADCRUMB -->
+        <div class="container-fluid breadcrumbs-container">
+            <div class="container breadcrumbs">
+                <div class="row">
+                    <div class="container default-margin-y">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <span><span><a href="https://cetecomadvanced.com/en/">cetecom advanced</a></span> <span class="sep">›</span> <span><a href="https://cetecomadvanced.com/en/knowledgecenter/">Knowledge Center</a></span> <span class="sep">›</span> <span><a href="https://cetecomadvanced.com/en/news/2020/">News</a></span> <span class="sep">›</span> <span class="breadcrumb_last" aria-current="page">Serbia – Amendments on the rulebook of EMC and LVD</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END BREADCRUMB -->
+
+            <div class="container page-space-top pb-50" role="article">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="p20 underline active">
+                            <h1 class="h2">Serbia – Amendments on the rulebook of EMC and LVD</h1>
+                        </div>
+
+                                                                                                            <div class="date mb-30 text-bold">
+                                <time datetime="2020-05-18">05/18/2020</time>
+                            </div>
+                        
+                        <div class="mb-60 subtitle">EMC and LVD Certificates of Conformity (CoCs) will no longer be mandatory from January 1, 2022.</div>
+
+                        <div class="pb-50">
+                            <img width="340" height="170" src="https://cetecomadvanced.com/files/images/news/serbien-1.jpg" class="attachment-news-postintro size-news-postintro wp-post-image" alt="serbia" loading="eager" decoding="async" fetchpriority="high" srcset="https://cetecomadvanced.com/files/images/news/serbien-1.jpg 340w" sizes="(min-width: 1200px) 1253px, (max-width: 1199.98px) 886px, (max-width: 991.98px) 861px, (max-width: 767.98px) 637px, (max-width: 575.98px) 545px" />                        </div>
+
+                                                    <p>Market approval for devices using radio technologies in Serbia are regulated by the Serbian authorities. While the requirements mainly base on the <a href="https://cetecomadvanced.com/en/news/red/">Radio Equipment Directive</a>, there are still some national requirements defined in the Serbian Official Gazette.</p>
+<p>Recently, Regulation No. 21/2020 was published, which is an amendment to the rulebook on Electromagnetic Compatibility (EMC) and rulebook on the Electrical Equipment intended for use within Certain Voltage Limits (LVD).</p>
+<p>The main change in the amendment is that Serbian <strong>EMC</strong> and <strong>LVD</strong> Certificates of Conformity (CoCs) will no longer be mandatory from <strong>1st January 2022</strong>. Instead, <a href="https://cetecomadvanced.com/en/certification/ce-marking/">CE marking</a> will be acceptable for non-radio devices to demonstrate compliance. Until this date, manufacturers should continue to seek <strong>EMC</strong> and <strong>LVD</strong> CoC&#8217;s for applicable equipment.</p>
+<p>We have prepared further information on the <a href="https://cetecomadvanced.com/en/country-approval/serbia/">market approval for Serbia on the corresponding subpage for you.</a></p>
+<p>&nbsp;</p>
+<p><b>If you have any questions, please do not hesitate to contact us directly:</b></p>
+<p><a href="https://cetecomadvanced.com/en/contact/">https://cetecomadvanced.com/en/contact/</a></p>
+                        
+                                            </div>
+                </div>
+            </div>
+
+        
+    </div>
+<!-- DOWNLOAD-BLOCK -->
+<!-- END DOWNLOAD-BLOCK -->
+<!-- START RELATED PAGES -->
+<div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-news'>
+
+    <div class="container default-padding-y d-print-none">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="underline active">
+                    <div class="h2">
+                                                    Similar articles
+                                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"><div class="offset-lg-1 col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">29. May 2018</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/de/news/rtt-equipment-zertifizierung-fuer-eine-marktzulassung-in-serbien/"><div class="h3">„R&#038;TT equipment“ Zertifizierung für eine Marktzulassung in Serbien</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="340" height="171" src="https://cetecomadvanced.com/files/images/news/serbien.jpg" class="attachment-card size-card wp-post-image" alt="Serbien" loading="lazy" decoding="async" srcset="https://cetecomadvanced.com/files/images/news/serbien.jpg 340w, https://cetecomadvanced.com/files/images/news/serbien-252x171.jpg 252w, https://cetecomadvanced.com/files/images/news/serbien-319x171.jpg 319w, https://cetecomadvanced.com/files/images/news/serbien-268x171.jpg 268w" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        CE | notified body | RED | Serbien
+    </div>
+    </div>
+</div><div class="col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">15. May 2024</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/de/news/niederspannungsrichtlinie/"><div class="h3">Niederspannungsrichtlinie 2014/35/EU</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="363" height="250" src="https://cetecomadvanced.com/files/images/news/niederspannung_herobild.jpg" class="attachment-card size-card wp-post-image" alt="Niederspannungsrichtlinie" loading="lazy" decoding="async" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" srcset="https://cetecomadvanced.com/files/images/news/niederspannung_herobild-363x250.jpg 363w, https://cetecomadvanced.com/files/images/news/niederspannung_herobild-252x250.jpg 252w, https://cetecomadvanced.com/files/images/news/niederspannung_herobild-431x250.jpg 431w, https://cetecomadvanced.com/files/images/news/niederspannung_herobild-319x250.jpg 319w, https://cetecomadvanced.com/files/images/news/niederspannung_herobild-268x250.jpg 268w" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        2014/35/EU | Elektrische Sicherheit | Niederspannungsrichtlinie
+    </div>
+    </div>
+</div><div class="col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">27. June 2024</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/de/news/die-sar-dienstleistungen-bei-cetecom-advanced-und-neuigkeiten-fuer-sie/"><div class="h3">Die SAR-Dienstleistungen bei cetecom advanced und Neuigkeiten für Sie</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="363" height="250" src="https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3.jpg" class="attachment-card size-card wp-post-image" alt="Gelbe Roboterarme im Inneren eines Testlabors, getrennt durch eine Spiegellinie mit dem Cetecom Logo" loading="lazy" decoding="async" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" srcset="https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3-363x250.jpg 363w, https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3-252x250.jpg 252w, https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3-431x250.jpg 431w, https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3-319x250.jpg 319w, https://cetecomadvanced.com/files/images/news/ca_collage_430619993-3-268x250.jpg 268w" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        DASY8/6 Modul WPT V2.6. | SAR | SAR-Prüfungen | WPT-Messungen
+    </div>
+    </div>
+</div><div class="offset-lg-1 col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">1. December 2023</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/de/news/qi2-vorreiter-fuer-die-zukunft-des-kabellosen-ladens/"><div class="h3">Qi2: Vorreiter für die Zukunft des kabellosen Ladens</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="363" height="250" src="https://cetecomadvanced.com/files/images/news/qi2-logo_680x340.jpg" class="attachment-card size-card wp-post-image" alt="Logo des QI2-Standards, auf weißem Hintergrund" loading="lazy" decoding="async" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" srcset="https://cetecomadvanced.com/files/images/news/qi2-logo_680x340-363x250.jpg 363w, https://cetecomadvanced.com/files/images/news/qi2-logo_680x340-252x250.jpg 252w, https://cetecomadvanced.com/files/images/news/qi2-logo_680x340-431x250.jpg 431w, https://cetecomadvanced.com/files/images/news/qi2-logo_680x340-319x250.jpg 319w, https://cetecomadvanced.com/files/images/news/qi2-logo_680x340-268x250.jpg 268w" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        Kabelloses Laden | Qi | Qi2 | WPC
+    </div>
+    </div>
+</div><div class="col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">12. July 2023</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/en/news/red/"><div class="h3">Radio Equipment Directive (RED) &#8211; Directive for radio equipment in the EEA</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="363" height="250" src="https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red.jpg" class="attachment-card size-card wp-post-image" alt="Modern WiFi router on a clean desk, with cables connected. (A radio device in operation.)" loading="lazy" decoding="async" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" srcset="https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red-363x250.jpg 363w, https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red-252x250.jpg 252w, https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red-431x250.jpg 431w, https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red-319x250.jpg 319w, https://cetecomadvanced.com/files/images/news/cetecom-beitrag-red-268x250.jpg 268w" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        notified body | Radio Equipment Directive | RED
+    </div>
+    </div>
+</div><div class="col-12 col-sm-6 col-md-6 col-lg-3 text-card-col">
+        <div class="text-card card-shadow has-link">
+            <div class="text-card-header">
+        <span class="left"></span>
+        <span class="right">3. September 2025</span>
+    </div>
+            <div class="text-card-content">
+    <div class="card-text">
+        <a href="https://cetecomadvanced.com/en/news/canada-ised-publishes-updated-sar-compliance-procedures-under-rss-102/"><div class="h3">Canada – ISED publishes updated SAR compliance procedures under RSS-102</div></a>
+    </div>
+    <div class="text-card-image">
+        <img width="363" height="250" src="https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340.jpg" class="attachment-card size-card wp-post-image" alt="Aerial view of Niagara Falls in Canada" loading="lazy" decoding="async" sizes="(min-width: 1200px) 363px, (max-width: 1199.98px) 252px, (max-width: 991.98px) 431px, (max-width: 767.98px) 319px, (max-width: 575.98px) 268px" srcset="https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340-363x250.jpg 363w, https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340-252x250.jpg 252w, https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340-431x250.jpg 431w, https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340-319x250.jpg 319w, https://cetecomadvanced.com/files/images/news/adobestock_240720918_680x340-268x250.jpg 268w" />
+    </div>
+    </div>
+            <div class="text-card-footer">
+        Canada | market approval | SAR
+    </div>
+    </div>
+</div></div>    </div>
+</div>
+<!-- END RELATED PAGES -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/files/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/cetecom-2023/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script id="wppl-precheck-remember-me">
+		(function() {
+			'use strict';
+			
+			var wppl_precheck_remember_me = function() {
+				var rememberMeNames = ["rememberme","remember","rcp_user_remember"];
+				var processedElements = new Set(); // Track processed elements to avoid duplicates
+				
+				/**
+				 * Check/enable a checkbox element
+				 */
+				function checkElement(element) {
+					if (processedElements.has(element)) return;
+					processedElements.add(element);
+					
+					if (element.type === 'checkbox' && !element.checked) {
+						element.checked = true;
+					}
+				}
+				
+				/**
+				 * Process standard remember me inputs
+				 */
+				function processRememberMeElements() {
+					rememberMeNames.forEach(function(inputName) {
+						// Find inputs by exact name match
+						var inputs = document.querySelectorAll('input[name="' + inputName + '"]');
+						inputs.forEach(function(input) {
+							checkElement(input);
+						});
+						
+						// Also find inputs where name contains the input name (partial match)
+						var partialInputs = document.querySelectorAll('input[type="checkbox"]');
+						partialInputs.forEach(function(input) {
+							if (input.name && input.name.includes(inputName)) {
+								checkElement(input);
+							}
+						});
+					});
+				}
+				
+				/**
+				 * Handle WooCommerce specific elements
+				 */
+				function processWooCommerce() {
+					var wooInputs = document.querySelectorAll('.woocommerce-form-login__rememberme input[type="checkbox"]');
+					wooInputs.forEach(function(input) {
+						checkElement(input);
+					});
+				}
+				
+				/**
+				 * Handle Ultimate Member Plugin
+				 */
+				function processUltimateMember() {
+					var umCheckboxLabels = document.querySelectorAll('.um-field-checkbox');
+					
+					umCheckboxLabels.forEach(function(label) {
+						var input = label.querySelector('input');
+						if (input && rememberMeNames.includes(input.name)) {
+							// Set as active and checked
+							checkElement(input);
+							label.classList.add('active');
+							
+							// Update icon classes
+							var icon = label.querySelector('.um-icon-android-checkbox-outline-blank');
+							if (icon) {
+								icon.classList.add('um-icon-android-checkbox-outline');
+								icon.classList.remove('um-icon-android-checkbox-outline-blank');
+							}
+						}
+					});
+				}
+				
+				/**
+				 * Handle ARMember Forms
+				 */
+				function processARMember() {
+					var armContainers = document.querySelectorAll('.arm_form_input_container_rememberme');
+					
+					armContainers.forEach(function(container) {
+						var checkboxes = container.querySelectorAll('md-checkbox');
+						
+						checkboxes.forEach(function(checkbox) {
+							if (checkbox.classList.contains('ng-empty')) {
+								checkbox.click(); // Activate the checkbox
+							}
+						});
+					});
+				}
+				
+				// Execute all processing functions
+				processRememberMeElements();
+				processWooCommerce();
+				processUltimateMember();
+				processARMember();
+			};
+			
+			// Run when DOM is ready
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', wppl_precheck_remember_me);
+			} else {
+				wppl_precheck_remember_me();
+			}
+			
+			// Also run after a short delay to catch dynamically loaded forms
+			setTimeout(wppl_precheck_remember_me, 500);
+			
+		})();
+		</script>
+				<script id="wppl-precheck-remember-me">
+		(function() {
+			'use strict';
+			
+			var wppl_precheck_remember_me = function() {
+				var rememberMeNames = ["rememberme","remember","rcp_user_remember"];
+				var processedElements = new Set(); // Track processed elements to avoid duplicates
+				
+				/**
+				 * Check/enable a checkbox element
+				 */
+				function checkElement(element) {
+					if (processedElements.has(element)) return;
+					processedElements.add(element);
+					
+					if (element.type === 'checkbox' && !element.checked) {
+						element.checked = true;
+					}
+				}
+				
+				/**
+				 * Process standard remember me inputs
+				 */
+				function processRememberMeElements() {
+					rememberMeNames.forEach(function(inputName) {
+						// Find inputs by exact name match
+						var inputs = document.querySelectorAll('input[name="' + inputName + '"]');
+						inputs.forEach(function(input) {
+							checkElement(input);
+						});
+						
+						// Also find inputs where name contains the input name (partial match)
+						var partialInputs = document.querySelectorAll('input[type="checkbox"]');
+						partialInputs.forEach(function(input) {
+							if (input.name && input.name.includes(inputName)) {
+								checkElement(input);
+							}
+						});
+					});
+				}
+				
+				/**
+				 * Handle WooCommerce specific elements
+				 */
+				function processWooCommerce() {
+					var wooInputs = document.querySelectorAll('.woocommerce-form-login__rememberme input[type="checkbox"]');
+					wooInputs.forEach(function(input) {
+						checkElement(input);
+					});
+				}
+				
+				/**
+				 * Handle Ultimate Member Plugin
+				 */
+				function processUltimateMember() {
+					var umCheckboxLabels = document.querySelectorAll('.um-field-checkbox');
+					
+					umCheckboxLabels.forEach(function(label) {
+						var input = label.querySelector('input');
+						if (input && rememberMeNames.includes(input.name)) {
+							// Set as active and checked
+							checkElement(input);
+							label.classList.add('active');
+							
+							// Update icon classes
+							var icon = label.querySelector('.um-icon-android-checkbox-outline-blank');
+							if (icon) {
+								icon.classList.add('um-icon-android-checkbox-outline');
+								icon.classList.remove('um-icon-android-checkbox-outline-blank');
+							}
+						}
+					});
+				}
+				
+				/**
+				 * Handle ARMember Forms
+				 */
+				function processARMember() {
+					var armContainers = document.querySelectorAll('.arm_form_input_container_rememberme');
+					
+					armContainers.forEach(function(container) {
+						var checkboxes = container.querySelectorAll('md-checkbox');
+						
+						checkboxes.forEach(function(checkbox) {
+							if (checkbox.classList.contains('ng-empty')) {
+								checkbox.click(); // Activate the checkbox
+							}
+						});
+					});
+				}
+				
+				// Execute all processing functions
+				processRememberMeElements();
+				processWooCommerce();
+				processUltimateMember();
+				processARMember();
+			};
+			
+			// Run when DOM is ready
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', wppl_precheck_remember_me);
+			} else {
+				wppl_precheck_remember_me();
+			}
+			
+			// Also run after a short delay to catch dynamically loaded forms
+			setTimeout(wppl_precheck_remember_me, 500);
+			
+		})();
+		</script>
+		<script id="leadin-script-loader-js-js-extra">
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"11.3.75"};
+//# sourceURL=leadin-script-loader-js-js-extra
+</script>
+<script async defer id='hs-script-loader' src="https://js.hs-scripts.com/4939381.js?integration=WordPress&#038;ver=11.3.75"></script>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+</script>
+<script id="iawm-link-fixer-front-link-checker-js-extra">
+var iawmlfArchivedLinks = {"links":"[]","linkCheckNonce":"06a7a9bb47","linkDelayInDays":"3","fixerOption":"replace_link","restUrl":"https://cetecomadvanced.com/wp-json/iawmlf/v1/link-check"};
+//# sourceURL=iawm-link-fixer-front-link-checker-js-extra
+</script>
+<script id="iawm-link-fixer-front-link-checker-js" src="https://cetecomadvanced.com/wp-content/plugins/internet-archive-wayback-machine-link-fixer/assets/js/build/front_link_checker.js?ver=5b09e1bafa6c3abd7894"></script>
+<script id="main_js-js-extra">
+var archive = {"ajaxurl":"https://cetecomadvanced.com/wp-admin/admin-ajax.php"};
+//# sourceURL=main_js-js-extra
+</script>
+<script id="main_js-js" defer="defer" src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/main.bundle.min.js?ver=1786970041"></script>
+
+
+<!-- START NEWSLETTER -->
+<div class="container-fluid bg-newsletter d-print-none" data-nosnippet>
+    <div class="container container-newsletter">
+        <div class="row news">
+            <div class="col-lg-1 col-md-12 offset-lg-1 newsletter-mobile">
+                <div class="letter-svg">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 offset-lg-1">
+                <div class="mb-20">
+                    <div class="h2">
+                        Stay up to date.
+                    </div>
+                </div>
+                <div class="desc-size pb-85">
+                    The cetecom advanced newsletter is sent out about once a month. No constant follow-up mails. <br class="d-none d-xxxl-block" />Only selected content from our experts.
+                </div>
+                <form method="get" class="contact" action="https://cetecomadvanced.com/en/newsletter/">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 column-width mobile-column">
+                            <div class="position-relative has-label-position-animation">
+                                <label class="label-cursor" for="email">E-mail address</label>
+                                <input aria-label="Your E-mail address" class="newsletter-input form-fields" type="email" name="email" id="email" autocomplete="email" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-flex news-button-position mobile-column">
+                            <div class="button-container newsletter-button-container w-100">
+                                <button class="button button-border-mint w-100 button-newsletter">Sign up</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div><!-- END NEWSLETTER -->
+
+
+<footer class="d-print-none">
+
+    <div class="container-fluid bg-blue">
+        <div class="container footer-container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-12">
+                                                    Find out more about the diverse portfolio of cetecom advanced:
+                                            </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xl-10">
+                    <div class="footer-logo">
+                            <div class="logo-container d-print-none">
+            <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/ce-marking/">
+            <img width="91" height="65" src="https://cetecomadvanced.com/files/vector-graphics/ce-logo_new.svg#white" class="attachment-full size-full" alt="CE" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/fcc-certification/">
+            <img width="92" height="76" src="https://cetecomadvanced.com/files/vector-graphics/fcc-logo_new.svg#white" class="attachment-full size-full" alt="FCC" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/ccc-certification/">
+            <img width="104" height="83" src="https://cetecomadvanced.com/files/vector-graphics/ccc-logo_new.svg#white" class="attachment-full size-full" alt="CCC" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/mic-certification/">
+            <img width="86" height="85" src="https://cetecomadvanced.com/files/vector-graphics/mic-logo_new.svg#white" class="attachment-full size-full" alt="MIC" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/ised-certification/">
+            <img width="227" height="111" src="https://cetecomadvanced.com/files/vector-graphics/ised-logo_new.svg#white" class="attachment-full size-full" alt="ISED" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/acma-certification/">
+            <img width="141" height="104" src="https://cetecomadvanced.com/files/vector-graphics/acma-logo_new.svg#white" class="attachment-full size-full" alt="ACMA" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/bluetooth-sig-certification/">
+            <img width="218" height="53" src="https://cetecomadvanced.com/files/vector-graphics/bluetooth-logo_new.svg#white" class="attachment-full size-full" alt="Bluetooth®" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/wi-fi-alliance-certification/">
+            <img width="117" height="82" src="https://cetecomadvanced.com/files/vector-graphics/wifi-logo_new.svg#white" class="attachment-full size-full" alt="WiFi" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/gcf-certification/">
+            <img width="157" height="59" src="https://cetecomadvanced.com/files/vector-graphics/gcf-logo_new.svg#white" class="attachment-full size-full" alt="GCF - Global Certification Forum" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/qi-certification/">
+            <img width="57" height="90" src="https://cetecomadvanced.com/files/vector-graphics/qi-logo_new.svg#white" class="attachment-full size-full" alt="Qi" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>    <div class="logo-item">
+                <a class="logo-effect" href="https://cetecomadvanced.com/en/certification/ptcrb-certification/">
+            <img width="137" height="64" src="https://cetecomadvanced.com/files/vector-graphics/ptcrb-logo_new.svg#white" class="attachment-full size-full" alt="PTCRB" loading="lazy" decoding="async" />
+        </a>
+        
+    </div>
+    </div>                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="footer-text pt-10 mb-20">
+                    <div class="row">
+                        <div class="col-12">
+                                                            Most requested services:
+                                                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <ul class="footer-list">
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/cellular-testing/">Cellular / 5G Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/electrical-safety-testing/">Electrical Safety</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/emc-testing/">EMC Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/it-security/">IoT Cybersecurity Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/over-the-air-ota-testing/">Over-the-Air (OTA) Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/radar-testing/">Radar Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/radio-testing/">Regulatory Radio Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/smartcard/">SmartCard Testing</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/testing/wi-fi-testing/">WLAN Testing</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <ul class="footer-list">
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/country-approval/">International Market Approval</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/certification/bluetooth-sig-certification/">Bluetooth® SIG Certification</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/certification/ce-marking/">CE Marking</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/certification/fcc-certification/">FCC Certification</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/certification/gcf-certification/">GCF Certification</a></li>
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/certification/ptcrb-certification/">PTCRB Certification</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 offset-lg-2 mt-4 mt-md-0">
+                        <ul class="footer-list mb-4">
+
+                            <!--
+                            <li class="list-item"><a href="https://cert.cetecom.com/">CERT Login</a></li>
+                            -->
+
+                        </ul>
+                        <ul class="footer-list mb-4">
+                                                        <li class="list-item"><a href="https://cetecomadvanced.com/en/legal-info/">Legal info, Privacy, Complaints</a></li>
+                            <!--
+                                                            <li class="list-item"><a href="javascript:CCM.openWidget();void(0);">Cookie settings</a></li>
+                                                        -->
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/terms-of-use/">Terms of use</a></li>
+                            <!--
+                                                            <li class="list-item"><a href="https://cetecomadvanced.com/files/pdfs/general-and-special-terms-and-conditions-cetecom-advanced-v3.2.pdf">General and Special Terms and Conditions</a></li>
+                                                                                        <li class="list-item"><a href="https://cetecomadvanced.com/files/pdfs/cetecom_advanced__general_terms_and_conditions_of_purchase_v1.5.pdf">General Terms and Conditions of Purchase</a></li>
+                                                        -->
+                        </ul>
+                        <ul class="footer-list">
+                            <li class="list-item"><a href="https://cetecomadvanced.com/en/about-us/accreditations-references/">Accreditations &#038; References</a></li>
+                        </ul>
+                    </div>
+                </div>
+                                <script>
+                        /* <![CDATA[ */
+                        (function(document){
+                            var menu = document.getElementsByClassName('footer-list');
+                            for(var i=0, i_max=menu.length; i<i_max; ++i){
+                                var html = menu[i].innerHTML;
+                                if( html.indexOf('<!--') !== -1 ){
+                                    menu[i].innerHTML = html.replace(/[\s\n]+<\!--[\s\n]+/g,' ').replace(/[\s\n]+-->[\s\n]+/g,' ');
+                                }
+                            }
+                        })(document);
+                        /* ]]> */
+                </script>
+                                <div class="row pt-25">
+                    <div class="col-xs-12 col-md-3 text-sm-left">
+                        <img src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/logo/cetecom-advanced-logo-white.svg" width="200" height="64" alt="cetecom advanced &ndash; partner for pioneers" loading="lazy" decoding="async" />
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-2 py-4 py-md-0 d-flex justify-content-start justify-content-sm-start">
+                        <div>
+                            <div class="footer-img-1">
+                                <a href="https://www.linkedin.com/company/cetecom-gmbh"><img src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/icons/linkedin-v2.svg" width="38" height="38" alt="cetecom advanced on LinkedIn" loading="lazy" decoding="async" /></a>
+                            </div>
+                        </div>
+                        <div class="footer-img-2">
+                            <a href="https://www.xing.com/pages/cetecomgmbh"><img src="https://cetecomadvanced.com/wp-content/themes/cetecom-2023/assets/img/icons/xing-v2.svg" width="38" height="38" alt="cetecom advanced on XING" loading="lazy" decoding="async" /></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 offset-lg-3 py-3 py-md-0 d-flex notranslate footer-text" translate="no">
+                                                    <span>&copy; 2026 cetecom advanced &#8209;&nbsp;All&nbsp;rights&nbsp;reserved</span>                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
+

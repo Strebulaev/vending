@@ -1,0 +1,374 @@
+<!DOCTYPE html><html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<title>MOD-MPU6050 - Open Source Hardware Board</title>
+	
+	<meta name="description" content="MEMS 3-axis gyroscope and a 3-axis accelerometer" />
+	<meta name="author" content="Olimex" />
+	<meta name="generator" content="Olimex Content Management - Open Source Hardware Development Boards" />
+	<meta name="viewport" content="width=device-width, shrink-to-fit=yes" />
+	
+	<link rel="canonical" href="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware" />
+	
+	<meta property="og:title"       content="MOD-MPU6050 - Open Source Hardware Board" />
+	<meta property="og:type"        content="product" />
+	<meta property="og:url"         content="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware" />
+	<meta property="og:site_name"   content="Olimex" />
+	<meta property="og:description" content="MEMS 3-axis gyroscope and a 3-axis accelerometer" />
+	<meta property="fb:admins"      content="100002941920756" />
+										<meta property="og:image" content="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/images/thumbs/310x230/MOD-MPU6050.jpg" />
+						<meta property="og:image" content="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/images/thumbs/100x75/MOD-MPU6050.jpg" />
+				
+		
+	<link rel="icon" sizes="16x16" href="/favicon.ico" />
+	<link rel="icon" sizes="48x48" href="/Olimex-48.png" />
+	<link rel="apple-touch-icon" sizes="48x48" href="/Olimex-48.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="48x48" href="/Olimex-48.png" />
+	
+	<link href="/_layout/css/style.css?1768822273"    rel="stylesheet" type="text/css" />
+	<link href="/_layout/css/layout.css?1667391269"   rel="stylesheet" type="text/css" />
+	<link href="/_layout/css/lightbox.css?1562916260" rel="stylesheet" type="text/css" />
+	
+	<link href="/_layout/css/basket.css?1787202759"   rel="stylesheet" type="text/css" />
+	<link href="/_layout/css/docs.css?1417269094"     rel="stylesheet" type="text/css" />
+	<link href="/_layout/css/print.css?1598247597"    rel="stylesheet" type="text/css" media="print" />
+	<link href="/_layout/css/handheld.css?1566195422" rel="stylesheet" type="text/css" media="only screen and (max-width:1000px)" />
+	<link href="/_layout/css/extra.css?1790325202"    rel="stylesheet" type="text/css" />
+	
+	<script src="/_js/jquery-1.11.3.min.js?1476876218"></script>
+	<script src="/_js/thumbs.js?1560835542"></script>
+	<script src="/_js/lightbox.js?1582637247"></script>
+	<script src="/_js/modal.js?1560835542"></script>
+	<script src="/_js/selection.js?1560835542"></script>
+	<script src="/_js/autocomplete.js?1560835542"></script>
+	<script src="/_js/lib.js?1589894046"></script>
+	<script src="/_js/etc.js?1615801099"></script>
+				
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-01V6MC2TE1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-01V6MC2TE1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		
+		fbq('init', '1626441684349595');
+		fbq('track', "PageView");
+	</script>
+	<!-- 
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1626441684349595&ev=PageView&noscript=1"/>
+	</noscript>
+	 -->
+	<!-- End Facebook Pixel Code -->
+
+		</head>
+
+<body id="page">
+
+<div id="extra">
+	</div>
+
+<script>$('#extra').width('10px');</script>
+
+<div class="tile-top">
+<div class="tile-bottom">
+	<div id="main">
+		<!--header -->
+		<div id="header" class="navigation no-snow">
+			<div class="container">
+				<div class="left">
+									<a href="/" title="www.olimex.com"><img alt="www.olimex.com" src="/_layout/images/logo.png" width="240" height="65" /></a>
+								</div>
+				
+								
+				<div class="right">
+											<div id="account">
+	<div class="navigation">
+					<a href="/how-to-order">
+				How to order?			</a>
+			</div>
+	<a href="/basket" id="summary" class="cart" title="Shopping Cart">
+		<span>0 item(s). 0.00 EUR</span>
+	</a>
+</div>
+																<form id="search-form" action="/" method="post">
+	<a class="icon"></a>
+	<div>
+		<input type="text" name="context" id="context" class="input search" /> 
+		<button id="search" type="submit">Search</button>
+	</div>
+</form>
+									</div>
+			</div>
+				
+<div class="menu"><a class="icon">≡</a>
+	<div>
+	<div class="container">
+		<a href="/">NEWS</a>
+		<a href="/Products">PRODUCTS</a>
+		<a href="/PCB">PCB</a>
+		<a href="/forum">FORUM</a>
+		<a href="/wiki">WIKI</a>
+		<a href="/Projects">PROJECTS</a>
+	</div>
+	</div>
+</div>
+		</div>
+		<!--header end-->
+		
+		<div id="content">
+			<div class="container"><a class="icon">≡</a>
+				<div class="col-1 navigation">
+															
+<div id="navigation" class="container">
+	<h2>Products</h2>
+	<ul >
+		<li><a href="/Products/OLinuXino/open-source-hardware">OLinuXino - Industrial Linux SBC</a></li>
+		<li><a href="/Products/SOM/">System On Module</a></li>
+		<li><a href="/Products/SOM204/">SOM204</a></li>
+		<li><a href="/Products/IoT/">Internet of Things</a></li>
+		<li><a href="/Products/MicroPython/">MicroPython</a></li>
+		<li><a href="/Products/Retro-Computers/">Retro Computers</a></li>
+		<li><a href="/Products/RaspberryPi/">RaspberryPi</a></li>
+		<li><a href="/Products/Elecrow/">Elecrow</a></li>
+		<li><a href="/Products/FPGA/">FPGA</a></li>
+		<li><a href="/Products/RISC-V/">RISC-V</a></li>
+		<li><a href="/Products/Robot-CNC-Parts/">Robot &amp; CNC parts</a></li>
+		<li><a href="/Products/EEG/">EEG</a></li>
+		<li><a href="/Products/DIY-Laptop/">DIY Laptop</a></li>
+		<li><a href="/Products/Soldering-Kits/">Soldering Kits</a></li>
+		<li><a href="/Products/Duino/open-source-hardware">Duino</a></li>
+		<li><a href="/Products/ARM/">ARM</a></li>
+		<li><a href="/Products/AVR/">AVR</a></li>
+		<li><a href="/Products/MAXQ/">MAXQ</a></li>
+		<li><a href="/Products/MSP430/">MSP430</a></li>
+		<li><a href="/Products/PIC/">PIC</a></li>
+		<li><a href="/Products/DSP/">DSP</a></li>
+		<li><a href="/Products/Power-Supply/">Power Supply</a></li>
+		<li><a href="/Products/Modules/">UEXT Modules</a>	<ul >
+		<li><a href="/Products/Modules/Interface/">Interface</a></li>
+		<li><a href="/Products/Modules/Adapters/">Adapters</a></li>
+		<li><a href="/Products/Modules/Sensors/">Sensors</a></li>
+		<li><a href="/Products/Modules/LCD/">LCD</a></li>
+		<li><a href="/Products/Modules/LED/">LED</a></li>
+		<li><a href="/Products/Modules/IO/">IO</a></li>
+		<li><a href="/Products/Modules/Video/">Video</a></li>
+		<li><a href="/Products/Modules/RF/">RF</a></li>
+		<li><a href="/Products/Modules/RFID/">RFID</a></li>
+		<li><a href="/Products/Modules/Ethernet/">Ethernet</a></li>
+		<li><a href="/Products/Modules/Time/">Time</a></li>
+		<li><a href="/Products/Modules/GPS/">GPS</a></li>
+		<li><a href="/Products/Modules/MP3/">MP3</a></li>
+		<li><a href="/Products/Modules/Biofeedback/">Biofeedback</a></li>
+	</ul>
+</li>
+		<li><a href="/Products/USB-Modules/">USB Modules</a></li>
+		<li><a href="/Products/Breadboarding/">Breadboarding</a></li>
+		<li><a href="/Products/Components/">Components</a></li>
+		<li><a href="/Products/Tools/">Tools</a></li>
+		<li><a href="/Products/Swag/">Swag</a></li>
+		<li><a href="/Products/Retired/">Retired</a></li>
+	</ul>
+ 
+</div>
+<a href="/prices" class="blue">Products Price List</a>
+														</div>
+				<div class="col-2">
+					<div class="breadcrumb">
+							
+		<div id="fb-root"></div>
+	<div class="social">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware" data-text="Is checking out MOD-MPU6050 - Open Source Hardware Board">Tweet</a>
+		<div class="fb-like" data-href="https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware" data-send="false" data-layout="button_count" data-show-faces="false" data-action="like"></div>
+	</div>
+
+	<!-- Facebook Like button. -->
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<!-- Tweet button. -->
+	<script>
+		(function(d,s,id){
+			var js,fjs=d.getElementsByTagName(s)[0];
+			if(!d.getElementById(id)){
+				js=d.createElement(s);
+				js.id=id;
+				js.src="//platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js,fjs);
+			}
+		}(document,"script","twitter-wjs"));
+	</script>
+		
+	<!-- Breadcrumb -->
+	<ul id="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+				<a href="/Products/" itemprop="item">
+					<span itemprop="name">Products</span>
+					<span class="meta" itemprop="position">1</span>
+				</a>
+			</li>
+						<li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+				<a href="/Products/Modules/" itemprop="item">
+					<span itemprop="name">UEXT Modules</span>
+					<span class="meta" itemprop="position">2</span>
+				</a>
+			</li>
+						<li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+				<a href="/Products/Modules/Sensors/" itemprop="item">
+					<span itemprop="name">Sensors</span>
+					<span class="meta" itemprop="position">3</span>
+				</a>
+			</li>
+						<li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+				<a href="/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware" itemprop="item">
+					<span itemprop="name">MOD-MPU6050</span>
+					<span class="meta" itemprop="position">4</span>
+				</a>
+			</li>
+				</ul>
+					</div>
+					<div class="box">
+						<div class="tile-top">
+						<div class="tile-right">
+						<div class="tile-left">
+						<div class="corner-bottom-right">
+						<div class="corner-bottom-left">
+						<div class="corner-top-right">
+						<div class="corner-top-left">							<div class="container" id="content-container" itemscope="itemscope" itemtype="http://schema.org/Product">
+									<h1 id="title">
+	<span itemprop="name">MOD-MPU6050</span><span class="meta" itemprop="mpn" content="MPN4675"></span><span class="meta" itemprop="gtin" content="4260696352838"></span>			<a title="Open Source Hardware" href="http://freedomdefined.org/OSHW" target="_blank" class="OSHW">&nbsp;</a>	
+				<button id="product_change_notification">
+			<svg width="120" height="30" xmlns="http://www.w3.org/2000/svg">
+			  <text text-anchor="middle" font-family="Arial, sans-serif" font-size="11" y="12" x="40" fill="#909090">Product Change</text>
+			  <text text-anchor="middle" font-family="Arial, sans-serif" font-size="11" y="25" x="40" fill="#909090">Notification</text>
+			  <rect height="20" width="30" y="5" x="85" rx="3" ry="3" stroke-width="1.5" fill="#2bb6d1"/>
+			  <path stroke="#ffffff" d="m 83,4 l 17,13 l 17,-13 l -34,0 z" fill-opacity="null" stroke-opacity="null" stroke-width="2" fill="none" />
+			  <circle  stroke="#ffffff" r="5.5" cy="5" cx="115" stroke-width="2.5" fill="#ea337c"/>
+			</svg>
+		</button>
+	</h1>
+	<div class="block">
+		
+
+<div id="images" class="col images">
+				<img id="image-3067" itemprop="image" width="310" height="230" alt="MOD-MPU6050 - Open Source Hardware Board" src="/Products/Modules/Sensors/MOD-MPU6050/images/thumbs/310x230/MOD-MPU6050.jpg" />
+		</div>
+		
+		<div class="col">
+			<span itemprop="description">											<b class="description">MEMS 3-axis gyroscope and a 3-axis accelerometer</b>		 	</span>
+			<div id="res-3065" class="pricing" itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer">
+<span class="meta" itemprop="url">https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware</span>		
+
+						<table class="pricing"><tr class="default"><th>Price</th><td><span itemprop="price" content="7.95">7.95</span> <span itemprop="priceCurrency" content="EUR">EUR</span></td></tr><tr itemprop="addOn" itemscope="itemscope" itemtype="http://schema.org/Offer"><th itemprop="eligibleQuantity">10 - 49 pcs</th><td><span itemprop="price" content="7.55">7.55</span> <span itemprop="priceCurrency" content="EUR">EUR</span></td></tr><tr itemprop="addOn" itemscope="itemscope" itemtype="http://schema.org/Offer"><th itemprop="eligibleQuantity">50 - 10000 pcs</th><td><span itemprop="price" content="7.16">7.16</span> <span itemprop="priceCurrency" content="EUR">EUR</span></td></tr></table>						<form action="/" method="post">
+				<input name="item" type="hidden" value="4675" class="addToBasket" />
+																				<b itemprop="availability" content="http://schema.org/InStock">In Stock</b>
+						<br/>										<input name="quantity" type="text" class="addToBasket" value="1" />
+					<button id="addToBasket" class="addToBasket" type="submit">Add to basket</button>
+							</form>
+						</div>
+																	<p>MPU6050 is MEMS 3-axis gyroscope and a 3-axis accelerometer on the same silicon die together with an onboard Digital Motion Processor&trade; (DMP&trade;) capable of processing complex 9-axis MotionFusion algorithms.</p>
+<p>MPU6050 is with I2C interface and can connect to any board with UEXT.</p>		 						</div>
+	</div>
+
+<div class="block">
+									<div class="col" >
+				<h4>DOCUMENTS</h4>
+				<ul>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MPU-60xxA_rev_4.pdf" target="_blank">Main IC datasheet</a></li>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/named_pins_6050.jpg" target="_blank">Picture with GPIO pin names</a></li>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/EU-DOC-MOD-MPU6050.pdf" target="_blank">MOD-MPU6050 European Declaration of Conformity</a></li>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/UKCA-DOC-MOD-MPU6050.pdf" target="_blank">MOD-MPU6050 UKCA Declaration of Conformity</a></li>
+</ul>		 	</div>
+	 	 									<div class="col" >
+				<h4>HARDWARE</h4>
+				<ul>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/MOD-MPU6050_schematics.pdf" target="_blank">MOD-MPU6050 latest schematic in PDF format</a></li>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/MOD-MPU6050_Eagle_schematics.zip" target="_blank">MOD-MPU6050 latest hardware source files </a></li>
+</ul>		 	</div>
+	 	 									<div class="col" >
+				<h4>SOFTWARE</h4>
+				<ul>
+<li class=""><a class="" href="/Products/Modules/Sensors/MOD-MPU6050/resources/MPU6050.zip">Arduino IDE libary and examples</a>&nbsp;- instructions how to import&nbsp;<a href="/Products/Modules/Sensors/MOD-MPU6050/resources/HOW-TO.txt">here</a></li>
+</ul>		 	</div>
+	 	 	</div>
+
+		
+	
+							</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+					</div>
+							
+									</div>
+			</div>
+		</div>
+		<!--footer -->
+		<div id="footer" class="navigation">
+			<div class="list">
+				<a class="social twitter"   title="Twitter"   href="http://twitter.com/Olimex"                                     target="_blank">&nbsp;</a>
+				<a class="social wordpress" title="Blog"      href="http://olimex.wordpress.com"                                   target="_blank">&nbsp;</a>
+				<a class="social github"    title="GitHub"    href="https://github.com/OLIMEX"                                     target="_blank">&nbsp;</a>
+				<a class="social youtube"   title="YouTube"   href="http://www.youtube.com/tsvetanusunov"                          target="_blank">&nbsp;</a>
+				<a class="social facebook"  title="Facebook"  href="http://www.facebook.com/pages/Olimex/284513994899126"          target="_blank">&nbsp;</a>
+				<a class="social instagram" title="Instagram" href="https://www.instagram.com/olimexbulgaria/"                     target="_blank">&nbsp;</a>
+				<a class="social mastodon"  title="Mastodon"  href="https://mastodon.social/@olimex"                               target="_blank">&nbsp;</a>
+				<a class="social discord"   title="Discord"   href="https://discord.gg/QQEBXZk7y8"                                 target="_blank">&nbsp;</a>
+				<br />
+				<a href="/About/">About</a> &nbsp;|&nbsp;
+				 
+				<a href="/wiki/GTC">Terms &amp; Conditions</a> &nbsp;|&nbsp; 
+				<a href="/wiki/GTC-FAQ">FAQ</a> &nbsp;|&nbsp; 
+				<a href="mailto:support@olimex.com?subject=Support%20Question">Support</a> &nbsp;|&nbsp;
+				<a href="/Distributors">Distributors</a> &nbsp;|&nbsp;
+				<a href="mailto:info@olimex.com?subject=I%20Have%20a%20Wish">Make a wish</a> &nbsp;|&nbsp;
+				<a href="/wiki/JOBS">Работа</a> &nbsp;|&nbsp;
+				<a href="/wiki/OPIC">ОПИК</a>
+							</div>
+			<div>Olimex &copy; 1997-2026</div>
+			<div>
+				<div class="left">
+					<img src="/_layout/images/cc/VISA.png" alt="VISA" width="36" height="23" />
+					<img src="/_layout/images/cc/VISA-E.png" alt="VISA Electron" width="33" height="23" />
+					<img src="/_layout/images/cc/V-PAY.png" alt="V-Pay" width="21" height="23" />
+					<a href="http://www.mastercard.com/"><img src="/_layout/images/cc/mc_accpt_023_gif.gif" alt="Master Card" width="37" height="23" /></a>
+					<a href="http://www.mastercard.com/"><img src="/_layout/images/cc/me_accpt_023_gif.gif" alt="Master Card Electronic" width="37" height="23" /></a>
+					<a href="http://www.maestrocard.com/internetpurch/"><img src="/_layout/images/cc/ms_accpt_023_gif.gif" alt="Maestro" width="37" height="23" /></a>
+				</div>
+				<div class="right">
+					<img src="/_layout/images/cc/VbV_2c.png" alt="Verified by VISA" width="109" height="56" />
+					<a href="http://www.mastercardbusiness.com/mcbiz/index.jsp?template=/orphans&content=securecodepopup" title="Learn More" target="_blank"><img src="/_layout/images/cc/sclogo_104x56.gif" alt="Master Card Secure Code" width="104" height="56" /></a>
+				</div>
+			</div>
+		</div>
+		<!--footer end-->
+	</div>
+</div>
+</div>
+	
+</body>
+
+</html>
