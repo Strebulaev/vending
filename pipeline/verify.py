@@ -40,7 +40,7 @@ def main():
             if not source or "TBD" in source.upper():
                 errors.append(f"{block} {r['item']}: missing source")
             low = source.lower()
-            has_ref = "http" in low or "docs/" in low
+            has_ref = "http" in low or "docs/" in low or "material/" in low
             numeric = num(r["unit_price"]) is not None and num(r["total"]) is not None
             not_found = r["unit_price"].strip() == "not found" and r["total"].strip() == "not found"
             # A row passes if it has a numeric price AND a URL/path source, or the literal 'not found'.

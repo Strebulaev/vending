@@ -1,31 +1,32 @@
 # Приложение к презентации пилота
 
-Сопровождает [презентацию](presentation-v2.md) и [аудит](audit-report.md). Ниже разделены опубликованные значения, решения владельца, предложения методики и результаты арифметики. Отсутствующие входы не заменяются нулём. Номера слайдов, писем, строк прайса и идентификаторы — навигация, а не количественные утверждения о проекте.
+Сопровождает [версию для чтения в браузере](presentation-v2.html), [PDF](presentation-v2.pdf), [исходный текст](presentation-v2.md) и [аудит](audit-report.md). Ниже разделены опубликованные значения, решения владельца, предложения методики и результаты арифметики. Отсутствующие входы не заменяются нулём. Номера слайдов, писем, строк прайса и идентификаторы — навигация, а не количественные утверждения о проекте.
 
 ## Карта трассируемости
 
 | Слайд | Цифра / утверждение | Первичное для расчёта доказательство | Решение ID / ограничение |
 |---|---|---|---|
-| 1 | Один жилой пилот в Сурчине | Внешний источник отсутствует: выбор владельца | [decision: 0003](docs/decisions/0003-residential-single-point-pilot.md) |
-| 1, 10, 12 | **≥50 л/день; ≥95%; 3 последовательных месяца** | Внешняя норма отсутствует: критерий владельца | [decision: 0011](docs/decisions/0011-pilot-gate.md); безубыточность не установлена |
-| 2, 5, 12 | **50 RSD / 5 л = 10 RSD/л** | Выбор владельца; также отражён в блоке MARKETING | [decision: 0004](docs/decisions/0004-single-price-first.md), [блок сметы](docs/cost-estimates/blocks/MARKETING.md); сам файл решения не фиксирует сумму в основном тексте |
-| 2, 5, 12 | **158,09 RSD/м³; 0,15809 RSD/л** | [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21); таблица категории «Остали потрошачи» | [decision: 0009](docs/decisions/0009-sourced-estimates.md); вторичный тариф, на литр забора |
-| 2, 5 | **85,07 RSD/м³; 0,08507 RSD/л** | [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21); строка водоотведения | [decision: 0009](docs/decisions/0009-sourced-estimates.md); начисляемый объём не найден |
-| 2 | **9,84191 RSD/л ≈9,84**, верхняя граница | Разность цены и тарифа: [decision: 0004](docs/decisions/0004-single-price-first.md), [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); не оценка фактического вклада |
-| 3, 12 | Tinotec **850–1 050 USD** | [source: material/economics/prices/tinotec.en.made-in-china.com_3e3cd72d.html](material/economics/prices/tinotec.en.made-in-china.com_3e3cd72d.html); поле Pricing | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); выбранное условие FOB не подтверждено |
-| 3 | Oulepu **500–1 000 USD** | [source: material/economics/prices/oulepu.en.made-in-china.com_efaae641.html](material/economics/prices/oulepu.en.made-in-china.com_efaae641.html); поле Pricing | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); каталог иной комплектации |
-| 4 | Ecosoft **6 541,67 EUR без НДС** | [source: material/hardware/web-archive/ecosoft.com_22d4885d](material/hardware/web-archive/ecosoft.com_22d4885d); цена карточки AQUABOX | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); не цена поставки в Сербию |
-| 4 | **~2×** исключён как установленный порог; пересмотр сборки от **≥20 точек** условный | Тексты решений; рыночного подтверждения нет | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md), [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md) |
-| 5 | **700 000–15 000 000 RSD; ≥30%; 2%; до 60 месяцев; отчётность 2025 года** | [source: material/economics/documents/ras.gov.rs_f448816b](material/economics/documents/ras.gov.rs_f448816b), [официальная страница](https://ras.gov.rs/javni-poziv-program-kapital-za-razvoj) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); кредит, право участия не установлено |
+| 1, 12 | Один жилой пилот в Сурчине | Внешний источник отсутствует: выбор владельца | [decision: 0003](docs/decisions/0003-residential-single-point-pilot.md) |
+| 1 | **≥50 л/день; ≥95%; 3 последовательных месяца** | Внешняя норма отсутствует: критерий владельца | [decision: 0011](docs/decisions/0011-pilot-gate.md); безубыточность не установлена |
+| 5 | **50 RSD / 5 л = 10 RSD/л** | Выбор владельца; также отражён в блоке MARKETING | [decision: 0004](docs/decisions/0004-single-price-first.md), [блок сметы](docs/cost-estimates/blocks/MARKETING.md); сам файл решения не фиксирует сумму в основном тексте |
+| 5 | **158,09 RSD/м³; 0,15809 RSD/л** | [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21); таблица категории «Остали потрошачи» | [decision: 0009](docs/decisions/0009-sourced-estimates.md); вторичный тариф, на литр забора |
+| 5 | **85,07 RSD/м³; 0,08507 RSD/л** | [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21); строка водоотведения | [decision: 0009](docs/decisions/0009-sourced-estimates.md); начисляемый объём не найден |
+| 5 | **9,84191 RSD/л ≈9,84**, верхняя граница | Разность цены и тарифа: [decision: 0004](docs/decisions/0004-single-price-first.md), [source: material/economics/web-archive/beograduzivo.rs_8f518c21](material/economics/web-archive/beograduzivo.rs_8f518c21) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); не оценка фактического вклада |
+| 2 | Tinotec **850–1 050 USD** | [source: material/economics/prices/tinotec.en.made-in-china.com_3e3cd72d.html](material/economics/prices/tinotec.en.made-in-china.com_3e3cd72d.html); поле Pricing | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); выбранное условие FOB не подтверждено |
+| 2 | Oulepu **500–1 000 USD** | [source: material/economics/prices/oulepu.en.made-in-china.com_efaae641.html](material/economics/prices/oulepu.en.made-in-china.com_efaae641.html); поле Pricing | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); каталог иной комплектации |
+| 2 | Ecosoft **6 541,67 EUR без НДС** | [source: material/hardware/web-archive/ecosoft.com_22d4885d](material/hardware/web-archive/ecosoft.com_22d4885d); цена карточки AQUABOX | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md); не цена поставки в Сербию |
+| 4 | Порог разницы не установлен; собственная сборка отложена | Тексты решений; рыночного подтверждения нет | [decision: 0012](docs/decisions/0012-pilot-machine-sourcing.md), [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md) |
+| 9 | **700 000–15 000 000 RSD; ≥30%; 2%; до 60 месяцев; отчётность 2025 года** | [source: material/economics/documents/ras.gov.rs_f448816b](material/economics/documents/ras.gov.rs_f448816b), [официальная страница](https://ras.gov.rs/javni-poziv-program-kapital-za-razvoj) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); кредит, право участия не установлено |
 | 6 | Семь групп требований | Группировка [карты требований](docs/certification/requirements-map.md), вопросы [source: material/certification/correspondence/letters-template.md](material/certification/correspondence/letters-template.md) | [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md); радио включено в электрический домен |
 | 7 | **14 пунктов; обязательны 1–12 и 14**, страхование по выбору | [Внутренний чек-лист](docs/certification/costs-and-timeline.md), [правило допуска](docs/guardrails/no-launch-without-clearance-package.md) | [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md); не нормативный список закона |
-| 8 | **12 направлений**, «не отправлено» | [source: material/certification/correspondence/authority-tracking.md](material/certification/correspondence/authority-tracking.md); строки реестра | [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md); направление может дать несколько отправлений |
-| 9 | Бак **30 л**, точки P1–P4 | Проектная конфигурация и методика | [decision: 0020](docs/decisions/0020-small-opaque-buffer-tank.md), [decision: 0050](docs/decisions/0050-sampling-program-stages.md) |
-| 9 | **K=max(Z,ceil(N/10))**, сценарии **N=1/5/20/50**, условный **Z=1** | Сценарная сетка задания; правило и пусковая программа проекта | [decision: 0051](docs/decisions/0051-sampling-rule-for-n-points.md), [decision: 0050](docs/decisions/0050-sampling-program-stages.md); не нормативная частота |
-| 9, 12 | Стоимость пуска и месячной программы | [source: material/sampling/web-archive/zjz.org.rs_fb84c1f6.pdf](material/sampling/web-archive/zjz.org.rs_fb84c1f6.pdf); формулы ниже | [decision: 0050](docs/decisions/0050-sampling-program-stages.md), [decision: 0051](docs/decisions/0051-sampling-rule-for-n-points.md); неполная сумма по Шабацу |
-| 10, 12 | **7 и более дней** с приёма пробы | [source: material/sampling/web-archive/zdravlje.org.rs_e72f6609.pdf](material/sampling/web-archive/zdravlje.org.rs_e72f6609.pdf), [инструкция ГЗЈЗ](https://www.zdravlje.org.rs/files/Dokumenta/Uputstvo-za-uzorkovanje-vode-2023-lat.pdf) | [decision: 0050](docs/decisions/0050-sampling-program-stages.md); не договорный срок выбранной лаборатории |
-| 10 | **30.11.2026** | [source: material/economics/web-archive/podunavlje.info_9e6d3b65](material/economics/web-archive/podunavlje.info_9e6d3b65) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); вторичное сообщение, подтвердить в RAS/банке |
+| 7, 12 | **12 направлений**, «не отправлено» | [source: material/certification/correspondence/authority-tracking.md](material/certification/correspondence/authority-tracking.md); строки реестра | [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md); направление может дать несколько отправлений |
+| 8 | Бак **30 л**, точки P1–P4 | Проектная конфигурация и методика | [decision: 0020](docs/decisions/0020-small-opaque-buffer-tank.md), [decision: 0050](docs/decisions/0050-sampling-program-stages.md) |
+| 8 | **K=max(Z,ceil(N/10))**, сценарии **N=1/5/20/50**, условный **Z=1** | Сценарная сетка задания; правило и пусковая программа проекта | [decision: 0051](docs/decisions/0051-sampling-rule-for-n-points.md), [decision: 0050](docs/decisions/0050-sampling-program-stages.md); не нормативная частота |
+| 2, 8 | Стоимость пуска и месячной программы | [source: material/sampling/web-archive/zjz.org.rs_fb84c1f6.pdf](material/sampling/web-archive/zjz.org.rs_fb84c1f6.pdf); формулы ниже | [decision: 0050](docs/decisions/0050-sampling-program-stages.md), [decision: 0051](docs/decisions/0051-sampling-rule-for-n-points.md); неполная сумма по Шабацу |
+| 10 | **7 и более дней** с приёма пробы | [source: material/sampling/web-archive/zdravlje.org.rs_e72f6609.pdf](material/sampling/web-archive/zdravlje.org.rs_e72f6609.pdf), [инструкция ГЗЈЗ](https://www.zdravlje.org.rs/files/Dokumenta/Uputstvo-za-uzorkovanje-vode-2023-lat.pdf) | [decision: 0050](docs/decisions/0050-sampling-program-stages.md); не договорный срок выбранной лаборатории |
+| 9 | **30.11.2026** | [source: material/economics/web-archive/podunavlje.info_9e6d3b65](material/economics/web-archive/podunavlje.info_9e6d3b65) | [decision: 0009](docs/decisions/0009-sourced-estimates.md); вторичное сообщение, подтвердить в RAS/банке |
 | 11 | Перечень рисков и владельцев | Запросы [source: material/certification/correspondence/letters-template.md](material/certification/correspondence/letters-template.md), решения на слайде | Роли предложены; вероятности и финансовый ущерб не найдены |
+
 
 ## Финансовые формулы и границы
 
@@ -148,6 +149,29 @@
 | Следующий контакт | Согласованная дата и действие, если ответ неполон или орган некомпетентен |
 
 Для каждого пункта допуска хранить файл, статус «ожидается / проверено / неприменимо по письменному ответу», проверившего и дату. По общему отказу в компетенции перенаправить вопрос; не объявлять обязательство неприменимым автоматически. Состав процедуры — [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md), [чек-лист](docs/certification/costs-and-timeline.md).
+
+### Полный лист допуска к публичной продаже
+
+**14 пунктов внутренней процедуры:** обязательны **1–12 и 14**; страхование в пункте **13** для пути «покупаем» — по решению владельца. Это контроль проекта, а не универсальный перечень требований закона. [decision: 0040](docs/decisions/0040-certification-buy-vs-make.md), [чек-лист проекта](docs/certification/costs-and-timeline.md)
+
+| № | Что подтверждаем |
+|---|---|
+| 1 | Реестр конфигурации и серийный номер |
+| 2 | Декларация электрооборудования и протоколы |
+| 3 | Документы на радиомодули и изделие |
+| 4 | Документы на все контактные материалы серии |
+| 5 | Ответ DMDM и применимые метрологические документы |
+| 6 | Фискальное решение и регистрация по ответу PURS |
+| 7 | Допустимый протокол лаборатории на воду по месту |
+| 8 | Санитарный ответ о разрешении или неприменимости |
+| 9 | Юрлицо, деятельность, договор и согласия площадки |
+| 10 | Условия воды, стоков и электро, отдельный учёт |
+| 11 | Заводская и местная приёмка |
+| 12 | Журнал фильтров, график проб и назначенные ответственные |
+| 13 | Решение о страховании и полис, если выбран |
+| 14 | Подписи ответственного и основателя |
+
+Общий статус подписанного допуска **не найдено**. Каждый пункт закрывается доказательством, относящимся к выбранному аппарату и месту.
 
 ## Источники, исключённые из числовых выводов
 
