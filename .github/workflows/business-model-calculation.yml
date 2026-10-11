@@ -155,8 +155,8 @@ jobs:
       - name: Show current inputs (from config)
         run: |
           echo "=== Parameters in config/business-model-inputs.json ==="
-          python -c "
-          import json, sys
+          cat > /tmp/show_inputs.py << 'PYEOF'
+          import json
           d = json.load(open("config/business-model-inputs.json", encoding="utf-8"))
           for k,v in d.get("inputs",{}).items():
               if isinstance(v, dict):
@@ -173,13 +173,14 @@ jobs:
                       print(f"{k}.{sub}")
               else:
                   print(k)
-          "
+          PYEOF
+          python /tmp/show_inputs.py
 
       - name: Build overrides from inputs
         env:
           INPUTS_JSON: ${{ toJson(github.event.inputs) }}
         run: |
-          python -c "
+          cat > /tmp/build_overrides.py << 'PYEOF'
           import os, json, sys
           raw = json.loads(os.environ["INPUTS_JSON"])
           result = {"inputs": {}}
@@ -203,9 +204,11 @@ jobs:
                   except ValueError:
                       pass
               if k.startswith("monthly_fixed_costs_"):
-                  sub = k[len("monthly_fixed_costs_"):]; monthly_fixed[sub] = parsed
+                  sub = k[len("monthly_fixed_costs_"):]
+                  monthly_fixed[sub] = parsed
               elif k.startswith("capex_breakdown_"):
-                  sub = k[len("capex_breakdown_"):]; capex[sub] = parsed
+                  sub = k[len("capex_breakdown_"):]
+                  capex[sub] = parsed
               else:
                   result["inputs"][k] = parsed
           if monthly_fixed:
@@ -215,7 +218,8 @@ jobs:
           with open("overrides.json", "w", encoding="utf-8") as f:
               f.write(json.dumps(result, ensure_ascii=False))
           print("Overrides JSON:", json.dumps(result, ensure_ascii=False))
-          "
+          PYEOF
+          python /tmp/build_overrides.py
 
       - name: Calculate report
         env:
