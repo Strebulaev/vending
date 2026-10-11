@@ -225,8 +225,29 @@ jobs:
         env:
           INPUT_FILE: config/business-model-inputs.json
         run: |
-          echo "Running: python pipeline/business_model.py --input $INPUT_FILE --output output/business-model-calculation.md --overrides-json "$(cat overrides.json)""
-          python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md --overrides-json "$(cat overrides.json)"
+          echo "Running business-model calculation"
+          mkdir -p output
+          cat > /tmp/calc_report.py << 'PYEOF'
+          import subprocess, sys, os
+          overrides = ''
+          try:
+              with open('overrides.json', encoding='utf-8') as f:
+                  overrides = f.read().strip()
+          except FileNotFoundError:
+              pass
+          cmd = [
+              'python', 'pipeline/business_model.py',
+              '--input', 'config/business-model-inputs.json',
+              '--output', 'output/business-model-calculation.md'
+          ]
+          if overrides:
+              cmd.extend(['--overrides-json', overrides])
+              print('Using overrides:', overrides[:200] + ('...' if len(overrides) > 200 else ''))
+          else:
+              print('No overrides; using config/business-model-inputs.json')
+          subprocess.run(cmd, check=True)
+          PYEOF
+          python /tmp/calc_report.py
 
       - name: Upload calculated report
         uses: actions/upload-artifact@v4
