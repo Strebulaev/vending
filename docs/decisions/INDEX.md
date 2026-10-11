@@ -1,8 +1,8 @@
 # bootstrap-generated: true
 id, title, tags, status
-0001-cashless-first,Приоритет — безналичная оплата (телефон/карта); приём наличных необязателен,"payment, hardware",draft
+0001-cashless-first,Принимать наличные и безналичную оплату в пилоте,"payment, hardware",active
 0002-treated-tap-water-product,"Продукт — водопроводная вода, очищенная на месте обратным осмосом, а не бутилированная","water-treatment",draft
-0003-residential-single-point-pilot,Проверить одну жилую точку рядом с домом до масштабирования,"locations, pricing",draft
+0003-residential-single-point-pilot,Проверить одну жилую уличную точку 24/7 до масштабирования,"locations, pricing",active
 0004-single-price-first,"Сначала проверить одну цену за 5 л, затем дифференцировать по типу точки","pricing",draft
 0005-franchise-open-zones-only,Франшиза только в открытых зонах; свой город компания закрывает сама,"franchise",draft
 0006-serbia-first-expansion,"Выходить поэтапно, начиная с Сербии, затем Балканы","franchise, legal-tax",draft

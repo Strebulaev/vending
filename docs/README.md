@@ -15,14 +15,14 @@
 
 | Папка | Что в ней |
 |---|---|
-| [project/](project/) | Бизнес-документы: исходный бриф, план реализации, руководство по запуску пилота, запрос котировок поставщикам, презентация инвесторам |
-| [hardware/](hardware/) | Оборудование: смета по позициям, техническая документация, бак и нагрев, модели, телеметрия, позиционирование, типы локаций, кандидаты площадок в Сурчине. Итог — `hardware-report.md` |
-| [economics/](economics/) | Закупки и экономика: финансовая модель, цена, амортизация и кража, цена аппарата «от двери до двери», сборка своими силами, модель запасов. Итог — `economics-report.md` |
-| [certification/](certification/) | Сертификация: карта разрешений Сербии, «покупаем» против «производим», мастер-сертификация, бюджет и сроки. Итог — `certification-report.md` |
+| [project/](project/) | Бизнес-документы: исходный бриф, [бизнес-модель пилота](project/business-model.md), план реализации, руководство по запуску пилота, запрос котировок поставщикам, презентация инвесторам |
+| [hardware/](hardware/) | Оборудование: смета по позициям, baseline пилотной спецификации, [четыре спецификации конфигураций](hardware/specifications/), техническая документация, бак и нагрев, модели, телеметрия, позиционирование, [скоринг точек](hardware/site-selection-scorecard.md), типы локаций и кандидаты площадок. Итог — `hardware-report.md` |
+| [economics/](economics/) | Закупки и экономика: [юнит-экономика точки](economics/pilot-unit-economics.md), [руководство параметрического калькулятора](economics/business-model-calculator-guide.md), финансовая модель, [расчет бизнес-модели из параметров](economics/business-model-calculation.md), цена, амортизация и кража, цена аппарата «от двери до двери», сборка своими силами, модель запасов. Итог — `economics-report.md` |
+| [certification/](certification/) | Сертификация: карта разрешений Сербии, [проекты запросов (не отправлены)](certification/regulatory-inquiry-drafts.md), «покупаем» против «производим», мастер-сертификация, бюджет и сроки. Итог — `certification-report.md` |
 | [sampling/](sampling/) | Отбор проб воды: стандартная конфигурация, программа проб, правило выборки, стоимость, логистика. Итог — `sampling-report.md` |
 | [cost-estimates/](cost-estimates/) | Сметы: таблицы затрат по блокам (`blocks/`, английский), итоговая смета пилота и сценарии |
 | [audit/](audit/) | Журналы аудита 2026-10-08: что проверено по источникам, что исправлено, удалено, помечено как допущение; остающиеся пробелы |
-| [plans/](plans/) | Планы работ по дорожкам (выполнены) |
+| [plans/](plans/) | Планы работ по дорожкам, включая [DoD бизнес-модели](plans/business-model-dod.md) и [DoD типовых конфигураций водоматов](plans/water-vending-configurations-dod.md) |
 | [facts/](facts/), [decisions/](decisions/), [guardrails/](guardrails/), [skills/](skills/) | База знаний: факты, решения, правила, словарь тегов и роли. В каждой папке `INDEX.md`; связь документов с решениями — `facts/docs-manifest.md` |
 
 ## Что генерируется скриптами (не править вручную)
@@ -31,6 +31,9 @@
 |---|---|
 | `cost-estimates/pilot-scenarios.md` | `pipeline/calculator.py` |
 | `economics/financial-model.md`, `pricing-scenarios.md`, `ready-made-options-landed-cost.md` | `pipeline/economics.py` |
+| `economics/business-model-calculation.md` | Исполняемый pipeline `pipeline/business_model.py`; canvas и входы — `config/business-model-inputs.json` |
+| `economics/business-model-flow.mermaid` | Исполняемый pipeline `pipeline/business_model.py`, canvas плюс формулы расчетов |
+| `hardware/specifications/*-v1.md` | `pipeline/build_equipment_specs.py`, семейство — `config/equipment-specifications.json`, общая матрица — `hardware/pilot-spec-v1.md` |
 | `economics/inventory-model.md` | `pipeline/inventory.py` |
 | `sampling/program-costs.md` | `pipeline/sampling_cost.py` |
 
@@ -41,3 +44,7 @@
 - Язык: сметы в `cost-estimates/blocks/` — английский; всё остальное — русский.
 - Имена файлов — латиницей через дефис и по теме; в папке дорожки итоговый файл называется `<дорожка>-report.md`.
 - В документах остаются только значения с открытым источником (URL или путь), решения владельца и арифметика по ним; всё остальное — «не найдено» с указанием, кого спросить, и записью в `reports/unknowns-and-open-issues.md`.
+
+## Управление задачами пилота
+
+- [GitHub Issues: DoD пяти артефактов и управление через gh](process/github-issue-management.md)

@@ -43,12 +43,13 @@
 | `docs/cost-estimates/` | сметы по блокам (`blocks/`, английский), итоговая смета и сценарии пилота |
 | `docs/{facts,decisions,guardrails,skills}/` | база знаний (русский), в каждой папке `INDEX.md` |
 | `docs/plans/` | планы дорожек (выполнены) |
-| `pipeline/` | скрипты: `generator.py`, `router.py`, `reviewer.py`, `calculator.py`, `economics.py`, `inventory.py`, `sampling_cost.py`, `verify.py`, `fx.py`; `tasks/` — задания блоков |
+| `pipeline/` | скрипты: `generator.py`, `router.py`, `reviewer.py`, `calculator.py`, `economics.py`, `business_model.py`, `build_business_model_overrides.py`, `inventory.py`, `sampling_cost.py`, `verify.py`, `fx.py`; `tasks/` — задания блоков |
 
 ## Команды
 
 ```
 python3 pipeline/calculator.py   # пересчитать сценарии пилота -> docs/cost-estimates/pilot-scenarios.md
+python3 pipeline/business_model.py  # пересчитать экономику по config/business-model-inputs.json
 python3 pipeline/verify.py       # проверить сметы (кодировка, язык, источники, классификация строк)
 python3 pipeline/reviewer.py     # отчёты о проверке блоков (не хранятся в git)
 ```

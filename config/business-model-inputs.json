@@ -1,9 +1,23 @@
 {
   "meta": {
-    "version": 2,
+    "version": 4,
     "currency": "RSD",
     "owner": "strebulaev",
-    "notes": "Заполняйте inputs и source для каждого значения. Пустое значение означает «не найдено», а не ноль. Сценарные значения должны быть помечены scenario_assumption."
+    "notes": "Заполняйте inputs и source для каждого значения. null означает «не найдено», а 0 — только подтвержденное отсутствие расхода. Сценарные значения должны быть помечены scenario_assumption."
+  },
+  "business_model": {
+    "legal_form": {"value": "Сербское DOO", "status": "owner_decision", "source": "docs/project/business-model.md"},
+    "customer_segment": {"value": "Жители многоквартирного жилого дома, у которого размещена точка", "status": "owner_decision", "source": "docs/project/business-model.md"},
+    "job_to_be_done": {"value": "Получить обработанную воду рядом с домом без заказа и хранения бутилированной тары", "status": "hypothesis", "source": "docs/project/business-model.md"},
+    "value_proposition": {"value": "Круглосуточный самообслуживаемый доступ к воде из водопровода после RO, в тару покупателя", "status": "project_scope", "source": "docs/decisions/0002-treated-tap-water-product.md; docs/project/business-model.md"},
+    "sales_channel": {"value": "Уличный водомат у жилого дома в Сурчине; доступность 24/7", "status": "owner_decision", "source": "docs/decisions/0003-residential-single-point-pilot.md"},
+    "payment_and_revenue": {"value": "Продажа воды по объему; цена-база 50 RSD за 5 л; наличные со сдачей и безналичная оплата", "status": "owner_decision", "source": "docs/decisions/0001-cashless-first.md; docs/decisions/0004-single-price-first.md"},
+    "customer_relationship": {"value": "Самообслуживание; порядок жалоб, возвратов и поддержки не найден", "status": "partly_unknown", "source": "docs/project/business-model.md"},
+    "key_activities": {"value": "Закупка готового аппарата, договор и подключение площадки, контроль воды, обслуживание, учет продаж и обработка платежей", "status": "project_scope", "source": "docs/decisions/0031-pilot-buy-ready-made.md; docs/project/business-model.md"},
+    "key_resources": {"value": "Водомат, площадка и подключения, вода, платежная/фискальная схема, операционные процедуры и подтверждения качества", "status": "project_scope", "source": "docs/hardware/pilot-spec-v1.md; docs/certification/requirements-map.md"},
+    "key_partners": {"value": "Правообладатель площадки, поставщик оборудования, BVK/поставщики коммуникаций, платежный и фискальный провайдер, лаборатория, бухгалтер/юрист", "status": "unselected", "source": "docs/plans/integrated-pilot-artifacts-plan.md"},
+    "cost_structure": {"value": "CAPEX до готовности точки; переменные расходы на воду/RO, платежи, учет и обслуживание; прямые фиксированные расходы площадки, связи, сервиса, анализов и операций", "status": "parameterized", "source": "docs/economics/pilot-unit-economics.md"},
+    "scale_gate": {"value": "Не масштабировать до прохождения пилотного гейта: не менее 50 л/день и uptime не менее 95% три месяца подряд", "status": "owner_decision", "source": "docs/decisions/0011-pilot-gate.md; docs/guardrails/no-scale-out-before-pilot-gate.md"}
   },
   "inputs": {
     "price_per_5l_rsd": 50,
@@ -42,6 +56,12 @@
       "site_preparation": null,
       "permits_and_documentation": null,
       "opening_consumables": null
+    },
+    "startup_cash_requirements": {
+      "lease_deposit": null,
+      "prepaid_rent": null,
+      "cash_float_for_change": null,
+      "opening_working_capital": null
     },
     "site_area_sqm": null
   },

@@ -5,6 +5,8 @@
 
 > **Addendum 2026-10-08:** the pilot is a single residential point near the founders' home. Offices and kitchens (§3.2–3.3) are deferred until the pilot review. Scale-out waits for the pilot gate. See `docs/decisions/0003-residential-single-point-pilot.md` and `docs/decisions/0011-pilot-gate.md`.
 
+> **Owner decision 2026-10-11:** pilot operator is a Serbian d.o.o.; the pilot is one outdoor machine by a residential apartment building, available 24/7, for residents; accept both cash and cashless payment. Site/address and remaining commercial inputs are not known yet. All sales must be recorded through the applicable fiscal process; the historical statement in §6.1 about not declaring expenses is not an accepted project policy. See decisions `0001`, `0003` and the integrated pilot artifacts plan.
+
 > **Note 2026-10-08:** this brief is the founders' raw transcript and is kept as a historical record. Its numbers are illustrative remarks, NOT facts: ~150 EUR per month per site (an example), water cost 30-50% of turnover (an example), the 20% / 10% split, the 2 L example, tolerance 0.5 mm vs 3 mm, and the 3-hour field-engineer remark. Price ranges attributed to "brief Sec X" elsewhere (for example 20-50 EUR/month for monitoring, 30-80 EUR for payment integration, 500-1,000 EUR for spare parts) are not in it and were removed (they read 'not found'). The 20% / 10% rates equal Serbian VAT rates; whether they apply to vended water is not found (fact 0002). Register of unknowns: `docs/reports/unknowns-and-open-issues.md`.
 
 ## 1. Project Context

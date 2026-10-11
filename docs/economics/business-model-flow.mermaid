@@ -1,15 +1,145 @@
 flowchart TD
-    subgraph Inputs ["Inputs — auto from pipeline/business_model.py"]
-        price["price_per_5l_rsd = 50"]
-        vol["volume_lpd = None"]
-        upt["uptime_rate = None"]
-        days["operating_days_month = 30"]
-        tariff_w["water_tariff_rsd_m3 = 158.09"]
-        tariff_s["sewer_tariff_rsd_m3 = None"]
+    subgraph Drivers["1. Входные параметры и подтверждения"]
+        Demand["Спрос: литры в день V"]
+        Uptime["Доступность: uptime u"]
+        Days["Рабочие дни: D"]
+        Price["Цена: p RSD/л"]
+        Orders["Средний заказ: л/чек"]
+        Area["Площадь точки, м² (если измерена)"]
+        PaymentShares["Оплата: доля cashless-выручки и доля cashless-чеков"]
+        WaterParams["Вода: тариф, RO коэффициент k, база тарифа канализации"]
+        CostInputs["Переменные ставки и прямые расходы точки"]
+        CapexInputs["CAPEX: аппарат + доставка/монтаж + площадка + документы + пусковые материалы"]
+        StartupCashInputs["Стартовый cash: депозит + предоплата + разменный фонд + оборотный резерв"]
     end
-    subgraph Calc ["Calculation: pipeline/business_model.py"]
-        calc["Scenarios: downside / base / upside"]
+
+    subgraph Canvas["0. Операционная бизнес-модель из config/business-model-inputs.json"]
+        Segment["Клиентский сегмент и задача клиента"]
+        ValueOffer["Ценность: RO-вода в тару клиента"]
+        SalesChannel["Точка продаж: уличный водомат 24/7"]
+        Operator["Оператор: DOO; самообслуживание"]
+        ActivitySet["Активности: закупка, подключение, контроль воды, обслуживание, учет"]
+        PartnerSet["Площадка, поставщик, коммунальные и платежные партнеры, лаборатория"]
+        RevenueModel["Выручка: цена × проданные литры"]
+        CostModel["Затраты: CAPEX + переменные + прямые фиксированные"]
+        PilotGate["Гейт масштабирования: из решения 0011"]
+        Segment --> ValueOffer --> SalesChannel --> RevenueModel
+        Operator --> ActivitySet --> SalesChannel
+        PartnerSet --> ActivitySet
+        CostModel --> FourWallResult
+        PilotGate --> Verdict
     end
-    Inputs --> Calc
-    Calc --> Out["Report: docs/economics/business-model-calculation.md"]
-    Calc --> Mer["Diagram: docs/economics/business-model-flow.mermaid"]
+
+    subgraph Sales["2. Объем продаж и выручка"]
+        Liters["Проданные литры L = V × D × u"]
+        TicketCount["Количество заказов N = L / средний заказ"]
+        Revenue["Выручка = L × p"]
+        Liters --> TicketCount
+        Liters --> Revenue
+    end
+
+    subgraph VariableCosts["3. Переменные расходы и contribution"]
+        WaterCost["Водоснабжение = L × k × тариф воды / 1000"]
+        SewerCost["Водоотведение = L × коэффициент базы × тариф / 1000"]
+        CardCost["Эквайринг = cashless-выручка × комиссия"]
+        TaxCost["Эффективный расход с выручки по заключению бухгалтера"]
+        CashCost["Наличные = cash-заказы × стоимость обработки/инкассации"]
+        RefundCost["Возвраты/сбои = заказы × стоимость на заказ"]
+        OtherVariable["Другие подтвержденные переменные расходы"]
+        VariableTotal["Все переменные расходы"]
+        Contribution["Contribution = выручка − переменные расходы"]
+        WaterCost --> VariableTotal
+        SewerCost --> VariableTotal
+        CardCost --> VariableTotal
+        TaxCost --> VariableTotal
+        CashCost --> VariableTotal
+        RefundCost --> VariableTotal
+        OtherVariable --> VariableTotal
+        Revenue --> Contribution
+        VariableTotal --> Contribution
+    end
+
+    subgraph FourWall["4. Прямые постоянные расходы точки — four-wall"]
+        Rent["Аренда площадки"]
+        Fixed["Аренда + коммунальные + сервис/фильтры + связь + труд/инкассация + лаборатория + страховка + поддержка + локальный маркетинг + прочее"]
+        FourWallResult["Результат точки до амортизации и финансирования = contribution − four-wall"]
+        Contribution --> FourWallResult
+        Fixed --> FourWallResult
+        Rent --> Fixed
+    end
+
+    subgraph DecisionMetrics["5. Метрики и инвестиционное решение"]
+        UnitMetrics["Вклад/л и вклад/заказ; contribution margin"]
+        BreakEven["BEP: литры/день и заказы/месяц"]
+        CapexTotal["Полный стартовый CAPEX"]
+        StartupCashTotal["Первоначальная потребность = CAPEX + стартовый cash"]
+        Payback["Срок возврата CAPEX / положительный результат точки"]
+        FullCashPayback["Срок возврата всех первоначально вложенных средств"]
+        SiteMetrics["Аренда / выручка; выручка / площадь точки"]
+        Gate["Отдельные go/no-go: правовой допуск, вода/качество, договор площадки, утвержденный лимит владельца"]
+        Verdict["Вердикт: данных недостаточно / расходы не покрыты / положительная экономика по введенным данным"]
+        Contribution --> UnitMetrics
+        FourWallResult --> BreakEven
+        Fixed --> BreakEven
+        FourWallResult --> Payback
+        CapexInputs --> CapexTotal
+        CapexTotal --> Payback
+        CapexTotal --> StartupCashTotal
+        StartupCashInputs --> StartupCashTotal
+        StartupCashTotal --> FullCashPayback
+        FourWallResult --> FullCashPayback
+        Revenue --> SiteMetrics
+        Rent --> SiteMetrics
+        Area --> SiteMetrics
+        UnitMetrics --> BreakEven
+        Payback --> Verdict
+        FullCashPayback --> Verdict
+        BreakEven --> Verdict
+        Gate --> Verdict
+    end
+
+    subgraph Extensions["6. Дополнительный анализ — только при наличии данных"]
+        Scenarios["Downside / base / upside: явно заданные драйверы сценариев"]
+        Sensitivity["Чувствительность: 2–3 выбранных драйвера и диапазон изменения"]
+        PnL["Операционный прогноз точки на 12–36 месяцев"]
+        Customer["CAC / LTV: расходы привлечения, новые клиенты, литры/клиент, срок жизни"]
+        Catchment["TAM / SAM / SOM: домохозяйства × литры/домохозяйство × подтвержденные доли"]
+        NetworkOH["Корпоративные/сетевые расходы не входят в unit economics точки"]
+    end
+
+    Demand --> Liters
+    Uptime --> Liters
+    Days --> Liters
+    Price --> Revenue
+    Orders --> TicketCount
+    PaymentShares --> CardCost
+    PaymentShares --> CashCost
+    WaterParams --> WaterCost
+    WaterParams --> SewerCost
+    CostInputs --> CardCost
+    CostInputs --> TaxCost
+    CostInputs --> CashCost
+    CostInputs --> RefundCost
+    CostInputs --> OtherVariable
+    CostInputs --> Fixed
+    Drivers --> Scenarios
+    Scenarios --> Liters
+    Scenarios --> FourWallResult
+    FourWallResult --> Sensitivity
+    FourWallResult --> PnL
+    UnitMetrics --> Customer
+    Demand --> Catchment
+    Liters --> WaterCost
+    Liters --> SewerCost
+    TicketCount --> CashCost
+    TicketCount --> RefundCost
+
+    classDef input fill:#eaf2f8,stroke:#2874a6,color:#17202a
+    classDef cost fill:#fdebd0,stroke:#ca6f1e,color:#17202a
+    classDef calc fill:#e8f8f5,stroke:#148f77,color:#17202a
+    classDef decision fill:#f5eef8,stroke:#7d3c98,color:#17202a
+    class Demand,Uptime,Days,Price,Orders,Area,PaymentShares,WaterParams,CostInputs,CapexInputs,StartupCashInputs input
+    class WaterCost,SewerCost,CardCost,TaxCost,CashCost,RefundCost,OtherVariable,VariableTotal,Rent,Fixed cost
+    class Liters,TicketCount,Revenue,Contribution,UnitMetrics,BreakEven,CapexTotal,StartupCashTotal,Payback,FullCashPayback,SiteMetrics calc
+    class FourWallResult,Gate,Verdict decision
+    class Scenarios,Sensitivity,PnL,Customer,Catchment,NetworkOH decision

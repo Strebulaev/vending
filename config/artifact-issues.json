@@ -1,0 +1,10 @@
+{
+  "repository": "Strebulaev/vending",
+  "issues": [
+    {"title": "Этап 1 — Собрать исполняемый pipeline бизнес-модели пилота", "body_file": ".github/artifact-issues/01-business-model.md", "issue_number": 1},
+    {"title": "Этап 2 — Разработать отдельные спецификации оборудования для четырёх конфигураций", "body_file": ".github/artifact-issues/02-specification.md", "issue_number": 4},
+    {"title": "Этап 3 — Завершить критерии и воспроизводимый скоринг точек", "body_file": ".github/artifact-issues/03-site-scorecard.md", "issue_number": 2},
+    {"title": "Этап 4 — Определить обязательный порядок допуска водомата к запуску в Сербии", "body_file": ".github/artifact-issues/04-regulatory-map.md", "issue_number": 5},
+    {"title": "Этап 5 — Завершить параметрическую финмодель и unit economics точки", "body_file": ".github/artifact-issues/05-financial-model.md", "issue_number": 3}
+  ]
+}

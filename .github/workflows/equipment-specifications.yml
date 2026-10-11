@@ -1,0 +1,45 @@
+name: Build equipment configuration specifications
+run-name: Equipment specifications • ${{ github.event_name }} • ${{ github.ref_name }}
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/equipment-specifications.json"
+      - "docs/hardware/pilot-spec-v1.md"
+      - "pipeline/build_equipment_specs.py"
+      - ".github/workflows/equipment-specifications.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: equipment-specifications-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Generate and verify four standalone specifications
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify checked-in specifications match the generator
+        run: python pipeline/build_equipment_specs.py --check
+
+      - name: Generate package for review
+        run: python pipeline/build_equipment_specs.py --output-dir output/equipment-specifications
+
+      - name: Upload specifications
+        uses: actions/upload-artifact@v4
+        with:
+          name: equipment-specifications-${{ github.run_number }}
+          path: output/equipment-specifications/
+          if-no-files-found: error
+          retention-days: 30

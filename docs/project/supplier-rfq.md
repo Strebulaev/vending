@@ -1,8 +1,8 @@
 # Запрос котировок (RFQ) на аппарат для пилота
 
-> Черновик от 2026-10-08. Ничего не отправлено. Текст запроса — на английском, потому что уходит поставщикам; пояснения для команды — на русском.
-> Для решения `0012`: разослать **один и тот же** запрос 2–3 китайским производителям (вариант A), одному европейскому (D) и одному местному дистрибьютору (B), затем сравнить по таблице в конце.
-> Перед отправкой подставить `[…]` (название компании, контакт, город установки).
+> Обновлен 2026-10-11 по решению владельца `strebulaev`: одна наружная точка у многоквартирного жилого дома в Сурчине, доступ 24/7, оплата наличными и безналично. Ничего не отправлено. Текст запроса — на английском, пояснения для команды — на русском.
+> Для решения `0012`: запросить письменные предложения у 2–3 китайских производителей (вариант A), одного европейского (D) и одного местного дистрибьютора (B), затем сравнить по таблице в конце. Отправка запросов требует отдельной команды владельца и пока не разрешена.
+> Перед будущей отправкой подставить `[…]` (название DOO, контакт, точный адрес/город установки, целевой срок).
 
 ## Кому отправлять
 
@@ -16,27 +16,28 @@
 
 ## Текст запроса (английский)
 
-**Subject:** RFQ – 1 pcs self-service drinking water vending machine (RO), delivery to Serbia
+**Subject:** RFQ – 1 outdoor self-service drinking water vending machine (RO), cash and cashless, delivery to Serbia
 
 Hello,
 
-We are a Serbian start-up preparing a pilot of one self-service drinking water vending point and request a firm quotation for **1 unit** (with the option of further units after the pilot).
+We are a Serbian d.o.o. preparing a pilot of one outdoor self-service drinking water vending point by a residential apartment building in Surčin. Customers should have access 24/7. Please quote **1 unit** (with the option of further units after the pilot). The exact site address and machine supplier have not yet been selected.
 
 **1. Machine**
 - Reverse-osmosis purified water from the municipal supply (cold water, drain line available); please state the exact model name, rated capacity, the minimum and maximum inlet pressure, the number of filtration stages and the storage tank volume.
 - Dispensing: 5 L and 19 L (5 gal) bottles; please state the dispensing flow (L/min); stainless-steel removable nozzle, drip tray, leak protection.
 - Mains: European 230 V / 50 Hz; please state the supply voltage range, power draw and plug type.
 - Cabinet: steel with polycarbonate panels, key lock, floor anchoring, anti-vandal design for unattended use; please state steel thickness, dimensions and weight.
-- Removable or switchable heater for freeze protection (thermostat, summer-mode disable); please state heater power and thermostat setpoint.
+- Outdoor-rated enclosure and removable or switchable heater for freeze protection (thermostat, summer-mode disable); please state the supported outdoor temperature/moisture range, ingress protection rating and test basis, heater power and thermostat setpoint. Do not assume an unverified protection rating.
 
 **2. Payment and control**
-- Cashless only for this order: contactless card/phone (EMV NFC) and, if possible, QR payment. Coin/bill acceptors are not required.
-- Controller with MDB or documented open protocol so that a Serbian fiscal/payment module can be integrated. Please send the protocol/API documentation.
-- Please state whether the payment reader supports certified fiscal integration in your reference markets.
+- Both cash and cashless payment are required for this pilot. For cashless, quote contactless card/phone (EMV NFC) and state available QR options. For cash, quote compatible coin and banknote acceptance modules that can return change; list supported denominations, escrow/refund behavior, cassette details, configurations and prices separately. Change payout is a buyer requirement.
+- Controller must expose MDB or another documented interface so that the payment/fiscal system can be integrated. Please send protocol/API documentation and transaction-state diagrams for approval-before-dispense, payment failure, cancellation and refund.
+- State whether you can integrate a fiscal solution accepted for Serbian vending sales for both payment types. Identify the provider, certificate reference and exact supported machine/module models. A payment reader alone is not a fiscal solution.
+- Describe cash reconciliation logs, cassette capacity/removal procedure, tamper alarm and whether safe service requires your staff or a local operator.
 
 **3. Telemetry**
 - Remote monitoring of: sales events, water temperature, flow, door opening, fault alarms, GPS position. 2 MP IP camera. Cellular (GSM/LTE) modem with a documented data format and API, no mandatory vendor cloud lock-in; please state any subscription fees.
-- Fail-safe: dispensing blocked when payment is unavailable; watchdog restart.
+- Fail-safe: dispensing blocked when the selected payment method is unavailable or not confirmed; watchdog restart. Cash and cashless transaction events must be separately exportable for reconciliation.
 
 **4. Compliance and documents** (please attach with the quotation)
 - Declaration of conformity (CE, LVD, EMC) and test reports.
@@ -45,7 +46,7 @@ We are a Serbian start-up preparing a pilot of one self-service drinking water v
 - HS code and country of origin.
 
 **5. Commercial terms**
-- Unit price and prices of optional items, quoted **EXW/FOB [port] and CIF [Belgrade or Thessaloniki]**, in EUR or USD; validity of the offer.
+- Separate itemized unit prices for base machine, cashless terminal, coin acceptor/changer, banknote acceptor, fiscal integration, outdoor protection/heater, and optional parts; quote **EXW/FOB [port] and DAP [full delivery address after selection]**, in EUR or USD; validity of offer. CIF port price alone is not a door-to-door price.
 - Lead time, packaging dimensions and weight, minimum order quantity.
 - Payment terms (we propose staged payment: deposit and balance against shipping documents, preferably via the platform's payment protection).
 - Warranty (at least 12 months), spare-parts and consumables list with prices, availability of remote technical support, language of the user interface (Serbian or English).
@@ -71,7 +72,11 @@ Please reply by **[date]**. Thank you.
 | Цена аппарата, EUR (FOB/CIF) | | | | | |
 | Фрахт, пошлина, НДС, брокер (оценка) | | | | | |
 | Итого с доставкой и формальностями, EUR | | | | | |
-| Подтверждено ступеней / бак / напряжение | | | | | |
+| Подтверждено ступеней / бак / наружная защита / напряжение | | | | | |
+| Cash: coin + note module, denominations, change/refund, cassette service | | | | | |
+| Cashless: EMV/NFC, supported Serbian acquirer, fee | | | | | |
+| Serbian fiscal integration accepted for vending (both modes) | | | | | |
+| Cash handling/safety/reconciliation service costs | | | | | |
 | Документы на материалы контакта с водой | | | | | |
 | CE / LVD / EMC | | | | | |
 | Протокол/API оплаты и телеметрии | | | | | |

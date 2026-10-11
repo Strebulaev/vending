@@ -1,8 +1,5 @@
-# Как запускать вручную:
-# Actions → Calculate water-vending business model → Run workflow
-# Оставьте поля пустыми, чтобы использовать config/business-model-inputs.json
-# или заполните нужные значения — пустое = не изменять
 name: Calculate water-vending business model
+run-name: Business model • ${{ github.event_name }} • ${{ github.ref_name }}
 
 on:
   workflow_dispatch:
@@ -11,249 +8,173 @@ on:
         description: "Цена за 5 л, RSD (решение владельца / изменение решения)"
         required: false
         type: string
-        default: ""
       volume_lpd:
-        description: "Потенциальные продажи, л/день работы (измерение или явное допущение)"
+        description: "Продажи, л/день работы (измерение или помеченное допущение)"
         required: false
         type: string
-        default: ""
       uptime_rate:
-        description: "Доля времени работы 0..1 (SLA поставщика и журнал)"
+        description: "Доля доступности 0..1 (SLA/журнал простоев)"
         required: false
         type: string
-        default: ""
       operating_days_month:
-        description: "Рабочие дни в месяце (30-дневная арифметика)"
+        description: "Рабочих дней за месяц"
         required: false
         type: string
-        default: ""
       cashless_revenue_share:
-        description: "Доля безналичной выручки (фискальный отчет)"
+        description: "Доля безналичной выручки, 0..1"
         required: false
         type: string
-        default: ""
       cashless_order_share:
-        description: "Доля безналичных транзакций (фискальный/платежный отчет)"
+        description: "Доля безналичных заказов, 0..1"
         required: false
         type: string
-        default: ""
       cashless_fee_rate:
-        description: "Комиссия безналичной выручки, доля 0..1 (договор эквайринга; например 0.05 = 5%)"
+        description: "Комиссия эквайринга, доля 0..1"
         required: false
         type: string
-        default: ""
       effective_sales_tax_rate:
-        description: "Эффективная ставка налога на выручку, доля 0..1 (только по письму бухгалтера; например 0.12 = 12%)"
+        description: "Эффективный расход с выручки, 0..1 (только по модели бухгалтера)"
         required: false
         type: string
-        default: ""
       water_tariff_rsd_m3:
-        description: "Тариф воды, RSD/м³ (счет / расчет BVK)"
+        description: "Тариф воды, RSD/м³"
         required: false
         type: string
-        default: ""
       sewer_tariff_rsd_m3:
-        description: "Тариф канализации, RSD/м³ (счет / расчет BVK)"
+        description: "Тариф водоотведения, RSD/м³"
         required: false
         type: string
-        default: ""
       sewer_billing_basis:
-        description: "База начисления канализации: intake / reject / product (подтверждение BVK)"
+        description: "Основа тарифа BVK: intake, reject или product"
         required: false
         type: string
-        default: ""
       ro_intake_l_per_product_l:
-        description: "Входная вода на литр готового продукта (спецификация + измерение)"
+        description: "Литры входной воды на литр продукта"
         required: false
         type: string
-        default: ""
       other_variable_cost_rsd_l:
-        description: "Другие переменные расходы, RSD/л"
+        description: "Прочие переменные расходы, RSD/л"
         required: false
         type: string
-        default: ""
       average_order_l:
-        description: "Средний объем заказа, л (фискальные/машинные данные)"
+        description: "Средний заказ, литров"
         required: false
         type: string
-        default: ""
       cash_handling_cost_rsd_per_cash_order:
-        description: "Стоимость наличного заказа, RSD/заказ (инкассация / процесс)"
+        description: "Обработка/инкассация наличного заказа, RSD/заказ"
         required: false
         type: string
-        default: ""
       refund_and_failed_sale_cost_rsd_per_order:
-        description: "Средняя стоимость возврата/сбоя, RSD/заказ (журналы инцидентов)"
+        description: "Средняя стоимость возврата/сбоя, RSD/заказ"
         required: false
         type: string
-        default: ""
       site_area_sqm:
-        description: "Площадь точки, м² (полевое измерение, необязательное)"
+        description: "Площадь точки, м² (необязательно)"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_rent:
-        description: "Аренда, RSD/месяц (договор)"
+        description: "Аренда, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_electricity:
-        description: "Электроэнергия, RSD/месяц (счета)"
+        description: "Электричество, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_telemetry_and_connectivity:
-        description: "Телеметрия и связь, RSD/месяц (договор / счет)"
+        description: "Телеметрия и связь, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_service_and_filters:
-        description: "Сервис и фильтры, RSD/месяц (договор)"
+        description: "Сервис и фильтры, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_labor_and_cash_collection:
-        description: "Труд и инкассация, RSD/месяц (учет)"
+        description: "Труд/инкассация, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_laboratory_and_quality:
-        description: "Лаборатория и качество, RSD/месяц (договор)"
+        description: "Лаборатория и качество, RSD/месяц"
         required: false
         type: string
-        default: ""
       monthly_fixed_costs_insurance:
-        description: "Страхование, RSD/месяц (договор)"
+        description: "Страхование, RSD/месяц"
         required: false
         type: string
-        default: ""
       parameters_json:
-        description: "JSON-override для оставшихся параметров (capex_breakdown.*, другие fixed, scenario). Пример: {\"capex_breakdown\":{\"equipment\":500000}}"
+        description: "JSON для CAPEX, депозита/размена, остальных затрат, сценариев, источников, прогноза и чувствительности. Пусто = использовать конфиг."
         required: false
         type: string
-        default: ""
   push:
     paths:
       - "config/business-model-inputs.json"
       - "pipeline/business_model.py"
+      - "pipeline/build_business_model_overrides.py"
       - ".github/workflows/business-model-calculation.yml"
 
 permissions:
   contents: read
 
+concurrency:
+  group: business-model-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   calculate:
+    name: Calculate, render and publish report artifact
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
-      - name: Show current inputs (from config)
-        run: |
-          echo "=== Parameters in config/business-model-inputs.json ==="
-          cat > /tmp/show_inputs.py << 'PYEOF'
-          import json
-          d = json.load(open("config/business-model-inputs.json", encoding="utf-8"))
-          for k,v in d.get("inputs",{}).items():
-              if isinstance(v, dict):
-                  for sub, subv in v.items():
-                      if subv is not None:
-                          print(f"{k}.{sub}: {subv}")
-              else:
-                  if v is not None:
-                      print(f"{k}: {v}")
-          print("--- Full keys (null = unknown / not set): ---")
-          for k,v in d.get("inputs",{}).items():
-              if isinstance(v, dict):
-                  for sub in v:
-                      print(f"{k}.{sub}")
-              else:
-                  print(k)
-          PYEOF
-          python /tmp/show_inputs.py
-
-      - name: Build overrides from inputs
+      - name: Build and validate parameter overrides
+        if: github.event_name == 'workflow_dispatch'
         env:
-          INPUTS_JSON: ${{ toJson(github.event.inputs) }}
+          DISPATCH_INPUTS_JSON: ${{ toJson(github.event.inputs) }}
         run: |
-          cat > /tmp/build_overrides.py << 'PYEOF'
-          import os, json, sys
-          raw = json.loads(os.environ["INPUTS_JSON"])
-          result = {"inputs": {}}
-          monthly_fixed = {}
-          capex = {}
-          for k, v in raw.items():
-              if v == "" or v is None or str(v).strip() == "":
-                  continue
-              s = str(v).strip()
-              parsed = s
-              if s == "null" or s == "None":
-                  parsed = None
-              else:
-                  try:
-                      if "." in s or "e" in s.lower():
-                          parsed = float(s)
-                          if parsed.is_integer():
-                              parsed = int(parsed)
-                      else:
-                          parsed = int(s)
-                  except ValueError:
-                      pass
-              if k.startswith("monthly_fixed_costs_"):
-                  sub = k[len("monthly_fixed_costs_"):]
-                  monthly_fixed[sub] = parsed
-              elif k.startswith("capex_breakdown_"):
-                  sub = k[len("capex_breakdown_"):]
-                  capex[sub] = parsed
-              else:
-                  result["inputs"][k] = parsed
-          if monthly_fixed:
-              result["inputs"]["monthly_fixed_costs"] = monthly_fixed
-          if capex:
-              result["inputs"]["capex_breakdown"] = capex
-          with open("overrides.json", "w", encoding="utf-8") as f:
-              f.write(json.dumps(result, ensure_ascii=False))
-          print("Overrides JSON:", json.dumps(result, ensure_ascii=False))
-          PYEOF
-          python /tmp/build_overrides.py
+          python pipeline/build_business_model_overrides.py output/overrides.json
 
-      - name: Calculate report
+      - name: Calculate business model and render diagram
         env:
-          INPUT_FILE: config/business-model-inputs.json
+          EVENT_NAME: ${{ github.event_name }}
         run: |
-          echo "Running business-model calculation"
           mkdir -p output
-          cat > /tmp/calc_report.py << 'PYEOF'
-          import subprocess, sys, os
-          overrides = ''
-          try:
-              with open('overrides.json', encoding='utf-8') as f:
-                  overrides = f.read().strip()
-          except FileNotFoundError:
-              pass
-          cmd = [
-              'python', 'pipeline/business_model.py',
-              '--input', 'config/business-model-inputs.json',
-              '--output', 'output/business-model-calculation.md'
-          ]
-          if overrides:
-              cmd.extend(['--overrides-json', overrides])
-              print('Using overrides:', overrides[:200] + ('...' if len(overrides) > 200 else ''))
-          else:
-              print('No overrides; using config/business-model-inputs.json')
-          subprocess.run(cmd, check=True)
-          PYEOF
-          python /tmp/calc_report.py
+          args=(
+            --input config/business-model-inputs.json
+            --output output/business-model-calculation.md
+            --diagram-output output/business-model-flow.mmd
+            --json-output output/business-model-calculation.json
+          )
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            args+=(--overrides-file output/overrides.json)
+          fi
+          python pipeline/business_model.py "${args[@]}"
 
-      - name: Upload calculated report + diagram
+      - name: Add decision summary to this workflow run
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          from pathlib import Path
+          report = Path("output/business-model-calculation.md").read_text(encoding="utf-8")
+          header, _, rest = report.partition("## Сводка сценариев")
+          scenarios, _, rest = rest.partition("## Как считается модель")
+          diagram, _, _ = rest.partition("## Реестр параметров и источников")
+          print(header.rstrip())
+          print("## Сводка сценариев" + scenarios.rstrip())
+          print("\n## Диаграмма расчёта\n" + diagram.rstrip())
+          print("\nПолная модель, источники, список неизвестных, сценарные входы и JSON-расчёт приложены в артефакте `business-model-calculation-*`.")
+          PY
+
+      - name: Upload complete business-model package
         uses: actions/upload-artifact@v4
         with:
-          name: business-model-calculation
-          path: |
-            output/business-model-calculation.md
-            docs/economics/business-model-flow.mermaid
-          if-no-files-found: warn
+          name: business-model-calculation-${{ github.run_number }}
+          path: output/
+          if-no-files-found: error
+          retention-days: 30

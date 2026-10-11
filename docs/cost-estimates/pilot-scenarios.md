@@ -1,10 +1,10 @@
 # Сценарии пилотной точки
 
-Сгенерировано `pipeline/calculator.py` для одного жилого аппарата, только безналичная оплата (решения 0001, 0003, 0005, 0011). Скрипт не подставляет догадки: ячейки сметы со значением `not found` пропускаются и перечисляются ниже; суммы показаны только как «по найденным позициям». Курсы: 1 EUR = 117,4601 RSD, 1 USD = 104,7068 RSD (`pipeline/fx.py`, НБС на 6.10.2026 через biznis.kurir.rs, вторичный источник); RSD округлены до динара, EUR до евро. Реестр неизвестного: `docs/reports/unknowns-and-open-issues.md`.
+Сгенерировано `pipeline/calculator.py` для одного уличного жилого аппарата с доступом 24/7 и наличной + безналичной оплатой (решения 0001, 0003, 0005, 0011; редакция владельца от 2026-10-11). Скрипт не подставляет догадки: ячейки сметы со значением `not found` пропускаются и перечисляются ниже; суммы показаны только как «по найденным позициям». Стоимость coin/bill устройств включена в охват, но цены неизвестны. Курсы: 1 EUR = 117,4601 RSD, 1 USD = 104,7068 RSD (`pipeline/fx.py`, НБС на 6.10.2026 через biznis.kurir.rs, вторичный источник); RSD округлены до динара, EUR до евро. Реестр неизвестного: `docs/reports/unknowns-and-open-issues.md`.
 
 ## 1. Единовременные затраты на оборудование и установку
 
-**По найденным позициям: 1 из 27 позиций.** Итог по всем позициям не определён.
+**По найденным позициям: 1 из 29 позиций.** Итог по всем позициям не определён.
 
 | Блок | RSD (найденные позиции) | EUR |
 |------|-----|-----|
@@ -13,9 +13,9 @@
 
 Позиции без найденной цены (в сумму не входят):
 
-- TECH: 1.1 Water vending machine - RO base unit only (cashless reader, GPS, camera, sensors and heater are items 1.4-1.8); 1.5 Camera module for monitoring (working/trashed/stolen scenarios); 1.6 GPS tracker module; 1.7 Telemetry system (water temperature, freezing risk); 1.8 Heater (removable/switchable, summer removal to prevent theft); 1.9 Machine assembly coordination (contractor vs in-house); 1.10 Anti-vandalism protection (body and unit shielding)
+- TECH: 1.1 Water vending machine - RO base unit only (cash and cashless payment modules, GPS, camera, sensors and heater are separate items); 1.2 Coin acceptor / changer model selection for pilot; 1.3 Bill acceptor model selection for pilot; 1.5 Camera module for monitoring (working/trashed/stolen scenarios); 1.6 GPS tracker module; 1.7 Telemetry system (water temperature, freezing risk); 1.8 Heater (removable/switchable, summer removal to prevent theft); 1.9 Machine assembly coordination (contractor vs in-house); 1.10 Anti-vandalism protection (body and unit shielding)
 - LOCATIONS: 5.2 Electricity consumption tracking installation; 5.5 Residential building placement negotiation
-- IT_TELEMETRY: 6.5 Payment integration (cashless API with Serbian providers)
+- IT_TELEMETRY: 6.5 Payment and fiscal integration (cash + cashless, Serbian providers / vending ESIR)
 - OPERATIONS: 7.1 Machine repairability - spare parts warehouse setup
 - INTEGRATION: 10.1 Camera mount and cable; 10.2 GPS mount and cable; 10.3 Temperature sensors mount and cable; 10.4 Flow sensor mount and cable; 10.5 Door sensor mount and cable; 10.6 GSM antenna mount and cable; 10.7 Wiring controller to payment module; 10.8 Wiring controller to telemetry; 10.9 Heater wiring and switch; 10.10 Controller firmware and configuration; 10.11 Telemetry account and platform setup; 10.12 Bench integration test; 10.13 On-site integration test; 10.14 Integration labour; 10.15 Integration documentation (diagram, config)
 
@@ -30,7 +30,7 @@
 
 Позиции без найденной цены (в сумму не входят):
 
-- LEGAL: 2.2 Tax regime assessment (bottled water 20%, rest 10%); 2.3 Cash vs cashless declaration requirements
+- LEGAL: 2.2 Tax regime assessment (bottled water 20%, rest 10%); 2.3 Fiscal and accounting treatment for cash and cashless vending sales
 - MARKETING: 4.5 Marketing Ps (Product, Price, Place, Promotion) analysis
 - DOCUMENTATION: 8.1 Detailed cost estimate document preparation; 8.2 Business plan development; 8.3 Financial plan development; 8.4 Project documentation (engineering pack)
 
@@ -77,8 +77,6 @@
 
 | Строка | Блок | Описание | RSD | Причина |
 |--------|------|----------|-----|---------|
-| 1.2 | TECH | Coin acceptor model selection | не найдено | приём наличных вне пилота (решение 0001) |
-| 1.3 | TECH | Bill acceptor model selection | не найдено | приём наличных вне пилота (решение 0001) |
 | 2.4 | LEGAL | Franchise legal framework for open zones | не найдено | франшиза отложена (решения 0005, 0011) |
 | 3.1 | FINANCE | Water cost per 5L unit (supplier contract) | не найдено | переменная стоимость воды считается отдельно по тарифу (факт 0003); строка исключена, чтобы не считать дважды |
 | 3.2 | FINANCE | Monthly site rent/electricity cost per site | не найдено | дубль аренды 5.1 |
