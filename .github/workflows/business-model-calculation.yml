@@ -127,53 +127,8 @@ on:
         required: false
         type: string
         default: ""
-      monthly_fixed_costs_other:
-        description: "Прочие постоянные расходы, RSD/месяц (договор / учет)"
-        required: false
-        type: string
-        default: ""
-      monthly_fixed_costs_water_readiness_fee:
-        description: "Плата за готовность воды, RSD/месяц (договор)"
-        required: false
-        type: string
-        default: ""
-      monthly_fixed_costs_customer_support:
-        description: "Поддержка клиентов, RSD/месяц (договор)"
-        required: false
-        type: string
-        default: ""
-      monthly_fixed_costs_on_site_labor:
-        description: "Ручной труд на точке, RSD/месяц (учет)"
-        required: false
-        type: string
-        default: ""
-      monthly_fixed_costs_local_marketing:
-        description: "Локальный маркетинг, RSD/месяц (договор)"
-        required: false
-        type: string
-        default: ""
-      capex_breakdown_equipment:
-        description: "Оборудование, RSD (однократно, котировка)"
-        required: false
-        type: string
-        default: ""
-      capex_breakdown_delivery_and_installation:
-        description: "Доставка и монтаж, RSD (однократно, смета)"
-        required: false
-        type: string
-        default: ""
-      capex_breakdown_site_preparation:
-        description: "Подготовка площадки, RSD (однократно, смета)"
-        required: false
-        type: string
-        default: ""
-      capex_breakdown_permits_and_documentation:
-        description: "Разрешения и документы, RSD (однократно, смета)"
-        required: false
-        type: string
-        default: ""
-      capex_breakdown_opening_consumables:
-        description: "Стартовые расходники / пусконаладка, RSD (однократно, смета)"
+      parameters_json:
+        description: "JSON-override для оставшихся параметров (capex_breakdown.*, другие fixed, scenario). Пример: {\"capex_breakdown\":{\"equipment\":500000}}"
         required: false
         type: string
         default: ""
