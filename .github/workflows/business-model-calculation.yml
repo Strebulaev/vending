@@ -1,10 +1,19 @@
+# How to run manually:
+# 1. Open Actions → Calculate water-vending business model → Run workflow
+# 2. Leave parameters_json as "{}" to use config/business-model-inputs.json
+# 3. Or enter JSON overrides, e.g.: {"volume_lpd": 80, "price_per_5l_rsd": 55}
+# The "Show current inputs" step prints all available keys and set values.
 name: Calculate water-vending business model
 
 on:
   workflow_dispatch:
     inputs:
       parameters_json:
-        description: Optional JSON object overriding config/business-model-inputs.json
+        description: |
+          JSON override for config/business-model-inputs.json.
+          Example to change price and volume: {"price_per_5l_rsd": 55, "volume_lpd": 80}
+          Leave as "{}" (default) to use the config file unchanged.
+          See config/business-model-inputs.json for all available keys.
         required: false
         type: string
         default: "{}"
@@ -27,14 +36,35 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+      - name: Show current inputs (from config)
+        env:
+          OVERRIDES_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
+        run: |
+          echo "=== Parameters available in config/business-model-inputs.json ==="
+          python -c "
+          import json, sys
+          d = json.load(open('config/business-model-inputs.json'))
+          for k,v in d.get('inputs',{}).items():
+              if v is not None:
+                  print(f'{k}: {v}')
+          print('--- Full keys (set ones shown above; null = unknown): ---')
+          for k in d.get('inputs',{}):
+              print(k)
+          "
+          echo "=== Override JSON from workflow input ==="
+          printf '%s\n' "$OVERRIDES_JSON"
+
       - name: Calculate report
         env:
-          PARAMETERS_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
+          INPUT_FILE: config/business-model-inputs.json
+          OVERRIDES_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
         run: |
-          if [ "$PARAMETERS_JSON" = "{}" ]; then
-            python pipeline/business_model.py --output output/business-model-calculation.md
+          echo "Running: python pipeline/business_model.py --input $INPUT_FILE --output output/business-model-calculation.md"
+          if [ "$OVERRIDES_JSON" = "{}" ]; then
+            python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md
           else
-            python pipeline/business_model.py --overrides-json "$PARAMETERS_JSON" --output output/business-model-calculation.md
+            echo "Applying overrides: $OVERRIDES_JSON"
+            python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md --overrides-json "$OVERRIDES_JSON"
           fi
       - name: Upload calculated report
         uses: actions/upload-artifact@v4
