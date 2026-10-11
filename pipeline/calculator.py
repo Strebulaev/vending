@@ -13,7 +13,7 @@ BLOCKS = [
     "GRANTS_AND_SUPPORT", "INTEGRATION",
 ]
 
-# Pilot scope (decisions 0001, 0003, 0005, 0011): one residential machine, cashless only.
+# Pilot scope (decisions 0001, 0003, 0005, 0011): one outdoor residential machine, cash + cashless, 24/7 public access.
 # Every estimate row must be classified here; unclassified rows abort the run so
 # new rows cannot silently change the totals.
 #   hardware - one-time machine and install cost
@@ -21,8 +21,8 @@ BLOCKS = [
 #   fixed    - monthly cost; the number is months per period (3 = quarterly)
 #   exclude  - not a pilot cost, with the reason
 SCOPE = {
-    "1.1": ("hardware",), "1.2": ("exclude", "приём наличных вне пилота (решение 0001)"),
-    "1.3": ("exclude", "приём наличных вне пилота (решение 0001)"),
+    "1.1": ("hardware",), "1.2": ("hardware",),
+    "1.3": ("hardware",),
     "1.4": ("hardware",), "1.5": ("hardware",), "1.6": ("hardware",), "1.7": ("hardware",),
     "1.8": ("hardware",), "1.9": ("hardware",), "1.10": ("hardware",),
     "2.1": ("soft",), "2.2": ("soft",), "2.3": ("soft",),
@@ -193,7 +193,7 @@ def main():
 
     L = []
     L.append("# Сценарии пилотной точки\n")
-    L.append("Сгенерировано `pipeline/calculator.py` для одного жилого аппарата, только безналичная оплата (решения 0001, 0003, 0005, 0011). Скрипт не подставляет догадки: ячейки сметы со значением `not found` пропускаются и перечисляются ниже; суммы показаны только как «по найденным позициям». Курсы: 1 EUR = 117,4601 RSD, 1 USD = 104,7068 RSD (`pipeline/fx.py`, НБС на 6.10.2026 через biznis.kurir.rs, вторичный источник); RSD округлены до динара, EUR до евро. Реестр неизвестного: `docs/reports/unknowns-and-open-issues.md`.\n")
+    L.append("Сгенерировано `pipeline/calculator.py` для одного уличного жилого аппарата с доступом 24/7 и наличной + безналичной оплатой (решения 0001, 0003, 0005, 0011; редакция владельца от 2026-10-11). Скрипт не подставляет догадки: ячейки сметы со значением `not found` пропускаются и перечисляются ниже; суммы показаны только как «по найденным позициям». Стоимость coin/bill устройств включена в охват, но цены неизвестны. Курсы: 1 EUR = 117,4601 RSD, 1 USD = 104,7068 RSD (`pipeline/fx.py`, НБС на 6.10.2026 через biznis.kurir.rs, вторичный источник); RSD округлены до динара, EUR до евро. Реестр неизвестного: `docs/reports/unknowns-and-open-issues.md`.\n")
     L.append("## 1. Единовременные затраты на оборудование и установку\n")
     k, n = counts["hardware"]
     L.append(f"**По найденным позициям: {k} из {n} позиций.** Итог по всем позициям не определён.\n")
