@@ -13,19 +13,19 @@ bootstrap-generated: true
 
 | документ | описывает | решения / факты | отслеживаемые пути | last-verified |
 |---|---|---|---|---|
-| README.md | цели, текущее состояние, карта репозитория, команды | 0003, 0011, факт 0007 | docs/README.md, pipeline/ | |
-| docs/README.md | карта документации | — | структура docs/ | |
-| docs/project/project-brief.md | исходные требования и открытые вопросы (§2 оборудование, §3 локации, §4 продукт, §5 цены, §6 финансы) | 0001, 0002, 0003, 0004, 0005, 0007, 0008, факты 0002, 0003, 0006 | docs/hardware/initial-technical-spec.md, docs/cost-estimates/blocks/ | |
-| docs/project/implementation-plan.md | поэтапный план реализации | 0001–0012 | docs/project/project-brief.md, docs/cost-estimates/blocks/ | |
+| README.md | краткий dashboard пилота, главные артефакты и команды | 0001, 0003, 0011 | docs/plans/integrated-pilot-artifacts-plan.md, docs/project/business-model.md, docs/hardware/, docs/certification/, docs/economics/, config/ | 2026-10-11 |
+| docs/README.md | карта пяти артефактов, источников, генераторов и исторических документов | — | структура docs/ | 2026-10-11 |
+| docs/project/project-brief.md | исходный brainstorm; не действующая спецификация | 0001–0012 | заменён docs/project/business-model.md и docs/plans/integrated-pilot-artifacts-plan.md | 2026-10-11 |
+| docs/project/implementation-plan.md | исторический машинный черновик; не текущий план исполнения | 0001–0012 | заменён docs/plans/integrated-pilot-artifacts-plan.md | 2026-10-11 |
 | docs/project/business-model.md | бизнес-модель пилота и вопросы к решению владельца | 0001–0005, 0011, 0030–0031 | решения владельца, docs/hardware/, docs/economics/, docs/certification/ | 2026-10-11 |
 | docs/plans/business-model-dod.md | критерии готовности проверяемой бизнес-модели пилота и оценка текущего состояния | 0001–0005, 0011, 0030–0033, факт 0007 | docs/project/business-model.md, docs/economics/, docs/hardware/, docs/certification/, открытые вопросы | 2026-10-11 |
-| docs/plans/water-vending-configurations-dod.md | критерии готовности типовых конфигураций и спецификаций водоматов для закупки, монтажа и эксплуатации | 0001–0003, 0007–0008, 0020–0025, 0040–0041, 0050–0052, факт 0056 | docs/hardware/, docs/certification/requirements-map.md, docs/economics/, docs/reports/unknowns-and-open-issues.md | 2026-10-11 |
-| docs/certification/regulatory-inquiry-drafts.md | проекты запросов сербским органам, специалистам и поставщикам; подготовлены, не отправлены | 0001, 0003, 0007, 0011, 0031 | docs/certification/requirements-map.md, docs/hardware/pilot-spec-v1.md, docs/reports/unknowns-and-open-issues.md | 2026-10-11 |
-| docs/project/pilot-launch-guide.md | закупка аппарата, договоры, сертификация воды, установка | 0003, 0007, 0008, 0009, 0012, факты 0006, 0009, 0010 | docs/hardware/initial-technical-spec.md, docs/cost-estimates/blocks/{TECH,LEGAL,LOCATIONS}.md | |
+| docs/plans/water-vending-configurations-dod.md | критерии готовности типовых конфигураций и спецификаций водоматов для закупки, монтажа и эксплуатации | 0001–0003, 0007–0008, 0020–0025, 0040–0041, 0050–0052, факт 0056 | docs/hardware/, docs/certification/requirements-map.md, docs/economics/ | 2026-10-11 |
+| docs/certification/regulatory-inquiry-drafts.md | проекты запросов сербским органам, специалистам и поставщикам; подготовлены, не отправлены | 0001, 0003, 0007, 0011, 0031 | docs/certification/requirements-map.md, docs/hardware/pilot-spec-v1.md | 2026-10-11 |
+| docs/project/pilot-launch-guide.md | исторический черновик 2026-10-08; не инструкция к запуску | 0003, 0007, 0008, 0009, 0012, факты 0006, 0009, 0010 | заменён docs/plans/integrated-pilot-artifacts-plan.md и текущими артефактами | 2026-10-11 |
 | docs/project/supplier-rfq.md | запрос котировок на аппарат (текст поставщикам на английском) | 0001, 0008, 0012 | docs/hardware/initial-technical-spec.md, docs/project/pilot-launch-guide.md §2 | |
 | docs/project/investor-presentation.md | питч одной точки для инвесторов (финансы устарели) | 0003, 0004, факты 0004, 0007 | docs/cost-estimates/pilot-cost-summary.md, pipeline/calculator.py | |
-| docs/reports/final-report.md | сводка найденного, формулы, порядок шагов, решения владельца | 0003, 0011, 0012, 0020–0026, 0030–0033, 0040–0041, 0050–0052 | docs/{hardware,economics,certification,sampling}/*-report.md | |
-| docs/reports/problems-and-options.md | проблемы пилота и варианты решения с плюсами, минусами, рисками | 0003, 0011, 0012, 0024, факты 0007, 0009 | docs/reports/final-report.md, docs/{economics,sampling}/ | |
+| docs/reports/final-report.md | исторический снимок сводки состояния на 2026-10-09 | 0003, 0011, 0012, 0020–0026, 0030–0033, 0040–0041, 0050–0052 | заменён docs/plans/integrated-pilot-artifacts-plan.md и профильными артефактами | 2026-10-11 |
+| docs/reports/problems-and-options.md | исторические проблемы и варианты на 2026-10-09 | 0003, 0011, 0012, 0024, факты 0007, 0009 | заменён docs/plans/integrated-pilot-artifacts-plan.md и профильными артефактами | 2026-10-11 |
 | docs/cost-estimates/blocks/*.md | таблицы затрат по блокам (английский) | 0009, 0010, факт 0001 | pipeline/tasks/, pipeline/generator.py, pipeline/fx.py, pipeline/verify.py | |
 | docs/cost-estimates/pilot-cost-summary.md | итоговая смета пилота | 0009, факты 0007, 0008 | docs/cost-estimates/blocks/, pipeline/calculator.py | |
 | docs/cost-estimates/pilot-scenarios.md | сценарии пилота (генерируется calculator.py) | 0009, факты 0007, 0008 | docs/cost-estimates/blocks/, pipeline/calculator.py | |
@@ -46,9 +46,10 @@ bootstrap-generated: true
 | docs/hardware/surcin-candidate-sites.md | кандидаты на площадки в Сурчине | 0003, 0026, факт 0020 | docs/hardware/location-types.md | |
 | docs/hardware/site-selection-scorecard.md | обязательный фильтр, методика скоринга и паспорт кандидата | 0003, 0011, 0026, факт 0020 | docs/hardware/surcin-candidate-sites.md, docs/hardware/positioning-methodology.md, договор/полевое обследование | 2026-10-11 |
 | docs/economics/economics-report.md | итог дорожки «Закупки и экономика» | 0030–0033, факты 0030–0035 | docs/economics/, pipeline/economics.py, pipeline/inventory.py | |
-| docs/economics/business-model-calculation.md | результат pipeline: структурный canvas и расчет выручки, затрат, BEP, окупаемости, CAC/LTV, TAM/SAM/SOM и P&L | DoD бизнес-модели; входы из config/business-model-inputs.json | pipeline/business_model.py, GitHub Actions workflow | 2026-10-11 |
+| docs/economics/business-model-calculation.md | сгенерированный canvas и расчёт unit economics; операционный прогноз точки не является полным P&L | DoD бизнес-модели; входы из config/business-model-inputs.json | pipeline/business_model.py, GitHub Actions workflow | 2026-10-11 |
 | docs/economics/business-model-flow.mermaid | полная диаграмма драйверов, формул, расходов точки, инвестметрик и внешних go/no-go | DoD бизнес-модели | pipeline/business_model.py; GitHub Actions artifact exports output/business-model-flow.mmd | 2026-10-11 |
 | docs/economics/business-model-calculator-guide.md | параметры, единицы, источники, формулы и запуск локально/GitHub Actions | DoD бизнес-модели; решения владельца | config/business-model-inputs.json, pipeline/business_model.py, .github/workflows/business-model-calculation.yml | 2026-10-11 |
+| docs/process/business-model-and-equipment-runbook.md | операционные шаги обновления, генерации, проверки и выпуска двух исполняемых артефактов | решения владельца; DoD | config/, pipeline/, .github/workflows/ | 2026-10-11 |
 | docs/economics/baseline-audit.md | обследование существующей экономики, противоречия, вопросы владельцу | факты 0007, 0009 | pipeline/calculator.py, docs/cost-estimates/pilot-scenarios.md | |
 | docs/economics/financial-model.md | сценарии, чувствительность, 1/5/20 точек (генерируется economics.py) | 0032, факты 0007, 0030 | pipeline/economics.py, pipeline/calculator.py | |
 | docs/economics/pilot-unit-economics.md | входы, формулы и границы unit economics одной пилотной точки | 0004, 0011, 0030–0033, факты 0003, 0006–0007, 0030, открытые PR/EC/CE/SM вопросы | pipeline/economics.py, docs/reports/unknowns-and-open-issues.md, площадка и котировки | 2026-10-11 |
@@ -81,4 +82,5 @@ bootstrap-generated: true
 | docs/audit/audit-economics.md | журнал аудита закупок и экономики | 0030–0033, факты 0030–0035 | docs/economics/, pipeline/economics.py, pipeline/inventory.py | |
 | docs/audit/audit-certification.md | журнал аудита сертификации | 0040–0041, факты 0040–0042 | docs/certification/ | |
 | docs/audit/audit-sampling.md | журнал аудита отбора проб | 0050–0052, факты 0053–0055 | docs/sampling/, pipeline/sampling_cost.py | |
-| docs/reports/unknowns-and-open-issues.md | единый реестр неизвестного и нерешённых расчётов | все | docs/audit/, docs/*/ | |
+| docs/reports/unknowns-and-open-issues.md | исторический снимок неизвестных на 2026-10-08; не текущий реестр | все | заменён неизвестными в профильных артефактах и integrated-pilot-artifacts-plan.md | 2026-10-11 |
+| docs/archive/README.md | указатель на сохранённые материалы прошлых этапов, не текущие рабочие документы | — | docs/archive/legacy-2026-10/ | 2026-10-11 |

@@ -1,5 +1,7 @@
 # Project: Water Vending — Initial Briefing
 
+> **Исходный brainstorm, не действующая спецификация.** В документе сохранены ранние идеи, часть которых не входит в текущий пилот. Текущие решения и границы перечислены в [бизнес-модели](business-model.md) и [интегрированном плане](../plans/integrated-pilot-artifacts-plan.md).
+
 > Source: discussion transcript (Oct 5, 11:24).
 > Status: raw brainstorm, requires formalization into a cost estimate and plan.
 

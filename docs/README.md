@@ -1,50 +1,51 @@
 # Карта документации
 
-Всё о проекте — в этой папке. Если нужно что-то найти, начните здесь. Имя файла говорит, что в нём: `*-report.md` — итог раздела, `baseline-audit.md` — что было известно до работы и какие там пробелы, остальное — тема файла.
+В репозитории есть пять рабочих артефактов, их источники данных и справочные материалы. Для начала достаточно открыть один документ по своей задаче; не нужно читать все архивы и отчёты.
 
-## С чего начать
+## Пять рабочих артефактов
 
-| Вопрос | Файл |
-|---|---|
-| Что мы делаем и где что лежит | [../README.md](../README.md) |
-| Общий итог: сколько стоит запуск, варианты, сроки, решения владельца | [reports/final-report.md](reports/final-report.md) |
-| Какие проблемы есть и как их решать (плюсы, минусы, риски) | [reports/problems-and-options.md](reports/problems-and-options.md) |
-| Всё неизвестное («не найдено») и расчёты, которые нельзя исправить | [reports/unknowns-and-open-issues.md](reports/unknowns-and-open-issues.md) |
+| № | Артефакт | Основной документ | Источник / статус |
+|---:|---|---|---|
+| 1 | Бизнес-модель как pipeline | [Бизнес-модель](project/business-model.md) | [Входы и canvas](../config/business-model-inputs.json) → [сгенерированный расчёт](economics/business-model-calculation.md) |
+| 2 | Спецификация оборудования | [Базовая спецификация пилота](hardware/pilot-spec-v1.md) | [4 профиля](hardware/specifications/) генерируются из [конфигурации](../config/equipment-specifications.json) |
+| 3 | Критерии и скоринг точки | [Scorecard](hardware/site-selection-scorecard.md) | Кандидаты — [Surčin](hardware/surcin-candidate-sites.md); оценку нельзя считать завершённой до полевого обследования |
+| 4 | Нормы, разрешения и допуск | [Карта требований](certification/requirements-map.md) | [Проекты запросов](certification/regulatory-inquiry-drafts.md) подготовлены и не отправлены; применимость и ответы органов открыты |
+| 5 | Финансовая модель и unit economics | [Руководство по вводу](economics/business-model-calculator-guide.md) | [Расчёт](economics/business-model-calculation.md) строится скриптом; неизвестные входы не подменяются нулями |
 
-## Папки
+Общий порядок, зависимости и критерии перехода: [интегрированный план пилота](plans/integrated-pilot-artifacts-plan.md). Операционные шаги генерации: [runbook](process/business-model-and-equipment-runbook.md).
 
-| Папка | Что в ней |
-|---|---|
-| [project/](project/) | Бизнес-документы: исходный бриф, [бизнес-модель пилота](project/business-model.md), план реализации, руководство по запуску пилота, запрос котировок поставщикам, презентация инвесторам |
-| [hardware/](hardware/) | Оборудование: смета по позициям, baseline пилотной спецификации, [четыре спецификации конфигураций](hardware/specifications/), техническая документация, бак и нагрев, модели, телеметрия, позиционирование, [скоринг точек](hardware/site-selection-scorecard.md), типы локаций и кандидаты площадок. Итог — `hardware-report.md` |
-| [economics/](economics/) | Закупки и экономика: [юнит-экономика точки](economics/pilot-unit-economics.md), [руководство параметрического калькулятора](economics/business-model-calculator-guide.md), финансовая модель, [расчет бизнес-модели из параметров](economics/business-model-calculation.md), цена, амортизация и кража, цена аппарата «от двери до двери», сборка своими силами, модель запасов. Итог — `economics-report.md` |
-| [certification/](certification/) | Сертификация: карта разрешений Сербии, [проекты запросов (не отправлены)](certification/regulatory-inquiry-drafts.md), «покупаем» против «производим», мастер-сертификация, бюджет и сроки. Итог — `certification-report.md` |
-| [sampling/](sampling/) | Отбор проб воды: стандартная конфигурация, программа проб, правило выборки, стоимость, логистика. Итог — `sampling-report.md` |
-| [cost-estimates/](cost-estimates/) | Сметы: таблицы затрат по блокам (`blocks/`, английский), итоговая смета пилота и сценарии |
-| [audit/](audit/) | Журналы аудита 2026-10-08: что проверено по источникам, что исправлено, удалено, помечено как допущение; остающиеся пробелы |
-| [plans/](plans/) | Планы работ по дорожкам, включая [DoD бизнес-модели](plans/business-model-dod.md) и [DoD типовых конфигураций водоматов](plans/water-vending-configurations-dod.md) |
-| [facts/](facts/), [decisions/](decisions/), [guardrails/](guardrails/), [skills/](skills/) | База знаний: факты, решения, правила, словарь тегов и роли. В каждой папке `INDEX.md`; связь документов с решениями — `facts/docs-manifest.md` |
+## Откуда брать и где менять данные
 
-## Что генерируется скриптами (не править вручную)
+| Тип данных | Каноническое место | Правило |
+|---|---|---|
+| Подтверждённые сведения | [Факты](facts/INDEX.md) и первоисточники в `material/` | У факта есть источник, дата и статус; архив страницы сам по себе не доказывает применимость |
+| Принятый выбор проекта | [Решения](decisions/INDEX.md) | `active` — принято; `draft` — предложение/проект решения |
+| Запреты и условия допуска | [Guardrails](guardrails/INDEX.md) | Выполнять применительно к пилоту; не трактовать draft-правило как утверждённый закон |
+| Числа и структурный canvas модели | `config/business-model-inputs.json` | Фактические значения сопровождаются источником; неизвестное — `null` |
+| Профили оборудования | `config/equipment-specifications.json` | Изменять конфигурацию и пересобирать документы, не редактировать результаты вручную |
 
-| Файл | Скрипт |
-|---|---|
-| `cost-estimates/pilot-scenarios.md` | `pipeline/calculator.py` |
-| `economics/financial-model.md`, `pricing-scenarios.md`, `ready-made-options-landed-cost.md` | `pipeline/economics.py` |
-| `economics/business-model-calculation.md` | Исполняемый pipeline `pipeline/business_model.py`; canvas и входы — `config/business-model-inputs.json` |
-| `economics/business-model-flow.mermaid` | Исполняемый pipeline `pipeline/business_model.py`, canvas плюс формулы расчетов |
-| `hardware/specifications/*-v1.md` | `pipeline/build_equipment_specs.py`, семейство — `config/equipment-specifications.json`, общая матрица — `hardware/pilot-spec-v1.md` |
-| `economics/inventory-model.md` | `pipeline/inventory.py` |
-| `sampling/program-costs.md` | `pipeline/sampling_cost.py` |
+## Генерируемые файлы
 
-Остальные файлы пишутся вручную.
+| Результат | Источник | Команда |
+|---|---|---|
+| `economics/business-model-calculation.md`, `business-model-flow.mermaid` | бизнес-модель и входной JSON | `python3 pipeline/business_model.py` |
+| `hardware/specifications/*-v1.md` | общая матрица и профиль каждого исполнения | `python3 pipeline/build_equipment_specs.py` |
+| финансовые сметы/сценарии, склад, стоимость отбора проб | отдельные калькуляторы | См. секцию «Что генерируется» в каждом профильном документе и `pipeline/` |
 
-## Правила
+После изменения спецификаций запустить `python3 pipeline/build_equipment_specs.py --check`. Команды запуска из GitHub Actions и обработка ручных параметров описаны в [runbook](process/business-model-and-equipment-runbook.md).
 
-- Язык: сметы в `cost-estimates/blocks/` — английский; всё остальное — русский.
-- Имена файлов — латиницей через дефис и по теме; в папке дорожки итоговый файл называется `<дорожка>-report.md`.
-- В документах остаются только значения с открытым источником (URL или путь), решения владельца и арифметика по ним; всё остальное — «не найдено» с указанием, кого спросить, и записью в `reports/unknowns-and-open-issues.md`.
+## Справочные и исторические материалы
 
-## Управление задачами пилота
+- `facts/`, `decisions/`, `guardrails/`, `skills/` — база знаний проекта. Индекс каждой категории является навигацией, а не заменой источникам.
+- `material/` — сохранённые страницы, письма, котировки и иные доказательства.
+- `audit/` — журналы отдельных проверок документов на указанную в них дату.
+- `reports/`, `*-report.md` и старые планы дорожек — снимки прежних этапов работы. Они могут содержать прежний статус или контекст; для текущего решения использовать таблицу пяти артефактов и интегрированный план выше. Перенесённые материалы см. в [архиве](archive/README.md).
+- `cost-estimates/` — детальные рабочие сметы и блоки расчётного pipeline; читать при проверке конкретной статьи затрат, не как общий статус проекта.
 
-- [GitHub Issues: DoD пяти артефактов и управление через gh](process/github-issue-management.md)
+## Исторические сводки
+
+Следующие документы отражают состояние до утверждения рамок пилота 2026-10-11 и не являются текущим dashboard: [итоговый отчёт](reports/final-report.md), [проблемы и варианты](reports/problems-and-options.md), [реестр неизвестных на 2026-10-08](reports/unknowns-and-open-issues.md). Их не удаляем, чтобы сохранить историю источников; новые решения фиксируются в базе знаний и профильных артефактах.
+
+## Управление задачами
+
+Пять GitHub Issues и правила их обновления: [управление issues через gh](process/github-issue-management.md). Утверждающий документов — `strebulaev`; подготовленные письма внешним адресатам не отправлять без отдельного указания.

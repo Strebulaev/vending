@@ -1,5 +1,7 @@
 # Water Vending Machine Project — Business Idea Summary
 
+> **Устаревший черновик.** Этот ранний план содержит отложенные сегменты и старую терминологию. Текущий план исполнения — [интегрированный план пилота](../plans/integrated-pilot-artifacts-plan.md); актуальные рамки — [бизнес-модель](business-model.md).
+
 > **Note 2026-10-08 (owner rule: invented figures are not written; unknown is written as 'not found').** This plan was machine-drafted from the brief. The brief contains only illustrative remarks (a site example of about 150 EUR per month, water cost 30-50% of turnover, the 20%/10% split, the 2 L example), which are not facts. All module prices, ranges and week numbers of the earlier draft were removed: unknown values read 'not found' and are listed in `docs/reports/unknowns-and-open-issues.md`. Phases are an order of work, not a schedule; for lead times see `docs/certification/costs-and-timeline.md` and `docs/facts/0031-freight-rates-china-serbia.md`. The pilot scope is one residential machine (decisions 0003, 0011); phases 3-6 contain deferred office/kitchen/franchise work.
 
 ## What
