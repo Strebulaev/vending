@@ -10,6 +10,7 @@
 
 | Если нужно… | Главный документ | Источник данных / действие |
 |---|---|---|
+| Показать результат работы и объяснить pipeline на GitHub | [Презентация-тур](docs/project/github-tour-presentation.md) | GitHub-страница для последовательного показа и перехода к исходникам |
 | Понять модель пилота и что ещё неизвестно | [Бизнес-модель](docs/project/business-model.md) | [Расчётный отчёт](docs/economics/business-model-calculation.md) |
 | Запросить и сравнить оборудование | [Спецификация пилота](docs/hardware/pilot-spec-v1.md) | [Четыре конфигурации](docs/hardware/specifications/) и [RFQ поставщику](docs/project/supplier-rfq.md) |
 | Оценить кандидата на размещение | [Критерии и скоринг точки](docs/hardware/site-selection-scorecard.md) | [Кандидаты площадок](docs/hardware/surcin-candidate-sites.md) |

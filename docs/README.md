@@ -12,6 +12,8 @@
 | 4 | Нормы, разрешения и допуск | [Карта требований](certification/requirements-map.md) | [Проекты запросов](certification/regulatory-inquiry-drafts.md) подготовлены и не отправлены; применимость и ответы органов открыты |
 | 5 | Финансовая модель и unit economics | [Руководство по вводу](economics/business-model-calculator-guide.md) | [Расчёт](economics/business-model-calculation.md) строится скриптом; неизвестные входы не подменяются нулями |
 
+Для показа проекта на GitHub используйте [презентацию-тур](project/github-tour-presentation.md): в ней есть последовательность демонстрации, схема двух pipeline и прямые ссылки на результаты.
+
 Общий порядок, зависимости и критерии перехода: [интегрированный план пилота](plans/integrated-pilot-artifacts-plan.md). Операционные шаги генерации: [runbook](process/business-model-and-equipment-runbook.md).
 
 ## Откуда брать и где менять данные
