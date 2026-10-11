@@ -38,12 +38,12 @@ on:
         type: string
         default: ""
       cashless_fee_rate:
-        description: "Комиссия безналичной выручки, доля (договор эквайринга)"
+        description: "Комиссия безналичной выручки, доля 0..1 (договор эквайринга; например 0.05 = 5%)"
         required: false
         type: string
         default: ""
       effective_sales_tax_rate:
-        description: "Эффективная ставка налога на выручку (только по письму бухгалтера)"
+        description: "Эффективная ставка налога на выручку, доля 0..1 (только по письму бухгалтера; например 0.12 = 12%)"
         required: false
         type: string
         default: ""
