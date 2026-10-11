@@ -8,62 +8,62 @@ on:
   workflow_dispatch:
     inputs:
       price_per_5l_rsd:
-        description: "Цена за 5 л, RSD"
+        description: "Цена за 5 л, RSD (решение владельца / изменение решения)"
         required: false
         type: string
         default: ""
       volume_lpd:
-        description: "Объем продаж, л/день работы"
+        description: "Потенциальные продажи, л/день работы (измерение или явное допущение)"
         required: false
         type: string
         default: ""
       uptime_rate:
-        description: "Доля времени работы (0..1)"
+        description: "Доля времени работы 0..1 (SLA поставщика и журнал)"
         required: false
         type: string
         default: ""
       operating_days_month:
-        description: "Рабочие дни в месяце"
+        description: "Рабочие дни в месяце (30-дневная арифметика)"
         required: false
         type: string
         default: ""
       cashless_revenue_share:
-        description: "Доля безналичной выручки"
+        description: "Доля безналичной выручки (фискальный отчет)"
         required: false
         type: string
         default: ""
       cashless_order_share:
-        description: "Доля безналичных транзакций"
+        description: "Доля безналичных транзакций (фискальный/платежный отчет)"
         required: false
         type: string
         default: ""
       cashless_fee_rate:
-        description: "Комиссия эквайринга / платежного модуля"
+        description: "Комиссия безналичной выручки, доля (договор эквайринга)"
         required: false
         type: string
         default: ""
       effective_sales_tax_rate:
-        description: "Эффективная ставка налога (только по бухгалтера)"
+        description: "Эффективная ставка налога на выручку (только по письму бухгалтера)"
         required: false
         type: string
         default: ""
       water_tariff_rsd_m3:
-        description: "Тариф воды, RSD/м³"
+        description: "Тариф воды, RSD/м³ (счет / расчет BVK)"
         required: false
         type: string
         default: ""
       sewer_tariff_rsd_m3:
-        description: "Тариф канализации, RSD/м³"
+        description: "Тариф канализации, RSD/м³ (счет / расчет BVK)"
         required: false
         type: string
         default: ""
       sewer_billing_basis:
-        description: "База начисления канализации (intake / reject / product)"
+        description: "База начисления канализации: intake / reject / product (подтверждение BVK)"
         required: false
         type: string
         default: ""
       ro_intake_l_per_product_l:
-        description: "Литры входной воды на литр готового продукта"
+        description: "Входная вода на литр готового продукта (спецификация + измерение)"
         required: false
         type: string
         default: ""
@@ -73,107 +73,107 @@ on:
         type: string
         default: ""
       average_order_l:
-        description: "Средний объем заказа, л"
+        description: "Средний объем заказа, л (фискальные/машинные данные)"
         required: false
         type: string
         default: ""
       cash_handling_cost_rsd_per_cash_order:
-        description: "Стоимость наличного заказа"
+        description: "Стоимость наличного заказа, RSD/заказ (инкассация / процесс)"
         required: false
         type: string
         default: ""
       refund_and_failed_sale_cost_rsd_per_order:
-        description: "Средняя стоимость возврата / сбоя"
+        description: "Средняя стоимость возврата/сбоя, RSD/заказ (журналы инцидентов)"
         required: false
         type: string
         default: ""
       site_area_sqm:
-        description: "Площадь точки, м² (необязательное)"
+        description: "Площадь точки, м² (полевое измерение, необязательное)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_rent:
-        description: "Аренда (monthly_fixed_costs)"
+        description: "Аренда, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_electricity:
-        description: "Электроэнергия"
+        description: "Электроэнергия, RSD/месяц (счета)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_telemetry_and_connectivity:
-        description: "Телеметрия и связь"
+        description: "Телеметрия и связь, RSD/месяц (договор / счет)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_service_and_filters:
-        description: "Сервис и фильтры"
+        description: "Сервис и фильтры, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_labor_and_cash_collection:
-        description: "Труд и инкассация"
+        description: "Труд и инкассация, RSD/месяц (учет)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_laboratory_and_quality:
-        description: "Лаборатория и качество"
+        description: "Лаборатория и качество, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_insurance:
-        description: "Страхование"
+        description: "Страхование, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_other:
-        description: "Прочие постоянные расходы"
+        description: "Прочие постоянные расходы, RSD/месяц (договор / учет)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_water_readiness_fee:
-        description: "Плата за готовность воды"
+        description: "Плата за готовность воды, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_customer_support:
-        description: "Поддержка клиентов"
+        description: "Поддержка клиентов, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_on_site_labor:
-        description: "Ручной труд на точке"
+        description: "Ручной труд на точке, RSD/месяц (учет)"
         required: false
         type: string
         default: ""
       monthly_fixed_costs_local_marketing:
-        description: "Локальный маркетинг"
+        description: "Локальный маркетинг, RSD/месяц (договор)"
         required: false
         type: string
         default: ""
       capex_breakdown_equipment:
-        description: "Оборудование (capex_breakdown)"
+        description: "Оборудование, RSD (однократно, котировка)"
         required: false
         type: string
         default: ""
       capex_breakdown_delivery_and_installation:
-        description: "Доставка и монтаж"
+        description: "Доставка и монтаж, RSD (однократно, смета)"
         required: false
         type: string
         default: ""
       capex_breakdown_site_preparation:
-        description: "Подготовка площадки"
+        description: "Подготовка площадки, RSD (однократно, смета)"
         required: false
         type: string
         default: ""
       capex_breakdown_permits_and_documentation:
-        description: "Разрешения и документы"
+        description: "Разрешения и документы, RSD (однократно, смета)"
         required: false
         type: string
         default: ""
       capex_breakdown_opening_consumables:
-        description: "Стартовые расходники / пусконаладка"
+        description: "Стартовые расходники / пусконаладка, RSD (однократно, смета)"
         required: false
         type: string
         default: ""
@@ -266,27 +266,8 @@ jobs:
         env:
           INPUT_FILE: config/business-model-inputs.json
         run: |
-          echo "Running business-model calculation"
-          python -c "
-          import subprocess, sys
-          overrides = ''
-          try:
-              with open('overrides.json', encoding='utf-8') as f:
-                  overrides = f.read().strip()
-          except FileNotFoundError:
-              pass
-          cmd = [
-              'python', 'pipeline/business_model.py',
-              '--input', 'config/business-model-inputs.json',
-              '--output', 'output/business-model-calculation.md'
-          ]
-          if overrides:
-              cmd.extend(['--overrides-json', overrides])
-              print('Using overrides:', overrides[:200] + ('...' if len(overrides) > 200 else ''))
-          else:
-              print('No overrides provided; using config/business-model-inputs.json')
-          subprocess.run(cmd, check=True)
-          "
+          echo "Running: python pipeline/business_model.py --input $INPUT_FILE --output output/business-model-calculation.md --overrides-json "$(cat overrides.json)""
+          python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md --overrides-json "$(cat overrides.json)"
 
       - name: Upload calculated report
         uses: actions/upload-artifact@v4
