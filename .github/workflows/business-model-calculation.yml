@@ -1,22 +1,182 @@
-# How to run manually:
-# 1. Open Actions → Calculate water-vending business model → Run workflow
-# 2. Leave parameters_json as "{}" to use config/business-model-inputs.json
-# 3. Or enter JSON overrides, e.g.: {"volume_lpd": 80, "price_per_5l_rsd": 55}
-# The "Show current inputs" step prints all available keys and set values.
+# Как запускать вручную:
+# Actions → Calculate water-vending business model → Run workflow
+# Оставьте поля пустыми, чтобы использовать config/business-model-inputs.json
+# или заполните нужные значения — пустое = не изменять
 name: Calculate water-vending business model
 
 on:
   workflow_dispatch:
     inputs:
-      parameters_json:
-        description: |
-          JSON override for config/business-model-inputs.json.
-          Example to change price and volume: {"price_per_5l_rsd": 55, "volume_lpd": 80}
-          Leave as "{}" (default) to use the config file unchanged.
-          See config/business-model-inputs.json for all available keys.
+      price_per_5l_rsd:
+        description: "Цена за 5 л, RSD"
         required: false
         type: string
-        default: "{}"
+        default: ""
+      volume_lpd:
+        description: "Объем продаж, л/день работы"
+        required: false
+        type: string
+        default: ""
+      uptime_rate:
+        description: "Доля времени работы (0..1)"
+        required: false
+        type: string
+        default: ""
+      operating_days_month:
+        description: "Рабочие дни в месяце"
+        required: false
+        type: string
+        default: ""
+      cashless_revenue_share:
+        description: "Доля безналичной выручки"
+        required: false
+        type: string
+        default: ""
+      cashless_order_share:
+        description: "Доля безналичных транзакций"
+        required: false
+        type: string
+        default: ""
+      cashless_fee_rate:
+        description: "Комиссия эквайринга / платежного модуля"
+        required: false
+        type: string
+        default: ""
+      effective_sales_tax_rate:
+        description: "Эффективная ставка налога (только по бухгалтера)"
+        required: false
+        type: string
+        default: ""
+      water_tariff_rsd_m3:
+        description: "Тариф воды, RSD/м³"
+        required: false
+        type: string
+        default: ""
+      sewer_tariff_rsd_m3:
+        description: "Тариф канализации, RSD/м³"
+        required: false
+        type: string
+        default: ""
+      sewer_billing_basis:
+        description: "База начисления канализации (intake / reject / product)"
+        required: false
+        type: string
+        default: ""
+      ro_intake_l_per_product_l:
+        description: "Литры входной воды на литр готового продукта"
+        required: false
+        type: string
+        default: ""
+      other_variable_cost_rsd_l:
+        description: "Другие переменные расходы, RSD/л"
+        required: false
+        type: string
+        default: ""
+      average_order_l:
+        description: "Средний объем заказа, л"
+        required: false
+        type: string
+        default: ""
+      cash_handling_cost_rsd_per_cash_order:
+        description: "Стоимость наличного заказа"
+        required: false
+        type: string
+        default: ""
+      refund_and_failed_sale_cost_rsd_per_order:
+        description: "Средняя стоимость возврата / сбоя"
+        required: false
+        type: string
+        default: ""
+      site_area_sqm:
+        description: "Площадь точки, м² (необязательное)"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_rent:
+        description: "Аренда (monthly_fixed_costs)"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_electricity:
+        description: "Электроэнергия"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_telemetry_and_connectivity:
+        description: "Телеметрия и связь"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_service_and_filters:
+        description: "Сервис и фильтры"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_labor_and_cash_collection:
+        description: "Труд и инкассация"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_laboratory_and_quality:
+        description: "Лаборатория и качество"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_insurance:
+        description: "Страхование"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_other:
+        description: "Прочие постоянные расходы"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_water_readiness_fee:
+        description: "Плата за готовность воды"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_customer_support:
+        description: "Поддержка клиентов"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_on_site_labor:
+        description: "Ручной труд на точке"
+        required: false
+        type: string
+        default: ""
+      monthly_fixed_costs_local_marketing:
+        description: "Локальный маркетинг"
+        required: false
+        type: string
+        default: ""
+      capex_breakdown_equipment:
+        description: "Оборудование (capex_breakdown)"
+        required: false
+        type: string
+        default: ""
+      capex_breakdown_delivery_and_installation:
+        description: "Доставка и монтаж"
+        required: false
+        type: string
+        default: ""
+      capex_breakdown_site_preparation:
+        description: "Подготовка площадки"
+        required: false
+        type: string
+        default: ""
+      capex_breakdown_permits_and_documentation:
+        description: "Разрешения и документы"
+        required: false
+        type: string
+        default: ""
+      capex_breakdown_opening_consumables:
+        description: "Стартовые расходники / пусконаладка"
+        required: false
+        type: string
+        default: ""
   push:
     paths:
       - "config/business-model-inputs.json"
@@ -36,36 +196,98 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
       - name: Show current inputs (from config)
-        env:
-          OVERRIDES_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
         run: |
-          echo "=== Parameters available in config/business-model-inputs.json ==="
+          echo "=== Parameters in config/business-model-inputs.json ==="
           python -c "
           import json, sys
-          d = json.load(open('config/business-model-inputs.json'))
-          for k,v in d.get('inputs',{}).items():
-              if v is not None:
-                  print(f'{k}: {v}')
-          print('--- Full keys (set ones shown above; null = unknown): ---')
-          for k in d.get('inputs',{}):
-              print(k)
+          d = json.load(open("config/business-model-inputs.json", encoding="utf-8"))
+          for k,v in d.get("inputs",{}).items():
+              if isinstance(v, dict):
+                  for sub, subv in v.items():
+                      if subv is not None:
+                          print(f"{k}.{sub}: {subv}")
+              else:
+                  if v is not None:
+                      print(f"{k}: {v}")
+          print("--- Full keys (null = unknown / not set): ---")
+          for k,v in d.get("inputs",{}).items():
+              if isinstance(v, dict):
+                  for sub in v:
+                      print(f"{k}.{sub}")
+              else:
+                  print(k)
           "
-          echo "=== Override JSON from workflow input ==="
-          printf '%s\n' "$OVERRIDES_JSON"
+
+      - name: Build overrides from inputs
+        env:
+          INPUTS_JSON: ${{ toJson(github.event.inputs) }}
+        run: |
+          python -c "
+          import os, json, sys
+          raw = json.loads(os.environ["INPUTS_JSON"])
+          result = {"inputs": {}}
+          monthly_fixed = {}
+          capex = {}
+          for k, v in raw.items():
+              if v == "" or v is None or str(v).strip() == "":
+                  continue
+              s = str(v).strip()
+              parsed = s
+              if s == "null" or s == "None":
+                  parsed = None
+              else:
+                  try:
+                      if "." in s or "e" in s.lower():
+                          parsed = float(s)
+                          if parsed.is_integer():
+                              parsed = int(parsed)
+                      else:
+                          parsed = int(s)
+                  except ValueError:
+                      pass
+              if k.startswith("monthly_fixed_costs_"):
+                  sub = k[len("monthly_fixed_costs_"):]; monthly_fixed[sub] = parsed
+              elif k.startswith("capex_breakdown_"):
+                  sub = k[len("capex_breakdown_"):]; capex[sub] = parsed
+              else:
+                  result["inputs"][k] = parsed
+          if monthly_fixed:
+              result["inputs"]["monthly_fixed_costs"] = monthly_fixed
+          if capex:
+              result["inputs"]["capex_breakdown"] = capex
+          with open("overrides.json", "w", encoding="utf-8") as f:
+              f.write(json.dumps(result, ensure_ascii=False))
+          print("Overrides JSON:", json.dumps(result, ensure_ascii=False))
+          "
 
       - name: Calculate report
         env:
           INPUT_FILE: config/business-model-inputs.json
-          OVERRIDES_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
         run: |
-          echo "Running: python pipeline/business_model.py --input $INPUT_FILE --output output/business-model-calculation.md"
-          if [ "$OVERRIDES_JSON" = "{}" ]; then
-            python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md
-          else
-            echo "Applying overrides: $OVERRIDES_JSON"
-            python pipeline/business_model.py --input "$INPUT_FILE" --output output/business-model-calculation.md --overrides-json "$OVERRIDES_JSON"
-          fi
+          echo "Running business-model calculation"
+          python -c "
+          import subprocess, sys
+          overrides = ''
+          try:
+              with open('overrides.json', encoding='utf-8') as f:
+                  overrides = f.read().strip()
+          except FileNotFoundError:
+              pass
+          cmd = [
+              'python', 'pipeline/business_model.py',
+              '--input', 'config/business-model-inputs.json',
+              '--output', 'output/business-model-calculation.md'
+          ]
+          if overrides:
+              cmd.extend(['--overrides-json', overrides])
+              print('Using overrides:', overrides[:200] + ('...' if len(overrides) > 200 else ''))
+          else:
+              print('No overrides provided; using config/business-model-inputs.json')
+          subprocess.run(cmd, check=True)
+          "
+
       - name: Upload calculated report
         uses: actions/upload-artifact@v4
         with:
