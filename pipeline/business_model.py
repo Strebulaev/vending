@@ -443,6 +443,28 @@ def main() -> int:
         raise SystemExit("\n".join(errors))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(render(data), encoding="utf-8")
+    # Auto-generate mermaid diagram from inputs
+    inputs = data.get("inputs", {})
+    mermaid_path = ROOT / "docs" / "economics" / "business-model-flow.mermaid"
+    mermaid_path.parent.mkdir(parents=True, exist_ok=True)
+    mermaid_text = f"""flowchart TD
+    subgraph Inputs ["Inputs - auto from pipeline/business_model.py"]
+        price["price_per_5l_rsd = {inputs.get('price_per_5l_rsd', 'null')}"]
+        vol["volume_lpd = {inputs.get('volume_lpd', 'null')}"]
+        upt["uptime_rate = {inputs.get('uptime_rate', 'null')}"]
+        days["operating_days_month = {inputs.get('operating_days_month', 'null')}"]
+        tariff_w["water_tariff_rsd_m3 = {inputs.get('water_tariff_rsd_m3', 'null')}"]
+        tariff_s["sewer_tariff_rsd_m3 = {inputs.get('sewer_tariff_rsd_m3', 'null')}"]
+    end
+    subgraph Calc ["Calculation: pipeline/business_model.py"]
+        calc["Scenarios: downside / base / upside"]
+    end
+    Inputs --> Calc
+    Calc --> Out["Report: docs/economics/business-model-calculation.md"]
+    Calc --> Mer["Diagram: docs/economics/business-model-flow.mermaid"]
+"""
+    mermaid_path.write_text(mermaid_text, encoding="utf-8")
+    print(f"Создано: {mermaid_path.relative_to(ROOT) if mermaid_path.is_relative_to(ROOT) else mermaid_path}")
     print(f"Создано: {args.output.relative_to(ROOT) if args.output.is_relative_to(ROOT) else args.output}")
     print("Сценарии:")
     report = render(data)

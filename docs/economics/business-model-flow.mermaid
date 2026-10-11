@@ -1,75 +1,15 @@
 flowchart TD
-    subgraph Inputs ["Входы из config/business-model-inputs.json"]
-        price["price_per_5l_rsd<br/>RSD/5л"]
-        vol["volume_lpd<br/>л/день"]
-        upt["uptime_rate<br/>0..1"]
-        days["operating_days_month<br/>дней"]
-        cash_rev["cashless_revenue_share"]
-        cash_ord["cashless_order_share"]
-        cash_fee["cashless_fee_rate<br/>доля"]
-        tax["effective_sales_tax_rate<br/>доля"]
-        water_t["water_tariff_rsd_m3"]
-        sewer_t["sewer_tariff_rsd_m3"]
-        sewer_b["sewer_billing_basis"]
-        ro["ro_intake_l_per_product_l"]
-        avg_o["average_order_l"]
-        var_c["other_variable_cost_rsd_l"]
-        cash_hand["cash_handling_cost_rsd_per_cash_order"]
-        refund_c["refund_and_failed_sale_cost_rsd_per_order"]
-        site["site_area_sqm"]
+    subgraph Inputs ["Inputs — auto from pipeline/business_model.py"]
+        price["price_per_5l_rsd = 50"]
+        vol["volume_lpd = None"]
+        upt["uptime_rate = None"]
+        days["operating_days_month = 30"]
+        tariff_w["water_tariff_rsd_m3 = 158.09"]
+        tariff_s["sewer_tariff_rsd_m3 = None"]
     end
-
-    subgraph MonthlyFixed ["Ежемесячные постоянные (monthly_fixed_costs), RSD/мес"]
-        mf_rent["rent"]
-        mf_elec["electricity"]
-        mf_tele["telemetry_and_connectivity"]
-        mf_service["service_and_filters"]
-        mf_labor["labor_and_cash_collection"]
-        mf_lab["laboratory_and_quality"]
-        mf_ins["insurance"]
-        mf_other["other / water_readiness / support / marketing / on_site_labor"]
+    subgraph Calc ["Calculation: pipeline/business_model.py"]
+        calc["Scenarios: downside / base / upside"]
     end
-
-    subgraph Capex ["CAPEX (capex_breakdown), RSD однократно"]
-        cap_eq["equipment"]
-        cap_del["delivery_and_installation"]
-        cap_site["site_preparation"]
-        cap_perm["permits_and_documentation"]
-        cap_open["opening_consumables"]
-    end
-
-    Inputs --> Calc["Расчёт pipeline/business_model.py"]
-    MonthlyFixed --> Calc
-    Capex --> Calc
-
-    subgraph Scenarios ["Сценарии: downside / base / upside"]
-        sc_down["downside<br/>volume↓ / uptime↓"]
-        sc_base["base<br/>текущие значения"]
-        sc_up["upside<br/>volume↑ / uptime↑"]
-    end
-
-    Calc --> ScenarioCalc["Сценарный расчёт"]
-    Scenarios --> ScenarioCalc
-
-    subgraph Outputs ["Выход / отчет docs/economics/business-model-calculation.md"]
-        out_rev["Выручка по месяцам"]
-        out_var["Переменные расходы"]
-        out_fixed["Постоянные расходы"]
-        out_contrib["Contribution margin / литр / заказ"]
-        out_op["Операционный результат до амортизации"]
-        out_be["Безубыточность (л / заказ)"]
-        out_pay["Окупаемость CAPEX"]
-        out_sens["Чувствительность (volume, uptime, rent)"]
-    end
-
-    ScenarioCalc --> Outputs
-    Calc --> Outputs
-
-    subgraph Validation ["Валидация / ограничения"]
-        val_null["Неизвестные (null) → 'не найдено'"]
-        val_range["fee_rate / tax: 0..1"]
-        val_tariff["Tariff: сверка BVK"]
-        val_scenario["Downside / upside: требуется явный драйвер"]
-    end
-
-    Outputs --> Validation
+    Inputs --> Calc
+    Calc --> Out["Report: docs/economics/business-model-calculation.md"]
+    Calc --> Mer["Diagram: docs/economics/business-model-flow.mermaid"]
