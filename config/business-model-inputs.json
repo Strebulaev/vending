@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "version": 2,
+    "currency": "RSD",
+    "owner": "strebulaev",
+    "notes": "Заполняйте inputs и source для каждого значения. Пустое значение означает «не найдено», а не ноль. Сценарные значения должны быть помечены scenario_assumption."
+  },
+  "inputs": {
+    "price_per_5l_rsd": 50,
+    "volume_lpd": null,
+    "uptime_rate": null,
+    "operating_days_month": 30,
+    "cashless_revenue_share": null,
+    "cashless_order_share": null,
+    "cashless_fee_rate": null,
+    "effective_sales_tax_rate": null,
+    "water_tariff_rsd_m3": 158.09,
+    "sewer_tariff_rsd_m3": null,
+    "sewer_billing_basis": null,
+    "ro_intake_l_per_product_l": null,
+    "other_variable_cost_rsd_l": null,
+    "average_order_l": null,
+    "cash_handling_cost_rsd_per_cash_order": null,
+    "refund_and_failed_sale_cost_rsd_per_order": null,
+    "monthly_fixed_costs": {
+      "rent": null,
+      "electricity": null,
+      "telemetry_and_connectivity": null,
+      "service_and_filters": null,
+      "labor_and_cash_collection": null,
+      "laboratory_and_quality": null,
+      "insurance": null,
+      "other": null,
+      "water_readiness_fee": null,
+      "customer_support": null,
+      "on_site_labor": null,
+      "local_marketing": null
+    },
+    "capex_breakdown": {
+      "equipment": null,
+      "delivery_and_installation": null,
+      "site_preparation": null,
+      "permits_and_documentation": null,
+      "opening_consumables": null
+    },
+    "site_area_sqm": null
+  },
+  "sources": {
+    "price_per_5l_rsd": {"type": "owner_decision", "reference": "docs/decisions/0004-single-price-first.md"},
+    "operating_days_month": {"type": "calculation_convention", "reference": "30-day arithmetic month in docs/economics/pilot-unit-economics.md"},
+    "water_tariff_rsd_m3": {"type": "secondary_source", "reference": "docs/facts/0003-belgrade-water-tariff.md; verify with BVK"}
+  },
+  "scenarios": {
+    "downside": {"volume_lpd": null, "uptime_rate": null},
+    "base": {},
+    "upside": {"volume_lpd": null, "uptime_rate": null}
+  },
+  "customer_metrics": {
+    "monthly_acquisition_spend_rsd": null,
+    "new_customers_per_month": null,
+    "liters_per_customer_month": null,
+    "customer_lifetime_months": null
+  },
+  "market": {
+    "eligible_households": null,
+    "average_household_liters_month": null,
+    "serviceable_share": null,
+    "obtainable_share": null
+  },
+  "projection": {
+    "months": 12,
+    "monthly_volume_growth_rate": null,
+    "monthly_fixed_cost_growth_rate": null
+  },
+  "sensitivity": {
+    "relative_change": null,
+    "parameters": ["volume_lpd", "uptime_rate", "monthly_fixed_costs.rent"]
+  }
+}

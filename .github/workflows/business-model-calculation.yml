@@ -1,0 +1,44 @@
+name: Calculate water-vending business model
+
+on:
+  workflow_dispatch:
+    inputs:
+      parameters_json:
+        description: Optional JSON object overriding config/business-model-inputs.json
+        required: false
+        type: string
+        default: "{}"
+  push:
+    paths:
+      - "config/business-model-inputs.json"
+      - "pipeline/business_model.py"
+      - ".github/workflows/business-model-calculation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  calculate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Calculate report
+        env:
+          PARAMETERS_JSON: ${{ github.event.inputs.parameters_json || '{}' }}
+        run: |
+          if [ "$PARAMETERS_JSON" = "{}" ]; then
+            python pipeline/business_model.py --output output/business-model-calculation.md
+          else
+            python pipeline/business_model.py --overrides-json "$PARAMETERS_JSON" --output output/business-model-calculation.md
+          fi
+      - name: Upload calculated report
+        uses: actions/upload-artifact@v4
+        with:
+          name: business-model-calculation
+          path: output/business-model-calculation.md
+          if-no-files-found: error
