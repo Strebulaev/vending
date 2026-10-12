@@ -1,0 +1,36 @@
+{
+  "price_per_5l_rsd": 50,
+  "volume_lpd": 80,
+  "uptime_rate": 0.95,
+  "operating_days_month": 30,
+  "cashless_revenue_share": 0.7,
+  "cashless_order_share": 0.6,
+  "cashless_fee_rate": 0.015,
+  "effective_sales_tax_rate": 0.12,
+  "water_tariff_rsd_m3": 158.09,
+  "sewer_tariff_rsd_m3": null,
+  "sewer_billing_basis": "intake",
+  "ro_intake_l_per_product_l": 1.2,
+  "other_variable_cost_rsd_l": 2.5,
+  "average_order_l": 5,
+  "cash_handling_cost_rsd_per_cash_order": 15,
+  "refund_and_failed_sale_cost_rsd_per_order": 8,
+  "monthly_fixed_costs": {
+    "rent": 45000,
+    "electricity": 8000,
+    "telemetry_and_connectivity": 12000,
+    "service_and_filters": 5000,
+    "labor_and_cash_collection": 35000,
+    "laboratory_and_quality": 8000,
+    "insurance": 5000,
+    "other": 2000
+  },
+  "capex_breakdown": {
+    "equipment": 650000,
+    "delivery_and_installation": 120000,
+    "site_preparation": 80000,
+    "permits_and_documentation": 30000,
+    "opening_consumables": 15000
+  },
+  "site_area_sqm": 4
+}
