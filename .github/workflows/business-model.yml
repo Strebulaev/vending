@@ -1,0 +1,47 @@
+name: Generate water-vending business model
+run-name: Business model • ${{ github.event_name }} • ${{ github.ref_name }}
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/business-model.json"
+      - "pipeline/render_business_model.py"
+      - ".github/workflows/business-model.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: business-model-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    name: Build condition-based model
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate condition-based model
+        run: python3 pipeline/render_business_model.py --output output/business-model.md --presentation-output output/investor-presentation.md
+
+      - name: Show model in the workflow summary
+        run: cat output/business-model.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Link concise presentation text
+        run: echo "The condition table and concise presentation text are included in the workflow artifact." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the reproducible model package
+        uses: actions/upload-artifact@v4
+        with:
+          name: water-vending-business-model-${{ github.run_number }}
+          path: output/
+          if-no-files-found: error
+          retention-days: 30

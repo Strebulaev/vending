@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "presentation_estimate": {
+    "investment_horizon_months": 36,
+    "launch_reference_demand_lpd": 300,
+    "days_month": 30,
+    "monthly_fixed_rsd": {"low": 35000, "base": 45000, "high": 100000},
+    "monthly_fixed_breakdown_base": {
+      "site_fee": 2500,
+      "electricity": 1000,
+      "connectivity_and_payments": 1600,
+      "service_and_filters": 10000,
+      "accounting": 15000,
+      "water_quality_testing": 5000,
+      "support_and_local_operations": 9900
+    },
+    "capex_rsd": {"low": 550000, "base": 800000, "high": 1200000},
+    "capex_breakdown_base": {
+      "equipment": 450000,
+      "delivery_and_installation": 125000,
+      "site_preparation": 75000,
+      "legal_fiscal_and_setup": 100000,
+      "opening_consumables": 50000
+    },
+    "price_test_range_rsd_l": {"low": 8, "high": 12},
+    "scenarios": {
+      "realistic": {
+        "demand_lpd": 150,
+        "price_rsd_l": 10,
+        "uptime": 0.95,
+        "capex_rsd": 800000,
+        "fixed_rsd_month": 45000,
+        "variable_rsd_l": 1.5
+      },
+      "pessimistic": {
+        "price_rsd_l": 8,
+        "uptime": 0.90,
+        "capex_rsd": 1200000,
+        "fixed_rsd_month": 100000,
+        "variable_rsd_l": 3.0
+      }
+    },
+    "depreciable_equipment_rsd": 450000,
+    "depreciation_months": 60,
+    "vat_registered_overlay_rate": 0.20,
+    "illustrative_cit_rate": 0.15
+  }
+}

@@ -1,6 +1,6 @@
-# Расчет бизнес-модели водомата
+# Финансовый расчёт одной точки водомата
 
-Сгенерировано `pipeline/business_model.py` из схемы входов v4. Пустые входы остаются «не найдено»; отсутствие значения не трактуется как ноль.
+Сгенерировано `pipeline/business_model.py` из финансовых входов v4. Пустые входы остаются «не найдено»; отсутствие значения не трактуется как ноль.
 Доля налога ниже — только явно введенная эффективная нагрузка на выручку по заключению бухгалтера; это не утверждение о налоговом режиме Сербии.
 **Финансовый вердикт: данных недостаточно.** Не заполнено обязательных полей: 34. Запуск и инвестиционное решение по этой модели не подтверждены.
 
@@ -9,7 +9,7 @@
 | Этап | Статус | Детали |
 |---|---|---|
 | `validate_configuration` | passed | — |
-| `assemble_business_model_canvas` | passed | 12 |
+| `load_pilot_context` | passed | 12 |
 | `calculate_unit_economics` | incomplete | volume_lpd, uptime_rate, cashless_revenue_share, cashless_order_share, cashless_fee_rate, effective_sales_tax_rate, sewer_tariff_rsd_m3, sewer_billing_basis, ro_intake_l_per_product_l, other_variable_cost_rsd_l, average_order_l, cash_handling_cost_rsd_per_cash_order, refund_and_failed_sale_cost_rsd_per_order, capex_breakdown.equipment, capex_breakdown.delivery_and_installation, capex_breakdown.site_preparation, capex_breakdown.permits_and_documentation, capex_breakdown.opening_consumables, startup_cash_requirements.lease_deposit, startup_cash_requirements.prepaid_rent, startup_cash_requirements.cash_float_for_change, startup_cash_requirements.opening_working_capital, monthly_fixed_costs.rent, monthly_fixed_costs.electricity, monthly_fixed_costs.telemetry_and_connectivity, monthly_fixed_costs.service_and_filters, monthly_fixed_costs.labor_and_cash_collection, monthly_fixed_costs.laboratory_and_quality, monthly_fixed_costs.insurance, monthly_fixed_costs.other, monthly_fixed_costs.water_readiness_fee, monthly_fixed_costs.customer_support, monthly_fixed_costs.on_site_labor, monthly_fixed_costs.local_marketing |
 | `market_sizing` | incomplete | eligible_households, average_household_liters_month, serviceable_share, obtainable_share |
 | `customer_economics` | incomplete | monthly_acquisition_spend_rsd, new_customers_per_month, liters_per_customer_month, customer_lifetime_months, contribution_per_liter |
@@ -18,20 +18,20 @@
 | `launch_decision` | requires_external_clearances | docs/certification/requirements-map.md, docs/hardware/site-selection-scorecard.md, docs/decisions/0011-pilot-gate.md |
 | `publish_reproducible_package` | ready | Markdown report, Mermaid diagram, JSON results |
 
-## Структурная бизнес-модель
+## Контекст пилота
 
-Эти поля загружаются из конфигурации и проходят тот же pipeline, что расчеты. Статус показывает, решение это, гипотеза или неизвестное.
+Эти сведения задают рамки финансового расчёта. Описание бизнес-модели и схема работы находятся отдельно в `docs/project/business-model.md`.
 
-| Блок модели | Формулировка | Статус | Источник |
+| Блок | Формулировка | Статус | Источник |
 |---|---|---|---|
-| Оператор и юридическая форма | Сербское DOO | owner_decision | `docs/project/business-model.md` |
-| Клиентский сегмент | Жители многоквартирного жилого дома, у которого размещена точка | owner_decision | `docs/project/business-model.md` |
-| Задача клиента / JTBD | Получить обработанную воду рядом с домом без заказа и хранения бутилированной тары | hypothesis | `docs/project/business-model.md` |
-| Ценностное предложение | Круглосуточный самообслуживаемый доступ к воде из водопровода после RO, в тару покупателя | project_scope | `docs/decisions/0002-treated-tap-water-product.md; docs/project/business-model.md` |
+| Оператор и юридическая форма | Сербское DOO | owner_decision | `docs/decisions/0042-pilot-company-form.md` |
+| Клиентский сегмент | Жители многоквартирного жилого дома, у которого размещена точка | owner_decision | `docs/decisions/0003-residential-single-point-pilot.md; подтверждение владельца 2026-10-11` |
+| Задача клиента / JTBD | Получить обработанную воду рядом с домом без заказа и хранения бутилированной тары | hypothesis | `docs/project/project-brief.md §4; проверить интервью и данными пилота` |
+| Ценностное предложение | Круглосуточный самообслуживаемый доступ к воде из водопровода после RO, в тару покупателя | project_scope | `docs/decisions/0002-treated-tap-water-product.md; docs/decisions/0003-residential-single-point-pilot.md` |
 | Канал и место продаж | Уличный водомат у жилого дома в Сурчине; доступность 24/7 | owner_decision | `docs/decisions/0003-residential-single-point-pilot.md` |
 | Монетизация и оплата | Продажа воды по объему; цена-база 50 RSD за 5 л; наличные со сдачей и безналичная оплата | owner_decision | `docs/decisions/0001-cashless-first.md; docs/decisions/0004-single-price-first.md` |
-| Отношения и поддержка клиента | Самообслуживание; порядок жалоб, возвратов и поддержки не найден | partly_unknown | `docs/project/business-model.md` |
-| Ключевые активности | Закупка готового аппарата, договор и подключение площадки, контроль воды, обслуживание, учет продаж и обработка платежей | project_scope | `docs/decisions/0031-pilot-buy-ready-made.md; docs/project/business-model.md` |
+| Отношения и поддержка клиента | Самообслуживание; порядок жалоб, возвратов и поддержки не найден | partly_unknown | `docs/plans/integrated-pilot-artifacts-plan.md §1, §6; проверить до запуска` |
+| Ключевые активности | Закупка готового аппарата, договор и подключение площадки, контроль воды, обслуживание, учет продаж и обработка платежей | project_scope | `docs/decisions/0031-pilot-buy-ready-made.md; docs/plans/integrated-pilot-artifacts-plan.md` |
 | Ключевые ресурсы | Водомат, площадка и подключения, вода, платежная/фискальная схема, операционные процедуры и подтверждения качества | project_scope | `docs/hardware/pilot-spec-v1.md; docs/certification/requirements-map.md` |
 | Ключевые партнеры | Правообладатель площадки, поставщик оборудования, BVK/поставщики коммуникаций, платежный и фискальный провайдер, лаборатория, бухгалтер/юрист | unselected | `docs/plans/integrated-pilot-artifacts-plan.md` |
 | Структура затрат | CAPEX до готовности точки; переменные расходы на воду/RO, платежи, учет и обслуживание; прямые фиксированные расходы площадки, связи, сервиса, анализов и операций | parameterized | `docs/economics/pilot-unit-economics.md` |
@@ -63,7 +63,7 @@ flowchart TD
         StartupCashInputs["Стартовый cash: депозит + предоплата + разменный фонд + оборотный резерв"]
     end
 
-    subgraph Canvas["0. Операционная бизнес-модель из config/business-model-inputs.json"]
+    subgraph Canvas["0. Контекст пилота для расчёта из config/business-model-inputs.json"]
         Segment["Клиентский сегмент и задача клиента"]
         ValueOffer["Ценность: RO-вода в тару клиента"]
         SalesChannel["Точка продаж: уличный водомат 24/7"]
@@ -195,7 +195,7 @@ flowchart TD
     class Scenarios,Sensitivity,PnL,Customer,Catchment,NetworkOH decision
 ```
 
-Диаграмма показывает формулы и зависимости. Финансовые значения приведены ниже; пустые параметры не заменяются нулями.
+Диаграмма показывает финансовые формулы, их зависимости и контекст пилота. Пустые параметры не заменяются нулями.
 
 ## Реестр параметров и источников
 

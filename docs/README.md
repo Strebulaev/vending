@@ -6,13 +6,13 @@
 
 | № | Артефакт | Основной документ | Источник / статус |
 |---:|---|---|---|
-| 1 | Бизнес-модель как pipeline | [Бизнес-модель](project/business-model.md) | [Входы и canvas](../config/business-model-inputs.json) → [сгенерированный расчёт](economics/business-model-calculation.md) |
+| 1 | Бизнес-модель | [Условия работы пилота](project/business-model.md) · [версия для показа](project/investor-presentation.md) | Границы прибыльности, отказа и масштабирования рассчитывает [генератор](../pipeline/render_business_model.py) |
 | 2 | Спецификация оборудования | [Базовая спецификация пилота](hardware/pilot-spec-v1.md) | [4 профиля](hardware/specifications/) генерируются из [конфигурации](../config/equipment-specifications.json) |
 | 3 | Критерии и скоринг точки | [Scorecard](hardware/site-selection-scorecard.md) | Кандидаты — [Surčin](hardware/surcin-candidate-sites.md); оценку нельзя считать завершённой до полевого обследования |
 | 4 | Нормы, разрешения и допуск | [Карта требований](certification/requirements-map.md) | [Проекты запросов](certification/regulatory-inquiry-drafts.md) подготовлены и не отправлены; применимость и ответы органов открыты |
-| 5 | Финансовая модель и unit economics | [Руководство по вводу](economics/business-model-calculator-guide.md) | [Расчёт](economics/business-model-calculation.md) строится скриптом; неизвестные входы не подменяются нулями |
+| 5 | Финансовая модель и unit economics | [Экономика пилотной точки](economics/pilot-unit-economics.md) | [Финансовый workflow](../.github/workflows/pilot-unit-economics.yml); расходы/прогнозы отдельно от [бизнес-модели](project/business-model.md) |
 
-Для показа проекта на GitHub используйте [презентацию-тур](project/github-tour-presentation.md): в ней есть последовательность демонстрации, схема двух pipeline и прямые ссылки на результаты.
+Для показа проекта на GitHub используйте [презентацию-тур](project/github-tour-presentation.md): в ней есть последовательность демонстрации, схема pipeline и прямые ссылки на результаты.
 
 Общий порядок, зависимости и критерии перехода: [интегрированный план пилота](plans/integrated-pilot-artifacts-plan.md). Операционные шаги генерации: [runbook](process/business-model-and-equipment-runbook.md).
 
@@ -23,14 +23,14 @@
 | Подтверждённые сведения | [Факты](facts/INDEX.md) и первоисточники в `material/` | У факта есть источник, дата и статус; архив страницы сам по себе не доказывает применимость |
 | Принятый выбор проекта | [Решения](decisions/INDEX.md) | `active` — принято; `draft` — предложение/проект решения |
 | Запреты и условия допуска | [Guardrails](guardrails/INDEX.md) | Выполнять применительно к пилоту; не трактовать draft-правило как утверждённый закон |
-| Числа и структурный canvas модели | `config/business-model-inputs.json` | Фактические значения сопровождаются источником; неизвестное — `null` |
+| Экономические допущения бизнес-модели | `config/business-model.json` | Изменения входных сумм пересчитывают все границы; котировки и фактический спрос в конфигурации пока отсутствуют |
 | Профили оборудования | `config/equipment-specifications.json` | Изменять конфигурацию и пересобирать документы, не редактировать результаты вручную |
 
 ## Генерируемые файлы
 
 | Результат | Источник | Команда |
 |---|---|---|
-| `economics/business-model-calculation.md`, `business-model-flow.mermaid` | бизнес-модель и входной JSON | `python3 pipeline/business_model.py` |
+| `project/business-model.md`, `project/investor-presentation.md` | `config/business-model.json` | `python3 pipeline/render_business_model.py` |
 | `hardware/specifications/*-v1.md` | общая матрица и профиль каждого исполнения | `python3 pipeline/build_equipment_specs.py` |
 | финансовые сметы/сценарии, склад, стоимость отбора проб | отдельные калькуляторы | См. секцию «Что генерируется» в каждом профильном документе и `pipeline/` |
 

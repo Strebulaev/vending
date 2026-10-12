@@ -345,7 +345,7 @@ def business_model_diagram() -> str:
         StartupCashInputs["Стартовый cash: депозит + предоплата + разменный фонд + оборотный резерв"]
     end
 
-    subgraph Canvas["0. Операционная бизнес-модель из config/business-model-inputs.json"]
+    subgraph Canvas["0. Контекст пилота для расчёта из config/business-model-inputs.json"]
         Segment["Клиентский сегмент и задача клиента"]
         ValueOffer["Ценность: RO-вода в тару клиента"]
         SalesChannel["Точка продаж: уличный водомат 24/7"]
@@ -498,7 +498,7 @@ def pipeline_stages(data: dict[str, Any]) -> list[dict[str, Any]]:
     customer_status = "calculated" if not customer.get("missing") else "incomplete"
     return [
         {"stage": "validate_configuration", "status": "passed"},
-        {"stage": "assemble_business_model_canvas", "status": "passed", "fields": len(model_canvas(data))},
+        {"stage": "load_pilot_context", "status": "passed", "fields": len(model_canvas(data))},
         {"stage": "calculate_unit_economics", "status": "passed" if not missing else "incomplete", "missing_inputs": missing},
         {"stage": "market_sizing", "status": "calculated" if not market.get("missing") else "incomplete", "missing_inputs": market.get("missing", [])},
         {"stage": "customer_economics", "status": customer_status, "missing_inputs": customer.get("missing", [])},
@@ -525,7 +525,7 @@ def render_canvas(data: dict[str, Any]) -> list[str]:
         "cost_structure": "Структура затрат",
         "scale_gate": "Гейт пилота и масштабирования",
     }
-    lines = ["## Структурная бизнес-модель", "", "Эти поля загружаются из конфигурации и проходят тот же pipeline, что расчеты. Статус показывает, решение это, гипотеза или неизвестное.", "", "| Блок модели | Формулировка | Статус | Источник |", "|---|---|---|---|"]
+    lines = ["## Контекст пилота", "", "Эти сведения задают рамки финансового расчёта. Описание бизнес-модели и схема работы находятся отдельно в `docs/project/business-model.md`.", "", "| Блок | Формулировка | Статус | Источник |", "|---|---|---|---|"]
     for key, label in labels.items():
         item = canvas.get(key, {})
         value = str(item.get("value") or "не найдено").replace("|", "\\|").replace("\n", " ")
@@ -546,9 +546,9 @@ def render(data: dict[str, Any]) -> str:
     else:
         verdict = "**Финансовый вердикт:** при введенных входах точка не покрывает прямые ежемесячные расходы; закупку/запуск не обосновывает."
     lines = [
-        "# Расчет бизнес-модели водомата",
+        "# Финансовый расчёт одной точки водомата",
         "",
-        f"Сгенерировано `pipeline/business_model.py` из схемы входов v{data.get('meta', {}).get('version', 'не указана')}. Пустые входы остаются «не найдено»; отсутствие значения не трактуется как ноль.",
+        f"Сгенерировано `pipeline/business_model.py` из финансовых входов v{data.get('meta', {}).get('version', 'не указана')}. Пустые входы остаются «не найдено»; отсутствие значения не трактуется как ноль.",
         "Доля налога ниже — только явно введенная эффективная нагрузка на выручку по заключению бухгалтера; это не утверждение о налоговом режиме Сербии.",
         verdict,
         "",
@@ -588,7 +588,7 @@ def render(data: dict[str, Any]) -> str:
             fmt(result["break_even_lpd"]) if result else "—",
             fmt(result["payback_months"]) if result and result["payback_months"] is not None else "—")) + " |")
     lines.extend(["", "## Как считается модель", "", "```mermaid", business_model_diagram().rstrip(), "```", "",
-                  "Диаграмма показывает формулы и зависимости. Финансовые значения приведены ниже; пустые параметры не заменяются нулями.",
+                  "Диаграмма показывает финансовые формулы, их зависимости и контекст пилота. Пустые параметры не заменяются нулями.",
         "", "## Реестр параметров и источников", "", "| Параметр | Значение | Статус источника | Ссылка/пояснение |", "|---|---:|---|---|"])
     sources = data.get("sources", {})
     for key, value in base.items():

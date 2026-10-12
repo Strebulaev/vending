@@ -1,5 +1,5 @@
-name: Calculate water-vending business model
-run-name: Business model • ${{ github.event_name }} • ${{ github.ref_name }}
+name: Calculate pilot unit economics
+run-name: Unit economics • ${{ github.event_name }} • ${{ github.ref_name }}
 
 on:
   workflow_dispatch:
@@ -109,13 +109,13 @@ on:
       - "config/business-model-inputs.json"
       - "pipeline/business_model.py"
       - "pipeline/build_business_model_overrides.py"
-      - ".github/workflows/business-model-calculation.yml"
+      - ".github/workflows/pilot-unit-economics.yml"
 
 permissions:
   contents: read
 
 concurrency:
-  group: business-model-${{ github.ref }}
+  group: unit-economics-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -141,7 +141,7 @@ jobs:
         run: |
           python pipeline/build_business_model_overrides.py output/overrides.json
 
-      - name: Calculate business model and render diagram
+      - name: Calculate unit economics and render report
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
@@ -168,13 +168,13 @@ jobs:
           print(header.rstrip())
           print("## Сводка сценариев" + scenarios.rstrip())
           print("\n## Диаграмма расчёта\n" + diagram.rstrip())
-          print("\nПолная модель, источники, список неизвестных, сценарные входы и JSON-расчёт приложены в артефакте `business-model-calculation-*`.")
+          print("\nПолный финансовый расчёт, источники, неизвестные, сценарии и JSON приложены в артефакте `pilot-unit-economics-*`.")
           PY
 
-      - name: Upload complete business-model package
+      - name: Upload unit-economics package
         uses: actions/upload-artifact@v4
         with:
-          name: business-model-calculation-${{ github.run_number }}
+          name: pilot-unit-economics-${{ github.run_number }}
           path: output/
           if-no-files-found: error
           retention-days: 30
